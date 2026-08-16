@@ -25,6 +25,7 @@ interface WorldCountry {
   unMember: boolean;
   subregion: string;
   latlng: [number, number];
+  demonyms?: { eng?: { m?: string } };
 }
 
 const atlasFeatures: { id: string | null; name: string }[] =
@@ -95,6 +96,7 @@ const seats = seatsRaw
       iso3: c.cca3,
       numeric,
       name: NAME_OVERRIDES[c.cca3] ?? c.name.common,
+      demonym: c.demonyms?.eng?.m || (NAME_OVERRIDES[c.cca3] ?? c.name.common),
       aliases: aliasesFor(c),
       lat: c.latlng[0],
       lng: c.latlng[1],
@@ -112,6 +114,7 @@ const entities = [
     code: 'TWN',
     numeric: '158',
     name: 'Taiwan',
+    demonym: 'Taiwanese',
     aliases: ['Republic of China', 'Formosa'],
     lat: 23.7,
     lng: 121.0,
@@ -122,6 +125,7 @@ const entities = [
     code: 'HKG',
     numeric: null as string | null,
     name: 'Hong Kong',
+    demonym: 'Hong Kong',
     aliases: ['HK'],
     lat: hkg.latlng[0],
     lng: hkg.latlng[1],
@@ -132,6 +136,7 @@ const entities = [
     code: 'XKX',
     numeric: null as string | null,
     name: 'Kosovo',
+    demonym: 'Kosovar',
     aliases: ['Kosova'],
     lat: 42.67,
     lng: 21.17,
@@ -143,6 +148,7 @@ const entities = [
     code: 'TIB',
     numeric: null as string | null,
     name: 'Tibet',
+    demonym: 'Tibetan',
     aliases: ['Bod'],
     lat: 29.65,
     lng: 91.1,

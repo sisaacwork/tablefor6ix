@@ -1,0 +1,24 @@
+/* Five values, no gradients. The accent is the only high-chroma thing on the page. */
+:root {
+  --paper: #eef1ee;
+  --ink: #1b241f;
+  --accent: #2447c5;
+  --muted: #cfd5d0;
+  --stamp: #b3542e;
+
+  /* derived, not new hues: discrete choropleth steps of the accent */
+  --accent-step-1: #c4cdf0;
+  --accent-step-2: #7e94e2;
+  --accent-step-3: var(--accent);
+  /* structural neutrals derived from ink/paper */
+  --ink-faint: #5b665f;
+  --line: #b9c0ba;
+  --paper-raised: #f6f8f5;
+
+  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'Public Sans', system-ui, -apple-system, sans-serif;
+  --font-data: 'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
+
+  --focus-ring: 2px solid var(--ink);
+  --focus-offset: 2px;
+}

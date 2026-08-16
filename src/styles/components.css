@@ -1,0 +1,380 @@
+/* ---- counter ---- */
+.counter {
+  text-align: right;
+  min-width: 200px;
+}
+
+.counter-fraction {
+  font-family: var(--font-data);
+  font-variant-numeric: tabular-nums;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.counter-fraction .of {
+  color: var(--ink-faint);
+  font-size: 20px;
+}
+
+.counter-label {
+  font-size: 12px;
+  color: var(--ink-faint);
+}
+
+.counter-label .missing-count {
+  color: var(--stamp);
+  font-family: var(--font-data);
+}
+
+.counter-passport {
+  font-size: 12px;
+  color: var(--ink-faint);
+  margin-top: 2px;
+}
+
+/* ---- scope toggle ---- */
+.scope-toggle {
+  display: inline-flex;
+  border: 1.5px solid var(--ink);
+  margin-left: auto;
+}
+
+.scope-toggle button {
+  font-family: var(--font-data);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 7px 12px;
+}
+
+.scope-toggle button[aria-pressed='true'] {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* ---- combobox ---- */
+.combobox {
+  position: relative;
+  flex: 0 1 340px;
+  min-width: 220px;
+}
+
+.combobox input {
+  width: 100%;
+  font: inherit;
+  padding: 8px 12px;
+  border: 1.5px solid var(--ink);
+  background: var(--paper-raised);
+  color: var(--ink);
+}
+
+.combobox input::placeholder {
+  color: var(--ink-faint);
+}
+
+.combobox-list {
+  position: absolute;
+  z-index: 50;
+  top: calc(100% - 1.5px);
+  left: 0;
+  right: 0;
+  max-height: 320px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--paper-raised);
+  border: 1.5px solid var(--ink);
+}
+
+.combobox-list [role='option'] {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.combobox-list [role='option'][aria-selected='true'] {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+.combobox-list .opt-name {
+  font-family: var(--font-display);
+  font-size: 16px;
+}
+
+.combobox-list .opt-count {
+  font-family: var(--font-data);
+  font-size: 12px;
+  color: inherit;
+  opacity: 0.75;
+  white-space: nowrap;
+}
+
+.combobox-list .opt-kind {
+  font-family: var(--font-data);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+}
+
+/* ---- surprise ---- */
+.surprise {
+  font-family: var(--font-data);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1.5px solid var(--ink);
+  padding: 8px 14px;
+  background: var(--paper-raised);
+}
+
+.surprise:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* ---- world map ---- */
+.world-map svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.world-map .country {
+  fill: var(--muted);
+  stroke: var(--paper);
+  stroke-width: 0.5;
+  cursor: default;
+}
+
+.world-map .country.inert {
+  fill: var(--muted);
+  opacity: 0.45;
+}
+
+.world-map .country.covered {
+  cursor: pointer;
+  stroke: var(--ink);
+  stroke-width: 0.7;
+}
+
+.world-map .country.covered[data-step='1'] { fill: var(--accent-step-1); }
+.world-map .country.covered[data-step='2'] { fill: var(--accent-step-2); }
+.world-map .country.covered[data-step='3'] { fill: var(--accent-step-3); }
+
+.world-map .country.zero {
+  cursor: pointer;
+}
+
+.world-map .country.selected {
+  stroke: var(--ink);
+  stroke-width: 2;
+}
+
+.world-map .country:focus-visible {
+  outline: none;
+  stroke: var(--ink);
+  stroke-width: 2.25;
+  stroke-dasharray: 3 1.5;
+}
+
+.world-map .small-seat {
+  stroke: var(--ink);
+  stroke-width: 0.6;
+  cursor: pointer;
+}
+
+.world-map .stamp-mark {
+  fill: none;
+  stroke: var(--stamp);
+  stroke-width: 1.8;
+  pointer-events: none;
+}
+
+/* ---- city panel ---- */
+.city-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 12px 16px;
+  flex-wrap: wrap;
+}
+
+.city-header h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 24px;
+  flex: 1;
+}
+
+.city-header .city-count {
+  font-family: var(--font-data);
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+
+.city-header .stamp-toggle {
+  font-family: var(--font-data);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1.5px solid var(--stamp);
+  color: var(--stamp);
+  padding: 5px 10px;
+}
+
+.city-header .stamp-toggle[aria-pressed='true'] {
+  background: var(--stamp);
+  color: var(--paper);
+}
+
+.city-hint {
+  padding: 24px 16px;
+  color: var(--ink-faint);
+}
+
+/* ---- restaurant list ---- */
+.list-panel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.restaurant {
+  width: 100%;
+  text-align: left;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--line);
+  display: block;
+}
+
+.restaurant:hover {
+  background: var(--paper-raised);
+}
+
+.restaurant[aria-pressed='true'] {
+  box-shadow: inset 3px 0 0 var(--accent);
+  background: var(--paper-raised);
+}
+
+.restaurant .r-name {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.restaurant .r-verified {
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.restaurant .r-meta {
+  font-size: 12.5px;
+  color: var(--ink-faint);
+}
+
+.restaurant .r-note {
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+/* ---- empty state ---- */
+.empty-state {
+  padding: 28px 20px;
+}
+
+.empty-state h3 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.empty-state p {
+  margin: 6px 0;
+}
+
+.empty-state .nudge {
+  color: var(--ink-faint);
+}
+
+/* ---- missing view ---- */
+.missing-view,
+.about-view {
+  padding: 24px 20px 48px;
+  max-width: 1100px;
+}
+
+.missing-view h2,
+.about-view h2 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  margin: 0 0 4px;
+}
+
+.missing-view .missing-sub {
+  color: var(--ink-faint);
+  margin: 0 0 24px;
+}
+
+.missing-wall {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 22px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.missing-wall a {
+  font-family: var(--font-display);
+  font-size: 21px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.missing-wall a:hover {
+  border-bottom-color: var(--stamp);
+}
+
+.about-view {
+  line-height: 1.6;
+}
+
+.about-view h3 {
+  font-family: var(--font-display);
+  margin: 24px 0 6px;
+}
+
+/* ---- leaflet tweaks ---- */
+.leaflet-container {
+  font-family: var(--font-body);
+  background: var(--paper-raised);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 2px;
+  background: var(--paper-raised);
+  color: var(--ink);
+  box-shadow: 0 1px 6px rgb(27 36 31 / 0.3);
+}
+
+.popup-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.popup-meta {
+  font-size: 12.5px;
+  color: var(--ink-faint);
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table for 6ix — a map of Toronto's food from every country</title>
+    <meta
+      name="description"
+      content="Toronto eats the world. Click a country, see where to eat its food here — every restaurant, mapped by country of cuisine."
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#city-panel">Skip to restaurant list</a>
+    <header class="site-header">
+      <div class="brand">
+        <a href="?" class="brand-name">Table for 6ix</a>
+        <p class="tagline">A map of Toronto's food from every country in the world</p>
+      </div>
+      <div id="counter" class="counter"></div>
+      <nav class="site-nav" aria-label="Site">
+        <button id="nav-missing" class="nav-link" aria-pressed="false">The Missing</button>
+        <button id="nav-about" class="nav-link" aria-pressed="false">About</button>
+      </nav>
+    </header>
+
+    <div class="controls">
+      <div id="combobox" class="combobox"></div>
+      <button id="surprise" class="surprise" type="button">Surprise me</button>
+      <div id="scope-toggle" class="scope-toggle"></div>
+    </div>
+
+    <main id="main" class="main">
+      <section id="world-panel" class="world-panel" aria-label="World map">
+        <div id="world-map" class="world-map"></div>
+      </section>
+      <section id="city-panel" class="city-panel" aria-label="Toronto">
+        <div id="city-header" class="city-header"></div>
+        <div id="toronto-map" class="toronto-map"></div>
+        <div id="empty-state" class="empty-state" hidden></div>
+        <div id="list-panel" class="list-panel"></div>
+      </section>
+    </main>
+
+    <section id="missing-view" class="missing-view" hidden></section>
+    <section id="about-view" class="about-view" hidden></section>
+
+    <div id="live-region" aria-live="polite" class="visually-hidden"></div>
+
+    <footer class="site-footer">
+      <p>
+        Restaurant data ©
+        <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, licensed
+        <a href="https://opendatacommons.org/licenses/odbl/">ODbL</a>. Country shapes:
+        <a href="https://www.naturalearthdata.com/">Natural Earth</a>. Basemap ©
+        <a href="https://carto.com/attributions">CARTO</a>.
+        <a href="https://github.com/sisaacwork/tablefor6ix">Source &amp; data</a>.
+      </p>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

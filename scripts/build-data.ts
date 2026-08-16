@@ -190,9 +190,9 @@ function coverageFor(scope: ScopeKey) {
   const regionCounts: Record<string, number> = {};
   for (const k of regionKeys) regionCounts[k] = 0;
   for (const r of subset) {
-    r.countries.forEach((c) => countryCounts[c]++);
-    r.entities.forEach((e) => entityCounts[e]++);
-    r.regions.forEach((g) => regionCounts[g]++);
+    r.countries.forEach((c) => (countryCounts[c] = (countryCounts[c] ?? 0) + 1));
+    r.entities.forEach((e) => (entityCounts[e] = (entityCounts[e] ?? 0) + 1));
+    r.regions.forEach((g) => (regionCounts[g] = (regionCounts[g] ?? 0) + 1));
   }
   return { countries: countryCounts, entities: entityCounts, regions: regionCounts };
 }

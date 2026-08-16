@@ -4,6 +4,7 @@
       "iso3": "AFG",
       "numeric": "004",
       "name": "Afghanistan",
+      "demonym": "Afghan",
       "aliases": [
         "Islamic Republic of Afghanistan",
         "Afġānistān"
@@ -17,6 +18,7 @@
       "iso3": "ALB",
       "numeric": "008",
       "name": "Albania",
+      "demonym": "Albanian",
       "aliases": [
         "Republic of Albania",
         "Shqipëri",
@@ -32,6 +34,7 @@
       "iso3": "DZA",
       "numeric": "012",
       "name": "Algeria",
+      "demonym": "Algerian",
       "aliases": [
         "People's Democratic Republic of Algeria",
         "Dzayer",
@@ -46,6 +49,7 @@
       "iso3": "AND",
       "numeric": "020",
       "name": "Andorra",
+      "demonym": "Andorran",
       "aliases": [
         "Principality of Andorra",
         "Principat d'Andorra"
@@ -59,6 +63,7 @@
       "iso3": "AGO",
       "numeric": "024",
       "name": "Angola",
+      "demonym": "Angolan",
       "aliases": [
         "Republic of Angola",
         "República de Angola"
@@ -72,6 +77,7 @@
       "iso3": "ATG",
       "numeric": "028",
       "name": "Antigua and Barbuda",
+      "demonym": "Antiguan, Barbudan",
       "aliases": [],
       "lat": 17.05,
       "lng": -61.8,
@@ -82,6 +88,7 @@
       "iso3": "ARG",
       "numeric": "032",
       "name": "Argentina",
+      "demonym": "Argentine",
       "aliases": [
         "Argentine Republic",
         "República Argentina"
@@ -95,6 +102,7 @@
       "iso3": "ARM",
       "numeric": "051",
       "name": "Armenia",
+      "demonym": "Armenian",
       "aliases": [
         "Republic of Armenia",
         "Hayastan"
@@ -108,6 +116,7 @@
       "iso3": "AUS",
       "numeric": "036",
       "name": "Australia",
+      "demonym": "Australian",
       "aliases": [
         "Commonwealth of Australia"
       ],
@@ -120,6 +129,7 @@
       "iso3": "AUT",
       "numeric": "040",
       "name": "Austria",
+      "demonym": "Austrian",
       "aliases": [
         "Republic of Austria",
         "Osterreich",
@@ -134,6 +144,7 @@
       "iso3": "AZE",
       "numeric": "031",
       "name": "Azerbaijan",
+      "demonym": "Azerbaijani",
       "aliases": [
         "Republic of Azerbaijan"
       ],
@@ -146,6 +157,7 @@
       "iso3": "BHS",
       "numeric": "044",
       "name": "Bahamas",
+      "demonym": "Bahamian",
       "aliases": [
         "Commonwealth of the Bahamas"
       ],
@@ -158,6 +170,7 @@
       "iso3": "BHR",
       "numeric": "048",
       "name": "Bahrain",
+      "demonym": "Bahraini",
       "aliases": [
         "Kingdom of Bahrain"
       ],
@@ -170,6 +183,7 @@
       "iso3": "BGD",
       "numeric": "050",
       "name": "Bangladesh",
+      "demonym": "Bangladeshi",
       "aliases": [
         "People's Republic of Bangladesh",
         "Gônôprôjatôntri Bangladesh"
@@ -183,6 +197,7 @@
       "iso3": "BRB",
       "numeric": "052",
       "name": "Barbados",
+      "demonym": "Barbadian",
       "aliases": [],
       "lat": 13.16666666,
       "lng": -59.53333333,
@@ -193,6 +208,7 @@
       "iso3": "BLR",
       "numeric": "112",
       "name": "Belarus",
+      "demonym": "Belarusian",
       "aliases": [
         "Republic of Belarus",
         "Bielaruś"
@@ -206,6 +222,7 @@
       "iso3": "BEL",
       "numeric": "056",
       "name": "Belgium",
+      "demonym": "Belgian",
       "aliases": [
         "Kingdom of Belgium",
         "België",
@@ -225,6 +242,7 @@
       "iso3": "BLZ",
       "numeric": "084",
       "name": "Belize",
+      "demonym": "Belizean",
       "aliases": [],
       "lat": 17.25,
       "lng": -88.75,
@@ -235,6 +253,7 @@
       "iso3": "BEN",
       "numeric": "204",
       "name": "Benin",
+      "demonym": "Beninese",
       "aliases": [
         "Republic of Benin",
         "République du Bénin"
@@ -248,6 +267,7 @@
       "iso3": "BTN",
       "numeric": "064",
       "name": "Bhutan",
+      "demonym": "Bhutanese",
       "aliases": [
         "Kingdom of Bhutan"
       ],
@@ -260,6 +280,7 @@
       "iso3": "BOL",
       "numeric": "068",
       "name": "Bolivia",
+      "demonym": "Bolivian",
       "aliases": [
         "Plurinational State of Bolivia",
         "Buliwya",
@@ -279,6 +300,7 @@
       "iso3": "BIH",
       "numeric": "070",
       "name": "Bosnia and Herzegovina",
+      "demonym": "Bosnian, Herzegovinian",
       "aliases": [
         "Bosnia-Herzegovina"
       ],
@@ -291,6 +313,7 @@
       "iso3": "BWA",
       "numeric": "072",
       "name": "Botswana",
+      "demonym": "Motswana",
       "aliases": [
         "Republic of Botswana",
         "Lefatshe la Botswana"
@@ -304,6 +327,7 @@
       "iso3": "BRA",
       "numeric": "076",
       "name": "Brazil",
+      "demonym": "Brazilian",
       "aliases": [
         "Federative Republic of Brazil",
         "Brasil",
@@ -318,6 +342,7 @@
       "iso3": "BRN",
       "numeric": "096",
       "name": "Brunei",
+      "demonym": "Bruneian",
       "aliases": [
         "Nation of Brunei, Abode of Peace",
         "Brunei Darussalam",
@@ -333,6 +358,7 @@
       "iso3": "BGR",
       "numeric": "100",
       "name": "Bulgaria",
+      "demonym": "Bulgarian",
       "aliases": [
         "Republic of Bulgaria"
       ],
@@ -345,6 +371,7 @@
       "iso3": "BFA",
       "numeric": "854",
       "name": "Burkina Faso",
+      "demonym": "Burkinabe",
       "aliases": [],
       "lat": 13,
       "lng": -2,
@@ -355,6 +382,7 @@
       "iso3": "BDI",
       "numeric": "108",
       "name": "Burundi",
+      "demonym": "Burundian",
       "aliases": [
         "Republic of Burundi",
         "Republika y'Uburundi",
@@ -369,6 +397,7 @@
       "iso3": "KHM",
       "numeric": "116",
       "name": "Cambodia",
+      "demonym": "Cambodian",
       "aliases": [
         "Kingdom of Cambodia"
       ],
@@ -381,6 +410,7 @@
       "iso3": "CMR",
       "numeric": "120",
       "name": "Cameroon",
+      "demonym": "Cameroonian",
       "aliases": [
         "Republic of Cameroon",
         "République du Cameroun"
@@ -394,6 +424,7 @@
       "iso3": "CAN",
       "numeric": "124",
       "name": "Canada",
+      "demonym": "Canadian",
       "aliases": [],
       "lat": 60,
       "lng": -95,
@@ -404,6 +435,7 @@
       "iso3": "CPV",
       "numeric": "132",
       "name": "Cape Verde",
+      "demonym": "Cape Verdian",
       "aliases": [
         "Republic of Cabo Verde",
         "República de Cabo Verde"
@@ -417,6 +449,7 @@
       "iso3": "CAF",
       "numeric": "140",
       "name": "Central African Republic",
+      "demonym": "Central African",
       "aliases": [
         "République centrafricaine"
       ],
@@ -429,6 +462,7 @@
       "iso3": "TCD",
       "numeric": "148",
       "name": "Chad",
+      "demonym": "Chadian",
       "aliases": [
         "Republic of Chad",
         "Tchad",
@@ -443,6 +477,7 @@
       "iso3": "CHL",
       "numeric": "152",
       "name": "Chile",
+      "demonym": "Chilean",
       "aliases": [
         "Republic of Chile",
         "República de Chile"
@@ -456,6 +491,7 @@
       "iso3": "CHN",
       "numeric": "156",
       "name": "China",
+      "demonym": "Chinese",
       "aliases": [
         "People's Republic of China",
         "Zhōngguó",
@@ -472,6 +508,7 @@
       "iso3": "COL",
       "numeric": "170",
       "name": "Colombia",
+      "demonym": "Colombian",
       "aliases": [
         "Republic of Colombia",
         "República de Colombia"
@@ -485,6 +522,7 @@
       "iso3": "COM",
       "numeric": "174",
       "name": "Comoros",
+      "demonym": "Comoran",
       "aliases": [
         "Union of the Comoros",
         "Union des Comores",
@@ -499,6 +537,7 @@
       "iso3": "CRI",
       "numeric": "188",
       "name": "Costa Rica",
+      "demonym": "Costa Rican",
       "aliases": [
         "Republic of Costa Rica",
         "República de Costa Rica"
@@ -512,6 +551,7 @@
       "iso3": "CIV",
       "numeric": "384",
       "name": "Côte d'Ivoire",
+      "demonym": "Ivorian",
       "aliases": [
         "Ivory Coast",
         "Republic of Côte d'Ivoire",
@@ -527,6 +567,7 @@
       "iso3": "HRV",
       "numeric": "191",
       "name": "Croatia",
+      "demonym": "Croatian",
       "aliases": [
         "Republic of Croatia",
         "Hrvatska",
@@ -541,6 +582,7 @@
       "iso3": "CUB",
       "numeric": "192",
       "name": "Cuba",
+      "demonym": "Cuban",
       "aliases": [
         "Republic of Cuba",
         "República de Cuba"
@@ -554,6 +596,7 @@
       "iso3": "CYP",
       "numeric": "196",
       "name": "Cyprus",
+      "demonym": "Cypriot",
       "aliases": [
         "Republic of Cyprus",
         "Kýpros",
@@ -569,6 +612,7 @@
       "iso3": "CZE",
       "numeric": "203",
       "name": "Czechia",
+      "demonym": "Czech",
       "aliases": [
         "Czech Republic",
         "Česká republika",
@@ -583,6 +627,7 @@
       "iso3": "DNK",
       "numeric": "208",
       "name": "Denmark",
+      "demonym": "Danish",
       "aliases": [
         "Kingdom of Denmark",
         "Danmark",
@@ -597,6 +642,7 @@
       "iso3": "DJI",
       "numeric": "262",
       "name": "Djibouti",
+      "demonym": "Djibouti",
       "aliases": [
         "Republic of Djibouti",
         "Jabuuti",
@@ -614,6 +660,7 @@
       "iso3": "DMA",
       "numeric": "212",
       "name": "Dominica",
+      "demonym": "Dominican",
       "aliases": [
         "Commonwealth of Dominica",
         "Dominique"
@@ -627,6 +674,7 @@
       "iso3": "DOM",
       "numeric": "214",
       "name": "Dominican Republic",
+      "demonym": "Dominican",
       "aliases": [],
       "lat": 19,
       "lng": -70.66666666,
@@ -637,6 +685,7 @@
       "iso3": "COD",
       "numeric": "180",
       "name": "DR Congo",
+      "demonym": "Congolese",
       "aliases": [
         "Democratic Republic of the Congo",
         "Congo-Kinshasa",
@@ -653,6 +702,7 @@
       "iso3": "ECU",
       "numeric": "218",
       "name": "Ecuador",
+      "demonym": "Ecuadorean",
       "aliases": [
         "Republic of Ecuador",
         "República del Ecuador"
@@ -666,6 +716,7 @@
       "iso3": "EGY",
       "numeric": "818",
       "name": "Egypt",
+      "demonym": "Egyptian",
       "aliases": [
         "Arab Republic of Egypt"
       ],
@@ -678,6 +729,7 @@
       "iso3": "SLV",
       "numeric": "222",
       "name": "El Salvador",
+      "demonym": "Salvadoran",
       "aliases": [
         "Republic of El Salvador",
         "República de El Salvador"
@@ -691,6 +743,7 @@
       "iso3": "GNQ",
       "numeric": "226",
       "name": "Equatorial Guinea",
+      "demonym": "Equatorial Guinean",
       "aliases": [
         "Republic of Equatorial Guinea",
         "República de Guinea Ecuatorial",
@@ -706,6 +759,7 @@
       "iso3": "ERI",
       "numeric": "232",
       "name": "Eritrea",
+      "demonym": "Eritrean",
       "aliases": [
         "State of Eritrea",
         "Dawlat Iritriyá",
@@ -720,6 +774,7 @@
       "iso3": "EST",
       "numeric": "233",
       "name": "Estonia",
+      "demonym": "Estonian",
       "aliases": [
         "Republic of Estonia",
         "Eesti",
@@ -734,6 +789,7 @@
       "iso3": "SWZ",
       "numeric": "748",
       "name": "Eswatini",
+      "demonym": "Swazi",
       "aliases": [
         "Kingdom of Eswatini",
         "Swaziland",
@@ -751,6 +807,7 @@
       "iso3": "ETH",
       "numeric": "231",
       "name": "Ethiopia",
+      "demonym": "Ethiopian",
       "aliases": [
         "Federal Democratic Republic of Ethiopia"
       ],
@@ -763,6 +820,7 @@
       "iso3": "FJI",
       "numeric": "242",
       "name": "Fiji",
+      "demonym": "Fijian",
       "aliases": [
         "Republic of Fiji",
         "Viti",
@@ -777,6 +835,7 @@
       "iso3": "FIN",
       "numeric": "246",
       "name": "Finland",
+      "demonym": "Finnish",
       "aliases": [
         "Republic of Finland",
         "Suomi",
@@ -792,6 +851,7 @@
       "iso3": "FRA",
       "numeric": "250",
       "name": "France",
+      "demonym": "French",
       "aliases": [
         "French Republic",
         "République française"
@@ -805,6 +865,7 @@
       "iso3": "GAB",
       "numeric": "266",
       "name": "Gabon",
+      "demonym": "Gabonese",
       "aliases": [
         "Gabonese Republic",
         "République Gabonaise"
@@ -818,6 +879,7 @@
       "iso3": "GMB",
       "numeric": "270",
       "name": "Gambia",
+      "demonym": "Gambian",
       "aliases": [
         "Republic of the Gambia"
       ],
@@ -830,6 +892,7 @@
       "iso3": "GEO",
       "numeric": "268",
       "name": "Georgia",
+      "demonym": "Georgian",
       "aliases": [
         "Sakartvelo"
       ],
@@ -842,6 +905,7 @@
       "iso3": "DEU",
       "numeric": "276",
       "name": "Germany",
+      "demonym": "German",
       "aliases": [
         "Federal Republic of Germany",
         "Bundesrepublik Deutschland"
@@ -855,6 +919,7 @@
       "iso3": "GHA",
       "numeric": "288",
       "name": "Ghana",
+      "demonym": "Ghanaian",
       "aliases": [
         "Republic of Ghana"
       ],
@@ -867,6 +932,7 @@
       "iso3": "GRC",
       "numeric": "300",
       "name": "Greece",
+      "demonym": "Greek",
       "aliases": [
         "Hellenic Republic",
         "Elláda"
@@ -880,6 +946,7 @@
       "iso3": "GRD",
       "numeric": "308",
       "name": "Grenada",
+      "demonym": "Grenadian",
       "aliases": [],
       "lat": 12.11666666,
       "lng": -61.66666666,
@@ -890,6 +957,7 @@
       "iso3": "GTM",
       "numeric": "320",
       "name": "Guatemala",
+      "demonym": "Guatemalan",
       "aliases": [
         "Republic of Guatemala"
       ],
@@ -902,6 +970,7 @@
       "iso3": "GIN",
       "numeric": "324",
       "name": "Guinea",
+      "demonym": "Guinean",
       "aliases": [
         "Republic of Guinea",
         "République de Guinée"
@@ -915,6 +984,7 @@
       "iso3": "GNB",
       "numeric": "624",
       "name": "Guinea-Bissau",
+      "demonym": "Guinea-Bissauan",
       "aliases": [
         "Republic of Guinea-Bissau",
         "República da Guiné-Bissau"
@@ -928,6 +998,7 @@
       "iso3": "GUY",
       "numeric": "328",
       "name": "Guyana",
+      "demonym": "Guyanese",
       "aliases": [
         "Co-operative Republic of Guyana"
       ],
@@ -940,6 +1011,7 @@
       "iso3": "HTI",
       "numeric": "332",
       "name": "Haiti",
+      "demonym": "Haitian",
       "aliases": [
         "Republic of Haiti",
         "République d'Haïti",
@@ -954,6 +1026,7 @@
       "iso3": "HND",
       "numeric": "340",
       "name": "Honduras",
+      "demonym": "Honduran",
       "aliases": [
         "Republic of Honduras",
         "República de Honduras"
@@ -967,6 +1040,7 @@
       "iso3": "HUN",
       "numeric": "348",
       "name": "Hungary",
+      "demonym": "Hungarian",
       "aliases": [],
       "lat": 47,
       "lng": 20,
@@ -977,6 +1051,7 @@
       "iso3": "ISL",
       "numeric": "352",
       "name": "Iceland",
+      "demonym": "Icelander",
       "aliases": [
         "Island",
         "Republic of Iceland",
@@ -991,6 +1066,7 @@
       "iso3": "IND",
       "numeric": "356",
       "name": "India",
+      "demonym": "Indian",
       "aliases": [
         "Republic of India",
         "Bhārat",
@@ -1005,6 +1081,7 @@
       "iso3": "IDN",
       "numeric": "360",
       "name": "Indonesia",
+      "demonym": "Indonesian",
       "aliases": [
         "Republic of Indonesia",
         "Republik Indonesia"
@@ -1018,6 +1095,7 @@
       "iso3": "IRN",
       "numeric": "364",
       "name": "Iran",
+      "demonym": "Iranian",
       "aliases": [
         "Islamic Republic of Iran",
         "Iran, Islamic Republic of",
@@ -1032,6 +1110,7 @@
       "iso3": "IRQ",
       "numeric": "368",
       "name": "Iraq",
+      "demonym": "Iraqi",
       "aliases": [
         "Republic of Iraq"
       ],
@@ -1044,6 +1123,7 @@
       "iso3": "IRL",
       "numeric": "372",
       "name": "Ireland",
+      "demonym": "Irish",
       "aliases": [
         "Republic of Ireland",
         "Éire",
@@ -1058,6 +1138,7 @@
       "iso3": "ISR",
       "numeric": "376",
       "name": "Israel",
+      "demonym": "Israeli",
       "aliases": [
         "State of Israel",
         "Medīnat Yisrā'el"
@@ -1071,6 +1152,7 @@
       "iso3": "ITA",
       "numeric": "380",
       "name": "Italy",
+      "demonym": "Italian",
       "aliases": [
         "Italian Republic",
         "Repubblica italiana"
@@ -1084,6 +1166,7 @@
       "iso3": "JAM",
       "numeric": "388",
       "name": "Jamaica",
+      "demonym": "Jamaican",
       "aliases": [],
       "lat": 18.25,
       "lng": -77.5,
@@ -1094,6 +1177,7 @@
       "iso3": "JPN",
       "numeric": "392",
       "name": "Japan",
+      "demonym": "Japanese",
       "aliases": [
         "Nippon",
         "Nihon"
@@ -1107,6 +1191,7 @@
       "iso3": "JOR",
       "numeric": "400",
       "name": "Jordan",
+      "demonym": "Jordanian",
       "aliases": [
         "Hashemite Kingdom of Jordan",
         "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
@@ -1120,6 +1205,7 @@
       "iso3": "KAZ",
       "numeric": "398",
       "name": "Kazakhstan",
+      "demonym": "Kazakhstani",
       "aliases": [
         "Republic of Kazakhstan",
         "Qazaqstan",
@@ -1135,6 +1221,7 @@
       "iso3": "KEN",
       "numeric": "404",
       "name": "Kenya",
+      "demonym": "Kenyan",
       "aliases": [
         "Republic of Kenya",
         "Jamhuri ya Kenya"
@@ -1148,6 +1235,7 @@
       "iso3": "KIR",
       "numeric": "296",
       "name": "Kiribati",
+      "demonym": "I-Kiribati",
       "aliases": [
         "Independent and Sovereign Republic of Kiribati",
         "Republic of Kiribati",
@@ -1162,6 +1250,7 @@
       "iso3": "KWT",
       "numeric": "414",
       "name": "Kuwait",
+      "demonym": "Kuwaiti",
       "aliases": [
         "State of Kuwait",
         "Dawlat al-Kuwait"
@@ -1175,6 +1264,7 @@
       "iso3": "KGZ",
       "numeric": "417",
       "name": "Kyrgyzstan",
+      "demonym": "Kirghiz",
       "aliases": [
         "Kyrgyz Republic",
         "Kyrgyz Respublikasy"
@@ -1188,6 +1278,7 @@
       "iso3": "LAO",
       "numeric": "418",
       "name": "Laos",
+      "demonym": "Laotian",
       "aliases": [
         "Lao People's Democratic Republic",
         "Lao",
@@ -1202,6 +1293,7 @@
       "iso3": "LVA",
       "numeric": "428",
       "name": "Latvia",
+      "demonym": "Latvian",
       "aliases": [
         "Republic of Latvia",
         "Latvijas Republika"
@@ -1215,6 +1307,7 @@
       "iso3": "LBN",
       "numeric": "422",
       "name": "Lebanon",
+      "demonym": "Lebanese",
       "aliases": [
         "Lebanese Republic",
         "Al-Jumhūrīyah Al-Libnānīyah"
@@ -1228,6 +1321,7 @@
       "iso3": "LSO",
       "numeric": "426",
       "name": "Lesotho",
+      "demonym": "Mosotho",
       "aliases": [
         "Kingdom of Lesotho",
         "Muso oa Lesotho"
@@ -1241,6 +1335,7 @@
       "iso3": "LBR",
       "numeric": "430",
       "name": "Liberia",
+      "demonym": "Liberian",
       "aliases": [
         "Republic of Liberia"
       ],
@@ -1253,6 +1348,7 @@
       "iso3": "LBY",
       "numeric": "434",
       "name": "Libya",
+      "demonym": "Libyan",
       "aliases": [
         "State of Libya",
         "Dawlat Libya"
@@ -1266,6 +1362,7 @@
       "iso3": "LIE",
       "numeric": "438",
       "name": "Liechtenstein",
+      "demonym": "Liechtensteiner",
       "aliases": [
         "Principality of Liechtenstein",
         "Fürstentum Liechtenstein"
@@ -1279,6 +1376,7 @@
       "iso3": "LTU",
       "numeric": "440",
       "name": "Lithuania",
+      "demonym": "Lithuanian",
       "aliases": [
         "Republic of Lithuania",
         "Lietuvos Respublika"
@@ -1292,6 +1390,7 @@
       "iso3": "LUX",
       "numeric": "442",
       "name": "Luxembourg",
+      "demonym": "Luxembourger",
       "aliases": [
         "Grand Duchy of Luxembourg",
         "Grand-Duché de Luxembourg",
@@ -1307,6 +1406,7 @@
       "iso3": "MDG",
       "numeric": "450",
       "name": "Madagascar",
+      "demonym": "Malagasy",
       "aliases": [
         "Republic of Madagascar",
         "Repoblikan'i Madagasikara",
@@ -1321,6 +1421,7 @@
       "iso3": "MWI",
       "numeric": "454",
       "name": "Malawi",
+      "demonym": "Malawian",
       "aliases": [
         "Republic of Malawi"
       ],
@@ -1333,6 +1434,7 @@
       "iso3": "MYS",
       "numeric": "458",
       "name": "Malaysia",
+      "demonym": "Malaysian",
       "aliases": [],
       "lat": 2.5,
       "lng": 112.5,
@@ -1343,6 +1445,7 @@
       "iso3": "MDV",
       "numeric": "462",
       "name": "Maldives",
+      "demonym": "Maldivan",
       "aliases": [
         "Republic of the Maldives",
         "Maldive Islands",
@@ -1357,6 +1460,7 @@
       "iso3": "MLI",
       "numeric": "466",
       "name": "Mali",
+      "demonym": "Malian",
       "aliases": [
         "Republic of Mali",
         "République du Mali"
@@ -1370,6 +1474,7 @@
       "iso3": "MLT",
       "numeric": "470",
       "name": "Malta",
+      "demonym": "Maltese",
       "aliases": [
         "Republic of Malta",
         "Repubblika ta' Malta"
@@ -1383,6 +1488,7 @@
       "iso3": "MHL",
       "numeric": "584",
       "name": "Marshall Islands",
+      "demonym": "Marshallese",
       "aliases": [
         "Republic of the Marshall Islands"
       ],
@@ -1395,6 +1501,7 @@
       "iso3": "MRT",
       "numeric": "478",
       "name": "Mauritania",
+      "demonym": "Mauritanian",
       "aliases": [
         "Islamic Republic of Mauritania"
       ],
@@ -1407,6 +1514,7 @@
       "iso3": "MUS",
       "numeric": "480",
       "name": "Mauritius",
+      "demonym": "Mauritian",
       "aliases": [
         "Republic of Mauritius",
         "République de Maurice"
@@ -1420,6 +1528,7 @@
       "iso3": "MEX",
       "numeric": "484",
       "name": "Mexico",
+      "demonym": "Mexican",
       "aliases": [
         "United Mexican States",
         "Mexicanos",
@@ -1434,6 +1543,7 @@
       "iso3": "FSM",
       "numeric": "583",
       "name": "Micronesia",
+      "demonym": "Micronesian",
       "aliases": [
         "Federated States of Micronesia",
         "Micronesia, Federated States of"
@@ -1447,6 +1557,7 @@
       "iso3": "MDA",
       "numeric": "498",
       "name": "Moldova",
+      "demonym": "Moldovan",
       "aliases": [
         "Republic of Moldova",
         "Moldova, Republic of",
@@ -1461,6 +1572,7 @@
       "iso3": "MCO",
       "numeric": "492",
       "name": "Monaco",
+      "demonym": "Monegasque",
       "aliases": [
         "Principality of Monaco",
         "Principauté de Monaco"
@@ -1474,6 +1586,7 @@
       "iso3": "MNG",
       "numeric": "496",
       "name": "Mongolia",
+      "demonym": "Mongolian",
       "aliases": [],
       "lat": 46,
       "lng": 105,
@@ -1484,6 +1597,7 @@
       "iso3": "MNE",
       "numeric": "499",
       "name": "Montenegro",
+      "demonym": "Montenegrin",
       "aliases": [
         "Crna Gora"
       ],
@@ -1496,6 +1610,7 @@
       "iso3": "MAR",
       "numeric": "504",
       "name": "Morocco",
+      "demonym": "Moroccan",
       "aliases": [
         "Kingdom of Morocco",
         "Al-Mamlakah al-Maġribiyah"
@@ -1509,6 +1624,7 @@
       "iso3": "MOZ",
       "numeric": "508",
       "name": "Mozambique",
+      "demonym": "Mozambican",
       "aliases": [
         "Republic of Mozambique",
         "República de Moçambique"
@@ -1522,6 +1638,7 @@
       "iso3": "MMR",
       "numeric": "104",
       "name": "Myanmar",
+      "demonym": "Burmese",
       "aliases": [
         "Republic of the Union of Myanmar",
         "Burma",
@@ -1536,6 +1653,7 @@
       "iso3": "NAM",
       "numeric": "516",
       "name": "Namibia",
+      "demonym": "Namibian",
       "aliases": [
         "Republic of Namibia",
         "Namibië"
@@ -1549,6 +1667,7 @@
       "iso3": "NRU",
       "numeric": "520",
       "name": "Nauru",
+      "demonym": "Nauruan",
       "aliases": [
         "Republic of Nauru",
         "Naoero",
@@ -1564,6 +1683,7 @@
       "iso3": "NPL",
       "numeric": "524",
       "name": "Nepal",
+      "demonym": "Nepalese",
       "aliases": [
         "Federal Democratic Republic of Nepal",
         "Loktāntrik Ganatantra Nepāl"
@@ -1577,6 +1697,7 @@
       "iso3": "NLD",
       "numeric": "528",
       "name": "Netherlands",
+      "demonym": "Dutch",
       "aliases": [
         "Kingdom of the Netherlands",
         "Holland",
@@ -1592,6 +1713,7 @@
       "iso3": "NZL",
       "numeric": "554",
       "name": "New Zealand",
+      "demonym": "New Zealander",
       "aliases": [
         "Aotearoa"
       ],
@@ -1604,6 +1726,7 @@
       "iso3": "NIC",
       "numeric": "558",
       "name": "Nicaragua",
+      "demonym": "Nicaraguan",
       "aliases": [
         "Republic of Nicaragua",
         "República de Nicaragua"
@@ -1617,6 +1740,7 @@
       "iso3": "NER",
       "numeric": "562",
       "name": "Niger",
+      "demonym": "Nigerien",
       "aliases": [
         "Republic of Niger",
         "Nijar"
@@ -1630,6 +1754,7 @@
       "iso3": "NGA",
       "numeric": "566",
       "name": "Nigeria",
+      "demonym": "Nigerian",
       "aliases": [
         "Federal Republic of Nigeria",
         "Nijeriya",
@@ -1644,6 +1769,7 @@
       "iso3": "PRK",
       "numeric": "408",
       "name": "North Korea",
+      "demonym": "North Korean",
       "aliases": [
         "Democratic People's Republic of Korea",
         "DPRK",
@@ -1659,6 +1785,7 @@
       "iso3": "MKD",
       "numeric": "807",
       "name": "North Macedonia",
+      "demonym": "Macedonian",
       "aliases": [
         "Republic of North Macedonia",
         "The former Yugoslav Republic of Macedonia",
@@ -1674,6 +1801,7 @@
       "iso3": "NOR",
       "numeric": "578",
       "name": "Norway",
+      "demonym": "Norwegian",
       "aliases": [
         "Kingdom of Norway",
         "Norge",
@@ -1690,6 +1818,7 @@
       "iso3": "OMN",
       "numeric": "512",
       "name": "Oman",
+      "demonym": "Omani",
       "aliases": [
         "Sultanate of Oman"
       ],
@@ -1702,6 +1831,7 @@
       "iso3": "PAK",
       "numeric": "586",
       "name": "Pakistan",
+      "demonym": "Pakistani",
       "aliases": [
         "Islamic Republic of Pakistan",
         "Pākistān",
@@ -1716,6 +1846,7 @@
       "iso3": "PLW",
       "numeric": "585",
       "name": "Palau",
+      "demonym": "Palauan",
       "aliases": [
         "Republic of Palau",
         "Beluu er a Belau"
@@ -1729,6 +1860,7 @@
       "iso3": "PSE",
       "numeric": "275",
       "name": "Palestine",
+      "demonym": "Palestinian",
       "aliases": [
         "State of Palestine",
         "Palestine, State of"
@@ -1742,6 +1874,7 @@
       "iso3": "PAN",
       "numeric": "591",
       "name": "Panama",
+      "demonym": "Panamanian",
       "aliases": [
         "Republic of Panama",
         "República de Panamá"
@@ -1755,6 +1888,7 @@
       "iso3": "PNG",
       "numeric": "598",
       "name": "Papua New Guinea",
+      "demonym": "Papua New Guinean",
       "aliases": [
         "Independent State of Papua New Guinea",
         "Independen Stet bilong Papua Niugini"
@@ -1768,6 +1902,7 @@
       "iso3": "PRY",
       "numeric": "600",
       "name": "Paraguay",
+      "demonym": "Paraguayan",
       "aliases": [
         "Republic of Paraguay",
         "República del Paraguay",
@@ -1782,6 +1917,7 @@
       "iso3": "PER",
       "numeric": "604",
       "name": "Peru",
+      "demonym": "Peruvian",
       "aliases": [
         "Republic of Peru",
         "República del Perú"
@@ -1795,6 +1931,7 @@
       "iso3": "PHL",
       "numeric": "608",
       "name": "Philippines",
+      "demonym": "Filipino",
       "aliases": [
         "Republic of the Philippines",
         "Repúblika ng Pilipinas"
@@ -1808,6 +1945,7 @@
       "iso3": "POL",
       "numeric": "616",
       "name": "Poland",
+      "demonym": "Polish",
       "aliases": [
         "Republic of Poland",
         "Rzeczpospolita Polska"
@@ -1821,6 +1959,7 @@
       "iso3": "PRT",
       "numeric": "620",
       "name": "Portugal",
+      "demonym": "Portuguese",
       "aliases": [
         "Portuguese Republic",
         "Portuguesa",
@@ -1835,6 +1974,7 @@
       "iso3": "QAT",
       "numeric": "634",
       "name": "Qatar",
+      "demonym": "Qatari",
       "aliases": [
         "State of Qatar"
       ],
@@ -1847,6 +1987,7 @@
       "iso3": "COG",
       "numeric": "178",
       "name": "Republic of the Congo",
+      "demonym": "Congolese",
       "aliases": [
         "Congo",
         "Congo-Brazzaville"
@@ -1860,6 +2001,7 @@
       "iso3": "ROU",
       "numeric": "642",
       "name": "Romania",
+      "demonym": "Romanian",
       "aliases": [
         "Rumania",
         "Roumania",
@@ -1874,6 +2016,7 @@
       "iso3": "RUS",
       "numeric": "643",
       "name": "Russia",
+      "demonym": "Russian",
       "aliases": [
         "Russian Federation"
       ],
@@ -1886,6 +2029,7 @@
       "iso3": "RWA",
       "numeric": "646",
       "name": "Rwanda",
+      "demonym": "Rwandan",
       "aliases": [
         "Republic of Rwanda",
         "Repubulika y'u Rwanda",
@@ -1900,6 +2044,7 @@
       "iso3": "KNA",
       "numeric": "659",
       "name": "Saint Kitts and Nevis",
+      "demonym": "Kittitian or Nevisian",
       "aliases": [
         "Federation of Saint Christopher and Nevis"
       ],
@@ -1912,6 +2057,7 @@
       "iso3": "LCA",
       "numeric": "662",
       "name": "Saint Lucia",
+      "demonym": "Saint Lucian",
       "aliases": [],
       "lat": 13.88333333,
       "lng": -60.96666666,
@@ -1922,6 +2068,7 @@
       "iso3": "VCT",
       "numeric": "670",
       "name": "Saint Vincent and the Grenadines",
+      "demonym": "Saint Vincentian",
       "aliases": [],
       "lat": 13.25,
       "lng": -61.2,
@@ -1932,6 +2079,7 @@
       "iso3": "WSM",
       "numeric": "882",
       "name": "Samoa",
+      "demonym": "Samoan",
       "aliases": [
         "Independent State of Samoa"
       ],
@@ -1944,6 +2092,7 @@
       "iso3": "SMR",
       "numeric": "674",
       "name": "San Marino",
+      "demonym": "Sammarinese",
       "aliases": [
         "Most Serene Republic of San Marino",
         "Republic of San Marino",
@@ -1958,6 +2107,7 @@
       "iso3": "STP",
       "numeric": "678",
       "name": "São Tomé and Príncipe",
+      "demonym": "Sao Tomean",
       "aliases": [
         "Democratic Republic of São Tomé and Príncipe",
         "Sao Tome and Principe",
@@ -1972,6 +2122,7 @@
       "iso3": "SAU",
       "numeric": "682",
       "name": "Saudi Arabia",
+      "demonym": "Saudi Arabian",
       "aliases": [
         "Kingdom of Saudi Arabia",
         "Saudi"
@@ -1985,6 +2136,7 @@
       "iso3": "SEN",
       "numeric": "686",
       "name": "Senegal",
+      "demonym": "Senegalese",
       "aliases": [
         "Republic of Senegal",
         "République du Sénégal"
@@ -1998,6 +2150,7 @@
       "iso3": "SRB",
       "numeric": "688",
       "name": "Serbia",
+      "demonym": "Serbian",
       "aliases": [
         "Republic of Serbia",
         "Srbija",
@@ -2012,6 +2165,7 @@
       "iso3": "SYC",
       "numeric": "690",
       "name": "Seychelles",
+      "demonym": "Seychellois",
       "aliases": [
         "Republic of Seychelles",
         "Repiblik Sesel",
@@ -2026,6 +2180,7 @@
       "iso3": "SLE",
       "numeric": "694",
       "name": "Sierra Leone",
+      "demonym": "Sierra Leonean",
       "aliases": [
         "Republic of Sierra Leone"
       ],
@@ -2038,6 +2193,7 @@
       "iso3": "SGP",
       "numeric": "702",
       "name": "Singapore",
+      "demonym": "Singaporean",
       "aliases": [
         "Republic of Singapore",
         "Singapura",
@@ -2052,6 +2208,7 @@
       "iso3": "SVK",
       "numeric": "703",
       "name": "Slovakia",
+      "demonym": "Slovak",
       "aliases": [
         "Slovak Republic",
         "Slovenská republika"
@@ -2065,6 +2222,7 @@
       "iso3": "SVN",
       "numeric": "705",
       "name": "Slovenia",
+      "demonym": "Slovene",
       "aliases": [
         "Republic of Slovenia",
         "Republika Slovenija"
@@ -2078,6 +2236,7 @@
       "iso3": "SLB",
       "numeric": "090",
       "name": "Solomon Islands",
+      "demonym": "Solomon Islander",
       "aliases": [],
       "lat": -8,
       "lng": 159,
@@ -2088,6 +2247,7 @@
       "iso3": "SOM",
       "numeric": "706",
       "name": "Somalia",
+      "demonym": "Somali",
       "aliases": [
         "Federal Republic of Somalia",
         "Jamhuuriyadda Federaalka Soomaaliya"
@@ -2101,6 +2261,7 @@
       "iso3": "ZAF",
       "numeric": "710",
       "name": "South Africa",
+      "demonym": "South African",
       "aliases": [
         "Republic of South Africa",
         "RSA",
@@ -2115,6 +2276,7 @@
       "iso3": "KOR",
       "numeric": "410",
       "name": "South Korea",
+      "demonym": "South Korean",
       "aliases": [
         "Republic of Korea",
         "Korea, Republic of"
@@ -2128,6 +2290,7 @@
       "iso3": "SSD",
       "numeric": "728",
       "name": "South Sudan",
+      "demonym": "South Sudanese",
       "aliases": [
         "Republic of South Sudan"
       ],
@@ -2140,6 +2303,7 @@
       "iso3": "ESP",
       "numeric": "724",
       "name": "Spain",
+      "demonym": "Spanish",
       "aliases": [
         "Kingdom of Spain",
         "Reino de España"
@@ -2153,6 +2317,7 @@
       "iso3": "LKA",
       "numeric": "144",
       "name": "Sri Lanka",
+      "demonym": "Sri Lankan",
       "aliases": [
         "Democratic Socialist Republic of Sri Lanka"
       ],
@@ -2165,6 +2330,7 @@
       "iso3": "SDN",
       "numeric": "729",
       "name": "Sudan",
+      "demonym": "Sudanese",
       "aliases": [
         "Republic of the Sudan",
         "Jumhūrīyat as-Sūdān"
@@ -2178,6 +2344,7 @@
       "iso3": "SUR",
       "numeric": "740",
       "name": "Suriname",
+      "demonym": "Surinamer",
       "aliases": [
         "Republic of Suriname",
         "Sarnam",
@@ -2193,6 +2360,7 @@
       "iso3": "SWE",
       "numeric": "752",
       "name": "Sweden",
+      "demonym": "Swedish",
       "aliases": [
         "Kingdom of Sweden",
         "Konungariket Sverige"
@@ -2206,6 +2374,7 @@
       "iso3": "CHE",
       "numeric": "756",
       "name": "Switzerland",
+      "demonym": "Swiss",
       "aliases": [
         "Swiss Confederation",
         "Schweiz",
@@ -2222,6 +2391,7 @@
       "iso3": "SYR",
       "numeric": "760",
       "name": "Syria",
+      "demonym": "Syrian",
       "aliases": [
         "Syrian Arab Republic"
       ],
@@ -2234,6 +2404,7 @@
       "iso3": "TJK",
       "numeric": "762",
       "name": "Tajikistan",
+      "demonym": "Tadzhik",
       "aliases": [
         "Republic of Tajikistan",
         "Toçikiston",
@@ -2248,6 +2419,7 @@
       "iso3": "TZA",
       "numeric": "834",
       "name": "Tanzania",
+      "demonym": "Tanzanian",
       "aliases": [
         "United Republic of Tanzania",
         "Tanzania, United Republic of",
@@ -2262,6 +2434,7 @@
       "iso3": "THA",
       "numeric": "764",
       "name": "Thailand",
+      "demonym": "Thai",
       "aliases": [
         "Kingdom of Thailand",
         "Prathet",
@@ -2277,6 +2450,7 @@
       "iso3": "TLS",
       "numeric": "626",
       "name": "Timor-Leste",
+      "demonym": "East Timorese",
       "aliases": [
         "Democratic Republic of Timor-Leste",
         "East Timor",
@@ -2295,6 +2469,7 @@
       "iso3": "TGO",
       "numeric": "768",
       "name": "Togo",
+      "demonym": "Togolese",
       "aliases": [
         "Togolese Republic",
         "Togolese",
@@ -2309,6 +2484,7 @@
       "iso3": "TON",
       "numeric": "776",
       "name": "Tonga",
+      "demonym": "Tongan",
       "aliases": [
         "Kingdom of Tonga"
       ],
@@ -2321,6 +2497,7 @@
       "iso3": "TTO",
       "numeric": "780",
       "name": "Trinidad and Tobago",
+      "demonym": "Trinidadian",
       "aliases": [
         "Republic of Trinidad and Tobago"
       ],
@@ -2333,6 +2510,7 @@
       "iso3": "TUN",
       "numeric": "788",
       "name": "Tunisia",
+      "demonym": "Tunisian",
       "aliases": [
         "Tunisian Republic",
         "Republic of Tunisia",
@@ -2347,6 +2525,7 @@
       "iso3": "TUR",
       "numeric": "792",
       "name": "Türkiye",
+      "demonym": "Turkish",
       "aliases": [
         "Republic of Türkiye",
         "Turkiye",
@@ -2363,6 +2542,7 @@
       "iso3": "TKM",
       "numeric": "795",
       "name": "Turkmenistan",
+      "demonym": "Turkmen",
       "aliases": [],
       "lat": 40,
       "lng": 60,
@@ -2373,6 +2553,7 @@
       "iso3": "TUV",
       "numeric": "798",
       "name": "Tuvalu",
+      "demonym": "Tuvaluan",
       "aliases": [],
       "lat": -8,
       "lng": 178,
@@ -2383,6 +2564,7 @@
       "iso3": "UGA",
       "numeric": "800",
       "name": "Uganda",
+      "demonym": "Ugandan",
       "aliases": [
         "Republic of Uganda",
         "Jamhuri ya Uganda"
@@ -2396,6 +2578,7 @@
       "iso3": "UKR",
       "numeric": "804",
       "name": "Ukraine",
+      "demonym": "Ukrainian",
       "aliases": [
         "Ukrayina"
       ],
@@ -2408,6 +2591,7 @@
       "iso3": "ARE",
       "numeric": "784",
       "name": "United Arab Emirates",
+      "demonym": "Emirati",
       "aliases": [
         "UAE",
         "Emirates"
@@ -2421,6 +2605,7 @@
       "iso3": "GBR",
       "numeric": "826",
       "name": "United Kingdom",
+      "demonym": "British",
       "aliases": [
         "United Kingdom of Great Britain and Northern Ireland",
         "Great Britain"
@@ -2434,6 +2619,7 @@
       "iso3": "USA",
       "numeric": "840",
       "name": "United States",
+      "demonym": "American",
       "aliases": [
         "United States of America",
         "USA"
@@ -2447,6 +2633,7 @@
       "iso3": "URY",
       "numeric": "858",
       "name": "Uruguay",
+      "demonym": "Uruguayan",
       "aliases": [
         "Oriental Republic of Uruguay",
         "República Oriental del Uruguay"
@@ -2460,6 +2647,7 @@
       "iso3": "UZB",
       "numeric": "860",
       "name": "Uzbekistan",
+      "demonym": "Uzbekistani",
       "aliases": [
         "Republic of Uzbekistan"
       ],
@@ -2472,6 +2660,7 @@
       "iso3": "VUT",
       "numeric": "548",
       "name": "Vanuatu",
+      "demonym": "Ni-Vanuatu",
       "aliases": [
         "Republic of Vanuatu",
         "Ripablik blong Vanuatu",
@@ -2486,6 +2675,7 @@
       "iso3": "VAT",
       "numeric": "336",
       "name": "Vatican City",
+      "demonym": "Vatican",
       "aliases": [
         "Vatican City State",
         "Holy See (Vatican City State)",
@@ -2501,6 +2691,7 @@
       "iso3": "VEN",
       "numeric": "862",
       "name": "Venezuela",
+      "demonym": "Venezuelan",
       "aliases": [
         "Bolivarian Republic of Venezuela",
         "Venezuela, Bolivarian Republic of",
@@ -2515,6 +2706,7 @@
       "iso3": "VNM",
       "numeric": "704",
       "name": "Vietnam",
+      "demonym": "Vietnamese",
       "aliases": [
         "Socialist Republic of Vietnam",
         "Viet Nam"
@@ -2528,6 +2720,7 @@
       "iso3": "YEM",
       "numeric": "887",
       "name": "Yemen",
+      "demonym": "Yemeni",
       "aliases": [
         "Republic of Yemen",
         "Yemeni Republic",
@@ -2542,6 +2735,7 @@
       "iso3": "ZMB",
       "numeric": "894",
       "name": "Zambia",
+      "demonym": "Zambian",
       "aliases": [
         "Republic of Zambia"
       ],
@@ -2554,6 +2748,7 @@
       "iso3": "ZWE",
       "numeric": "716",
       "name": "Zimbabwe",
+      "demonym": "Zimbabwean",
       "aliases": [
         "Republic of Zimbabwe"
       ],
@@ -2568,6 +2763,7 @@
       "code": "TWN",
       "numeric": "158",
       "name": "Taiwan",
+      "demonym": "Taiwanese",
       "aliases": [
         "Republic of China",
         "Formosa"
@@ -2581,6 +2777,7 @@
       "code": "HKG",
       "numeric": null,
       "name": "Hong Kong",
+      "demonym": "Hong Kong",
       "aliases": [
         "HK"
       ],
@@ -2593,6 +2790,7 @@
       "code": "XKX",
       "numeric": null,
       "name": "Kosovo",
+      "demonym": "Kosovar",
       "aliases": [
         "Kosova"
       ],
@@ -2605,6 +2803,7 @@
       "code": "TIB",
       "numeric": null,
       "name": "Tibet",
+      "demonym": "Tibetan",
       "aliases": [
         "Bod"
       ],
