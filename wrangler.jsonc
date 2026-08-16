@@ -1,0 +1,11 @@
+// Cloudflare Workers static-assets config. The git integration runs
+// `npm run build` then `npx wrangler deploy`; this file makes that deploy
+// non-interactive and deterministic. No Worker script — assets only.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tablefor6ix",
+  "compatibility_date": "2026-08-16",
+  "assets": {
+    "directory": "./dist"
+  }
+}
