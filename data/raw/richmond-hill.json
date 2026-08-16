@@ -1,0 +1,4590 @@
+{
+ "municipality": "Richmond Hill",
+ "slug": "richmond-hill",
+ "relationId": 2407259,
+ "fetchedAt": "2026-08-16T23:23:56.175Z",
+ "elements": [
+  {
+   "type": "node",
+   "id": 380312273,
+   "lat": 43.8956732,
+   "lon": -79.4435713,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "11000",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "brand": "Shelby’s Legendary Shawarma",
+    "cuisine": "shawarma",
+    "indoor_seating": "yes",
+    "name": "Shelby’s Legendary Shawarma",
+    "phone": "+1 905-508-2168",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380312281,
+   "lat": 43.8930494,
+   "lon": -79.4413048,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Cora",
+    "brand:wikidata": "Q2996960",
+    "brand:wikipedia": "en:Cora (restaurant)",
+    "cuisine": "breakfast",
+    "name": "Cora"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380313593,
+   "lat": 43.88218,
+   "lon": -79.4389197,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Dairy Queen",
+    "brand:wikidata": "Q1141226",
+    "brand:wikipedia": "en:Dairy Queen",
+    "cuisine": "ice_cream;burger",
+    "name": "Dairy Queen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380324469,
+   "lat": 43.8642224,
+   "lon": -79.4363624,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9712",
+    "addr:postcode": "L4C 1V9",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "check_date": "2026-07-20",
+    "cuisine": "chinese",
+    "name": "Mr. Congee",
+    "phone": "+1-905-237-6862",
+    "website": "https://mrcongee.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380338230,
+   "lat": 43.8542108,
+   "lon": -79.4325767,
+   "tags": {
+    "addr:floor": "G",
+    "addr:housenumber": "9301",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "check_date": "2025-06-20",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "level": "0",
+    "name": "McDonald's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380338249,
+   "lat": 43.8509763,
+   "lon": -79.433119,
+   "tags": {
+    "addr:housenumber": "9184",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "check_date": "2025-06-20",
+    "cuisine": "korean",
+    "name": "Hong Dae Korean Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383238057,
+   "lat": 43.8467399,
+   "lon": -79.3752823,
+   "tags": {
+    "addr:street": "York Boulevard",
+    "amenity": "restaurant",
+    "brand": "Jack Astor's",
+    "brand:wikidata": "Q6111066",
+    "brand:wikipedia": "en:Jack Astor's Bar and Grill",
+    "check_date": "2025-09-14",
+    "cuisine": "american",
+    "name": "Jack Astor's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383238087,
+   "lat": 43.8453073,
+   "lon": -79.382031,
+   "tags": {
+    "addr:housenumber": "9005",
+    "addr:street": "Leslie Street",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "check_date": "2025-09-14",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "opening_hours": "24/7",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383238116,
+   "lat": 43.8438595,
+   "lon": -79.3871479,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Ambassador Chinese Cuisine"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383282556,
+   "lat": 43.8435057,
+   "lon": -79.3916442,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "420",
+    "addr:postcode": "L4B 3K2",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "branch": "Valleymede",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "check_date": "2025-09-14",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "internet_access": "wlan",
+    "name": "McDonald's",
+    "opening_hours": "24/7",
+    "opening_hours:drive_through": "24/7",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1 9058826550",
+    "takeaway": "yes",
+    "website": "https://www.mcdonalds.com/ca/en-ca/location/richmond-hill/valleymede/420-hwy-7e/11764.html",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 473507783,
+   "lat": 43.842884,
+   "lon": -79.4080518,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "opening_hours": "24/7",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 473507905,
+   "lat": 43.8439591,
+   "lon": -79.4082985,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "The Alley",
+    "cuisine": "bubble_tea",
+    "name": "The Alley Hub",
+    "takeaway": "yes",
+    "website": "https://www.the-alley.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 706318122,
+   "lat": 43.8569793,
+   "lon": -79.4097901,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 766954741,
+   "lat": 43.8571063,
+   "lon": -79.409819,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 834949884,
+   "lat": 43.8955613,
+   "lon": -79.4435648,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "cuisine": "burger",
+    "name": "Harvey's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 835013072,
+   "lat": 43.8961722,
+   "lon": -79.4423044,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "11005",
+    "addr:street": "Yonge Street",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Tim Hortons",
+    "opening_hours": "24/7",
+    "opening_hours:drive_through": "24/7",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1064725960,
+   "lat": 43.848627,
+   "lon": -79.4577827,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Miyako Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1064730719,
+   "lat": 43.8487583,
+   "lon": -79.4578806,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "kebab",
+    "name": "Hannah's Shawarma"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1314641674,
+   "lat": 43.9126192,
+   "lon": -79.4475323,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "11710",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "cuisine": "pizza",
+    "name": "Pizza Hut"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1314641866,
+   "lat": 43.9136503,
+   "lon": -79.4480607,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "11740",
+    "addr:postcode": "L4E 0K4",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Treasure Garden",
+    "opening_hours": "09:00-22:00",
+    "phone": "+19058848885"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1324372756,
+   "lat": 43.863846,
+   "lon": -79.383154,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1731910802,
+   "lat": 43.864054,
+   "lon": -79.383258,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Teriyaki Experience",
+    "brand:wikidata": "Q7702453",
+    "cuisine": "japanese",
+    "name": "Teriyaki Experience",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1764752890,
+   "lat": 43.9451351,
+   "lon": -79.4543378,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1766646033,
+   "lat": 43.9469987,
+   "lon": -79.4547689,
+   "tags": {
+    "addr:housenumber": "13071",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "name": "Mr. Sub",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816245948,
+   "lat": 43.876005,
+   "lon": -79.438641,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Quiznos",
+    "brand:wikidata": "Q1936229",
+    "brand:wikipedia": "en:Quiznos",
+    "cuisine": "sandwich",
+    "name": "Quiznos",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816254056,
+   "lat": 43.88915,
+   "lon": -79.442143,
+   "tags": {
+    "addr:housenumber": "10720",
+    "addr:postcode": "L4C 3C9",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "mexican",
+    "name": "Mexican Amigos",
+    "phone": "+1-905-780-0303",
+    "website": "http://richmondhill.mexicanamigos.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1817716051,
+   "lat": 43.8860165,
+   "lon": -79.4412447,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "St. Louis Bar & Grill",
+    "brand:wikidata": "Q65567668",
+    "cuisine": "chicken",
+    "name": "St. Louis Bar & Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2346831126,
+   "lat": 43.8460417,
+   "lon": -79.3791699,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-09-14",
+    "cuisine": "indian",
+    "name": "Host Fine Indian Cuisine"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2402978799,
+   "lat": 43.8943342,
+   "lon": -79.4417982,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "cuisine": "chicken",
+    "name": "Swiss Chalet"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2420242229,
+   "lat": 43.8478743,
+   "lon": -79.3748624,
+   "tags": {
+    "addr:housenumber": "159",
+    "addr:street": "York Boulevard",
+    "amenity": "restaurant",
+    "brand": "Moxie's",
+    "brand:wikidata": "Q6927497",
+    "cuisine": "bar_and_grill",
+    "name": "Moxie's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2460628922,
+   "lat": 43.8826017,
+   "lon": -79.4390335,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Kansas King"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2767190838,
+   "lat": 43.8846949,
+   "lon": -79.4668421,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "mediterranean",
+    "name": "Soufi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2767193246,
+   "lat": 43.8855503,
+   "lon": -79.4670397,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Yofee Coffee"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2767280140,
+   "lat": 43.957044,
+   "lon": -79.4845952,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2780582202,
+   "lat": 43.8611127,
+   "lon": -79.4343478,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9625",
+    "addr:postcode": "L4C 5T2",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "check_date": "2026-07-22",
+    "cuisine": "ramen",
+    "name": "Midori Ramen",
+    "phone": "+1-647-797-1988",
+    "website": "https://midoriramen.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2780582344,
+   "lat": 43.8612409,
+   "lon": -79.4343627,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9625",
+    "addr:postcode": "L4C 5T2",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "branch": "flame grilled chicken",
+    "brand": "Nando's",
+    "brand:wikidata": "Q3472954",
+    "brand:wikipedia": "en:Nando's",
+    "check_date": "2026-07-22",
+    "cuisine": "chicken;portuguese",
+    "name": "Nando's",
+    "phone": "+1-905-508-6500",
+    "website": "https://www.nandos.ca/find/richmond-hill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2780584139,
+   "lat": 43.8610308,
+   "lon": -79.434335,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9625",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "addr:unit": "7",
+    "amenity": "fast_food",
+    "brand": "Hero Certified Burgers",
+    "brand:wikidata": "Q5742641",
+    "brand:wikipedia": "en:Hero Certified Burgers",
+    "check_date": "2026-07-22",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "Hero Certified Burgers",
+    "phone": "+1-905-237-5224",
+    "takeaway": "yes",
+    "website": "https://heroburgers.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916588559,
+   "lat": 43.8487009,
+   "lon": -79.3743903,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "165",
+    "addr:postcode": "L4B 3J6",
+    "addr:street": "York Boulevard",
+    "amenity": "cafe",
+    "capacity": "150",
+    "cuisine": "asian",
+    "internet_access": "yes",
+    "name": "Destiny",
+    "opening_hours": "Su-Th 11:00-02:00; Fr-Sa 11:00-03:00",
+    "smoking": "no",
+    "website": "http://www.destinyasianfusion.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916651053,
+   "lat": 43.8485615,
+   "lon": -79.3742522,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "163",
+    "addr:postcode": "L4B 4A7",
+    "addr:street": "York Boulevard",
+    "amenity": "restaurant",
+    "capacity": "200",
+    "cuisine": "asian",
+    "name": "CHAKO",
+    "phone": "+1-905-889-7898",
+    "smoking": "no",
+    "website": "http://www.chakobbq.ca"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916656012,
+   "lat": 43.8473022,
+   "lon": -79.3770471,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "100",
+    "addr:postcode": "L4B 1J8",
+    "addr:street": "York Boulevard",
+    "amenity": "restaurant",
+    "capacity": "100",
+    "cuisine": "dessert",
+    "name": "Caffe Demetre",
+    "opening_hours": "Mo-Th 14:00-23:30; Fr 14:00-01:30; Sa 13:00-01:30; Su 13:00-23:30",
+    "phone": "+1-905-881-8406",
+    "smoking": "no",
+    "website": "http://www.caffedemetre.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2923867752,
+   "lat": 43.9136421,
+   "lon": -79.4736645,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Dairy Queen",
+    "brand:wikidata": "Q1141226",
+    "brand:wikipedia": "en:Dairy Queen",
+    "cuisine": "ice_cream;burger;chicken",
+    "name": "Dairy Queen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2923867753,
+   "lat": 43.9140335,
+   "lon": -79.474248,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "McDonald's",
+    "not:brand:wikidata": "Q1080670",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2960451225,
+   "lat": 43.9514307,
+   "lon": -79.4551786,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2961892167,
+   "lat": 43.9425441,
+   "lon": -79.4546155,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Wimpy's Diner",
+    "brand:wikidata": "Q16909504",
+    "cuisine": "diner",
+    "name": "Wimpy's Diner"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3045984613,
+   "lat": 43.8487057,
+   "lon": -79.3764983,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Dragon Boat Fusion Cuisine",
+    "name:zh": "凱龍船"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3066127811,
+   "lat": 43.8444255,
+   "lon": -79.3876699,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3066131625,
+   "lat": 43.8614089,
+   "lon": -79.3894877,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "St. Louis Bar & Grill",
+    "brand:wikidata": "Q65567668",
+    "cuisine": "chicken",
+    "name": "St. Louis Bar & Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3126895529,
+   "lat": 43.8991792,
+   "lon": -79.3955507,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Hero Certified Burgers",
+    "brand:wikidata": "Q5742641",
+    "brand:wikipedia": "en:Hero Certified Burgers",
+    "cuisine": "burger",
+    "name": "Hero Certified Burgers",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3495969111,
+   "lat": 43.8558329,
+   "lon": -79.4306718,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "persian",
+    "name": "Persia Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3599602615,
+   "lat": 43.8932728,
+   "lon": -79.4395312,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "The Joy of PHO"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3599602618,
+   "lat": 43.8934582,
+   "lon": -79.439573,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "llbo": "yes",
+    "name": "Oregano Pizza and Pasta"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3599602620,
+   "lat": 43.8936437,
+   "lon": -79.4396008,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "brand:wikipedia": "en:Popeyes",
+    "cuisine": "chicken",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3599602621,
+   "lat": 43.8937765,
+   "lon": -79.4396599,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "name": "Richmond Hill Italian Pizza House",
+    "phone": "+1-905-884-8400"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3599608341,
+   "lat": 43.8931918,
+   "lon": -79.4403927,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "afghan",
+    "name": "Afghan Cuisine",
+    "phone": "+1-905-237-7177"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3599608344,
+   "lat": 43.8931391,
+   "lon": -79.4410952,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "noodle;japanese",
+    "name": "Yokohama Ramen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3599608346,
+   "lat": 43.8931291,
+   "lon": -79.4412065,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3599608351,
+   "lat": 43.8931467,
+   "lon": -79.4410048,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "seafood",
+    "name": "York Fish & Chips",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3628052211,
+   "lat": 43.926157,
+   "lon": -79.4512108,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "12260",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "opening_hours": "Mo-Th 11:00-01:00, Fr,Sa 11:00-02:00, Su 11:00-24:00",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3662263617,
+   "lat": 43.9514004,
+   "lon": -79.4552813,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "13237",
+    "addr:postcode": "L4E 1B6",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "capacity": "140",
+    "capacity:indoors": "95",
+    "capacity:outdoors": "40",
+    "cuisine": "regional;burger;coffee_shop;sandwich;chicken;american;seafood",
+    "delivery": "yes",
+    "description": "BREAKFAST, BRUNCH, BURGERS, DESSERTS & MORE",
+    "email": "symposium.richmondhill@symposiumcafe.com",
+    "name": "Symposium Cafe Restaurant & Lounge",
+    "opening_hours": "Su-Th 08:00-24:00; Fr-Sa 08:00-01:00",
+    "outdoor_seating": "yes",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+1-905-773-1118",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://symposiumcafe.com/locations/richmond-hill-restaurants"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3790921916,
+   "lat": 43.8887277,
+   "lon": -79.4405937,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "10711",
+    "addr:postcode": "L4C 3E1",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "persian",
+    "fixme": "approximate",
+    "name": "The Persian Palace Restaurant & Banquet Hall",
+    "phone": "+1-905-737-4900",
+    "website": "https://thepersianpalace.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3790923891,
+   "lat": 43.8914915,
+   "lon": -79.4414055,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Mine Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3849793062,
+   "lat": 43.8433521,
+   "lon": -79.4301634,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-06-20",
+    "cuisine": "italian",
+    "name": "Il Fornello"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4145839626,
+   "lat": 43.9543038,
+   "lon": -79.456012,
+   "tags": {
+    "addr:city": "Richmond Hill (Oak Ridges)",
+    "addr:housenumber": "13461",
+    "addr:postcode": "L4E 0L2",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Pizzaville",
+    "brand:wikidata": "Q113001369",
+    "cuisine": "pizza",
+    "name": "Pizzaville",
+    "takeaway": "yes",
+    "unit": "8"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4145847053,
+   "lat": 43.9543887,
+   "lon": -79.4559853,
+   "tags": {
+    "addr:city": "Richmond Hill (Oak Ridges)",
+    "addr:housenumber": "13461",
+    "addr:postcode": "L4E 0L2",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "brand": "Wild Wing",
+    "brand:wikidata": "Q8000869",
+    "brand:wikipedia": "en:Wild Wing Restaurants",
+    "cuisine": "chicken",
+    "name": "Wild Wing",
+    "phone": "+1-905-773-4929",
+    "unit": "7"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4418292392,
+   "lat": 43.8991352,
+   "lon": -79.3950811,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1500",
+    "addr:postcode": "L4S 0B2",
+    "addr:province": "Ontario",
+    "addr:street": "Elgin Mills Road East",
+    "addr:unit": "4",
+    "amenity": "fast_food",
+    "branch": "31033",
+    "brand": "Subway",
+    "brand:website": "https://www.subway.com/en-ca",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "check_date:opening_hours": "2024-02-12",
+    "cuisine": "sandwich",
+    "drive_through": "no",
+    "name": "Subway",
+    "opening_hours": "Mo-Sa 05:00-22:00; Su 05:00-19:00",
+    "phone": "+1-905-508-7945",
+    "source:opening_hours": "website",
+    "takeaway": "yes",
+    "website:menu": "https://www.subway.com/en-ca/menunutrition/menu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4453542582,
+   "lat": 43.8769026,
+   "lon": -79.408717,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1070",
+    "addr:postcode": "l4s 1p3",
+    "addr:province": "Ontario",
+    "addr:street": "Major MacKenzie Drive East",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "check_date": "2026-05-23",
+    "check_date:opening_hours": "2026-05-23",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "McDonald's",
+    "opening_hours": "Mo-Su 07:00-23:00",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4453551253,
+   "lat": 43.8772129,
+   "lon": -79.413337,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1070",
+    "addr:postcode": "L4S 1P3",
+    "addr:street": "Major Mackenzie Drive East",
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "check_date": "2025-06-08",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "name": "Pizza Pizza",
+    "opening_hours": "Mo-Th,Su 10:00-01:00; Fr-Sa 10:00-02:00",
+    "phone": "+1-416-967-1111",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4453551254,
+   "lat": 43.8757716,
+   "lon": -79.4135361,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "815",
+    "addr:postcode": "L4C 9X2",
+    "addr:street": "Major Mackenzie Drive East",
+    "amenity": "restaurant",
+    "cuisine": "malaysian",
+    "name": "Restoran Malaysia",
+    "phone": "+1-905-508-1432",
+    "website": "https://www.restoranmalaysia.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4650435040,
+   "lat": 43.8770432,
+   "lon": -79.4141175,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1070",
+    "addr:postcode": "L4S 1P3",
+    "addr:street": "Major Mackenzie Drive East",
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "thai",
+    "name": "Thai Basil",
+    "opening_hours": "Mo-Th,Su 11:30-22:00; Fr-Sa 11:30-22:30",
+    "outdoor_seating": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "smoking": "outside",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4650435043,
+   "lat": 43.8771157,
+   "lon": -79.4137195,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1070",
+    "addr:postcode": "L4S 1P3",
+    "addr:street": "Major Mackenzie Drive East",
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "japanese",
+    "name": "Cafe KenKaKu",
+    "outdoor_seating": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4664667489,
+   "lat": 43.8650828,
+   "lon": -79.4349186,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9737",
+    "addr:postcode": "L4C 8S7",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "addr:unit": "205",
+    "amenity": "cafe",
+    "check_date": "2026-07-20",
+    "cuisine": "mediterranean;arab",
+    "internet_access": "wlan",
+    "name": "Cyan Cafe & Lounge",
+    "name:en": "Cyan Cafe & Lounge",
+    "phone": "+1-905-237-4266",
+    "website": "https://www.cyancafe.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4839228207,
+   "lat": 43.8765233,
+   "lon": -79.4116074,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Taco Bell",
+    "brand:wikidata": "Q752941",
+    "brand:wikipedia": "en:Taco Bell",
+    "check_date": "2025-06-08",
+    "cuisine": "tex-mex",
+    "drive_through": "yes",
+    "name": "Taco Bell",
+    "takeaway": "yes",
+    "website": "https://locations.tacobell.ca/en/on/richmond-hill/1070-major-mackenzie-drive-east",
+    "website:en": "https://locations.tacobell.ca/en/on/richmond-hill/1070-major-mackenzie-drive-east",
+    "website:fr": "https://locations.tacobell.ca/fr/on/richmond-hill/1070-major-mackenzie-drive-east"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4839228208,
+   "lat": 43.8765185,
+   "lon": -79.4117093,
+   "tags": {
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "brand:wikipedia": "en:KFC",
+    "check_date": "2025-06-08",
+    "cuisine": "chicken",
+    "drive_through": "yes",
+    "name": "KFC",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4859176000,
+   "lat": 43.8630725,
+   "lon": -79.3861735,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Eggsmart",
+    "brand:wikidata": "Q113001388",
+    "cuisine": "breakfast",
+    "name": "Eggsmart"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4859176001,
+   "lat": 43.8644185,
+   "lon": -79.3834109,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Cora",
+    "brand:wikidata": "Q2996960",
+    "brand:wikipedia": "en:Cora (restaurant)",
+    "cuisine": "breakfast",
+    "name": "Cora"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4859176002,
+   "lat": 43.866302,
+   "lon": -79.3859268,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Richlane Chinese Cuisine"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4859176003,
+   "lat": 43.8613085,
+   "lon": -79.3900109,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "opening_hours": "24/7",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4859176005,
+   "lat": 43.8513637,
+   "lon": -79.4081676,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "The One Fusion Cuisine",
+    "opening_hours": "Mo-Su,PH 09:00-22:00",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4915897357,
+   "lat": 43.8435285,
+   "lon": -79.429358,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "check_date": "2025-06-20",
+    "cuisine": "burger",
+    "name": "Harvey's",
+    "opening_hours": "Su-Th 10:30-22:30; Fr,Sa 10:30-23:00",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4957602823,
+   "lat": 43.8432044,
+   "lon": -79.408111,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Yu Garden"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5260010221,
+   "lat": 43.8408706,
+   "lon": -79.3997092,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "328",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "B1;B2",
+    "amenity": "restaurant",
+    "check_date": "2025-09-14",
+    "cuisine": "chinese",
+    "name": "漁米軒 Yumi Legend",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1 9055976667",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5404321317,
+   "lat": 43.8444351,
+   "lon": -79.3843082,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Royaltea",
+    "brand:en": "Royaltea",
+    "brand:wikidata": "Q112778483",
+    "brand:zh": "皇茶",
+    "cuisine": "bubble_tea",
+    "name": "Royaltea",
+    "name:en": "Royaltea",
+    "name:zh": "皇茶",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5423226304,
+   "lat": 43.8434602,
+   "lon": -79.429343,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "check_date": "2025-06-20",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "opening_hours": "Mo-Fr 09:00-23:30; Sa,Su 09:00-22:30",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5423236675,
+   "lat": 43.8471409,
+   "lon": -79.4320697,
+   "tags": {
+    "addr:housenumber": "9010",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "check_date": "2025-06-20",
+    "cuisine": "pizza",
+    "name": "Abruzzo Pizza",
+    "phone": "+1-905-881-8222"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5987946064,
+   "lat": 43.8643279,
+   "lon": -79.3833572,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "16",
+    "addr:postcode": "L4B 3K4",
+    "addr:street": "Vogell Road",
+    "amenity": "restaurant",
+    "cuisine": "mediterranean;shawarma",
+    "delivery": "yes",
+    "name": "Epic Pita Richmond Hill",
+    "opening_hours": "Mo-Sa 11:00-21:00",
+    "outdoor_seating": "no",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5987946065,
+   "lat": 43.8644532,
+   "lon": -79.3825151,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "10",
+    "addr:postcode": "L4B 3K4",
+    "addr:street": "Vogell Road",
+    "amenity": "restaurant",
+    "cuisine": "burger",
+    "name": "Turtle Jacks Muskoka Grill",
+    "opening_hours": "Mo-Su 11:00-24:00",
+    "outdoor_seating": "yes",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5987946066,
+   "lat": 43.8641226,
+   "lon": -79.3823742,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "10",
+    "addr:postcode": "L4B 3K4",
+    "addr:street": "Vogell Road",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "delivery": "no",
+    "name": "Fraticelli Italian Grill and Bar",
+    "smoking": "outside"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6456938215,
+   "lat": 43.880641,
+   "lon": -79.3932199,
+   "tags": {
+    "addr:housenumber": "1480",
+    "addr:postcode": "L4S 0A1",
+    "addr:street": "Major MacKenzie Drive East",
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "cuisine": "pizza",
+    "name": "Pizza Hut"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6565345429,
+   "lat": 43.8537057,
+   "lon": -79.4368566,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "9350",
+    "addr:postcode": "L4C 5G2",
+    "addr:province": "ON",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Freshly Squeezed",
+    "brand:wikidata": "Q124035170",
+    "check_date": "2025-06-20",
+    "cuisine": "juice",
+    "name": "Freshly Squeezed",
+    "phone": "+1-647-916-3323",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6565345432,
+   "lat": 43.8537657,
+   "lon": -79.4367115,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-06-20",
+    "cuisine": "sushi",
+    "name": "Kibo Sushi",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6565345438,
+   "lat": 43.8538716,
+   "lon": -79.437099,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "check_date": "2025-06-20",
+    "cuisine": "sandwich",
+    "drive_through": "no",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6565345439,
+   "lat": 43.853975,
+   "lon": -79.437076,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "9350",
+    "addr:postcode": "L4C 5G2",
+    "addr:province": "ON",
+    "addr:street": "Yonge Street",
+    "addr:unit": "H5",
+    "amenity": "fast_food",
+    "branch": "Hillcreat Mall",
+    "brand": "Thaï Express",
+    "brand:wikidata": "Q7711610",
+    "brand:wikipedia": "en:Thaï Express",
+    "check_date": "2025-06-20",
+    "cuisine": "thai",
+    "name": "Thaï Express",
+    "phone": "+1-905-884-1811",
+    "ref:vatin": "776274664 RT0001",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6565345443,
+   "lat": 43.8538078,
+   "lon": -79.4372779,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "New York Fries",
+    "brand:wikidata": "Q7013558",
+    "brand:wikipedia": "en:New York Fries",
+    "check_date": "2025-06-20",
+    "cuisine": "fries",
+    "drive_through": "no",
+    "name": "New York Fries",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6565345444,
+   "lat": 43.8538704,
+   "lon": -79.4373257,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Jimmy the Greek",
+    "brand:wikidata": "Q17077817",
+    "brand:wikipedia": "en:Jimmy the Greek (restaurant)",
+    "check_date": "2025-06-20",
+    "cuisine": "greek",
+    "drive_through": "no",
+    "name": "Jimmy the Greek",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6565345445,
+   "lat": 43.8539354,
+   "lon": -79.4373647,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "brand:wikipedia": "en:A&W (Canada)",
+    "check_date": "2025-06-20",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "A&W",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6565345446,
+   "lat": 43.8540044,
+   "lon": -79.4374036,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "check_date": "2025-06-20",
+    "cuisine": "chicken",
+    "drive_through": "no",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6565345448,
+   "lat": 43.8540653,
+   "lon": -79.4372284,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-06-20",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "name": "Szechuan Express"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6565376664,
+   "lat": 43.854333,
+   "lon": -79.4362707,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Royaltea",
+    "brand:en": "Royaltea",
+    "brand:wikidata": "Q112778483",
+    "brand:zh": "皇茶",
+    "check_date": "2025-06-20",
+    "cuisine": "bubble_tea",
+    "name": "Royaltea",
+    "name:en": "Royaltea",
+    "name:zh": "皇茶",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6565376666,
+   "lat": 43.8542717,
+   "lon": -79.4364459,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-06-20",
+    "cuisine": "juice",
+    "name": "Island Way"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6585657710,
+   "lat": 43.9160574,
+   "lon": -79.448293,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589641221,
+   "lat": 43.8438978,
+   "lon": -79.4082842,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "8750",
+    "addr:postcode": "L4B 4V9",
+    "addr:street": "Bayview Avenue",
+    "alt_name": "Osmow's Shawarma",
+    "amenity": "fast_food",
+    "brand": "Osmow's",
+    "brand:wikidata": "Q115048716",
+    "cuisine": "mediterranean;shawarma",
+    "name": "Osmow's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589641226,
+   "lat": 43.8436193,
+   "lon": -79.4082333,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589641229,
+   "lat": 43.843463,
+   "lon": -79.4082448,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Hero Certified Burgers",
+    "brand:wikidata": "Q5742641",
+    "brand:wikipedia": "en:Hero Certified Burgers",
+    "cuisine": "burger",
+    "name": "Hero Certified Burgers",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589641234,
+   "lat": 43.8430061,
+   "lon": -79.4080882,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589646903,
+   "lat": 43.8902467,
+   "lon": -79.4199166,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589646905,
+   "lat": 43.8897098,
+   "lon": -79.4195769,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Gogo Chicken Pot"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589646907,
+   "lat": 43.8898086,
+   "lon": -79.4197008,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "korean",
+    "name": "Chingdu Korean Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589646908,
+   "lat": 43.8898526,
+   "lon": -79.4197663,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Little Caesars",
+    "brand:wikidata": "Q1393809",
+    "brand:wikipedia": "en:Little Caesars",
+    "cuisine": "pizza",
+    "name": "Little Caesars",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589646938,
+   "lat": 43.867851,
+   "lon": -79.4121499,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Silver Bay Cafe"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589646941,
+   "lat": 43.8679432,
+   "lon": -79.4121823,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Bayview Wok"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589646942,
+   "lat": 43.8680092,
+   "lon": -79.4121963,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Senbazuru Sushi Bar"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589646950,
+   "lat": 43.8685554,
+   "lon": -79.4123406,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Maxim Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589646952,
+   "lat": 43.868486,
+   "lon": -79.4130067,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Yang's Fine Chinese Cuisine"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589686173,
+   "lat": 43.8763949,
+   "lon": -79.4177097,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "fish_and_chips",
+    "name": "Allencourt Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589686182,
+   "lat": 43.8765486,
+   "lon": -79.4167683,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "kebab",
+    "name": "Naami"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589729481,
+   "lat": 43.8770586,
+   "lon": -79.4140397,
+   "tags": {
+    "addr:unit": "109F",
+    "amenity": "fast_food",
+    "brand": "Pita Pit",
+    "brand:wikidata": "Q7757289",
+    "brand:wikipedia": "en:Pita Pit",
+    "check_date": "2025-06-08",
+    "cuisine": "pita",
+    "name": "Pita Pit",
+    "opening_hours": "Mo-We 10:30-16:00; Th-Fr 10:30-19:00; Sa-Su off",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6589736894,
+   "lat": 43.8942653,
+   "lon": -79.4210698,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Wimpy's Diner",
+    "brand:wikidata": "Q16909504",
+    "cuisine": "diner",
+    "name": "Wimpy's Diner"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597442230,
+   "lat": 43.8611157,
+   "lon": -79.3945548,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1",
+    "addr:postcode": "L4B 3M2",
+    "addr:province": "Ontario",
+    "addr:street": "Spadina Road",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "bar": "no",
+    "branch": "Richmond Hill",
+    "cuisine": "chinese;cantonese",
+    "delivery": "yes",
+    "highchair": "yes",
+    "indoor_seating": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "internet_access:password": "yes",
+    "internet_access:ssid": "Congee Wong 1",
+    "name": "Congee Wong 天皇名粥",
+    "name:en": "Congee Wong",
+    "name:yue": "天皇名粥",
+    "name:zh": "天皇名粥",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "outdoor_seating": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1-905-883-1668",
+    "reservation": "yes",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "https://congee-wong.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6621643706,
+   "lat": 43.944734,
+   "lon": -79.4552974,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "13008",
+    "addr:postcode": "L4E 3S8",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "cuisine": "chicken",
+    "drive_through": "yes",
+    "gst_number": "100803717RT1001",
+    "name": "Swiss Chalet",
+    "phone": "+1-905-773-1988"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6621643707,
+   "lat": 43.9448071,
+   "lon": -79.4551242,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "13008",
+    "addr:postcode": "L4E 3S8",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "gst_number": "100803717RT1001",
+    "name": "Harvey's",
+    "phone": "+1-905-773-1988",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6685147919,
+   "lat": 43.89041,
+   "lon": -79.4403806,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6685172785,
+   "lat": 43.887543,
+   "lon": -79.4416577,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "10670",
+    "addr:postcode": "L4C 3C9",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "persian",
+    "name": "Daryani Fine Bakery"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6736794499,
+   "lat": 43.8660652,
+   "lon": -79.4584915,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Al's Pizzeria and Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6919410581,
+   "lat": 43.8839606,
+   "lon": -79.4414601,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Regino's Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6919410584,
+   "lat": 43.884107,
+   "lon": -79.4411107,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6919418785,
+   "lat": 43.8840838,
+   "lon": -79.4412287,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "In-N-Out Pita",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089564727,
+   "lat": 43.8758638,
+   "lon": -79.4133648,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089564728,
+   "lat": 43.8758715,
+   "lon": -79.4132616,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "korean",
+    "name": "Thw Owl of Minerva"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089564729,
+   "lat": 43.8756506,
+   "lon": -79.4139071,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Bayview Kitchen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089569874,
+   "lat": 43.8859483,
+   "lon": -79.4415118,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Sushi Aoi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089575753,
+   "lat": 43.8821952,
+   "lon": -79.4411047,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7108193511,
+   "lat": 43.8384903,
+   "lon": -79.4305045,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "check_date": "2025-06-20",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7403686280,
+   "lat": 43.8992057,
+   "lon": -79.3947742,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1500",
+    "addr:postcode": "L4S 0B2",
+    "addr:province": "Ontario",
+    "addr:street": "Elgin Mills Road East",
+    "addr:unit": "1",
+    "alt_name": "Osmow's Shawarma",
+    "amenity": "fast_food",
+    "brand": "Osmow's",
+    "brand:wikidata": "Q115048716",
+    "check_date:opening_hours": "2024-02-12",
+    "cuisine": "mediterranean;shawarma",
+    "delivery": "yes",
+    "drive_through": "no",
+    "name": "Osmow's",
+    "opening_hours": "Mo-Th 11:30-21:00; Fr 11:30-22:00; Sa-Su 12:00-21:00",
+    "phone": "+1-905-883-4003",
+    "source:opening_hours": "website",
+    "takeaway": "yes",
+    "website": "https://osmows.com/shawarma-richmond-hill-elgin-mills/",
+    "website:menu": "https://osmows.com/menu/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7460642642,
+   "lat": 43.8994813,
+   "lon": -79.3956311,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "10755",
+    "addr:postcode": "L4S 0B2",
+    "addr:province": "ON",
+    "addr:street": "Leslie Street",
+    "amenity": "restaurant",
+    "brand": "Freshii",
+    "brand:wikidata": "Q5503051",
+    "brand:wikipedia": "en:Freshii",
+    "cuisine": "salad",
+    "name": "Freshii"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530460976,
+   "lat": 43.8970898,
+   "lon": -79.3965878,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Ai Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530460981,
+   "lat": 43.8962415,
+   "lon": -79.4025671,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Toppings"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530460984,
+   "lat": 43.8961054,
+   "lon": -79.4032605,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Nonna's Oven"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530510164,
+   "lat": 43.9528906,
+   "lon": -79.4552803,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530510165,
+   "lat": 43.9523532,
+   "lon": -79.4550664,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Mister Moon's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530510167,
+   "lat": 43.9527857,
+   "lon": -79.4552435,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "BarBurrito",
+    "brand:wikidata": "Q104844862",
+    "cuisine": "mexican",
+    "name": "BarBurrito",
+    "takeaway": "yes",
+    "website": "https://www.barburrito.ca/location/richmond-hill/",
+    "website:en": "https://www.barburrito.ca/location/richmond-hill/",
+    "website:fr": "https://www.barburrito.ca/fr/location/richmond-hill/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530510169,
+   "lat": 43.9528467,
+   "lon": -79.4552633,
+   "tags": {
+    "addr:city": "Richmond Hill (Oak Ridges)",
+    "addr:housenumber": "13321",
+    "addr:province": "ON",
+    "addr:street": "Yonge Street",
+    "addr:unit": "102",
+    "amenity": "restaurant",
+    "cuisine": "sushi;japanese",
+    "name": "Takumi Sushi House",
+    "phone": "+1 905-773-9299"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530562985,
+   "lat": 43.8960117,
+   "lon": -79.4036413,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Akimi Japanese Cuisine"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7560515920,
+   "lat": 43.874412,
+   "lon": -79.4243528,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chicken;burger",
+    "diet:halal": "yes",
+    "name": "Angry Wings"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7659707568,
+   "lat": 43.8761757,
+   "lon": -79.4165095,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Coffee Time",
+    "brand:wikidata": "Q5140932",
+    "brand:wikipedia": "en:Coffee Time",
+    "check_date": "2025-06-08",
+    "cuisine": "coffee_shop",
+    "name": "Coffee Time",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7741405682,
+   "lat": 43.8672443,
+   "lon": -79.4586068,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "10",
+    "addr:postcode": "L4C 8A2",
+    "addr:province": "Ontario",
+    "addr:street": "Headdon Gate",
+    "addr:unit": "8",
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "cuisine": "pizza",
+    "name": "Pizza Hut"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7986352377,
+   "lat": 43.8697054,
+   "lon": -79.450418,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8042972681,
+   "lat": 43.8672506,
+   "lon": -79.4585377,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "10",
+    "addr:postcode": "L4C 8A2",
+    "addr:province": "Ontario",
+    "addr:street": "Headdon Gate",
+    "addr:unit": "9",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Dynasty"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8382264734,
+   "lat": 43.882154,
+   "lon": -79.4414689,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "kebab",
+    "name": "Rayhon Kebab"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8392498988,
+   "lat": 43.8533054,
+   "lon": -79.3835872,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "10",
+    "addr:postcode": "L4B 1G9",
+    "addr:province": "ON",
+    "addr:street": "East Wilmot Street",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Haru"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8392498989,
+   "lat": 43.8535999,
+   "lon": -79.3839726,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "10",
+    "addr:postcode": "L4B 1G9",
+    "addr:province": "ON",
+    "addr:street": "East Wilmot Street",
+    "addr:unit": "5",
+    "amenity": "restaurant",
+    "cuisine": "balinese",
+    "name": "Bali Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9006861098,
+   "lat": 43.9261847,
+   "lon": -79.4509916,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Hero Certified Burgers",
+    "brand:wikidata": "Q5742641",
+    "brand:wikipedia": "en:Hero Certified Burgers",
+    "cuisine": "burger",
+    "name": "Hero Certified Burgers",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9214567718,
+   "lat": 43.8410784,
+   "lon": -79.3990395,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-09-14",
+    "cuisine": "vietnamese",
+    "name": "Saigon Star"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9214574556,
+   "lat": 43.8429987,
+   "lon": -79.3904944,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "420",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Chaimen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9214906137,
+   "lat": 43.8501988,
+   "lon": -79.4447584,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sushi",
+    "name": "Sushi Express"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9214906139,
+   "lat": 43.8501673,
+   "lon": -79.4449674,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9214937462,
+   "lat": 43.8483619,
+   "lon": -79.4576923,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Viva Pizza + Pasta"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9373806047,
+   "lat": 43.8434932,
+   "lon": -79.3908352,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "420",
+    "addr:postcode": "L4B 3K2",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "26",
+    "amenity": "restaurant",
+    "brand": "bb.q Chicken",
+    "brand:wikidata": "Q87716489",
+    "cuisine": "korean;chicken",
+    "name": "bb.q Chicken",
+    "website": "http://www.88porkbonesoup.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9508976793,
+   "lat": 43.9470197,
+   "lon": -79.454456,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "13071",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Oak Ridges Pizza House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9509006068,
+   "lat": 43.9477149,
+   "lon": -79.4543058,
+   "tags": {
+    "addr:housenumber": "13705",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Naruto Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9825982039,
+   "lat": 43.841801,
+   "lon": -79.4163765,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "255",
+    "addr:province": "Ontario",
+    "addr:street": "Silver Linden Drive",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "McDonald's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9831323840,
+   "lat": 43.9431566,
+   "lon": -79.4597452,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "middle_eastern",
+    "name": "Mediterranean Persian Kabob House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9831323844,
+   "lat": 43.9428927,
+   "lon": -79.4592245,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Ming’s Garden"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9847154307,
+   "lat": 43.8848169,
+   "lon": -79.466031,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "Bubble Tea",
+    "note": "This is the name. Very original name."
+   }
+  },
+  {
+   "type": "node",
+   "id": 9847154308,
+   "lat": 43.8848078,
+   "lon": -79.4661428,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Mitsui Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9918246553,
+   "lat": 43.8939228,
+   "lon": -79.4417497,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "cuisine": "burger",
+    "name": "A&W",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9918246554,
+   "lat": 43.8938273,
+   "lon": -79.4417282,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "BarBurrito",
+    "brand:wikidata": "Q104844862",
+    "cuisine": "mexican",
+    "name": "BarBurrito",
+    "takeaway": "yes",
+    "website": "https://www.barburrito.ca/location/richmond-hill-10909-yonge-st/",
+    "website:en": "https://www.barburrito.ca/location/richmond-hill-10909-yonge-st/",
+    "website:fr": "https://www.barburrito.ca/fr/location/richmond-hill-10909-yonge-st/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10068885539,
+   "lat": 43.8589788,
+   "lon": -79.4337668,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "9555",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "check_date": "2025-05-25",
+    "cuisine": "chinese",
+    "name": "Choice of the Orient Chinese Restaurant 潮茶檔",
+    "name:zh": "潮茶檔"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136225072,
+   "lat": 43.8407192,
+   "lon": -79.4005187,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "324",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "1",
+    "amenity": "restaurant",
+    "check_date": "2025-09-14",
+    "cuisine": "chinese",
+    "name": "糊涂楼 Hot Taste Restaurant",
+    "name:en": "Hot Taste Restaurant",
+    "name:zh": "糊涂楼",
+    "opening_hours": "Mo-Su 16:00-5:00",
+    "phone": "+1 9058869989"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136225073,
+   "lat": 43.8407535,
+   "lon": -79.4003607,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "324",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "3",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "The Flying Fish",
+    "phone": "+1 9058829959",
+    "website": "https://www.theflyingfish-ca.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136225103,
+   "lat": 43.8408357,
+   "lon": -79.3999967,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "324",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "8;9",
+    "amenity": "restaurant",
+    "check_date": "2025-09-14",
+    "cuisine": "chinese",
+    "name": "人人菜館 New Choice Restaurant",
+    "name:en": "New Choice Restaurant",
+    "name:zh": "人人菜館",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "phone": "+1 9058862313"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136225104,
+   "lat": 43.8408206,
+   "lon": -79.4000903,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "324",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "7",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "荔銀腸粉店 Li Yin Chang Fen Roll",
+    "name:en": "Li Yin Chang Fen Roll",
+    "name:zh": "荔銀腸粉店",
+    "opening_hours": "Mo-Su 08:30-21:00",
+    "phone": "+1 9057076266"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136267035,
+   "lat": 43.8409601,
+   "lon": -79.3996419,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "328",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "25;26",
+    "amenity": "restaurant",
+    "brand:zh": "小龙坎火锅",
+    "cuisine": "chinese;hot_pot",
+    "name": "小龙坎老火锅 XiaoLongKan Chinese Fondue",
+    "name:en": "XiaoLongKan Chinese Fondue",
+    "name:zh": "小龙坎火锅",
+    "not:brand:wikidata": "Q108212427",
+    "opening_hours": "Fr-Tu 12:00-02:00, We,Th 12:00-23:30",
+    "phone": "+1 9055971885",
+    "website": "https://www.xiaolongkan.ca/?lang=en",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136267041,
+   "lat": 43.8413393,
+   "lon": -79.3997844,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "328",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "chinese;sichuanese",
+    "name": "Mom's Pan Fried Bun",
+    "name:en": "Mom's Pan Fried Bun",
+    "name:zh": "老娘水煎包",
+    "opening_hours": "Mo-Su 12:00-21:30",
+    "website": "http://hotopiacanada.com/richmond-hill/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136267043,
+   "lat": 43.8415825,
+   "lon": -79.3996279,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "328",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "The Big Brother",
+    "opening_hours": "Mo-Th 11:00-22:30; Fr-Su 11:00-23:00",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136304054,
+   "lat": 43.8412855,
+   "lon": -79.3991634,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Macu",
+    "brand:en": "Macu",
+    "brand:wikidata": "Q97300375",
+    "brand:zh": "麻古茶坊",
+    "check_date:opening_hours": "2026-06-09",
+    "cuisine": "bubble_tea",
+    "name": "Macu Tea",
+    "name:en": "Macu Tea",
+    "name:zh": "麻古茶坊",
+    "opening_hours:signed": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136304057,
+   "lat": 43.8414536,
+   "lon": -79.3989032,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Loon Fong Hotpot",
+    "opening_hours": "Mo-Th 12:00-24:00, Fr 12:00-02:00, Sa 11:00-02:00, Su 11:00-24:00",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136304058,
+   "lat": 43.8416406,
+   "lon": -79.3993563,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "328",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "7",
+    "amenity": "restaurant",
+    "cuisine": "noodle",
+    "name": "Sanxi Noodle",
+    "opening_hours": "Mo-Su 11:00-02:00",
+    "website": "https://www.shinghingfood.com/",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136304061,
+   "lat": 43.8413327,
+   "lon": -79.3988231,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2024-01-24",
+    "cuisine": "sushi",
+    "name": "Sapporo Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136304062,
+   "lat": 43.8412684,
+   "lon": -79.3980272,
+   "tags": {
+    "addr:housenumber": "360",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Da Long Yi Hotpot"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136360590,
+   "lat": 43.8416209,
+   "lon": -79.3956931,
+   "tags": {
+    "addr:unit": "107C;108C",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Hikari Sushi House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136360604,
+   "lat": 43.8419057,
+   "lon": -79.3949376,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "Palgong Tea"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136688230,
+   "lat": 43.8436013,
+   "lon": -79.3913451,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "420",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "12",
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "drive_through": "no",
+    "name": "Mamma's Pizza",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "phone": "+1 9058890030",
+    "website": "https://mammaspizza.com/location/mammas-pizza-leslie-west/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136688231,
+   "lat": 43.8436234,
+   "lon": -79.3912145,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "420",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "15",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Kum Hong BBQ Restaurant",
+    "name:yue": "錦香燒臘飯店",
+    "name:zh": "锦香烧腊饭店",
+    "opening_hours": "Mo-Sa 11:00-20:30",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136688235,
+   "lat": 43.8433875,
+   "lon": -79.3907774,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "420",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "32",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "The Point Eatery"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11136688236,
+   "lat": 43.8432804,
+   "lon": -79.3907258,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "420",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Pho Anh Vu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11138953480,
+   "lat": 43.841624,
+   "lon": -79.3994416,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "328",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "check_date:opening_hours": "2026-03-06",
+    "cuisine": "chinese",
+    "name": "老街肠粉 Millstone Rice Rolls",
+    "name:en": "Millstone Rice Rolls",
+    "name:zh": "老街肠粉",
+    "opening_hours": "Mo-Su 08:00-01:00",
+    "phone": "+1 2895976788",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11138953483,
+   "lat": 43.8417448,
+   "lon": -79.3990319,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "328",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Inaroy",
+    "opening_hours": "Mo-Su 11:30-22:00",
+    "phone": "+1 9055971766",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11143985613,
+   "lat": 43.8436606,
+   "lon": -79.3885684,
+   "tags": {
+    "addr:unit": "35",
+    "amenity": "restaurant",
+    "branch": "Richmond Hill",
+    "cuisine": "chinese",
+    "name": "Goubuli",
+    "name:en": "Goubuli",
+    "website": "https://goubuli.ca/",
+    "website:menu": "http://goubuli.ca/images/Goubuli-Menu.pdf"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11143985614,
+   "lat": 43.8438268,
+   "lon": -79.388918,
+   "tags": {
+    "addr:unit": "28",
+    "amenity": "restaurant",
+    "cuisine": "chinese;hong_kong",
+    "name": "Pepper Wok",
+    "opening_hours": "Mo,We-Su 11:30-19:00; Tu off",
+    "phone": "+1-905-889-8928",
+    "website": "https://www.pepperwok.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11143985615,
+   "lat": 43.8440671,
+   "lon": -79.3890508,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Noodle Legend"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11143985616,
+   "lat": 43.8443467,
+   "lon": -79.38801,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Jim Chai Kee Noodle"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11143985619,
+   "lat": 43.8444058,
+   "lon": -79.3873685,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "seafood;chinese",
+    "name": "Yu Seafood"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11232929456,
+   "lat": 43.9282228,
+   "lon": -79.4518142,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "opening_hours": "Mo-Su 05:00-22:00",
+    "phone": "+1 437-788-5921",
+    "takeaway": "only"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11233019472,
+   "lat": 43.9261771,
+   "lon": -79.4510774,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "12260",
+    "addr:postcode": "L4E 0W5",
+    "addr:province": "ON",
+    "addr:street": "Yonge Street",
+    "addr:unit": "5",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "delivery": "yes",
+    "name": "Tangerine Asian Cuisine",
+    "phone": "+1 905-313-8686",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "http://www.tangerineasiancuisine.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11233019477,
+   "lat": 43.9269184,
+   "lon": -79.4527888,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sandwich;salad;pancake",
+    "name": "Stacked",
+    "toilets": "yes",
+    "website": "https://www.stackedpancakehouse.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11233019478,
+   "lat": 43.9267909,
+   "lon": -79.4527459,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "12270",
+    "addr:postcode": "L4E 0W5",
+    "addr:province": "ON",
+    "addr:street": "Yonge Street",
+    "addr:unit": "A-2",
+    "amenity": "restaurant",
+    "cuisine": "kebab",
+    "name": "Caravan Kabob House",
+    "website": "https://caravankabobhouse.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11233019480,
+   "lat": 43.9265694,
+   "lon": -79.452674,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "12270",
+    "addr:postcode": "L4E 0W5",
+    "addr:province": "ON",
+    "addr:street": "Yonge Street",
+    "addr:unit": "A-1",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "cuisine": "ice_cream;crepe",
+    "delivery": "yes",
+    "name": "D Spot Dessers Richmond Hill",
+    "phone": "+1 905-773-9699",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "https://dspotdessert.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11310735440,
+   "lat": 43.8436568,
+   "lon": -79.3885402,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Akasaka Japanese Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11310788191,
+   "lat": 43.8444374,
+   "lon": -79.3852678,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-09-14",
+    "cuisine": "indian",
+    "name": "Adrak Indian Restaurant & Bar"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11350154105,
+   "lat": 43.8482777,
+   "lon": -79.3826491,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Zunyuan Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11350154107,
+   "lat": 43.8483785,
+   "lon": -79.3821363,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;hong_kong",
+    "name": "Chi Star Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11350154109,
+   "lat": 43.8484108,
+   "lon": -79.38197,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Uncle Seven Noodle"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11350154110,
+   "lat": 43.848365,
+   "lon": -79.3822596,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Isaan Der"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11350154113,
+   "lat": 43.8491917,
+   "lon": -79.3841604,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Yan's Kitchen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11350179776,
+   "lat": 43.8613823,
+   "lon": -79.3896268,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Magic Noodles",
+    "opening_hours": "24/7"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11350179777,
+   "lat": 43.8613574,
+   "lon": -79.3897525,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Komo Shokudo"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11369080110,
+   "lat": 43.8906082,
+   "lon": -79.3929796,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11369112797,
+   "lat": 43.899084,
+   "lon": -79.3953043,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1500",
+    "addr:postcode": "L4S 0B2",
+    "addr:province": "Ontario",
+    "addr:street": "Elgin Mills Road East",
+    "addr:unit": "6",
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:website": "https://chatime.ca",
+    "brand:wikidata": "Q16829306",
+    "check_date:opening_hours": "2024-02-12",
+    "cuisine": "bubble_tea",
+    "name": "Chatime",
+    "opening_hours": "Mo-Sa 11:00-23:00; Su 12:00-23:00",
+    "phone": "+1-647-696-3855",
+    "source:opening_hours": "website",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11369112804,
+   "lat": 43.8991597,
+   "lon": -79.3949746,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1500",
+    "addr:postcode": "L4S 0B2",
+    "addr:province": "Ontario",
+    "addr:street": "Elgin Mills Road East",
+    "addr:unit": "3",
+    "amenity": "restaurant",
+    "brand": "Sunset Grill",
+    "brand:website": "https://sunsetgrill.ca",
+    "brand:wikidata": "Q62112489",
+    "check_date:opening_hours": "2024-02-12",
+    "contact:facebook": "https://www.facebook.com/SunsetGrillElginMills",
+    "cuisine": "american",
+    "delivery": "yes",
+    "name": "Sunset Grill",
+    "opening_hours": "07:00-15:00",
+    "phone": "+1-905-883-7800",
+    "source:opening_hours": "website",
+    "takeaway": "yes",
+    "website": "https://sunsetgrill.ca/location/ontario-richmond-hill-leslie-and-elgin-mills/",
+    "website:menu": "https://sunsetgrill.ca/menu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11369112806,
+   "lat": 43.8992839,
+   "lon": -79.3955702,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Congee House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11369112808,
+   "lat": 43.8995698,
+   "lon": -79.395654,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "BarBurrito",
+    "brand:wikidata": "Q104844862",
+    "cuisine": "mexican",
+    "name": "BarBurrito",
+    "takeaway": "yes",
+    "website": "https://www.barburrito.ca/location/richmond-hill-elgin-mills/",
+    "website:en": "https://www.barburrito.ca/location/richmond-hill-elgin-mills/",
+    "website:fr": "https://www.barburrito.ca/fr/location/richmond-hill-elgin-mills/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11369112809,
+   "lat": 43.9001333,
+   "lon": -79.3946242,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "cuisine": "juice",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11369112812,
+   "lat": 43.9000646,
+   "lon": -79.3929183,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "10",
+    "addr:postcode": "L4S 0B2",
+    "addr:province": "Ontario",
+    "addr:street": "John Birchall Road",
+    "addr:unit": "2",
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:website": "https://popeyeschicken.ca",
+    "brand:wikidata": "Q1330910",
+    "check_date:opening_hours": "2024-02-12",
+    "cuisine": "chicken",
+    "delivery": "yes",
+    "drive_through": "no",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "opening_hours": "10:30-22:00",
+    "phone": "+1-905-508-1599",
+    "source:opening_hours": "website",
+    "takeaway": "yes",
+    "website": "https://popeyeschicken.ca/store-locator/store/restaurant_240500"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12279381661,
+   "lat": 43.8613588,
+   "lon": -79.3953577,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1",
+    "addr:postcode": "L4B 3M2",
+    "addr:province": "Ontario",
+    "addr:street": "Spadina Road",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/GoldenFlowerCafe/",
+    "cuisine": "chinese",
+    "name": "Golden Flower Cafe",
+    "phone": "+1-905-780-0023"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12279381667,
+   "lat": 43.8613665,
+   "lon": -79.394724,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1",
+    "addr:postcode": "L4B 3M2",
+    "addr:province": "Ontario",
+    "addr:street": "Spadina Road",
+    "addr:unit": "21-23",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Ming Cuisine",
+    "opening_hours": "Mo-Su,PH 11:00-22:00",
+    "phone": "+1-905-883-7688",
+    "website": "https://mingcuisine.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12454318759,
+   "lat": 43.8601558,
+   "lon": -79.4334579,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9555",
+    "addr:postcode": "L4C 9M5",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "addr:unit": "1",
+    "amenity": "cafe",
+    "brand": "CoCo",
+    "brand:wikidata": "Q65084369",
+    "check_date": "2026-07-25",
+    "cuisine": "bubble_tea",
+    "name": "CoCo Fresh Tea & Juice",
+    "outdoor_seating": "no",
+    "phone": "+1-905-237-1686",
+    "short_name": "CoCo",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12454318760,
+   "lat": 43.8600424,
+   "lon": -79.4334277,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9555",
+    "addr:postcode": "L4C 9M5",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "check_date": "2026-07-25",
+    "cuisine": "pizza",
+    "drive_through": "no",
+    "name": "Pizza Pizza",
+    "phone": "+1-416-967-1111",
+    "takeaway": "yes",
+    "website": "https://www.pizzapizza.ca/restaurant-locator/ontario/richmond-hill/9555-yonge-street/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12454318765,
+   "lat": 43.8597477,
+   "lon": -79.4333636,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9555",
+    "addr:postcode": "L4C 9M5",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "addr:unit": "9",
+    "amenity": "fast_food",
+    "check_date": "2026-07-25",
+    "cuisine": "mediterranean;shawarma",
+    "drive_through": "no",
+    "name": "Tasty Shawarma",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12454318768,
+   "lat": 43.8595727,
+   "lon": -79.4333044,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9555",
+    "addr:postcode": "L4C 9M5",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "addr:unit": "12",
+    "amenity": "restaurant",
+    "check_date": "2026-07-25",
+    "cuisine": "ramen",
+    "name": "Sansotei Ramen",
+    "phone": "+1-905-884-0707",
+    "website": "https://www.sansotei.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12454318770,
+   "lat": 43.8594693,
+   "lon": -79.4333291,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9555",
+    "addr:postcode": "L4C 9M5",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "addr:unit": "14",
+    "amenity": "restaurant",
+    "check_date": "2026-07-25",
+    "cuisine": "vietnamese",
+    "name": "Pho Tai Bac",
+    "phone": "+1-905-237-7228",
+    "website": "https://photaibac.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12454318792,
+   "lat": 43.8579182,
+   "lon": -79.433813,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Gong Cha",
+    "brand:wikidata": "Q5581670",
+    "brand:zh": "貢茶",
+    "cuisine": "bubble_tea",
+    "int_name": "Gong Cha",
+    "name": "Gong Cha",
+    "name:zh": "貢茶",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12579317466,
+   "lat": 43.8614523,
+   "lon": -79.3950651,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Stoa Coffee"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12596685221,
+   "lat": 43.8608169,
+   "lon": -79.4342515,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9625",
+    "addr:postcode": "L4C 5T2",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "check_date": "2026-07-22",
+    "cuisine": "sushi",
+    "name": "Tomo Sushi",
+    "phone": "+1-905-770-2129",
+    "website": "https://www.tomosushi.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12596689453,
+   "lat": 43.8580437,
+   "lon": -79.4338414,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Gong Cha",
+    "brand:wikidata": "Q5581670",
+    "brand:zh": "貢茶",
+    "cuisine": "bubble_tea",
+    "int_name": "Gong Cha",
+    "name": "Gong Cha",
+    "name:zh": "貢茶",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12666773175,
+   "lat": 43.841393,
+   "lon": -79.3998141,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Gaima Rice Bowl",
+    "opening_hours": "Mo-Su 11:00-21:30",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12699339954,
+   "lat": 43.8613711,
+   "lon": -79.39529,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "barbecue"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12699438712,
+   "lat": 43.8613016,
+   "lon": -79.3956236,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Northern Cafe"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12718475721,
+   "lat": 43.9018138,
+   "lon": -79.3917443,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Costco",
+    "brand:wikidata": "Q715583",
+    "cuisine": "hot_dog;pizza;sandwich",
+    "name": "Costco Food Court",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12854594099,
+   "lat": 43.885483,
+   "lon": -79.4401196,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12897992730,
+   "lat": 43.877089,
+   "lon": -79.4137849,
+   "tags": {
+    "addr:housenumber": "1070",
+    "addr:street": "Major Mackenzie Drive East",
+    "addr:unit": "107",
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "chinese",
+    "name": "Bayview Court Chinese Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12898002948,
+   "lat": 43.8768979,
+   "lon": -79.4147,
+   "tags": {
+    "addr:housenumber": "1070",
+    "addr:street": "Major Mackenzie Drive East",
+    "addr:unit": "45",
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "vietnamese",
+    "name": "Fusion Viet Food"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12941579670,
+   "lat": 43.8539033,
+   "lon": -79.437089,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "check_date": "2025-06-20",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12941609653,
+   "lat": 43.8484551,
+   "lon": -79.4322801,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "check_date": "2025-06-20",
+    "cuisine": "pizza",
+    "name": "Pizza Hut",
+    "phone": "+1 9052379878"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12941620212,
+   "lat": 43.8448328,
+   "lon": -79.4316247,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-06-20",
+    "cuisine": "burger",
+    "name": "Chef Burger"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12941650834,
+   "lat": 43.856115,
+   "lon": -79.436295,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Real Fruit Bubble Tea",
+    "brand:wikidata": "Q66072331",
+    "check_date": "2025-06-20",
+    "cuisine": "bubble_tea",
+    "name": "Real Fruit Bubble Tea",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12941650835,
+   "lat": 43.8560635,
+   "lon": -79.4358639,
+   "tags": {
+    "addr:housenumber": "9350",
+    "addr:street": "Yonge Street",
+    "addr:unit": "CRU-04",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "check_date": "2025-06-20",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12941671374,
+   "lat": 43.8537063,
+   "lon": -79.4371546,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-06-20",
+    "cuisine": "chicken",
+    "drive_through": "no",
+    "name": "Poulet Rouge"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13095374582,
+   "lat": 43.8806086,
+   "lon": -79.3932826,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "Morning"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13095374585,
+   "lat": 43.8807098,
+   "lon": -79.3936188,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "kebab",
+    "name": "Little House of Kebobs"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13095374586,
+   "lat": 43.8807338,
+   "lon": -79.3937396,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Golden Horse Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13095374587,
+   "lat": 43.880759,
+   "lon": -79.3938531,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "Burger Factory"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13095374588,
+   "lat": 43.8807937,
+   "lon": -79.3940447,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "The Big Casserole"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13102875899,
+   "lat": 43.8475895,
+   "lon": -79.375334,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Lone Star Texas Grill",
+    "brand:wikidata": "Q133255608",
+    "cuisine": "tex-mex",
+    "name": "Lone Star Texas Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13102875900,
+   "lat": 43.847322,
+   "lon": -79.374349,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Scaddabush",
+    "brand:wikidata": "Q137363894",
+    "cuisine": "italian",
+    "name": "Scaddabush",
+    "website": "https://scaddabush.com/?locationId=842"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13136369978,
+   "lat": 43.8556496,
+   "lon": -79.4303118,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Kaiyo Sushi",
+    "phone": "+1-905-737-7888"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13137156293,
+   "lat": 43.8858113,
+   "lon": -79.439916,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Wu Gu Fish Noodle"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13433279924,
+   "lat": 43.8450328,
+   "lon": -79.3835366,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "One Bowl Noodle",
+    "opening_hours": "Tu-Sa 11:00-21:30; Su 11:00-20:00; Mo 11:00-16:00",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13433322236,
+   "lat": 43.8451527,
+   "lon": -79.3835279,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Northern Dumpling Kitchen",
+    "opening_hours": "Su-Th 11:00-21:30; Fr,Sa 11:00-22:00",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13696297849,
+   "lat": 43.9577665,
+   "lon": -79.4580928,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "13532",
+    "addr:street": "Yonge Street",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop;dessert;ice_cream",
+    "name": "Wanda's Waffle Factory",
+    "outdoor_seating": "yes",
+    "phone": "+1-416-618-2706"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13696403406,
+   "lat": 43.8771637,
+   "lon": -79.4159731,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "10060",
+    "addr:province": "ON",
+    "addr:street": "Bayview Avenue",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "delivery": "yes",
+    "indoor_seating": "yes",
+    "name": "Pho Xe Lua Vietnamese Cuisine",
+    "phone": "+1-905-780-8688",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13924012905,
+   "lat": 43.8416692,
+   "lon": -79.3992334,
+   "tags": {
+    "amenity": "cafe",
+    "check_date:opening_hours": "2026-06-09",
+    "cuisine": "bubble_tea",
+    "name": "The Green Isle",
+    "opening_hours:signed": "no",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14030355527,
+   "lat": 43.8645266,
+   "lon": -79.4360876,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9724",
+    "addr:postcode": "L4C 1V9",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "check_date": "2026-07-20",
+    "cuisine": "turkish",
+    "name": "Mangal Prime",
+    "phone": "+1-905-251-3015",
+    "website": "https://mangalprime.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14030389957,
+   "lat": 43.8643522,
+   "lon": -79.4350946,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9737",
+    "addr:postcode": "L4C 8S7",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "addr:unit": "217",
+    "amenity": "restaurant",
+    "check_date": "2026-07-20",
+    "cuisine": "turkish",
+    "name": "Saray",
+    "phone": "+1-905-508-4930",
+    "website": "https://sarayrestaurants.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14040757537,
+   "lat": 43.8615981,
+   "lon": -79.4329374,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:housenumber": "9625",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "addr:unit": "J",
+    "amenity": "restaurant",
+    "check_date": "2026-07-22",
+    "cuisine": "vietnamese",
+    "name": "Dear Saigon",
+    "phone": "+1-905-508-1368",
+    "website": "https://dearsaigon.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14049722701,
+   "lat": 43.860847,
+   "lon": -79.4335548,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:country": "CA",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "check_date": "2026-07-25",
+    "cuisine": "kebab",
+    "name": "Taftan Kebab",
+    "phone": "+1-905-508-2644",
+    "website": "http://www.taftankabab.com/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 55218275,
+   "center": {
+    "lat": 43.8477975,
+    "lon": -79.3822
+   },
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "9019",
+    "addr:postcode": "L4B 4A3",
+    "addr:province": "ON",
+    "addr:street": "Leslie Street",
+    "amenity": "restaurant",
+    "cuisine": "seafood;chinese",
+    "name": "Jumbo Lobster",
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "phone": "+19058898898",
+    "website": "https://jumbolobster.ca/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 55218277,
+   "center": {
+    "lat": 43.8480523,
+    "lon": -79.3761662
+   },
+   "tags": {
+    "addr:housenumber": "160",
+    "addr:street": "York Boulevard",
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "chinese",
+    "name": "Dayali",
+    "name:en": "Dayali",
+    "name:zh": "大鸭梨",
+    "source": "Bing",
+    "takeaway": "yes",
+    "toilets": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 55753263,
+   "center": {
+    "lat": 43.8954127,
+    "lon": -79.4421297
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "burger",
+    "diet:lactose_free": "yes",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "opening_hours": "24/7",
+    "opening_hours:drive_through": "24/7",
+    "playplace": "yes",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 55758847,
+   "center": {
+    "lat": 43.8982668,
+    "lon": -79.4440996
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "building": "retail",
+    "building:colour": "black",
+    "building:levels": "1",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 55759681,
+   "center": {
+    "lat": 43.8765753,
+    "lon": -79.4130417
+   },
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1070",
+    "addr:postcode": "L4C 9W4",
+    "addr:province": "Ontario",
+    "addr:street": "Major Mackenzie Drive East",
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "building": "yes",
+    "building:levels": "2",
+    "check_date": "2025-06-08",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Wendy's",
+    "opening_hours": "Mo-Su 10:30-23:00",
+    "phone": "+1-905-883-5145",
+    "source": "wendy's website",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 55761640,
+   "center": {
+    "lat": 43.8754183,
+    "lon": -79.4145876
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "check_date": "2025-06-08",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "source": "yahoo",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 56437576,
+   "center": {
+    "lat": 43.8419867,
+    "lon": -79.4283073
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Milestones",
+    "brand:wikidata": "Q6851623",
+    "building": "yes",
+    "building:colour": "black",
+    "building:levels": "1",
+    "check_date": "2025-06-20",
+    "cuisine": "bar_and_grill",
+    "name": "Milestones"
+   }
+  },
+  {
+   "type": "way",
+   "id": 56444410,
+   "center": {
+    "lat": 43.8408215,
+    "lon": -79.4282388
+   },
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "8735",
+    "addr:province": "ON",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "brand": "Montana's",
+    "brand:wikidata": "Q17022490",
+    "brand:wikipedia": "en:Montana's BBQ & Bar",
+    "building": "retail",
+    "building:colour": "brown",
+    "building:levels": "2",
+    "building:material": "siding",
+    "check_date": "2025-06-20",
+    "cuisine": "barbecue",
+    "name": "Montana's",
+    "official_name": "Montana's BBQ & Bar"
+   }
+  },
+  {
+   "type": "way",
+   "id": 56675079,
+   "center": {
+    "lat": 43.8402601,
+    "lon": -79.4292644
+   },
+   "tags": {
+    "addr:housenumber": "8715",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "brand": "Kelsey's",
+    "brand:wikidata": "Q6386459",
+    "brand:wikipedia": "en:Kelseys Original Roadhouse",
+    "building": "retail",
+    "building:colour": "beige",
+    "building:levels": "1",
+    "check_date": "2025-07-22",
+    "check_date:opening_hours": "2025-07-22",
+    "cuisine": "american",
+    "name": "Kelsey's",
+    "official_name": "Kelsey's Original Roadhouse",
+    "opening_hours": "Mo 10:00-22:00, Tu-Th,Su 10:00-23:00, Fr,Sa 10:00-24:00",
+    "source": "yahoo",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 58272362,
+   "center": {
+    "lat": 43.8436545,
+    "lon": -79.3881878
+   },
+   "tags": {
+    "addr:unit": "37;38;39",
+    "amenity": "restaurant",
+    "branch": "Richmond Hill",
+    "building": "retail",
+    "check_date": "2025-09-14",
+    "cuisine": "japanese",
+    "name": "Shinta Japanese BBQ",
+    "name:en": "Shinta Japanese BBQ",
+    "name:zh": "燒肉專門店",
+    "opening_hours": "Fr-Sa 12:00-24:00; Su-Th 12:00-23:00",
+    "phone": "+1-905-597-0305",
+    "source": "yahoo",
+    "website": "https://shintabbq.ca/",
+    "website:menu": "https://shintabbq.ca/menu-richmondhill/",
+    "website:reservation": "https://www.google.com/maps/reserve/v/dine/c/LUzJzIHZROs"
+   }
+  },
+  {
+   "type": "way",
+   "id": 58755551,
+   "center": {
+    "lat": 43.8532679,
+    "lon": -79.433623
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "building": "retail",
+    "check_date": "2025-06-20",
+    "cuisine": "chicken",
+    "name": "Swiss Chalet",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 144851395,
+   "center": {
+    "lat": 43.8905362,
+    "lon": -79.4194792
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "building": "yes",
+    "cuisine": "burger",
+    "name": "Big Boy's Burgers",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 145337603,
+   "center": {
+    "lat": 43.8797997,
+    "lon": -79.395308
+   },
+   "tags": {
+    "addr:housenumber": "1410",
+    "addr:postcode": "L4S 0A1",
+    "addr:street": "Major MacKenzie Drive East",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Tim Hortons",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 157753521,
+   "center": {
+    "lat": 43.8404679,
+    "lon": -79.4223784
+   },
+   "tags": {
+    "addr:housenumber": "50a",
+    "addr:postcode": "L4B 1K1",
+    "addr:street": "Red Maple Road",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "bar": "no",
+    "branch": "50a Red Maple Road",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2025-06-20",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Tim Hortons",
+    "opening_hours": "Mo-Su 06:00-22:00",
+    "outdoor_seating": "no",
+    "phone": "+1 9058814566",
+    "ref": "68017",
+    "source": "Bing",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 164942623,
+   "center": {
+    "lat": 43.9478425,
+    "lon": -79.4548494
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "outdoor_seating": "yes",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 165268994,
+   "center": {
+    "lat": 43.8849553,
+    "lon": -79.4409302
+   },
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "10520",
+    "addr:postcode": "L4C 3B8",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:wikidata": "Q177054",
+    "brand:wikipedia": "en:Burger King",
+    "building": "yes",
+    "building:levels": "1",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Burger King",
+    "opening_hours": "Mo-Fr 07:00-24:00",
+    "phone": "+1 9058848777",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 170994298,
+   "center": {
+    "lat": 43.8940279,
+    "lon": -79.4204998
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "breakfast",
+    "name": "Scrumptious",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 184197444,
+   "center": {
+    "lat": 43.847059,
+    "lon": -79.3763369
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "building": "retail",
+    "check_date": "2025-09-14",
+    "cuisine": "brazilian",
+    "name": "Touro Brazilian Steakhouse",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 198690557,
+   "center": {
+    "lat": 43.8997366,
+    "lon": -79.392808
+   },
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "1620",
+    "addr:postcode": "L4S 0B2",
+    "addr:province": "Ontario",
+    "addr:street": "Elgin Mills Road East",
+    "amenity": "restaurant",
+    "brand:website": "https://www.astoriashishkebobhouse.com",
+    "building": "retail",
+    "check_date:opening_hours": "2024-02-12",
+    "cuisine": "greek",
+    "delivery": "yes",
+    "email": "astoria.rhill@bellnet.ca",
+    "name": "Astoria Shish Kebob House",
+    "opening_hours": "Mo-Th 11:30-20:30; Fr 11:30-21:30; Sa-Su 12:00-21:30",
+    "phone": "+1-905-508-2525",
+    "source:opening_hours": "website",
+    "takeaway": "yes",
+    "website": "https://www.astoriashishkebobhouse.com/richmond-hill/home-richmond-hill",
+    "website:menu": "https://www.astoriashishkebobhouse.com/richmond-hill/menu-richmond-hill"
+   }
+  },
+  {
+   "type": "way",
+   "id": 338071547,
+   "center": {
+    "lat": 43.8962374,
+    "lon": -79.4039443
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 374998422,
+   "center": {
+    "lat": 43.9537634,
+    "lon": -79.4574982
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 456237727,
+   "center": {
+    "lat": 43.8952227,
+    "lon": -79.4207109
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 805183650,
+   "center": {
+    "lat": 43.9505181,
+    "lon": -79.4555781
+   },
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "13233",
+    "addr:postcode": "L4E 3L2",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "yes",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "takeaway": "yes",
+    "website": "https://www.mcdonalds.com/ca/en-ca.html"
+   }
+  }
+ ]
+}

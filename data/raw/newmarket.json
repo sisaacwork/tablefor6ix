@@ -1,0 +1,2487 @@
+{
+ "municipality": "Newmarket",
+ "slug": "newmarket",
+ "relationId": 2407406,
+ "fetchedAt": "2026-08-16T23:25:07.830Z",
+ "elements": [
+  {
+   "type": "node",
+   "id": 1619844608,
+   "lat": 44.0502157,
+   "lon": -79.4799899,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1619844609,
+   "lat": 44.0529384,
+   "lon": -79.4857079,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Wild Wing",
+    "brand:wikidata": "Q8000869",
+    "brand:wikipedia": "en:Wild Wing Restaurants",
+    "cuisine": "chicken",
+    "name": "Wild Wing"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1807734550,
+   "lat": 44.058812,
+   "lon": -79.461408,
+   "tags": {
+    "addr:housenumber": "416",
+    "addr:street": "Davis Drive",
+    "amenity": "restaurant",
+    "brand": "Wimpy's Diner",
+    "brand:wikidata": "Q16909504",
+    "cuisine": "diner",
+    "name": "Wimpy's Diner",
+    "phone": "+1-905-853-5222"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1807744768,
+   "lat": 44.0579642,
+   "lon": -79.467199,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Sushi-Ya"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1807766473,
+   "lat": 44.056038,
+   "lon": -79.475936,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "name": "Mr. Sub",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816316773,
+   "lat": 44.0336953,
+   "lon": -79.4760405,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "brand:wikipedia": "en:A&W (Canada)",
+    "cuisine": "burger",
+    "name": "A&W",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816668229,
+   "lat": 44.057491,
+   "lon": -79.486161,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816668575,
+   "lat": 44.057454,
+   "lon": -79.486078,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816669242,
+   "lat": 44.05742,
+   "lon": -79.486001,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Villa Madina",
+    "brand:wikidata": "Q64876884",
+    "cuisine": "mediterranean",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Villa Madina",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816670486,
+   "lat": 44.057382,
+   "lon": -79.485927,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Jimmy the Greek",
+    "brand:wikidata": "Q17077817",
+    "brand:wikipedia": "en:Jimmy the Greek (restaurant)",
+    "cuisine": "greek",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Jimmy the Greek",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816671258,
+   "lat": 44.057329,
+   "lon": -79.485891,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "brand:wikipedia": "en:KFC",
+    "cuisine": "chicken",
+    "drive_through": "no",
+    "level": "1",
+    "name": "KFC",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816671768,
+   "lat": 44.057273,
+   "lon": -79.485871,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Cultures",
+    "brand:wikidata": "Q64876898",
+    "cuisine": "sandwich",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Cultures",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816672006,
+   "lat": 44.057218,
+   "lon": -79.485879,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "brand:wikipedia": "en:A&W (Canada)",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "level": "1",
+    "name": "A&W",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816672160,
+   "lat": 44.0571685,
+   "lon": -79.4858875,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Manchu Wok",
+    "brand:wikidata": "Q6747622",
+    "brand:wikipedia": "en:Manchu Wok",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Manchu Wok",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816672164,
+   "lat": 44.057116,
+   "lon": -79.485895,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "17600",
+    "addr:postcode": "L3Y 4Z1",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Mucho Burrito",
+    "brand:wikidata": "Q65148332",
+    "cuisine": "mexican",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Mucho Burrito",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816672354,
+   "lat": 44.057072,
+   "lon": -79.485911,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "New York Fries",
+    "brand:wikidata": "Q7013558",
+    "brand:wikipedia": "en:New York Fries",
+    "cuisine": "fries",
+    "drive_through": "no",
+    "level": "1",
+    "name": "New York Fries",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816672491,
+   "lat": 44.057033,
+   "lon": -79.485936,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Teriyaki Experience",
+    "brand:wikidata": "Q7702453",
+    "cuisine": "japanese",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Teriyaki Experience",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816673053,
+   "lat": 44.056995,
+   "lon": -79.485992,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "17600",
+    "addr:postcode": "L3Y 4Z1",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "cuisine": "thai",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Ruby Thai Kitchen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816674112,
+   "lat": 44.0569528,
+   "lon": -79.4860363,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "cuisine": "crepe",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Crepe Delicious"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2300218928,
+   "lat": 44.057607,
+   "lon": -79.4601887,
+   "tags": {
+    "addr:housenumber": "47",
+    "addr:postcode": "L3Y 3Y3",
+    "addr:street": "Main St S",
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "short_name": "Domino's",
+    "takeaway": "yes",
+    "website": "https://www.dominos.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2301982761,
+   "lat": 44.0762445,
+   "lon": -79.4339149,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Sushi Garden"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2301982762,
+   "lat": 44.0793141,
+   "lon": -79.434615,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "american",
+    "name": "C.W. Coops"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2301982770,
+   "lat": 44.0760133,
+   "lon": -79.4338531,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Naples Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2302001383,
+   "lat": 44.0737838,
+   "lon": -79.4344593,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Mint Garden"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2302001388,
+   "lat": 44.0722287,
+   "lon": -79.4338961,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Al Casale"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2302001400,
+   "lat": 44.0739254,
+   "lon": -79.4344862,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Kozy Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2303158930,
+   "lat": 44.0718086,
+   "lon": -79.4339563,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Little Caesars",
+    "brand:wikidata": "Q1393809",
+    "brand:wikipedia": "en:Little Caesars",
+    "cuisine": "pizza",
+    "name": "Little Caesars",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2303158945,
+   "lat": 44.0687382,
+   "lon": -79.4303441,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizzaville",
+    "brand:wikidata": "Q113001369",
+    "cuisine": "pizza",
+    "name": "Pizzaville",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2303158952,
+   "lat": 44.0667989,
+   "lon": -79.4326139,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mary Brown's",
+    "brand:wikidata": "Q6779125",
+    "brand:wikipedia": "en:Mary Brown's",
+    "cuisine": "chicken",
+    "name": "Mary Brown's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2303158956,
+   "lat": 44.0648542,
+   "lon": -79.4304064,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2303158958,
+   "lat": 44.0672643,
+   "lon": -79.4315222,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Chick-fil-A",
+    "brand:wikidata": "Q491516",
+    "cuisine": "chicken",
+    "drive_through": "yes",
+    "name": "Chick-fil-A",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2303158968,
+   "lat": 44.0667631,
+   "lon": -79.4297009,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "internet_access": "wlan",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2303158970,
+   "lat": 44.0652137,
+   "lon": -79.42987,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "name": "Mr. Sub",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2303158984,
+   "lat": 44.0646664,
+   "lon": -79.430444,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Best Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2304345468,
+   "lat": 44.0545852,
+   "lon": -79.4297267,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "St. Louis Bar & Grill",
+    "brand:wikidata": "Q65567668",
+    "cuisine": "chicken",
+    "name": "St. Louis Bar & Grill",
+    "outdoor_seating": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2330007126,
+   "lat": 44.0462546,
+   "lon": -79.4364679,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "869",
+    "addr:postcode": "L3Y 8S3",
+    "addr:street": "Mulock Drive",
+    "addr:unit": "13;14",
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "drive_through": "no",
+    "name": "Pizza Pizza",
+    "opening_hours": "Th-Sa 11:00-03:00; Su-We 11:00-02:00",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2343880841,
+   "lat": 44.0408839,
+   "lon": -79.4507499,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2343880842,
+   "lat": 44.0409263,
+   "lon": -79.450408,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Coffee Time",
+    "brand:wikidata": "Q5140932",
+    "brand:wikipedia": "en:Coffee Time",
+    "cuisine": "coffee_shop",
+    "name": "Coffee Time",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2781947978,
+   "lat": 44.0581154,
+   "lon": -79.4643446,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "3G Chinese Food Specialty"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2782019959,
+   "lat": 44.0684576,
+   "lon": -79.4304979,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "My Roti Place/My Dosa Place"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3415940348,
+   "lat": 44.0604148,
+   "lon": -79.4515831,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3427256945,
+   "lat": 44.0515689,
+   "lon": -79.4564676,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "tea",
+    "name": "The Fresh Tea Shop"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3440964207,
+   "lat": 44.0460708,
+   "lon": -79.4774915,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3468396705,
+   "lat": 44.0675157,
+   "lon": -79.4841349,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "18040",
+    "addr:postcode": "L3Y 8S4",
+    "addr:street": "Yonge Street",
+    "amenity": "cafe",
+    "brand": "Second Cup",
+    "brand:wikidata": "Q862180",
+    "brand:wikipedia": "en:Second Cup",
+    "cuisine": "coffee_shop",
+    "name": "Second Cup",
+    "phone": "+1-905-836-6767",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3468562470,
+   "lat": 44.052708,
+   "lon": -79.4568125,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "223",
+    "addr:postcode": "L3Y 3Y9",
+    "addr:street": "Main Street South",
+    "amenity": "restaurant",
+    "cuisine": "soup;salad",
+    "name": "The Maids' Cottage",
+    "opening_hours": "Mo-Sa 07:30-17:00",
+    "phone": "+1-905-954-0202",
+    "website": "https://www.themaidscottage.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3831999957,
+   "lat": 44.0623682,
+   "lon": -79.4444126,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "17",
+    "addr:postcode": "L3Y 3J2",
+    "addr:street": "Alexander Road",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Sho Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3884098222,
+   "lat": 44.0522358,
+   "lon": -79.4556377,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "352 - #2",
+    "addr:postcode": "L3Y 0C1",
+    "addr:street": "Doug Duncan Drive",
+    "amenity": "restaurant",
+    "cuisine": "burger",
+    "name": "Ground Burger Bar"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3884137775,
+   "lat": 44.0523717,
+   "lon": -79.456331,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "257",
+    "addr:street": "Main Street South",
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Econo Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3901425454,
+   "lat": 44.05473,
+   "lon": -79.4775154,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pita Pit",
+    "brand:wikidata": "Q7757289",
+    "brand:wikipedia": "en:Pita Pit",
+    "cuisine": "pita",
+    "name": "Pita Pit",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3929780544,
+   "lat": 44.0647363,
+   "lon": -79.4311129,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Pine Hosue Cafe"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4152325071,
+   "lat": 44.0391301,
+   "lon": -79.4775808,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "kebab",
+    "name": "Astoria"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4564429059,
+   "lat": 44.0590426,
+   "lon": -79.4600564,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Panzerotto Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4564429060,
+   "lat": 44.0590185,
+   "lon": -79.460161,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Wing Machine",
+    "brand:wikidata": "Q137363876",
+    "cuisine": "wings",
+    "delivery": "yes",
+    "name": "Wing Machine",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4617409812,
+   "lat": 44.0331609,
+   "lon": -79.4779274,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "16640",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4617409813,
+   "lat": 44.0334249,
+   "lon": -79.4780159,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "delivery": "yes",
+    "drive_through": "no",
+    "name": "Mr. Dumpling"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4617409815,
+   "lat": 44.0336418,
+   "lon": -79.4779307,
+   "tags": {
+    "addr:city": "Newmarket",
+    "amenity": "restaurant",
+    "brand": "Extreme Pita",
+    "cuisine": "pita",
+    "name": "Plates and Bowls",
+    "not:brand:wikidata": "Q5422367",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4619357636,
+   "lat": 44.0335928,
+   "lon": -79.4735385,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "16635",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Com Pho Asia"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4619478477,
+   "lat": 44.0355799,
+   "lon": -79.4752027,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4619478478,
+   "lat": 44.0356837,
+   "lon": -79.4749133,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Cynthia's Paradise"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4640841383,
+   "lat": 44.0580958,
+   "lon": -79.4644382,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "name": "Al Forno Pizza",
+    "outdoor_seating": "no",
+    "phone": "+1-905-830-0009",
+    "website": "http://www.alfornopizza.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4642747082,
+   "lat": 44.0628652,
+   "lon": -79.4465279,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "fish_and_chips",
+    "name": "Hamish Kitchen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4642747084,
+   "lat": 44.0628509,
+   "lon": -79.4463009,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "caribbean",
+    "name": "Caribbean Paradise"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4643121956,
+   "lat": 44.0501168,
+   "lon": -79.4798821,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "17310",
+    "addr:postcode": "L3Y 7R9",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "capacity": "0",
+    "cuisine": "kebab",
+    "description": "Highly rated shawarma place.",
+    "name": "Top Kebab",
+    "opening_hours": "11:00-21:00",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4909218216,
+   "lat": 44.0529274,
+   "lon": -79.4860391,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "jamaican",
+    "name": "Sav-La-Mar Patty 'n Things Inc.",
+    "phone": "+1-905-235-1380",
+    "smoking": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4909220297,
+   "lat": 44.0528993,
+   "lon": -79.4856164,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Taka Sushi",
+    "phone": "+1-905-836-5000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4909460704,
+   "lat": 44.0539164,
+   "lon": -79.4820982,
+   "tags": {
+    "addr:housenumber": "17480",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Topper's Pizza",
+    "brand:wikidata": "Q7825105",
+    "brand:wikipedia": "en:Topper's Pizza (Canadian restaurant)",
+    "cuisine": "pizza",
+    "fixme": "phone number area code missing",
+    "name": "Topper's Pizza",
+    "not:name": "Toppers Pizza",
+    "phone": "+1 866 454 6644",
+    "takeaway": "yes",
+    "website": "https://www.toppers.ca/index.html"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4909672308,
+   "lat": 44.054938,
+   "lon": -79.4775774,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "breakfast",
+    "name": "Daybreak Restaurant",
+    "opening_hours": "Mo-Su 07:00-15:00",
+    "payment:interac": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "smoking": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4909678187,
+   "lat": 44.0555857,
+   "lon": -79.4753686,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "cuisine": "pizza",
+    "name": "Pizza Hut Express",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4909678672,
+   "lat": 44.0556165,
+   "lon": -79.4752345,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "brand:wikipedia": "en:Popeyes",
+    "cuisine": "chicken",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4909695698,
+   "lat": 44.0544947,
+   "lon": -79.4753176,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "llbo": "yes",
+    "name": "Piccola Italia"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4909695705,
+   "lat": 44.0547163,
+   "lon": -79.4743654,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "llbo": "yes",
+    "name": "India Gate",
+    "phone": "+1-905-954-0289",
+    "website": "https://www.indiagate.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4909695712,
+   "lat": 44.0551134,
+   "lon": -79.4732013,
+   "tags": {
+    "addr:housenumber": "130",
+    "addr:street": "Davis Drive",
+    "amenity": "restaurant",
+    "cuisine": "korean",
+    "name": "Yang Chow Chinese Restaurant",
+    "name:en": "On the rice",
+    "opening_hours": "Tu-Sa 11:30-15:00, 16:00-20:00",
+    "phone": "+1 365-268-1008",
+    "website": "https://www.ontherice.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5150777814,
+   "lat": 44.0462322,
+   "lon": -79.4365336,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "869",
+    "addr:postcode": "L3Y 8S3",
+    "addr:street": "Mulock Drive",
+    "addr:unit": "12",
+    "amenity": "restaurant",
+    "cuisine": "chinese;cantonese",
+    "delivery": "yes",
+    "description": "Hunan, Mandarin, Szechuan & Cantonese noodles, stir-fries & combo meals, plus special diet plates.",
+    "name": "Golden Dragon",
+    "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
+    "phone": "+1-905-235-7767",
+    "website": "http://www.goldendragonchinese.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5363452226,
+   "lat": 44.060296,
+   "lon": -79.4520021,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577145165,
+   "lat": 44.0573387,
+   "lon": -79.4858251,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Taco Bell",
+    "brand:wikidata": "Q752941",
+    "brand:wikipedia": "en:Taco Bell",
+    "cuisine": "tex-mex",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Taco Bell",
+    "note": "attached to KFC",
+    "takeaway": "yes",
+    "website": "https://locations.tacobell.ca/en/on/newmarket/17600-yonge-street-north",
+    "website:en": "https://locations.tacobell.ca/en/on/newmarket/17600-yonge-street-north",
+    "website:fr": "https://locations.tacobell.ca/fr/on/newmarket/17600-yonge-street-north"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577145166,
+   "lat": 44.0568186,
+   "lon": -79.4860133,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Kernels Popcorn",
+    "brand:wikidata": "Q64876684",
+    "cuisine": "popcorn",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Kernels Popcorn",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577145167,
+   "lat": 44.0569092,
+   "lon": -79.4860343,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Freshly Squeezed",
+    "brand:wikidata": "Q124035170",
+    "cuisine": "juice",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Freshly Squeezed",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577145171,
+   "lat": 44.0567522,
+   "lon": -79.4860138,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Auntie Anne's",
+    "brand:wikidata": "Q4822010",
+    "brand:wikipedia": "en:Auntie Anne's",
+    "cuisine": "pretzel",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Auntie Anne's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577621175,
+   "lat": 44.056048,
+   "lon": -79.4841953,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "cuisine": "dessert",
+    "level": "0",
+    "name": "Danish Pastry House",
+    "shop": "bakery"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577711776,
+   "lat": 44.0567649,
+   "lon": -79.4845447,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "brand:wikipedia": "en:Booster Juice",
+    "cuisine": "juice",
+    "level": "1",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577717971,
+   "lat": 44.0567826,
+   "lon": -79.4835823,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "level": "0",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577717974,
+   "lat": 44.0565681,
+   "lon": -79.4840762,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "cuisine": "fries",
+    "level": "0",
+    "name": "Ray Woodey's Craft Chippery"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577717979,
+   "lat": 44.0567915,
+   "lon": -79.4840393,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "level": "0",
+    "name": "Seed to Sausage Meatery"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577717982,
+   "lat": 44.0569916,
+   "lon": -79.4841777,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "seafood",
+    "level": "0",
+    "name": "Pier87 Fish Market & Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577746693,
+   "lat": 44.056954,
+   "lon": -79.4836346,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "level": "0",
+    "name": "Amano Kitchen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577746694,
+   "lat": 44.0569518,
+   "lon": -79.4837793,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "chicken",
+    "level": "0",
+    "name": "Union Chicken"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6577762587,
+   "lat": 44.0562638,
+   "lon": -79.4857885,
+   "tags": {
+    "addr:housenumber": "17600",
+    "addr:street": "Yonge Street",
+    "amenity": "cafe",
+    "brand": "Timothy's",
+    "brand:wikidata": "Q7807011",
+    "brand:wikipedia": "en:Timothy's World Coffee",
+    "cuisine": "coffee_shop",
+    "level": "1",
+    "name": "Timothy's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6621654376,
+   "lat": 44.0324586,
+   "lon": -79.4746193,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Taco Bell",
+    "brand:wikidata": "Q752941",
+    "brand:wikipedia": "en:Taco Bell",
+    "cuisine": "tex-mex",
+    "name": "Taco Bell",
+    "takeaway": "yes",
+    "website": "https://locations.tacobell.ca/en/on/newmarket/16599-yonge-street",
+    "website:en": "https://locations.tacobell.ca/en/on/newmarket/16599-yonge-street",
+    "website:fr": "https://locations.tacobell.ca/fr/on/newmarket/16599-yonge-street"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6621654377,
+   "lat": 44.0325515,
+   "lon": -79.4746379,
+   "tags": {
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "brand:wikipedia": "en:KFC",
+    "cuisine": "chicken",
+    "name": "KFC",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6672476362,
+   "lat": 44.0409613,
+   "lon": -79.4504108,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "241 Pizza",
+    "brand:wikidata": "Q4631768",
+    "brand:wikipedia": "en:241 Pizza",
+    "cuisine": "pizza",
+    "name": "241 Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6880261669,
+   "lat": 44.055923,
+   "lon": -79.4299816,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pita Pit",
+    "brand:wikidata": "Q7757289",
+    "brand:wikipedia": "en:Pita Pit",
+    "cuisine": "pita",
+    "name": "Pita Pit",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6880261671,
+   "lat": 44.0557987,
+   "lon": -79.4299534,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Gino's Pizza",
+    "brand:wikidata": "Q84029134",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "name": "Gino's Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089637231,
+   "lat": 44.0541661,
+   "lon": -79.4811471,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089653529,
+   "lat": 44.0637413,
+   "lon": -79.4833489,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "BarBurrito",
+    "brand:wikidata": "Q104844862",
+    "cuisine": "mexican",
+    "name": "BarBurrito",
+    "takeaway": "yes",
+    "website": "https://www.barburrito.ca/location/newmarket-17906-yonge-st/",
+    "website:en": "https://www.barburrito.ca/location/newmarket-17906-yonge-st/",
+    "website:fr": "https://www.barburrito.ca/fr/location/newmarket-17906-yonge-st/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089653530,
+   "lat": 44.0638008,
+   "lon": -79.4833616,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089653534,
+   "lat": 44.0662313,
+   "lon": -79.4853665,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "McDonald's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089653539,
+   "lat": 44.0674705,
+   "lon": -79.4843285,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "name": "Mr. Sub",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089653541,
+   "lat": 44.0672312,
+   "lon": -79.482366,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089653546,
+   "lat": 44.0686336,
+   "lon": -79.4823996,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "The Works",
+    "brand:wikidata": "Q123410138",
+    "cuisine": "burger",
+    "name": "The Works"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530684962,
+   "lat": 44.0338041,
+   "lon": -79.4726289,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chicken",
+    "name": "Wing House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530684965,
+   "lat": 44.0353278,
+   "lon": -79.4737889,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Luna Ristorante"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530684966,
+   "lat": 44.0353836,
+   "lon": -79.4735293,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Cora",
+    "brand:wikidata": "Q2996960",
+    "brand:wikipedia": "en:Cora (restaurant)",
+    "cuisine": "breakfast",
+    "name": "Cora"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530684972,
+   "lat": 44.035869,
+   "lon": -79.4740876,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "breakfast",
+    "name": "Daybreak"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530684975,
+   "lat": 44.0359276,
+   "lon": -79.4738916,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Cynthia Chinese Restaurant",
+    "note": "not a duplicate of Cynthia's Paradise"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530684976,
+   "lat": 44.0369173,
+   "lon": -79.4753228,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Bangkok Thai Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530699189,
+   "lat": 44.0391975,
+   "lon": -79.4777284,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "mexican",
+    "name": "Guacamole Mexican Bistro"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530699193,
+   "lat": 44.0407762,
+   "lon": -79.4759191,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Pho Saigon"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530699194,
+   "lat": 44.0408492,
+   "lon": -79.4759313,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Sen Sushi Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530699196,
+   "lat": 44.0410699,
+   "lon": -79.4762687,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Golden Bell Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530699202,
+   "lat": 44.0418575,
+   "lon": -79.4767342,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "bagel",
+    "name": "Bagel World"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530699203,
+   "lat": 44.0428934,
+   "lon": -79.4768887,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Villa Risi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7752556129,
+   "lat": 44.060386,
+   "lon": -79.4811155,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "17725",
+    "addr:postcode": "L3Y 7C1",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Wendy's",
+    "opening_hours": "Mo-Su 10:30-23:00",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7752556130,
+   "lat": 44.0602723,
+   "lon": -79.4810941,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9006960256,
+   "lat": 44.0606698,
+   "lon": -79.4804518,
+   "tags": {
+    "addr:housenumber": "17255",
+    "addr:street": "Yonge Street",
+    "addr:unit": "22",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Sushi Sushi Japanese Restaurant",
+    "phone": "+1 905-836-9288",
+    "website": "http://www.sushisushi.ca/Newmarket.html"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9006960269,
+   "lat": 44.0596261,
+   "lon": -79.4800257,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:wikidata": "Q16829306",
+    "brand:wikipedia": "en:Chatime",
+    "cuisine": "bubble_tea",
+    "name": "Chatime",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9831429802,
+   "lat": 44.0386745,
+   "lon": -79.5018771,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sushi",
+    "name": "Sushi Go!"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11277778250,
+   "lat": 44.0626539,
+   "lon": -79.44733,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "shawarma",
+    "name": "Lazeez Shawarma"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11282099224,
+   "lat": 44.0674805,
+   "lon": -79.4270683,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Second Cup",
+    "brand:wikidata": "Q862180",
+    "cuisine": "coffee_shop",
+    "name": "Second Cup",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11392466517,
+   "lat": 44.0586268,
+   "lon": -79.4296982,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Sunset Grill",
+    "brand:wikidata": "Q62112489",
+    "cuisine": "american",
+    "name": "Sunset Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11392466519,
+   "lat": 44.0587029,
+   "lon": -79.4294575,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11392466523,
+   "lat": 44.058743,
+   "lon": -79.429312,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Quesada",
+    "brand:wikidata": "Q66070360",
+    "cuisine": "mexican",
+    "name": "Quesada",
+    "official_name": "Quesada Burritos & Tacos",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11392466557,
+   "lat": 44.0605549,
+   "lon": -79.4301119,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11392466558,
+   "lat": 44.0606601,
+   "lon": -79.4300696,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Vivo"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11392469773,
+   "lat": 44.0649823,
+   "lon": -79.4311639,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Golden Maki"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11392469779,
+   "lat": 44.066325,
+   "lon": -79.4327643,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Red Dragon Kitchen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12486807960,
+   "lat": 44.0354562,
+   "lon": -79.473212,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Papa John's",
+    "brand:wikidata": "Q2759586",
+    "cuisine": "pizza",
+    "name": "Papa John's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12498920186,
+   "lat": 44.0338871,
+   "lon": -79.4773047,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12518691123,
+   "lat": 44.0334917,
+   "lon": -79.4780317,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "cuisine": "juice",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12542952360,
+   "lat": 44.0664354,
+   "lon": -79.4243603,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:wikidata": "Q177054",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Burger King",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12542952362,
+   "lat": 44.0666353,
+   "lon": -79.4232817,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Paris Baguette",
+    "outdoor_seating": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13164109685,
+   "lat": 44.0566006,
+   "lon": -79.4836445,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Score Pizza",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13904916715,
+   "lat": 44.0677774,
+   "lon": -79.4825702,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Sushi Pho You"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13905001632,
+   "lat": 44.0541123,
+   "lon": -79.4782389,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Rain or Shine"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13905001636,
+   "lat": 44.0563139,
+   "lon": -79.4764479,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "kebab",
+    "name": "Donerlicious"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13905001637,
+   "lat": 44.0562988,
+   "lon": -79.4758969,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "mexican",
+    "name": "Grillies"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13905001638,
+   "lat": 44.0560941,
+   "lon": -79.4768379,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sandwich;jamaican",
+    "name": "BOMBOWICH"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13905001640,
+   "lat": 44.0564314,
+   "lon": -79.4761047,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Haida Sandwich"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13905015965,
+   "lat": 44.0674554,
+   "lon": -79.4843854,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Edo Japan",
+    "brand:wikidata": "Q17492665",
+    "cuisine": "japanese",
+    "name": "Edo Japan",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13905015966,
+   "lat": 44.06743,
+   "lon": -79.4845394,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizzaville",
+    "brand:wikidata": "Q113001369",
+    "cuisine": "pizza",
+    "name": "Pizzaville",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13905038068,
+   "lat": 44.0595411,
+   "lon": -79.4840924,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "hot_dog",
+    "drive_through": "no",
+    "name": "Fast Food Stand"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14026584974,
+   "lat": 44.0537778,
+   "lon": -79.4574556,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "179",
+    "addr:postcode": "L3Y 3Y9",
+    "addr:province": "Ontario",
+    "addr:street": "Main Street South",
+    "amenity": "restaurant",
+    "cuisine": "mexican",
+    "name": "Made in Mexico",
+    "phone": "+1-905-235-7722"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14027203316,
+   "lat": 44.0534674,
+   "lon": -79.4572401,
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "195",
+    "addr:postcode": "L3Y 3Y9",
+    "addr:province": "Ontario",
+    "addr:street": "Main Street South",
+    "amenity": "restaurant",
+    "cuisine": "mexican",
+    "name": "La Mexicanada",
+    "phone": "+1-365-337-0461"
+   }
+  },
+  {
+   "type": "way",
+   "id": 151004919,
+   "center": {
+    "lat": 44.0605819,
+    "lon": -79.4825429
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 169659115,
+   "center": {
+    "lat": 44.0518373,
+    "lon": -79.4803209
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Moxie's",
+    "brand:wikidata": "Q6927497",
+    "building": "yes",
+    "cuisine": "bar_and_grill",
+    "name": "Moxie's",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 169660826,
+   "center": {
+    "lat": 44.0570965,
+    "lon": -79.4718406
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "building:colour": "red",
+    "building:levels": "1",
+    "building:material": "brick",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 169723552,
+   "center": {
+    "lat": 44.0627122,
+    "lon": -79.4830171
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "building": "yes",
+    "cuisine": "burger",
+    "name": "Harvey's",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 169723565,
+   "center": {
+    "lat": 44.0462531,
+    "lon": -79.4776659
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "yes",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "note": "approximate",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 169723778,
+   "center": {
+    "lat": 44.0617309,
+    "lon": -79.4826652
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Jack Astor's",
+    "brand:wikidata": "Q6111066",
+    "brand:wikipedia": "en:Jack Astor's Bar and Grill",
+    "building": "retail",
+    "cuisine": "american",
+    "name": "Jack Astor's",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 169763638,
+   "center": {
+    "lat": 44.0531739,
+    "lon": -79.4806165
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Montana's",
+    "brand:wikidata": "Q17022490",
+    "brand:wikipedia": "en:Montana's BBQ & Bar",
+    "building": "yes",
+    "cuisine": "barbecue",
+    "name": "Montana's",
+    "official_name": "Montana's BBQ & Bar",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 169780740,
+   "center": {
+    "lat": 44.0459804,
+    "lon": -79.4376539
+   },
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "855",
+    "addr:postcode": "L3Y 8S3",
+    "addr:street": "Mulock Drive",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Tim Hortons",
+    "opening_hours": "24/7",
+    "phone": "+1-905-954-0476",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 170684200,
+   "center": {
+    "lat": 44.0541878,
+    "lon": -79.4296557
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 175002282,
+   "center": {
+    "lat": 44.056461,
+    "lon": -79.4300801
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 175362196,
+   "center": {
+    "lat": 44.0315566,
+    "lon": -79.4743469
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Dairy Queen",
+    "brand:wikidata": "Q1141226",
+    "brand:wikipedia": "en:Dairy Queen",
+    "building": "retail",
+    "cuisine": "ice_cream;burger",
+    "drive_through": "yes",
+    "name": "Dairy Queen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 175362201,
+   "center": {
+    "lat": 44.0312706,
+    "lon": -79.4743179
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 192383459,
+   "center": {
+    "lat": 44.066434,
+    "lon": -79.4312758
+   },
+   "tags": {
+    "addr:housenumber": "1111",
+    "addr:street": "Davis Drive",
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "burger",
+    "name": "Harvey's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 193046203,
+   "center": {
+    "lat": 44.0661183,
+    "lon": -79.4283764
+   },
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "1152",
+    "addr:postcode": "L3Y 7V1",
+    "addr:province": "Ontario",
+    "addr:street": "Davis Drive",
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "building": "retail",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Wendy's",
+    "opening_hours": "Mo-Su 10:30-23:00",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 193046205,
+   "center": {
+    "lat": 44.0657152,
+    "lon": -79.4299913
+   },
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "1100",
+    "addr:postcode": "L3Y 8W8",
+    "addr:province": "Ontario",
+    "addr:street": "Davis Drive",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "gst_number": "10417 3455 RT0001",
+    "name": "McDonald's",
+    "opening_hours": "24/7",
+    "phone": "+1-905-853-0118",
+    "source": "Bing",
+    "store_ref": "10508",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 193046681,
+   "center": {
+    "lat": 44.0662495,
+    "lon": -79.4280538
+   },
+   "tags": {
+    "addr:city": "Newmarket",
+    "addr:housenumber": "1166",
+    "addr:street": "Davis Drive",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 221409281,
+   "center": {
+    "lat": 44.0600211,
+    "lon": -79.4298922
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 272437889,
+   "center": {
+    "lat": 44.0339498,
+    "lon": -79.4489011
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1228473529,
+   "center": {
+    "lat": 44.0607134,
+    "lon": -79.4293787
+   },
+   "tags": {
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "building": "yes",
+    "cuisine": "chicken",
+    "name": "KFC",
+    "takeaway": "yes"
+   }
+  }
+ ]
+}

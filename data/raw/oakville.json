@@ -1,0 +1,4707 @@
+{
+ "municipality": "Oakville",
+ "slug": "oakville",
+ "relationId": 2407500,
+ "fetchedAt": "2026-08-16T23:25:01.090Z",
+ "elements": [
+  {
+   "type": "node",
+   "id": 292756545,
+   "lat": 43.4873896,
+   "lon": -79.7183483,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 292756550,
+   "lat": 43.4874627,
+   "lon": -79.7184033,
+   "tags": {
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "brand:wikipedia": "en:KFC",
+    "cuisine": "chicken",
+    "name": "KFC",
+    "opening_hours": "Mo-Th 10:30-22:00; Fr,Sa 10:30-23:00; Su 10:30-22:30",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 300469798,
+   "lat": 43.4454983,
+   "lon": -79.668071,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "94",
+    "addr:province": "ON",
+    "addr:street": "George Street",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Piazza Bistro",
+    "phone": "+1-905-618-0255",
+    "website": "https://www.piazzabistro.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 385027425,
+   "lat": 43.3941392,
+   "lon": -79.7106346,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "ice_cream",
+    "name": "The Flavour Fox"
+   }
+  },
+  {
+   "type": "node",
+   "id": 385027431,
+   "lat": 43.3943344,
+   "lon": -79.7114466,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Thai Senses"
+   }
+  },
+  {
+   "type": "node",
+   "id": 385027456,
+   "lat": 43.3988912,
+   "lon": -79.7069546,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 385027472,
+   "lat": 43.3962652,
+   "lon": -79.7094197,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "fish_and_chips",
+    "name": "Sammy's Famous Old Fashion Chip Wagon",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 419372484,
+   "lat": 43.3984096,
+   "lon": -79.7077166,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 419372485,
+   "lat": 43.3980146,
+   "lon": -79.7072658,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 420277632,
+   "lat": 43.4761323,
+   "lon": -79.7263187,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Double Double Pizza",
+    "phone": "+1-905-241-0000",
+    "website": "https://www.doubledouble.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 420277636,
+   "lat": 43.4762079,
+   "lon": -79.7264192,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Dragon House",
+    "phone": "+1-905-257-2111",
+    "takeaway": "yes",
+    "website": "https://dragon-house.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 420325101,
+   "lat": 43.4854981,
+   "lon": -79.7204516,
+   "tags": {
+    "amenity": "restaurant",
+    "brand:wikipedia": "en:Sally Beauty Holdings",
+    "cuisine": "indian",
+    "name": "Punjabi By Nature",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "phone": "+1-289-856-9700",
+    "takeaway": "yes",
+    "website": "https://www.punjabibynature.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 420325107,
+   "lat": 43.4860421,
+   "lon": -79.7210282,
+   "tags": {
+    "amenity": "restaurant",
+    "contact:facebook": "RitornoOakville",
+    "contact:instagram": "ritornooakville",
+    "cuisine": "italian",
+    "name": "Ritorno",
+    "opening_hours": "Mo off; Tu-Th 12:00-21:00; Fr 12:00-22:00; Sa 16:00-22:00; Su 16:00-20:00",
+    "operator": "Julia Hanna",
+    "phone": "+1-905-257-5881",
+    "reservation": "yes",
+    "takeaway": "yes",
+    "website": "https://www.ritorno.ca/",
+    "website:orders": "https://order.ritorno.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 441805525,
+   "lat": 43.4505351,
+   "lon": -79.7588285,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "mediterranean",
+    "name": "Chef's Door Shawarma Pita & Grill",
+    "phone": "+1-905-827-1414",
+    "website": "https://www.chefsdoor.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 455058728,
+   "lat": 43.4257305,
+   "lon": -79.7099021,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "1272",
+    "addr:street": "Speers Road",
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "name": "Machu Picchu",
+    "phone": "+1-905-847-2228"
+   }
+  },
+  {
+   "type": "node",
+   "id": 459938030,
+   "lat": 43.4705298,
+   "lon": -79.6942659,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Gino's Pizza",
+    "brand:wikidata": "Q84029134",
+    "check_date": "2025-12-18",
+    "cuisine": "pizza",
+    "name": "Gino's Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 493881077,
+   "lat": 43.4261551,
+   "lon": -79.7261898,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 493881946,
+   "lat": 43.4179636,
+   "lon": -79.7157012,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 520006296,
+   "lat": 43.4651667,
+   "lon": -79.6843112,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 520006620,
+   "lat": 43.4651365,
+   "lon": -79.684397,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "short_name": "Domino's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 520007086,
+   "lat": 43.4652533,
+   "lon": -79.6841382,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 520017643,
+   "lat": 43.4840914,
+   "lon": -79.7135723,
+   "tags": {
+    "addr:housenumber": "2355",
+    "addr:postcode": "L6H 6N9",
+    "addr:street": "Trafalgar Road",
+    "addr:unit": "A",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "check_date": "2025-12-18",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "Tim Hortons WiFi",
+    "name": "Tim Hortons",
+    "opening_hours": "24/7",
+    "opening_hours:drive_through": "Mo-Su 05:00-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-905-257-1294",
+    "takeaway": "yes",
+    "website": "https://locations.timhortons.ca/en/on/oakville/2355-trafalgar-rd/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 520017827,
+   "lat": 43.4839961,
+   "lon": -79.713721,
+   "tags": {
+    "addr:housenumber": "2355",
+    "addr:postcode": "L6H 6N9",
+    "addr:street": "Trafalgar Road",
+    "addr:unit": "A1",
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "check_date": "2025-12-18",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "WendysWifi",
+    "name": "Wendy's",
+    "opening_hours": "Mo-Su 06:30-24:00",
+    "phone": "+1-905-257-0071",
+    "takeaway": "yes",
+    "website": "https://locations.wendys.com/canada/on/oakville/2355-trafalgar-rd,-bldg-a1"
+   }
+  },
+  {
+   "type": "node",
+   "id": 520021505,
+   "lat": 43.4887432,
+   "lon": -79.7172631,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Hero Certified Burgers",
+    "brand:wikidata": "Q5742641",
+    "brand:wikipedia": "en:Hero Certified Burgers",
+    "cuisine": "burger",
+    "name": "Hero Certified Burgers",
+    "opening_hours": "Su-Th 11:00-24:00, Fr,Sa 11:00-04:00",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 520023296,
+   "lat": 43.4863468,
+   "lon": -79.7141697,
+   "tags": {
+    "addr:housenumber": "2423",
+    "addr:postcode": "L6H 6K7",
+    "addr:street": "Trafalgar Road",
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "delivery": "yes",
+    "name": "Subway",
+    "opening_hours": "Mo-We 08:00-22:00; Th-Sa 08:00-23:00; Su 09:00-22:00",
+    "phone": "+1-905-257-7827",
+    "takeaway": "yes",
+    "website": "https://order.subway.com/en-ca",
+    "website:menu": "https://order.subway.com/en-ca/menunutrition/menu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 520076464,
+   "lat": 43.4701102,
+   "lon": -79.6937552,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "mediterranean",
+    "name": "Shelby's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 558655937,
+   "lat": 43.4420319,
+   "lon": -79.6719741,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "check_date": "2025-04-27",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 872293463,
+   "lat": 43.4893334,
+   "lon": -79.6513337,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Wendy's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 878216262,
+   "lat": 43.4564121,
+   "lon": -79.6842635,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-12-18",
+    "cuisine": "sushi",
+    "name": "Ami Sushi",
+    "phone": "+1 9058493877"
+   }
+  },
+  {
+   "type": "node",
+   "id": 878279159,
+   "lat": 43.457288,
+   "lon": -79.6789531,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Panago",
+    "brand:wikidata": "Q17111672",
+    "brand:wikipedia": "en:Panago",
+    "check_date": "2025-12-18",
+    "cuisine": "pizza",
+    "name": "Panago",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 878279166,
+   "lat": 43.4575835,
+   "lon": -79.6786513,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "check_date": "2025-12-18",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 971089375,
+   "lat": 43.4410638,
+   "lon": -79.7700837,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "The Olive Press",
+    "website": "https://olivepress.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1080021856,
+   "lat": 43.3961477,
+   "lon": -79.7484588,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "3505",
+    "addr:postcode": "L6L 0B6",
+    "addr:province": "ON",
+    "addr:street": "Wyecroft Road",
+    "amenity": "restaurant",
+    "cuisine": "turkish",
+    "delivery": "yes",
+    "name": "Sultan Ahmet",
+    "phone": "+1-289-644-9987",
+    "reservation": "yes",
+    "takeaway": "yes",
+    "website": "https://oakville.sultanahmet.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1080021881,
+   "lat": 43.3957423,
+   "lon": -79.7489103,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "brand:wikipedia": "en:Booster Juice",
+    "cuisine": "juice",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1080021937,
+   "lat": 43.3957014,
+   "lon": -79.748966,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "3513",
+    "addr:postcode": "L6L 0B6",
+    "addr:province": "Ontario",
+    "addr:street": "Wyecroft Road",
+    "addr:unit": "H007",
+    "alt_name": "Osmow's Shawarma",
+    "amenity": "fast_food",
+    "brand": "Osmow's",
+    "brand:wikidata": "Q115048716",
+    "cuisine": "mediterranean;shawarma",
+    "drive_through": "no",
+    "name": "Osmow's",
+    "opening_hours": "Mo-We 11:00-20:00; Th-Sa 11:00-21:00",
+    "phone": "+1 905-825-1121",
+    "takeaway": "yes",
+    "website": "https://osmows.com/shawarma-oakville-wyecroft-south-service/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1503609439,
+   "lat": 43.4402009,
+   "lon": -79.6750451,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:country": "CA",
+    "addr:housenumber": "125",
+    "addr:postcode": "L6K 3A4",
+    "addr:province": "ON",
+    "addr:street": "Kerr Street",
+    "amenity": "restaurant",
+    "check_date": "2026-03-12",
+    "cuisine": "pizza",
+    "name": "Justino's Wood Oven Pizza",
+    "opening_hours": "16:00-22:00"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1568017378,
+   "lat": 43.426278,
+   "lon": -79.7263444,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Wendy's",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1568018573,
+   "lat": 43.4264884,
+   "lon": -79.7267415,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "regional",
+    "name": "Royal Shawarma"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1568018919,
+   "lat": 43.426615,
+   "lon": -79.7269266,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1601772833,
+   "lat": 43.4445142,
+   "lon": -79.7277957,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1621005987,
+   "lat": 43.4690038,
+   "lon": -79.7182733,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizzaville",
+    "brand:wikidata": "Q113001369",
+    "cuisine": "pizza",
+    "name": "Pizzaville",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1775592299,
+   "lat": 43.3853775,
+   "lon": -79.7332917,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Nonna's Oven",
+    "smoking": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1815457317,
+   "lat": 43.4828479,
+   "lon": -79.6964641,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1817006564,
+   "lat": 43.5197261,
+   "lon": -79.6826264,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Bombay Bhel"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1817006567,
+   "lat": 43.5167345,
+   "lon": -79.6868893,
+   "tags": {
+    "addr:housenumber": "2530",
+    "addr:postcode": "L6H 7E5",
+    "addr:street": "Winston Park Drive",
+    "amenity": "fast_food",
+    "brand": "Panera Bread",
+    "brand:wikidata": "Q7130852",
+    "brand:wikipedia": "en:Panera Bread",
+    "cuisine": "sandwich;bakery",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Panera Bread",
+    "opening_hours": "Mo-Sa 11:00-20:00; Su 11:00-19:00",
+    "phone": "+1-905-829-9733",
+    "short_name": "Panera",
+    "takeaway": "yes",
+    "website": "https://www.panera.ca",
+    "website:menu": "https://delivery.panera.ca/menu/category/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1817006568,
+   "lat": 43.5169105,
+   "lon": -79.6872017,
+   "tags": {
+    "addr:housenumber": "2530",
+    "addr:postcode": "L6H 7E5",
+    "addr:street": "Winston Park Drive",
+    "addr:unit": "B1",
+    "amenity": "fast_food",
+    "brand": "Chipotle",
+    "brand:wikidata": "Q465751",
+    "brand:wikipedia": "en:Chipotle Mexican Grill",
+    "cuisine": "mexican",
+    "name": "Chipotle",
+    "official_name": "Chipotle Mexican Grill",
+    "opening_hours": "Mo-Su 10:45-22:00",
+    "phone": "+1-905-829-8598",
+    "takeaway": "yes",
+    "website": "https://chipotle.ca"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1853470710,
+   "lat": 43.5202538,
+   "lon": -79.6831358,
+   "tags": {
+    "addr:housenumber": "2501",
+    "addr:street": "Hampshire Gate",
+    "amenity": "fast_food",
+    "cuisine": "chicken;seafood",
+    "name": "Dixie Lee",
+    "source": "image",
+    "website": "www.dixieleechicken.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1853502855,
+   "lat": 43.5201147,
+   "lon": -79.6832633,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "2501",
+    "addr:street": "Hampshire Gate",
+    "amenity": "fast_food",
+    "brand": "Gino's Pizza",
+    "brand:wikidata": "Q84029134",
+    "cuisine": "pizza",
+    "name": "Gino's Pizza",
+    "opening_hours": "Su-Th 11:00-11:00, Fr,Sa 11:00-24:00",
+    "takeaway": "yes",
+    "website": "https://www.ginospizza.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1856359826,
+   "lat": 43.4505629,
+   "lon": -79.7033542,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1862244290,
+   "lat": 43.4895272,
+   "lon": -79.6510875,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "diet:vegan": "no",
+    "diet:vegetarian": "yes",
+    "name": "Subway",
+    "opening_hours": "24/7",
+    "source": "survey",
+    "takeaway": "yes",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1862244294,
+   "lat": 43.4887099,
+   "lon": -79.6506275,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Quiznos",
+    "brand:wikidata": "Q1936229",
+    "brand:wikipedia": "en:Quiznos",
+    "cuisine": "sandwich",
+    "diet:vegan": "no",
+    "diet:vegetarian": "yes",
+    "name": "Quiznos",
+    "opening_hours": "Mo-Fr 10:00-21:00; Sa 10:00-20:00; Su 10:00-18:00",
+    "takeaway": "yes",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1862505925,
+   "lat": 43.4484188,
+   "lon": -79.6886687,
+   "tags": {
+    "addr:housenumber": "579",
+    "addr:street": "Kerr Street",
+    "amenity": "fast_food",
+    "cuisine": "middle_eastern",
+    "diet:vegan": "no",
+    "diet:vegetarian": "yes",
+    "name": "Zesty Sharma and Grill",
+    "opening_hours": "Mo-Su 23:00-21:00",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1862505927,
+   "lat": 43.4482484,
+   "lon": -79.7017405,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "playplace": "yes",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1862505931,
+   "lat": 43.4492146,
+   "lon": -79.702928,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Extreme Pita",
+    "brand:wikidata": "Q5422367",
+    "brand:wikipedia": "en:Extreme Pita",
+    "cuisine": "pita",
+    "name": "Extreme Pita",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1862505934,
+   "lat": 43.4501002,
+   "lon": -79.7024432,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:country": "CA",
+    "addr:housenumber": "240",
+    "addr:postcode": "L6M 2R7",
+    "addr:province": "ON",
+    "addr:street": "North Service Road W",
+    "amenity": "fast_food",
+    "brand": "Teriyaki Experience",
+    "brand:wikidata": "Q7702453",
+    "cuisine": "japanese",
+    "name": "Teriyaki Experience",
+    "takeaway": "yes",
+    "website": "https://www.teriyakiexperience.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1862970943,
+   "lat": 43.4494502,
+   "lon": -79.7032724,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Topper's Pizza",
+    "brand:wikidata": "Q7825105",
+    "brand:wikipedia": "en:Topper's Pizza (Canadian restaurant)",
+    "cuisine": "pizza",
+    "name": "Topper's Pizza",
+    "takeaway": "yes",
+    "website": "https://www.toppers.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1870740955,
+   "lat": 43.4462257,
+   "lon": -79.6678776,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "221",
+    "addr:street": "Lakeshore Road East",
+    "amenity": "restaurant",
+    "check_date": "2025-12-18",
+    "cuisine": "greek",
+    "name": "Colossus Greek Taverna",
+    "phone": "+1-905-849-8175",
+    "website": "https://www.colossusgreektaverna.com/",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1870741768,
+   "lat": 43.4467787,
+   "lon": -79.6674084,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Second Cup",
+    "brand:wikidata": "Q862180",
+    "brand:wikipedia": "en:Second Cup",
+    "check_date": "2025-12-18",
+    "cuisine": "coffee_shop",
+    "name": "Second Cup",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1912286272,
+   "lat": 43.487526,
+   "lon": -79.718505,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "brand:wikipedia": "en:Booster Juice",
+    "cuisine": "juice",
+    "name": "Booster Juice",
+    "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-22:00; Su 09:00-21:00; PH 09:00-21:00",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1914627761,
+   "lat": 43.4071496,
+   "lon": -79.7377658,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1915962478,
+   "lat": 43.4481005,
+   "lon": -79.6884044,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "brand:wikipedia": "en:Popeyes",
+    "check_date": "2025-04-27",
+    "cuisine": "chicken",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1916038279,
+   "lat": 43.4498996,
+   "lon": -79.7028275,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Firehouse Subs",
+    "brand:wikidata": "Q5451873",
+    "brand:wikipedia": "en:Firehouse Subs",
+    "cuisine": "sandwich",
+    "name": "Firehouse Subs",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1916111290,
+   "lat": 43.446485,
+   "lon": -79.694927,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1916126765,
+   "lat": 43.445334,
+   "lon": -79.69586,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "240",
+    "addr:postcode": "L6K 3Y6",
+    "addr:street": "Wyecroft Road",
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:wikidata": "Q177054",
+    "brand:wikipedia": "en:Burger King",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "internet_access": "wlan",
+    "name": "Burger King",
+    "opening_hours": "Mo-Fr 07:00-21:00; Sa-Su 11:00-17:00",
+    "phone": "+1-905-842-1681",
+    "takeaway": "yes",
+    "website": "https://burgerking.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1916199042,
+   "lat": 43.447201,
+   "lon": -79.693913,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Teriyaki Experience",
+    "brand:wikidata": "Q7702453",
+    "cuisine": "japanese",
+    "name": "Teriyaki Experience",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1916220953,
+   "lat": 43.447695,
+   "lon": -79.689424,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Wimpy's Diner",
+    "brand:wikidata": "Q16909504",
+    "check_date": "2025-05-18",
+    "cuisine": "diner",
+    "name": "Wimpy's Diner"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1916223459,
+   "lat": 43.4480568,
+   "lon": -79.6885795,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "The Boot Social Pizzeria",
+    "opening_hours": "Mo,Tu 16:00-22:00; We-Su 12:00-22:00"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1950911976,
+   "lat": 43.4288469,
+   "lon": -79.7652458,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1960821026,
+   "lat": 43.4368616,
+   "lon": -79.7412008,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "1500",
+    "addr:postcode": "L6M 3G3",
+    "addr:province": "Ontario",
+    "addr:street": "Upper Middle Road West",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "brewery": "yes",
+    "capacity": "140",
+    "cuisine": "breakfast;burger;sandwich;dessert;chicken;american;seafood;ice_cream;salad;pasta;cake;fish;fish_and_chips;brunch;grill",
+    "delivery": "yes",
+    "description": "Oakville family food restaurant specializing in breakfast, lunch, dinner, desserts with a fully licensed lounge.",
+    "diet:gluten_free": "yes",
+    "diet:halal": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "email": "symposium.oakville@symposiumcafe.com",
+    "highchair": "yes",
+    "image": "https://1635317306-symposium-restaurant-interior-oakville.jpg",
+    "name": "Symposium Cafe Restaurant Oakville",
+    "opening_hours": "Su-Th 08:00-24:00, Fr-Sa 08:00-24:00",
+    "outdoor_seating": "yes",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+1-905-847-2200",
+    "smoking": "no",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "https://symposiumcafe.com/locations/oakville-restaurants",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1960821033,
+   "lat": 43.4375998,
+   "lon": -79.7404685,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1960821043,
+   "lat": 43.4372795,
+   "lon": -79.7405395,
+   "tags": {
+    "addr:unit": "6",
+    "amenity": "fast_food",
+    "cuisine": "shawarma;kebab",
+    "name": "Big Grill Shawarma & Kabob",
+    "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 12:00-21:00",
+    "phone": "+1-905-901-1971",
+    "takeaway": "yes",
+    "website": "https://www.biggrill.ca/",
+    "website:menu": "https://www.biggrill.ca/menu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1967735111,
+   "lat": 43.3956481,
+   "lon": -79.749036,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "mexican",
+    "name": "Chorizo Fresh Mex"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1981037620,
+   "lat": 43.5108966,
+   "lon": -79.6679335,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-07-12",
+    "cuisine": "japanese",
+    "name": "K & B Sushi",
+    "phone": "+1-905-829-3889",
+    "website": "https://www.kbsushi.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1981037677,
+   "lat": 43.5107283,
+   "lon": -79.6676378,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "East Side Mario's",
+    "brand:wikidata": "Q5329375",
+    "brand:wikipedia": "en:East Side Mario's",
+    "check_date": "2026-07-12",
+    "cuisine": "italian",
+    "name": "East Side Mario's",
+    "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1981079145,
+   "lat": 43.5100976,
+   "lon": -79.6665488,
+   "tags": {
+    "addr:housenumber": "2015",
+    "addr:street": "Winston Park Drive",
+    "amenity": "restaurant",
+    "brand": "Scaddabush",
+    "brand:wikidata": "Q137363894",
+    "check_date": "2026-07-12",
+    "cuisine": "italian",
+    "name": "Scaddabush"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1981166599,
+   "lat": 43.5105641,
+   "lon": -79.6683094,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-07-12",
+    "cuisine": "mexican",
+    "name": "Grande Burrito",
+    "website": "https://www.olivetreedelicafe.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1981300070,
+   "lat": 43.5087582,
+   "lon": -79.6679468,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Dave & Buster's",
+    "brand:wikidata": "Q5228205",
+    "check_date": "2026-07-12",
+    "cuisine": "american",
+    "leisure": "amusement_arcade",
+    "name": "Dave & Buster's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1981300081,
+   "lat": 43.5079042,
+   "lon": -79.6674907,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Boston Pizza",
+    "brand:wikidata": "Q894578",
+    "brand:wikipedia": "en:Boston Pizza",
+    "check_date": "2026-07-12",
+    "cuisine": "pizza",
+    "name": "Boston Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2011459492,
+   "lat": 43.4490957,
+   "lon": -79.7052224,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2011459503,
+   "lat": 43.4508316,
+   "lon": -79.7028848,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Dairy Queen",
+    "brand:wikidata": "Q1141226",
+    "brand:wikipedia": "en:Dairy Queen",
+    "cuisine": "ice_cream;burger;chicken",
+    "name": "Dairy Queen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2012416650,
+   "lat": 43.4383413,
+   "lon": -79.675592,
+   "tags": {
+    "addr:housenumber": "146",
+    "addr:street": "Lakeshore Road West",
+    "amenity": "fast_food",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "check_date": "2025-04-27",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "name": "Pizza Hut Delivery",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2012416665,
+   "lat": 43.4380803,
+   "lon": -79.6759262,
+   "tags": {
+    "addr:housenumber": "150",
+    "addr:street": "Lakeshore Road West",
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "check_date": "2025-04-27",
+    "cuisine": "burger",
+    "name": "Harvey's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2012566605,
+   "lat": 43.4442058,
+   "lon": -79.6696665,
+   "tags": {
+    "addr:housenumber": "134",
+    "addr:street": "Lakeshore Road East",
+    "amenity": "restaurant",
+    "check_date": "2025-12-18",
+    "cuisine": "french;italian;american",
+    "email": "info@seasonsbrasserie.com",
+    "name": "Ce soir Brasserie + Bar",
+    "phone": "+1-905-844-0676",
+    "reservation": "yes",
+    "website": "https://cesoirbrasserie.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2012643606,
+   "lat": 43.4469312,
+   "lon": -79.666726,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "266",
+    "addr:province": "ON",
+    "addr:street": "Lakeshore Road East",
+    "amenity": "restaurant",
+    "check_date": "2025-12-18",
+    "cuisine": "italian",
+    "name": "Borgo Antico Cucci Bar",
+    "phone": "+1-905-845-6565",
+    "website": "https://www.borgoantico.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2012644781,
+   "lat": 43.4483759,
+   "lon": -79.6656835,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "321",
+    "addr:street": "Lakeshore Road East",
+    "amenity": "cafe",
+    "brand": "Aroma Espresso Bar",
+    "brand:wikidata": "Q2909872",
+    "brand:wikipedia": "en:Aroma Espresso Bar",
+    "check_date": "2025-12-18",
+    "cuisine": "coffee_shop",
+    "name": "Aroma Espresso Bar",
+    "opening_hours": "Mo-Fr 09:30-19:00; Sa-Su 08:30-19:00",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2022459186,
+   "lat": 43.4484998,
+   "lon": -79.6655097,
+   "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-12-18",
+    "cuisine": "bubble_tea",
+    "name": "Oakberry Açai",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2022459210,
+   "lat": 43.448749,
+   "lon": -79.6652355,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-12-18",
+    "cuisine": "pizza",
+    "name": "Pizzaiolo"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2022459225,
+   "lat": 43.4490811,
+   "lon": -79.6658027,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-04-27",
+    "cuisine": "indian",
+    "name": "Coriander Green",
+    "website": "https://www.coriandergreen.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2022464215,
+   "lat": 43.4470218,
+   "lon": -79.6670714,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "333",
+    "addr:province": "ON",
+    "addr:street": "Lakeshore Road East",
+    "amenity": "restaurant",
+    "check_date": "2025-12-18",
+    "cuisine": "indian",
+    "name": "Spice & Saffron",
+    "phone": "+1 9058445344"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2022489247,
+   "lat": 43.4447064,
+   "lon": -79.6695618,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "The Works",
+    "brand:wikidata": "Q123410138",
+    "check_date": "2025-04-27",
+    "cuisine": "burger",
+    "name": "The Works",
+    "short_name": "The Works",
+    "website": "https://worksburger.com/",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2081728686,
+   "lat": 43.4835818,
+   "lon": -79.6956573,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Niwa"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2137774764,
+   "lat": 43.4833177,
+   "lon": -79.7188456,
+   "tags": {
+    "addr:housenumber": "235",
+    "addr:postcode": "L6H 6M4",
+    "addr:street": "Hays Boulevard",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "McDonald's",
+    "opening_hours": "Mo-Su 07:00-23:00",
+    "phone": "+1-905-257-5958",
+    "takeaway": "yes",
+    "website": "https://www.mcdonalds.com/ca/en-ca/location/oakville/oakville/wal-mart-235-hays-blvd/22857.html",
+    "website:menu": "https://www.mcdonalds.com/ca/en-ca/full-menu.html"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2138422513,
+   "lat": 43.4635763,
+   "lon": -79.7445527,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Cynthia's Chinese Fine Dining"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2138422528,
+   "lat": 43.4641905,
+   "lon": -79.7423814,
+   "tags": {
+    "addr:city": "Oakville",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Spoon & Fork Plus",
+    "website": "https://www.spoonandfork.ca/locations/oakville-dundas-west"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2138422532,
+   "lat": 43.465853,
+   "lon": -79.7432303,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2138422534,
+   "lat": 43.4640931,
+   "lon": -79.7422473,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2138422562,
+   "lat": 43.4631012,
+   "lon": -79.7439009,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Panago",
+    "brand:wikidata": "Q17111672",
+    "brand:wikipedia": "en:Panago",
+    "cuisine": "pizza",
+    "name": "Panago",
+    "takeaway": "yes",
+    "website": "https://panago.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2138916389,
+   "lat": 43.4839929,
+   "lon": -79.7172718,
+   "tags": {
+    "addr:housenumber": "266",
+    "addr:postcode": "L6H 7P3",
+    "addr:street": "Hays Boulevard",
+    "amenity": "restaurant",
+    "brand": "Sunset Grill",
+    "brand:wikidata": "Q62112489",
+    "brand:wikipedia": "en:Sunset Grill (Canadian restaurant chain)",
+    "cuisine": "american",
+    "name": "Sunset Grill",
+    "opening_hours": "Mo-Fr 06:30-15:00; Sa,Su 07:00-15:30",
+    "phone": "+1-289-725-9700",
+    "takeaway": "yes",
+    "website": "https://sunsetgrill.ca",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2138916390,
+   "lat": 43.4839256,
+   "lon": -79.7171804,
+   "tags": {
+    "addr:housenumber": "266",
+    "addr:postcode": "L6H 7P3",
+    "addr:street": "Hays Boulevard",
+    "amenity": "fast_food",
+    "brand": "Mucho Burrito",
+    "brand:wikidata": "Q65148332",
+    "cuisine": "mexican",
+    "name": "Mucho Burrito",
+    "opening_hours": "Mo-Th 10:30-09:30; Fr,Sa 10:30-10:00; Su 10:30-09:00",
+    "phone": "+1-905-257-1152",
+    "takeaway": "yes",
+    "website": "https://locations.muchoburrito.com/en-ca/on/oakville/MB0041",
+    "website:menu": "https://muchoburrito.com/menu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2138916399,
+   "lat": 43.4838059,
+   "lon": -79.7170235,
+   "tags": {
+    "addr:housenumber": "266",
+    "addr:postcode": "L6H 7P3",
+    "addr:street": "Hays Boulevard",
+    "amenity": "fast_food",
+    "brand": "Pita Pit",
+    "brand:wikidata": "Q7757289",
+    "brand:wikipedia": "en:Pita Pit",
+    "cuisine": "pita",
+    "delivery": "yes",
+    "email": "ca232@mypitapit.ca",
+    "name": "Pita Pit",
+    "phone": "+1-289-725-9990",
+    "takeaway": "yes",
+    "website": "https://pitapit.ca"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2138916400,
+   "lat": 43.4855652,
+   "lon": -79.7178386,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Dairy Queen",
+    "brand:wikidata": "Q1141226",
+    "brand:wikipedia": "en:Dairy Queen",
+    "cuisine": "ice_cream;burger",
+    "delivery": "yes",
+    "drive_through": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Dairy Queen",
+    "opening_hours": "Mo-Su 10:30-21:00 \"store & drive-thru\", Mo-Su 21:00-22:00 \"drive-thru\"",
+    "outdoor_seating": "yes",
+    "phone": "+1-905-257-4441",
+    "takeaway": "yes",
+    "website": "https://www.dairyqueen.com/en-ca/locations/on/oakville/295-hayes-blvd/11988/",
+    "website:menu": "https://www.dairyqueen.com/en-ca/menu/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2161694941,
+   "lat": 43.4552327,
+   "lon": -79.6858101,
+   "tags": {
+    "addr:housenumber": "117",
+    "addr:street": "Cross Avenue",
+    "amenity": "cafe",
+    "brand": "CoCo",
+    "brand:wikidata": "Q65084369",
+    "check_date": "2025-04-27",
+    "cuisine": "bubble_tea",
+    "name": "CoCo Fresh Tea & Juice",
+    "short_name": "CoCo",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2178601902,
+   "lat": 43.4584055,
+   "lon": -79.6770112,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Sunset Grill",
+    "brand:wikidata": "Q62112489",
+    "brand:wikipedia": "en:Sunset Grill (Canadian restaurant chain)",
+    "cuisine": "american",
+    "name": "Sunset Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2291000355,
+   "lat": 43.483446,
+   "lon": -79.6958936,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2292634411,
+   "lat": 43.4401345,
+   "lon": -79.7199398,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Gino's Pizza",
+    "brand:wikidata": "Q84029134",
+    "cuisine": "pizza",
+    "name": "Gino's Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2292634416,
+   "lat": 43.4401373,
+   "lon": -79.7198649,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Red Chile"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2296585943,
+   "lat": 43.482638,
+   "lon": -79.6960744,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Thai Siam"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2313311547,
+   "lat": 43.4562319,
+   "lon": -79.6845368,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-12-18",
+    "cuisine": "korean",
+    "name": "Owl of Minerva"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2329677708,
+   "lat": 43.4652086,
+   "lon": -79.6842334,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Little Tokyo"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2462374143,
+   "lat": 43.4473208,
+   "lon": -79.7031201,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "fish_and_chips",
+    "name": "Caz's Great Fish"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2498050561,
+   "lat": 43.4885717,
+   "lon": -79.6521584,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Celadon House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2498050562,
+   "lat": 43.4896258,
+   "lon": -79.6512236,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Eastern",
+    "phone": "+1-905-337-8888",
+    "website": "http://www.sushieastern.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2498050565,
+   "lat": 43.4885048,
+   "lon": -79.6520552,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2498066679,
+   "lat": 43.4998195,
+   "lon": -79.6611187,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "2828",
+    "addr:postcode": "L6J 6X7",
+    "addr:province": "ON",
+    "addr:street": "Kingsway Drive",
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Golden Palace Chinese Take-out",
+    "website": "https://goldenpalaceoakville.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2502055651,
+   "lat": 43.5198608,
+   "lon": -79.6824921,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Karahi Point",
+    "shop": "vacant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2595998241,
+   "lat": 43.4492526,
+   "lon": -79.702983,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Panera Bread",
+    "brand:wikidata": "Q7130852",
+    "brand:wikipedia": "en:Panera Bread",
+    "cuisine": "sandwich;bakery",
+    "name": "Panera Bread",
+    "short_name": "Panera",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2611785004,
+   "lat": 43.4466999,
+   "lon": -79.7056918,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "August 8"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2674284129,
+   "lat": 43.4993926,
+   "lon": -79.6506359,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "mediterranean",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "internet_access": "no",
+    "name": "Chefs Door Shawarma Pita and Grill",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "operator": "Abdel Ghanem",
+    "phone": "+1-647-883-4237",
+    "smoking": "no",
+    "website": "https://www.chefsdoor.ca/",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2700219235,
+   "lat": 43.4403596,
+   "lon": -79.6942036,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "brand:wikipedia": "en:A&W (Canada)",
+    "cuisine": "burger",
+    "name": "A&W",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2796729570,
+   "lat": 43.4187256,
+   "lon": -79.716729,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "brand:wikipedia": "en:A&W (Canada)",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "A&W",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2796795669,
+   "lat": 43.4180728,
+   "lon": -79.7170139,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2796879670,
+   "lat": 43.4130415,
+   "lon": -79.7057747,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2796930371,
+   "lat": 43.412229,
+   "lon": -79.7059507,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Gino's Pizza",
+    "brand:wikidata": "Q84029134",
+    "cuisine": "pizza",
+    "name": "Gino's Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2875365283,
+   "lat": 43.4385205,
+   "lon": -79.6753937,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Lazeez Shawarma",
+    "check_date": "2025-04-27",
+    "cuisine": "shawarma",
+    "name": "Lazeez Shawarma"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3355181847,
+   "lat": 43.4505761,
+   "lon": -79.7032961,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Quiznos",
+    "brand:wikidata": "Q1936229",
+    "brand:wikipedia": "en:Quiznos",
+    "cuisine": "sandwich",
+    "name": "Quiznos",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3412091311,
+   "lat": 43.4837724,
+   "lon": -79.7129532,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "A1 Sweets",
+    "phone": "+1-905-257-0808",
+    "website": "https://www.a1sweets.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3412091331,
+   "lat": 43.4850371,
+   "lon": -79.7140758,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Teriyaki Experience",
+    "brand:wikidata": "Q7702453",
+    "cuisine": "japanese",
+    "name": "Teriyaki Experience",
+    "takeaway": "yes",
+    "website": "https://www.teriyakiexperience.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3412091335,
+   "lat": 43.4854087,
+   "lon": -79.7138961,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "phone": "+1-905-257-7222",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3412091338,
+   "lat": 43.4865169,
+   "lon": -79.7144068,
+   "tags": {
+    "addr:housenumber": "2423",
+    "addr:postcode": "L6H 6K7",
+    "addr:street": "Trafalgar Road",
+    "amenity": "fast_food",
+    "branch": "Oakville Trafalgar",
+    "brand": "WingsUp!",
+    "brand:wikidata": "Q137167877",
+    "cuisine": "wings",
+    "delivery": "yes",
+    "name": "WingsUp!",
+    "opening_hours": "Mo-Tu 11:00-23:00; We-Th 11:00-23:00; Fr-Sa 11:00-24:00; Su 11:00-23:00",
+    "phone": "+1-905-257-7878",
+    "takeaway": "yes",
+    "website": "https://wingsup.com",
+    "website:menu": "https://wingsup.com/Menu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3465759579,
+   "lat": 43.3946035,
+   "lon": -79.7118525,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Hero Certified Burgers",
+    "brand:wikidata": "Q5742641",
+    "brand:wikipedia": "en:Hero Certified Burgers",
+    "cuisine": "burger",
+    "name": "Hero Certified Burgers",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3556589420,
+   "lat": 43.449566,
+   "lon": -79.7602434,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Little Caesars",
+    "brand:wikidata": "Q1393809",
+    "brand:wikipedia": "en:Little Caesars",
+    "cuisine": "pizza",
+    "name": "Little Caesars",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3556589511,
+   "lat": 43.4494508,
+   "lon": -79.7609647,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3556589512,
+   "lat": 43.4502225,
+   "lon": -79.7596808,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "opening_hours": "Mo-Su 06:00-23:00",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3556589515,
+   "lat": 43.4425633,
+   "lon": -79.7677561,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Thai Smile",
+    "opening_hours": "Mo-Th 09:00-21:30; Fr-Sa 11:00-22:00; Su 11:30-21:30",
+    "phone": "+1-905-465-9199",
+    "website": "http://thaismile.ca"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3657969872,
+   "lat": 43.4858992,
+   "lon": -79.7209219,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "dessert",
+    "name": "Lokma",
+    "phone": "+1-365-726-0257",
+    "website": "https://www.lokma.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3658406834,
+   "lat": 43.445815,
+   "lon": -79.6676953,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Seven"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3802921452,
+   "lat": 43.398093,
+   "lon": -79.7081143,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "fish_and_chips",
+    "name": "Bronte Fish & Chips"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3898585073,
+   "lat": 43.4496496,
+   "lon": -79.7590605,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3898599960,
+   "lat": 43.4502204,
+   "lon": -79.7583891,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Bamboo Legend",
+    "phone": "+1-905-847-9887",
+    "takeaway": "yes",
+    "website": "https://bamboo-legend.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3898599964,
+   "lat": 43.4505749,
+   "lon": -79.7588906,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "phone": "+1-416-439-0000",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3899087299,
+   "lat": 43.4504338,
+   "lon": -79.7586736,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Halton Dragon",
+    "phone": "+1-905-469-5511",
+    "takeaway": "yes",
+    "website": "https://haltondragon.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3948480424,
+   "lat": 43.4628064,
+   "lon": -79.6748982,
+   "tags": {
+    "alt_name": "bgood",
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "name": "Burger Priest",
+    "website": "https://bgood.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3997648559,
+   "lat": 43.3977786,
+   "lon": -79.7468859,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "indoor": "yes",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3997648560,
+   "lat": 43.3993949,
+   "lon": -79.7493631,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "indoor": "yes",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4020068162,
+   "lat": 43.398139,
+   "lon": -79.70712,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "short_name": "Domino's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4020068170,
+   "lat": 43.3953909,
+   "lon": -79.7102547,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4232615270,
+   "lat": 43.4843408,
+   "lon": -79.7172651,
+   "tags": {
+    "addr:housenumber": "270",
+    "addr:postcode": "L6H 7P3",
+    "addr:street": "Hays Boulevard",
+    "addr:unit": "B2-1",
+    "amenity": "fast_food",
+    "brand": "Little Caesars",
+    "brand:wikidata": "Q1393809",
+    "brand:wikipedia": "en:Little Caesars",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "name": "Little Caesars",
+    "opening_hours": "Mo 11:00-21:00; Tu-Sa 11:00-22:00; Su 11:30-21:00",
+    "phone": "+1-905-257-0440",
+    "takeaway": "yes",
+    "website": "https://littlecaesars.ca"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4334860194,
+   "lat": 43.4841275,
+   "lon": -79.7175747,
+   "tags": {
+    "addr:housenumber": "270",
+    "addr:postcode": "L6H 7P3",
+    "addr:street": "Hays Boulevard",
+    "amenity": "fast_food",
+    "cuisine": "fish_and_chips",
+    "name": "Halibut House",
+    "phone": "+1-289-725-9887",
+    "website": "https://halibuthouse.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4384166429,
+   "lat": 43.4466294,
+   "lon": -79.7058374,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Eggsmart",
+    "brand:wikidata": "Q113001388",
+    "cuisine": "breakfast",
+    "name": "Eggsmart"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4408417110,
+   "lat": 43.4662789,
+   "lon": -79.7441683,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizzaville",
+    "brand:wikidata": "Q113001369",
+    "cuisine": "pizza",
+    "name": "Pizzaville",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4420360284,
+   "lat": 43.3967014,
+   "lon": -79.7530808,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "steak_house",
+    "name": "Chop Steakhouse & Bar",
+    "website": "https://chop.ca/ontario/oakville-steak-restaurant/burlington-oakville"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4478138675,
+   "lat": 43.4640688,
+   "lon": -79.6735149,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-04-27",
+    "cuisine": "pizza",
+    "name": "Blondies Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4484802689,
+   "lat": 43.4871804,
+   "lon": -79.7167761,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Mye"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4514533592,
+   "lat": 43.4376664,
+   "lon": -79.7418126,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4514533593,
+   "lat": 43.4376111,
+   "lon": -79.7418689,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "name": "Mr. Sub",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4514533594,
+   "lat": 43.437537,
+   "lon": -79.7419442,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4514685707,
+   "lat": 43.4663659,
+   "lon": -79.7453485,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "brand:wikipedia": "en:Popeyes",
+    "cuisine": "chicken",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4640761644,
+   "lat": 43.4344148,
+   "lon": -79.7025814,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "667",
+    "addr:postcode": "L6L 5B5",
+    "addr:street": "Fourth Line",
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "check_date": "2025-05-18",
+    "cuisine": "sandwich",
+    "delivery": "no",
+    "drive_through": "no",
+    "name": "Mr. Sub",
+    "opening_hours": "09:00-23:00",
+    "outdoor_seating": "no",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4640761645,
+   "lat": 43.4338578,
+   "lon": -79.701259,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "649",
+    "addr:postcode": "L6L 5B3",
+    "addr:province": "ON",
+    "addr:street": "Fourth Line",
+    "addr:unit": "9",
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "delivery": "no",
+    "drive_through": "no",
+    "name": "Subway",
+    "phone": "+1-905-337-7827",
+    "takeaway": "yes",
+    "website": "https://restaurants.subway.com/canada/on/oakville/649-fourth-line"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4643354884,
+   "lat": 43.4872184,
+   "lon": -79.7165609,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "delivery": "yes",
+    "name": "Full House Chinese BBQ",
+    "takeaway": "yes",
+    "website": "https://fullhousebbq.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4868553921,
+   "lat": 43.466286,
+   "lon": -79.7467288,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Just Braise"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4868553923,
+   "lat": 43.4661471,
+   "lon": -79.7465271,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Yummy Po"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4868553928,
+   "lat": 43.4660549,
+   "lon": -79.7443574,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "brand:wikipedia": "en:Booster Juice",
+    "cuisine": "juice",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4870843997,
+   "lat": 43.4980558,
+   "lon": -79.7064804,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4870843999,
+   "lat": 43.4982767,
+   "lon": -79.7067862,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Sushi Hour"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5521521922,
+   "lat": 43.4919539,
+   "lon": -79.6805066,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5879324524,
+   "lat": 43.4874967,
+   "lon": -79.7184678,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Freshii",
+    "brand:wikidata": "Q5503051",
+    "brand:wikipedia": "en:Freshii",
+    "cuisine": "salad",
+    "name": "Freshii",
+    "opening_hours": "Mo-Fr 09:30-20:00; Sa 10:00-20:00; Su 10:00-19:00"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6572662469,
+   "lat": 43.4613203,
+   "lon": -79.6862107,
+   "tags": {
+    "addr:housenumber": "240",
+    "addr:postcode": "L6H 3H6",
+    "addr:street": "Leighland Avenue",
+    "amenity": "fast_food",
+    "brand": "Kernels Popcorn",
+    "brand:wikidata": "Q64876684",
+    "cuisine": "popcorn",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Kernels Popcorn",
+    "phone": "+1-905-338-1763",
+    "takeaway": "yes",
+    "website": "https://www.kernelspopcorn.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6572662483,
+   "lat": 43.461561,
+   "lon": -79.6869801,
+   "tags": {
+    "addr:housenumber": "240",
+    "addr:street": "Leighland Avenue",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "level": "0",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6572704410,
+   "lat": 43.4615552,
+   "lon": -79.6874622,
+   "tags": {
+    "addr:housenumber": "240",
+    "addr:street": "Leighland Avenue",
+    "amenity": "cafe",
+    "brand": "Real Fruit Bubble Tea",
+    "brand:wikidata": "Q66072331",
+    "check_date": "2026-07-12",
+    "cuisine": "bubble_tea",
+    "level": "1",
+    "name": "Real Fruit Bubble Tea",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6572730199,
+   "lat": 43.4613095,
+   "lon": -79.6864436,
+   "tags": {
+    "addr:housenumber": "240",
+    "addr:street": "Leighland Avenue",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "check_date": "2026-07-12",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6572730202,
+   "lat": 43.4611907,
+   "lon": -79.6862425,
+   "tags": {
+    "addr:housenumber": "240",
+    "addr:street": "Leighland Avenue",
+    "amenity": "fast_food",
+    "brand": "Manchu Wok",
+    "brand:wikidata": "Q6747622",
+    "brand:wikipedia": "en:Manchu Wok",
+    "check_date": "2026-07-12",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Manchu Wok",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6572730203,
+   "lat": 43.4614097,
+   "lon": -79.6862921,
+   "tags": {
+    "addr:housenumber": "240",
+    "addr:street": "Leighland Avenue",
+    "amenity": "fast_food",
+    "brand": "Mac's Sushi",
+    "brand:wikidata": "Q133254906",
+    "check_date": "2026-07-12",
+    "cuisine": "sushi",
+    "level": "1",
+    "name": "Mac's Sushi",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6572730204,
+   "lat": 43.4615713,
+   "lon": -79.6859997,
+   "tags": {
+    "addr:housenumber": "240",
+    "addr:street": "Leighland Avenue",
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "brand:wikipedia": "en:A&W (Canada)",
+    "check_date": "2026-07-12",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "level": "1",
+    "name": "A&W",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6572730205,
+   "lat": 43.4615606,
+   "lon": -79.6862438,
+   "tags": {
+    "addr:housenumber": "240",
+    "addr:street": "Leighland Avenue",
+    "amenity": "fast_food",
+    "brand": "New York Fries",
+    "brand:wikidata": "Q7013558",
+    "brand:wikipedia": "en:New York Fries",
+    "check_date": "2026-07-12",
+    "cuisine": "fries",
+    "drive_through": "no",
+    "level": "1",
+    "name": "New York Fries",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6572730206,
+   "lat": 43.461581,
+   "lon": -79.6863323,
+   "tags": {
+    "addr:housenumber": "240",
+    "addr:street": "Leighland Avenue",
+    "amenity": "fast_food",
+    "check_date": "2026-07-12",
+    "cuisine": "pita",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Pita Lite"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6647448511,
+   "lat": 43.4131136,
+   "lon": -79.7057023,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "juice",
+    "name": "Boba Green"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6716152644,
+   "lat": 43.5139727,
+   "lon": -79.6890647,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "hot_dog",
+    "level": "0",
+    "street_vendor": "yes",
+    "takeaway": "only",
+    "toilets": "no",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7018117380,
+   "lat": 43.3940539,
+   "lon": -79.7096978,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:country": "CA",
+    "addr:housenumber": "49",
+    "addr:postcode": "L6L 3B6",
+    "addr:province": "ON",
+    "addr:street": "Bronte Road",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Cove Bar"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7060663710,
+   "lat": 43.3968551,
+   "lon": -79.7531625,
+   "tags": {
+    "addr:housenumber": "3451",
+    "addr:street": "South Service Road",
+    "amenity": "restaurant",
+    "brand": "Denny's",
+    "brand:wikidata": "Q1189695",
+    "brand:wikipedia": "en:Denny's",
+    "cuisine": "american",
+    "name": "Denny's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7110772042,
+   "lat": 43.4932693,
+   "lon": -79.6809894,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "juice",
+    "diet:vegetarian": "yes",
+    "name": "Quench Juice Bar"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7110772044,
+   "lat": 43.4934405,
+   "lon": -79.6807909,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7110772049,
+   "lat": 43.4919033,
+   "lon": -79.6805924,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "BarBurrito",
+    "brand:wikidata": "Q104844862",
+    "cuisine": "mexican",
+    "name": "Bar Burrito",
+    "website": "https://www.barburrito.ca/location/oakwoods-centre/",
+    "website:en": "https://www.barburrito.ca/location/oakwoods-centre/",
+    "website:fr": "https://www.barburrito.ca/fr/location/oakwoods-centre/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7111155509,
+   "lat": 43.4705144,
+   "lon": -79.6940634,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "1289",
+    "addr:postcode": "L6H 2R9",
+    "addr:province": "Ontario",
+    "addr:street": "Marlborough Court",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "check_date": "2025-12-18",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "outdoor_seating": "no",
+    "takeaway": "yes",
+    "website": "https://locations.timhortons.ca/en/on/oakville/1289-marlborough-court"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7196230703,
+   "lat": 43.4795808,
+   "lon": -79.6558731,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Freshii",
+    "brand:wikidata": "Q5503051",
+    "brand:wikipedia": "en:Freshii",
+    "cuisine": "salad",
+    "name": "Freshii"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7196230707,
+   "lat": 43.4802473,
+   "lon": -79.6551401,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Quesada",
+    "brand:wikidata": "Q66070360",
+    "cuisine": "mexican",
+    "name": "Quesada",
+    "official_name": "Quesada Burritos & Tacos",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7196230708,
+   "lat": 43.4803584,
+   "lon": -79.6550284,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Papa John's",
+    "brand:wikidata": "Q2759586",
+    "brand:wikipedia": "en:Papa John's Pizza",
+    "cuisine": "pizza",
+    "name": "Papa John's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7196256903,
+   "lat": 43.4685394,
+   "lon": -79.7004616,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7196256904,
+   "lat": 43.4679152,
+   "lon": -79.7007651,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "drive_through": "no",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7196256905,
+   "lat": 43.4679834,
+   "lon": -79.7006195,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "drive_through": "no",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7196256906,
+   "lat": 43.4680022,
+   "lon": -79.7007968,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Thaï Express",
+    "brand:wikidata": "Q7711610",
+    "brand:wikipedia": "en:Thaï Express",
+    "cuisine": "thai",
+    "drive_through": "no",
+    "name": "Thaï Express",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7196256907,
+   "lat": 43.4679339,
+   "lon": -79.7009493,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "Harvey's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7196256908,
+   "lat": 43.4685695,
+   "lon": -79.6991429,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7403577071,
+   "lat": 43.3982604,
+   "lon": -79.7080724,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:country": "CA",
+    "addr:housenumber": "2309",
+    "addr:postcode": "L6L 1H2",
+    "addr:province": "ON",
+    "addr:street": "Lakeshore Road West",
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Maurya East Indian Roti"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7403604216,
+   "lat": 43.4841766,
+   "lon": -79.7175028,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "270",
+    "addr:postcode": "L6H 7P3",
+    "addr:province": "Ontario",
+    "addr:street": "Hays Boulevard",
+    "alt_name": "Osmow's Shawarma",
+    "amenity": "fast_food",
+    "branch": "Oakville – Hays & Trafalgar",
+    "brand": "Osmow's",
+    "brand:wikidata": "Q115048716",
+    "cuisine": "mediterranean;shawarma",
+    "delivery": "yes",
+    "drive_through": "no",
+    "name": "Osmow's",
+    "opening_hours": "Mo-Fr 11:00-22:00; Sa,Su 12:00-22:00",
+    "phone": "+1-289-725-0107",
+    "takeaway": "yes",
+    "website": "https://osmows.com",
+    "website:menu": "https://osmows.com/menu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7603977243,
+   "lat": 43.4410744,
+   "lon": -79.6935274,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8017521785,
+   "lat": 43.4400979,
+   "lon": -79.6944834,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Chuck's Roadhouse",
+    "brand:wikidata": "Q132856003",
+    "cuisine": "burger;steak_house",
+    "name": "Chuck's Roadhouse"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8723405330,
+   "lat": 43.4484996,
+   "lon": -79.6885641,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "579",
+    "addr:province": "Ontario",
+    "addr:street": "Kerr",
+    "amenity": "fast_food",
+    "changing_table": "no",
+    "cuisine": "juice",
+    "level": "0",
+    "name": "Organique Juice Bar",
+    "opening_hours": "Mo-Fr 07:30-17:00; Sa 08:00-16:30; PH closed; Su closed",
+    "phone": "+1 905-338-6899",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "toilets:access": "customers",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8975579614,
+   "lat": 43.4835575,
+   "lon": -79.695739,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Biryani House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8975602029,
+   "lat": 43.4820467,
+   "lon": -79.6962178,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "disused:shop": "yes",
+    "name": "Gotcha"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8975602030,
+   "lat": 43.4820003,
+   "lon": -79.6962748,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "lebanese",
+    "name": "Boustan"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8975602032,
+   "lat": 43.4819002,
+   "lon": -79.6964017,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "China Chopsticks"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8975636927,
+   "lat": 43.4828346,
+   "lon": -79.7204757,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:wikidata": "Q16829306",
+    "brand:wikipedia": "en:Chatime",
+    "cuisine": "bubble_tea",
+    "name": "Chatime",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8999802409,
+   "lat": 43.5071367,
+   "lon": -79.6630599,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "cuisine": "burger",
+    "name": "Wendy's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8999802410,
+   "lat": 43.5071216,
+   "lon": -79.6632775,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9156560829,
+   "lat": 43.3951015,
+   "lon": -79.7048759,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "ice_cream",
+    "name": "Duckies Dairy Bar"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9738644998,
+   "lat": 43.4443009,
+   "lon": -79.6823035,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Golden Leaf Chinese Food"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9738667073,
+   "lat": 43.4446752,
+   "lon": -79.6691637,
+   "tags": {
+    "addr:housenumber": "162",
+    "addr:postcode": "L6J 1H4",
+    "addr:street": "Lakeshore Road East",
+    "amenity": "restaurant",
+    "branch": "Oakville",
+    "check_date": "2025-12-18",
+    "cuisine": "pizza",
+    "name": "Dough Box",
+    "opening_hours": "Mo-Th,Su 11:00-22:00; Fr,Sa 11:00-23:00",
+    "phone": "+1-289-430-5055",
+    "website": "https://doughbox.ca",
+    "website:menu": "https://doughbox.ca/menus",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9738678160,
+   "lat": 43.4423165,
+   "lon": -79.6793411,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "250",
+    "addr:street": "Kerr Street",
+    "amenity": "restaurant",
+    "check_date": "2026-03-12",
+    "cuisine": "seafood",
+    "name": "The Mermaid",
+    "opening_hours": "Mo off; Tu 11:00-19:00; We,Fr-Sa 11:00-20:00; Th 11:00-21:00; Su 12:00-18:00",
+    "website": "https://www.mermaidandoyster.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9738678395,
+   "lat": 43.4453309,
+   "lon": -79.6848382,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "438",
+    "addr:street": "Kerr Street",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/asianlegendscapemay/",
+    "cuisine": "italian",
+    "name": "Fiori Zucchini Ristorante"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9738704126,
+   "lat": 43.446548,
+   "lon": -79.6676602,
+   "tags": {
+    "addr:housenumber": "239",
+    "addr:street": "Lakeshore Road East",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "check_date": "2025-12-18",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9813249085,
+   "lat": 43.3941744,
+   "lon": -79.711348,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "french",
+    "name": "La Parisienne Crêperie"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9813249086,
+   "lat": 43.394078,
+   "lon": -79.7100364,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "tapas",
+    "name": "Plank"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9813319543,
+   "lat": 43.3967885,
+   "lon": -79.7096099,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Pizza Pienza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9813319544,
+   "lat": 43.3968323,
+   "lon": -79.7095361,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "mexican",
+    "name": "Casa Mia"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9813319546,
+   "lat": 43.3973187,
+   "lon": -79.7081672,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "mexican",
+    "name": "Pur Vida"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9988817151,
+   "lat": 43.4977464,
+   "lon": -79.7063342,
+   "tags": {
+    "addr:housenumber": "2501",
+    "addr:postcode": "L6H 0E9",
+    "addr:street": "Prince Michael Drive",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese;chinese;thai",
+    "name": "Little Saigon 88",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "phone": "+1-905-995-7979",
+    "website": "https://www.littlesaigon88.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10049430591,
+   "lat": 43.4613041,
+   "lon": -79.6861498,
+   "tags": {
+    "addr:housenumber": "240",
+    "addr:street": "Leighland Avenue",
+    "addr:unit": "183A",
+    "amenity": "restaurant",
+    "branch": "Oakville",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "name": "Pearl",
+    "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su 10:30-21:00",
+    "phone": "+1-905-339-1233",
+    "website": "https://pearloakville.ca/oakville/",
+    "website:menu": "https://pearloakville.ca/menu/",
+    "website:orders": "https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=4a4e6ac7-3fc5-4bd4-8144-639ee26ac593"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10049465618,
+   "lat": 43.4567144,
+   "lon": -79.6895777,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "caribbean",
+    "name": "Jamaican Caribbean Restaurant",
+    "phone": "+1-905-338-0599"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10049465620,
+   "lat": 43.45663,
+   "lon": -79.6896774,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Wu Ji Xi’an Foods"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10049602950,
+   "lat": 43.4478568,
+   "lon": -79.6662037,
+   "tags": {
+    "addr:housenumber": "299",
+    "addr:street": "Lakeshore Road East",
+    "amenity": "restaurant",
+    "check_date": "2025-12-18",
+    "cuisine": "pizza",
+    "name": "Pizzeria 4 Stelle",
+    "phone": "+1-905-842-6665"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10684563584,
+   "lat": 43.4836039,
+   "lon": -79.6940749,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "peruvian",
+    "name": "Pisac"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10983049442,
+   "lat": 43.4336497,
+   "lon": -79.7015803,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "649",
+    "addr:postcode": "L6L 5B3",
+    "addr:province": "ON",
+    "addr:street": "Fourth Line",
+    "addr:unit": "3",
+    "amenity": "restaurant",
+    "cuisine": "kebab;mediterranean;persian",
+    "name": "Zagros Kebab House",
+    "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 12:00-22:00; Su 12:00-20:00",
+    "phone": "+1-905-845-2929",
+    "website": "https://www.zagroskebabhouse.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11147296002,
+   "lat": 43.4469367,
+   "lon": -79.7054866,
+   "tags": {
+    "addr:housenumber": "280",
+    "addr:postcode": "L6M 2S2",
+    "addr:street": "North Service Road West",
+    "addr:unit": "A2",
+    "amenity": "fast_food",
+    "construction": "yes",
+    "cuisine": "burger",
+    "diet:vegan": "yes",
+    "name": "Odd Burger",
+    "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-23:00; Sa 10:00-23:00; Su 10:00-21:00",
+    "phone": "+1-905-815-0001",
+    "website": "https://oddburger.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11423236373,
+   "lat": 43.4646803,
+   "lon": -79.744465,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "note": "This is within the Circle K, not a duplicate of the Tims next door. Do not delete!",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11423236389,
+   "lat": 43.4639397,
+   "lon": -79.7449782,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11423236420,
+   "lat": 43.438397,
+   "lon": -79.7438543,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11909942569,
+   "lat": 43.4454547,
+   "lon": -79.6703648,
+   "tags": {
+    "addr:housenumber": "130",
+    "addr:postcode": "L6J3A9",
+    "addr:street": "Thomas Street",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Buca di Bacco",
+    "phone": "+1 905 845 7396",
+    "website": "https://bucadibacco.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11914510944,
+   "lat": 43.4292269,
+   "lon": -79.7648306,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "2983",
+    "addr:postcode": "L6M 5E4",
+    "addr:province": "Ontario",
+    "addr:street": "Westoak Trails Boulevard",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "cuisine": "chicken",
+    "delivery": "yes",
+    "name": "Chicken Squared",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "phone": "+1 905-465-0808",
+    "takeaway": "yes",
+    "website": "https://chickensquared.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12013260341,
+   "lat": 43.4451658,
+   "lon": -79.6699078,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-12-18",
+    "cuisine": "italian",
+    "name": "Piano Piano",
+    "phone": "+1 9058150120",
+    "website": "https://www.pianopianotherestaurant.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12040657798,
+   "lat": 43.4404892,
+   "lon": -79.6931783,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chicken",
+    "name": "Wing’s Up!"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12040657801,
+   "lat": 43.4403183,
+   "lon": -79.6933464,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Quesada",
+    "brand:wikidata": "Q66070360",
+    "cuisine": "mexican",
+    "name": "Quesada",
+    "official_name": "Quesada Burritos & Tacos",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12040657802,
+   "lat": 43.4405487,
+   "lon": -79.6930974,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Little Caesars",
+    "brand:wikidata": "Q1393809",
+    "cuisine": "pizza",
+    "name": "Little Caesars",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12179467401,
+   "lat": 43.5206182,
+   "lon": -79.6829148,
+   "tags": {
+    "addr:housenumber": "2501 Unit 1",
+    "addr:postcode": "L6H 6C8",
+    "addr:street": "Hampshire Gate",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Kinton Ramen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12242559103,
+   "lat": 43.393872,
+   "lon": -79.7119842,
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "2464",
+    "addr:postcode": "L6L 1H8",
+    "addr:province": "ON",
+    "addr:street": "Lakeshore Road West",
+    "addr:unit": "4",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "email": "info@au79coffee.ca",
+    "name": "AU 79",
+    "opening_hours": "Mo-Tu 07:00-16:00; We off; Th-Fr 07:00-16:00; Sa-Su 08:00-16:00",
+    "outdoor_seating": "no",
+    "website": "https://www.au79coffee.ca"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12527937437,
+   "lat": 43.4850501,
+   "lon": -79.7185783,
+   "tags": {
+    "addr:unit": "101",
+    "amenity": "fast_food",
+    "brand": "Edo Japan",
+    "brand:wikidata": "Q17492665",
+    "cuisine": "japanese",
+    "email": "edojapan.oakville@gmail.com",
+    "name": "Edo Japan",
+    "opening_hours": "Mo-Su 10:30-22:00; PH 11:00-20:00",
+    "phone": "+1-289-725-2999",
+    "takeaway": "yes",
+    "website": "https://www.edojapan.com/locations/oakville/556/oakville-north-smartcentres-dundas-trafalgar/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12693796399,
+   "lat": 43.4857852,
+   "lon": -79.7199782,
+   "tags": {
+    "addr:housenumber": "2481",
+    "addr:street": "Taunton Road",
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "cuisine": "pizza",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Pizza Nova",
+    "opening_hours": "Mo 11:00-24:00; Tu-Th 11:00-24:00; Fr-Sa 11:00-01:00; Su 11:00-24:00",
+    "phone": "+1-416-439-0000",
+    "takeaway": "yes",
+    "website": "https://pizzanova.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12792183544,
+   "lat": 43.4468603,
+   "lon": -79.6672454,
+   "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-12-18",
+    "cuisine": "coffee_shop",
+    "name": "Pilot Coffee Roasters"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12893805971,
+   "lat": 43.4886207,
+   "lon": -79.7170195,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "Mr Sun"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12922396368,
+   "lat": 43.4927939,
+   "lon": -79.6814186,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-06-17",
+    "cuisine": "sushi",
+    "name": "Sushi Box"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12922396369,
+   "lat": 43.4929197,
+   "lon": -79.6812606,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mary Brown's",
+    "brand:wikidata": "Q6779125",
+    "check_date": "2025-06-17",
+    "cuisine": "chicken",
+    "name": "Mary Brown's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12941618161,
+   "lat": 43.4832424,
+   "lon": -79.6934208,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "breakfast",
+    "name": "Stacked Pancake House",
+    "website": "https://www.stackedpancakehouse.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12942851195,
+   "lat": 43.4793693,
+   "lon": -79.65645,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:wikidata": "Q16829306",
+    "cuisine": "bubble_tea",
+    "name": "Chatime",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12943199503,
+   "lat": 43.4801303,
+   "lon": -79.6552697,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "Burger Factory"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12943199512,
+   "lat": 43.4803315,
+   "lon": -79.65506,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "ramen",
+    "name": "Ramen Houzz"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13015354501,
+   "lat": 43.4449566,
+   "lon": -79.6841757,
+   "tags": {
+    "addr:housenumber": "416",
+    "addr:postcode": "L6K3C1",
+    "addr:street": "Kerr Street",
+    "amenity": "restaurant",
+    "cuisine": "american;burger;diner",
+    "name": "The Gingerman Social Eatery",
+    "opening_hours": "Su-Th 11:30-00:00; Fr-Sa 11:30-01:00",
+    "website": "https://www.gingermansocialeatery.ca/contact",
+    "website:menu": "https://www.gingermansocialeatery.ca/menu-1"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13387294396,
+   "lat": 43.4477596,
+   "lon": -79.6657786,
+   "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-12-18",
+    "cuisine": "coffee_shop",
+    "name": "Flyspin"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13387411915,
+   "lat": 43.44765,
+   "lon": -79.6659636,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-12-18",
+    "cuisine": "sushi",
+    "name": "Hoseki"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13411739878,
+   "lat": 43.5167649,
+   "lon": -79.6850622,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Five Guys",
+    "brand:wikidata": "Q1131810",
+    "cuisine": "burger",
+    "name": "Five Guys",
+    "official_name": "Five Guys Burgers and Fries",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14006597827,
+   "lat": 43.4615505,
+   "lon": -79.686164,
+   "tags": {
+    "addr:floor": "2",
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "check_date": "2026-07-12",
+    "cuisine": "chicken",
+    "level": "1",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14006680914,
+   "lat": 43.511421,
+   "lon": -79.6678462,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "check_date": "2026-07-12",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 27524479,
+   "center": {
+    "lat": 43.4544954,
+    "lon": -79.686595
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2025-04-27",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "internet_access": "wlan",
+    "name": "Tim Hortons",
+    "takeaway": "yes",
+    "wheelchair": "no"
+   }
+  },
+  {
+   "type": "way",
+   "id": 32993098,
+   "center": {
+    "lat": 43.5191689,
+    "lon": -79.6840218
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "St. Louis Bar & Grill",
+    "brand:wikidata": "Q65567668",
+    "building": "retail",
+    "cuisine": "chicken",
+    "name": "St. Louis Bar & Grill",
+    "source": "image"
+   }
+  },
+  {
+   "type": "way",
+   "id": 32993099,
+   "center": {
+    "lat": 43.5194345,
+    "lon": -79.6844594
+   },
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "2510",
+    "addr:street": "Hampshire Gate",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "cuisine": "burger",
+    "delivery": "yes",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 32993214,
+   "center": {
+    "lat": 43.5154947,
+    "lon": -79.6887655
+   },
+   "tags": {
+    "addr:housenumber": "2525",
+    "addr:postcode": "L6H 6G6",
+    "addr:street": "Hyde Park Gate",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2025-04-28",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "indoor_seating": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Tim Hortons",
+    "opening_hours": "24/7",
+    "outdoor_seating": "no",
+    "phone": "+1-905-829-9700",
+    "takeaway": "yes",
+    "website": "https://www.timhortons.ca"
+   }
+  },
+  {
+   "type": "way",
+   "id": 32993218,
+   "center": {
+    "lat": 43.5149174,
+    "lon": -79.6892819
+   },
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "2350",
+    "addr:street": "Hyde Park Gate",
+    "amenity": "restaurant",
+    "brand": "Montana's",
+    "brand:wikidata": "Q17022490",
+    "brand:wikipedia": "en:Montana's BBQ & Bar",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "barbecue",
+    "name": "Montana's",
+    "official_name": "Montana's BBQ & Bar",
+    "opening_hours": "Su-Th 11:30-22:00; Fr,Sa 11:30-23:00",
+    "website": "https://www.montanas.ca/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 32993226,
+   "center": {
+    "lat": 43.5135619,
+    "lon": -79.6906642
+   },
+   "tags": {
+    "addr:housenumber": "2520",
+    "addr:postcode": "L6H 6M2",
+    "addr:street": "Hyde Park Gate",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "branch": "Oakville",
+    "brand": "Lone Star Texas Grill",
+    "brand:wikidata": "Q133255608",
+    "building": "retail",
+    "cuisine": "tex-mex",
+    "email": "oakville@lonestartexasgrill.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Lone Star Texas Grill",
+    "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-905-829-2265",
+    "reservation": "yes",
+    "source": "bing, image;image",
+    "takeaway": "yes",
+    "website": "https://www.lonestartexasgrill.com",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 33042433,
+   "center": {
+    "lat": 43.5220417,
+    "lon": -79.6815384
+   },
+   "tags": {
+    "addr:housenumber": "2460",
+    "addr:postcode": "L6H 6J5",
+    "addr:street": "Winston Churchill Boulevard",
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:website": "https://www.burgerking.ca/",
+    "brand:wikidata": "Q177054",
+    "brand:wikipedia": "en:Burger King",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "fixme": "verify unit number",
+    "name": "Burger King",
+    "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-22:00",
+    "opening_hours:drive_through": "Mo-Th 07:00-23:00; Fr 07:00-24:00; Sa 00:00-24:00; Su 09:00-23:00",
+    "phone": "+1-905-829-4792",
+    "takeaway": "yes",
+    "website": "https://www.burgerking.ca/store-locator/store/restaurant_5722"
+   }
+  },
+  {
+   "type": "way",
+   "id": 33753427,
+   "center": {
+    "lat": 43.4900225,
+    "lon": -79.6513854
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "source": "bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 59161784,
+   "center": {
+    "lat": 43.4816465,
+    "lon": -79.6951855
+   },
+   "tags": {
+    "addr:housenumber": "1011",
+    "addr:postcode": "L6H 4L3",
+    "addr:street": "Upper Middle Road East",
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "building": "retail",
+    "cuisine": "burger",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "Harvey’s-Guest",
+    "name": "Harvey's",
+    "opening_hours": "Mo-Su 10:30-24:00",
+    "phone": "+1-905-849-4710",
+    "takeaway": "yes",
+    "website": "https://www.harveys.ca",
+    "website:menu": "https://www.harveys.ca/en/menu.html?s=2388"
+   }
+  },
+  {
+   "type": "way",
+   "id": 74269400,
+   "center": {
+    "lat": 43.4570718,
+    "lon": -79.6831873
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2025-12-18",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 74270112,
+   "center": {
+    "lat": 43.4709409,
+    "lon": -79.6947687
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:wikidata": "Q177054",
+    "brand:wikipedia": "en:Burger King",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2025-12-18",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Burger King",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 74272051,
+   "center": {
+    "lat": 43.4656817,
+    "lon": -79.6852164
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "opening_hours": "24/7",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 93143554,
+   "center": {
+    "lat": 43.3934601,
+    "lon": -79.7527088
+   },
+   "tags": {
+    "addr:housenumber": "3543",
+    "addr:street": "Wyecroft Road",
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "building": "retail",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Harvey's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 93143557,
+   "center": {
+    "lat": 43.3928868,
+    "lon": -79.7519076
+   },
+   "tags": {
+    "addr:housenumber": "3549",
+    "addr:street": "Wyecroft Road",
+    "amenity": "restaurant",
+    "brand": "Kelsey's",
+    "brand:wikidata": "Q6386459",
+    "brand:wikipedia": "en:Kelseys Original Roadhouse",
+    "building": "yes",
+    "cuisine": "american",
+    "name": "Kelsey's",
+    "official_name": "Kelsey's Original Roadhouse"
+   }
+  },
+  {
+   "type": "way",
+   "id": 93143558,
+   "center": {
+    "lat": 43.3933763,
+    "lon": -79.7525419
+   },
+   "tags": {
+    "addr:housenumber": "3543",
+    "addr:street": "Wyecroft Road",
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "building": "retail",
+    "cuisine": "chicken",
+    "name": "Swiss Chalet"
+   }
+  },
+  {
+   "type": "way",
+   "id": 96163902,
+   "center": {
+    "lat": 43.4852669,
+    "lon": -79.7170181
+   },
+   "tags": {
+    "addr:housenumber": "301",
+    "addr:postcode": "L6H 6Z3",
+    "addr:street": "Hays Boulevard",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "branch": "Oakville",
+    "brand": "State & Main",
+    "brand:wikidata": "Q118744509",
+    "brand:wikipedia": "en:Kelseys Original Roadhouse",
+    "building": "yes",
+    "check_date": "2025-12-18",
+    "cuisine": "american",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "State & Main",
+    "opening_hours": "Mo-We 11:30-22:00; Th-Sa 11:30-23:00; Su 11:30-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+1-289-813-1772",
+    "source": "Bing",
+    "website": "https://www.stateandmain.ca"
+   }
+  },
+  {
+   "type": "way",
+   "id": 166160659,
+   "center": {
+    "lat": 43.487203,
+    "lon": -79.7172838
+   },
+   "tags": {
+    "addr:housenumber": "350",
+    "addr:street": "Dundas Street East",
+    "amenity": "restaurant",
+    "brand": "Pür & Simple",
+    "brand:wikidata": "Q118558630",
+    "building": "retail",
+    "cuisine": "breakfast",
+    "name": "Pür & Simple",
+    "opening_hours": "Mo-Su 07:00-15:00",
+    "phone": "+1-289-725-1024",
+    "source": "Bing",
+    "takeaway": "yes",
+    "website": "https://pursimple.com/restaurant/oakville-dundas-trafalgar/",
+    "website:menu": "https://pursimple.com/menus/ontario/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 170355449,
+   "center": {
+    "lat": 43.3948472,
+    "lon": -79.7522268
+   },
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "3529",
+    "addr:street": "Wyecroft Road",
+    "amenity": "restaurant",
+    "brand": "Milestones",
+    "brand:wikidata": "Q6851623",
+    "building": "retail",
+    "cuisine": "bar_and_grill",
+    "name": "Milestones",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 175636251,
+   "center": {
+    "lat": 43.4802342,
+    "lon": -79.6566482
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 184016078,
+   "center": {
+    "lat": 43.4848976,
+    "lon": -79.7165492
+   },
+   "tags": {
+    "addr:housenumber": "300",
+    "addr:postcode": "L6H 7P3",
+    "addr:street": "Hays Boulevard",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "branch": "Oakville",
+    "brand": "The Keg",
+    "brand:wikidata": "Q7744066",
+    "brand:wikipedia": "en:The Keg",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2025-12-18",
+    "cuisine": "steak_house",
+    "name": "The Keg",
+    "opening_hours": "Mo-Fr 16:00-23:00; Sa,Su 15:00-23:00",
+    "phone": "+1-905-257-2700",
+    "website": "https://thekeg.com/en/locations/oakville",
+    "website:en": "https://thekeg.com/en/locations/oakville",
+    "website:fr": "https://thekeg.com/fr/restaurants/oakville"
+   }
+  },
+  {
+   "type": "way",
+   "id": 186410879,
+   "center": {
+    "lat": 43.388247,
+    "lon": -79.7458669
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 190596505,
+   "center": {
+    "lat": 43.441007,
+    "lon": -79.6735756
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2025-04-27",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "opening_hours": "06:00-22:00",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 197610896,
+   "center": {
+    "lat": 43.4641997,
+    "lon": -79.7437746
+   },
+   "tags": {
+    "addr:housenumber": "494",
+    "addr:street": "Neyagawa Boulevard",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 203782522,
+   "center": {
+    "lat": 43.4654838,
+    "lon": -79.7434929
+   },
+   "tags": {
+    "addr:housenumber": "486",
+    "addr:street": "Dundas Street West",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "yes",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 277017709,
+   "center": {
+    "lat": 43.4976217,
+    "lon": -79.7075244
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 317966887,
+   "center": {
+    "lat": 43.4483749,
+    "lon": -79.7040705
+   },
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "260",
+    "addr:street": "North Service Road West",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "internet_access": "no",
+    "name": "Tim Hortons",
+    "opening_hours": "24/7",
+    "smoking": "no",
+    "store_ref": "645",
+    "takeaway": "yes",
+    "toilets:wheelchair": "no",
+    "wheelchair": "limited"
+   }
+  },
+  {
+   "type": "way",
+   "id": 454765609,
+   "center": {
+    "lat": 43.4403259,
+    "lon": -79.7723758
+   },
+   "tags": {
+    "addr:housenumber": "2383",
+    "addr:postcode": "L6M 4J3",
+    "addr:street": "Dundas Street West",
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "thai;vietnamese",
+    "delivery": "yes",
+    "name": "Funky Thai",
+    "opening_hours": "11:30-21:00",
+    "phone": "+1-905-827-1068",
+    "takeaway": "yes",
+    "website": "https://www.funkythai1.com/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 454993435,
+   "center": {
+    "lat": 43.4661827,
+    "lon": -79.7455254
+   },
+   "tags": {
+    "addr:housenumber": "499",
+    "addr:street": "Dundas Street West",
+    "amenity": "restaurant",
+    "brand": "Boston Pizza",
+    "brand:wikidata": "Q894578",
+    "brand:wikipedia": "en:Boston Pizza",
+    "building": "retail",
+    "cuisine": "pizza",
+    "name": "Boston Pizza"
+   }
+  },
+  {
+   "type": "way",
+   "id": 460431679,
+   "center": {
+    "lat": 43.4446718,
+    "lon": -79.6827792
+   },
+   "tags": {
+    "addr:city": "Oakville",
+    "addr:housenumber": "379",
+    "addr:postcode": "L6K 3B9",
+    "addr:street": "Kerr Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "european",
+    "name": "J.A.C’S Bistro"
+   }
+  },
+  {
+   "type": "way",
+   "id": 475550515,
+   "center": {
+    "lat": 43.4897625,
+    "lon": -79.7169993
+   },
+   "tags": {
+    "addr:housenumber": "390",
+    "addr:street": "Dundas Street East",
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "brand:wikipedia": "en:A&W (Canada)",
+    "building": "retail",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "A&W",
+    "opening_hours": "06:00-23:00",
+    "opening_hours:drive_through": "24/7",
+    "phone": "+1-905-257-6822",
+    "takeaway": "yes",
+    "website": "https://web.aw.ca/en/locations/4942/Oakville/390-dundas-street-east"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1231726715,
+   "center": {
+    "lat": 43.4810959,
+    "lon": -79.6571922
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  }
+ ]
+}

@@ -1,0 +1,2655 @@
+{
+  "seats": [
+    {
+      "iso3": "AFG",
+      "numeric": "004",
+      "name": "Afghanistan",
+      "aliases": [
+        "Islamic Republic of Afghanistan",
+        "Afġānistān"
+      ],
+      "lat": 33,
+      "lng": 65,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ALB",
+      "numeric": "008",
+      "name": "Albania",
+      "aliases": [
+        "Republic of Albania",
+        "Shqipëri",
+        "Shqipëria",
+        "Shqipnia"
+      ],
+      "lat": 41,
+      "lng": 20,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "DZA",
+      "numeric": "012",
+      "name": "Algeria",
+      "aliases": [
+        "People's Democratic Republic of Algeria",
+        "Dzayer",
+        "Algérie"
+      ],
+      "lat": 28,
+      "lng": 3,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "AND",
+      "numeric": "020",
+      "name": "Andorra",
+      "aliases": [
+        "Principality of Andorra",
+        "Principat d'Andorra"
+      ],
+      "lat": 42.5,
+      "lng": 1.5,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "AGO",
+      "numeric": "024",
+      "name": "Angola",
+      "aliases": [
+        "Republic of Angola",
+        "República de Angola"
+      ],
+      "lat": -12.5,
+      "lng": 18.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ATG",
+      "numeric": "028",
+      "name": "Antigua and Barbuda",
+      "aliases": [],
+      "lat": 17.05,
+      "lng": -61.8,
+      "in110m": false,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "ARG",
+      "numeric": "032",
+      "name": "Argentina",
+      "aliases": [
+        "Argentine Republic",
+        "República Argentina"
+      ],
+      "lat": -34,
+      "lng": -64,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ARM",
+      "numeric": "051",
+      "name": "Armenia",
+      "aliases": [
+        "Republic of Armenia",
+        "Hayastan"
+      ],
+      "lat": 40,
+      "lng": 45,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "AUS",
+      "numeric": "036",
+      "name": "Australia",
+      "aliases": [
+        "Commonwealth of Australia"
+      ],
+      "lat": -27,
+      "lng": 133,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "AUT",
+      "numeric": "040",
+      "name": "Austria",
+      "aliases": [
+        "Republic of Austria",
+        "Osterreich",
+        "Oesterreich"
+      ],
+      "lat": 47.33333333,
+      "lng": 13.33333333,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "AZE",
+      "numeric": "031",
+      "name": "Azerbaijan",
+      "aliases": [
+        "Republic of Azerbaijan"
+      ],
+      "lat": 40.5,
+      "lng": 47.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BHS",
+      "numeric": "044",
+      "name": "Bahamas",
+      "aliases": [
+        "Commonwealth of the Bahamas"
+      ],
+      "lat": 24.25,
+      "lng": -76,
+      "in110m": true,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "BHR",
+      "numeric": "048",
+      "name": "Bahrain",
+      "aliases": [
+        "Kingdom of Bahrain"
+      ],
+      "lat": 26,
+      "lng": 50.55,
+      "in110m": false,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "BGD",
+      "numeric": "050",
+      "name": "Bangladesh",
+      "aliases": [
+        "People's Republic of Bangladesh",
+        "Gônôprôjatôntri Bangladesh"
+      ],
+      "lat": 24,
+      "lng": 90,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BRB",
+      "numeric": "052",
+      "name": "Barbados",
+      "aliases": [],
+      "lat": 13.16666666,
+      "lng": -59.53333333,
+      "in110m": false,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "BLR",
+      "numeric": "112",
+      "name": "Belarus",
+      "aliases": [
+        "Republic of Belarus",
+        "Bielaruś"
+      ],
+      "lat": 53,
+      "lng": 28,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BEL",
+      "numeric": "056",
+      "name": "Belgium",
+      "aliases": [
+        "Kingdom of Belgium",
+        "België",
+        "Belgie",
+        "Belgien",
+        "Belgique",
+        "Koninkrijk België",
+        "Royaume de Belgique",
+        "Königreich Belgien"
+      ],
+      "lat": 50.83333333,
+      "lng": 4,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BLZ",
+      "numeric": "084",
+      "name": "Belize",
+      "aliases": [],
+      "lat": 17.25,
+      "lng": -88.75,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BEN",
+      "numeric": "204",
+      "name": "Benin",
+      "aliases": [
+        "Republic of Benin",
+        "République du Bénin"
+      ],
+      "lat": 9.5,
+      "lng": 2.25,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "BTN",
+      "numeric": "064",
+      "name": "Bhutan",
+      "aliases": [
+        "Kingdom of Bhutan"
+      ],
+      "lat": 27.5,
+      "lng": 90.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BOL",
+      "numeric": "068",
+      "name": "Bolivia",
+      "aliases": [
+        "Plurinational State of Bolivia",
+        "Buliwya",
+        "Wuliwya",
+        "Bolivia, Plurinational State of",
+        "Estado Plurinacional de Bolivia",
+        "Buliwya Mamallaqta",
+        "Wuliwya Suyu",
+        "Tetã Volívia"
+      ],
+      "lat": -17,
+      "lng": -65,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BIH",
+      "numeric": "070",
+      "name": "Bosnia and Herzegovina",
+      "aliases": [
+        "Bosnia-Herzegovina"
+      ],
+      "lat": 44,
+      "lng": 18,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BWA",
+      "numeric": "072",
+      "name": "Botswana",
+      "aliases": [
+        "Republic of Botswana",
+        "Lefatshe la Botswana"
+      ],
+      "lat": -22,
+      "lng": 24,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BRA",
+      "numeric": "076",
+      "name": "Brazil",
+      "aliases": [
+        "Federative Republic of Brazil",
+        "Brasil",
+        "República Federativa do Brasil"
+      ],
+      "lat": -10,
+      "lng": -55,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BRN",
+      "numeric": "096",
+      "name": "Brunei",
+      "aliases": [
+        "Nation of Brunei, Abode of Peace",
+        "Brunei Darussalam",
+        "Nation of Brunei",
+        "the Abode of Peace"
+      ],
+      "lat": 4.5,
+      "lng": 114.66666666,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BGR",
+      "numeric": "100",
+      "name": "Bulgaria",
+      "aliases": [
+        "Republic of Bulgaria"
+      ],
+      "lat": 43,
+      "lng": 25,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "BFA",
+      "numeric": "854",
+      "name": "Burkina Faso",
+      "aliases": [],
+      "lat": 13,
+      "lng": -2,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "BDI",
+      "numeric": "108",
+      "name": "Burundi",
+      "aliases": [
+        "Republic of Burundi",
+        "Republika y'Uburundi",
+        "République du Burundi"
+      ],
+      "lat": -3.5,
+      "lng": 30,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "KHM",
+      "numeric": "116",
+      "name": "Cambodia",
+      "aliases": [
+        "Kingdom of Cambodia"
+      ],
+      "lat": 13,
+      "lng": 105,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "CMR",
+      "numeric": "120",
+      "name": "Cameroon",
+      "aliases": [
+        "Republic of Cameroon",
+        "République du Cameroun"
+      ],
+      "lat": 6,
+      "lng": 12,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "CAN",
+      "numeric": "124",
+      "name": "Canada",
+      "aliases": [],
+      "lat": 60,
+      "lng": -95,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "CPV",
+      "numeric": "132",
+      "name": "Cape Verde",
+      "aliases": [
+        "Republic of Cabo Verde",
+        "República de Cabo Verde"
+      ],
+      "lat": 16,
+      "lng": -24,
+      "in110m": false,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "CAF",
+      "numeric": "140",
+      "name": "Central African Republic",
+      "aliases": [
+        "République centrafricaine"
+      ],
+      "lat": 7,
+      "lng": 21,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "TCD",
+      "numeric": "148",
+      "name": "Chad",
+      "aliases": [
+        "Republic of Chad",
+        "Tchad",
+        "République du Tchad"
+      ],
+      "lat": 15,
+      "lng": 19,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "CHL",
+      "numeric": "152",
+      "name": "Chile",
+      "aliases": [
+        "Republic of Chile",
+        "República de Chile"
+      ],
+      "lat": -30,
+      "lng": -71,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "CHN",
+      "numeric": "156",
+      "name": "China",
+      "aliases": [
+        "People's Republic of China",
+        "Zhōngguó",
+        "Zhongguo",
+        "Zhonghua",
+        "Zhōnghuá Rénmín Gònghéguó"
+      ],
+      "lat": 35,
+      "lng": 105,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "COL",
+      "numeric": "170",
+      "name": "Colombia",
+      "aliases": [
+        "Republic of Colombia",
+        "República de Colombia"
+      ],
+      "lat": 4,
+      "lng": -72,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "COM",
+      "numeric": "174",
+      "name": "Comoros",
+      "aliases": [
+        "Union of the Comoros",
+        "Union des Comores",
+        "Udzima wa Komori"
+      ],
+      "lat": -12.16666666,
+      "lng": 44.25,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "CRI",
+      "numeric": "188",
+      "name": "Costa Rica",
+      "aliases": [
+        "Republic of Costa Rica",
+        "República de Costa Rica"
+      ],
+      "lat": 10,
+      "lng": -84,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "CIV",
+      "numeric": "384",
+      "name": "Côte d'Ivoire",
+      "aliases": [
+        "Ivory Coast",
+        "Republic of Côte d'Ivoire",
+        "Cote d'Ivoire",
+        "République de Côte d'Ivoire"
+      ],
+      "lat": 8,
+      "lng": -5,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "HRV",
+      "numeric": "191",
+      "name": "Croatia",
+      "aliases": [
+        "Republic of Croatia",
+        "Hrvatska",
+        "Republika Hrvatska"
+      ],
+      "lat": 45.16666666,
+      "lng": 15.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "CUB",
+      "numeric": "192",
+      "name": "Cuba",
+      "aliases": [
+        "Republic of Cuba",
+        "República de Cuba"
+      ],
+      "lat": 21.5,
+      "lng": -80,
+      "in110m": true,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "CYP",
+      "numeric": "196",
+      "name": "Cyprus",
+      "aliases": [
+        "Republic of Cyprus",
+        "Kýpros",
+        "Kıbrıs",
+        "Kıbrıs Cumhuriyeti"
+      ],
+      "lat": 35,
+      "lng": 33,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "CZE",
+      "numeric": "203",
+      "name": "Czechia",
+      "aliases": [
+        "Czech Republic",
+        "Česká republika",
+        "Česko"
+      ],
+      "lat": 49.75,
+      "lng": 15.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "DNK",
+      "numeric": "208",
+      "name": "Denmark",
+      "aliases": [
+        "Kingdom of Denmark",
+        "Danmark",
+        "Kongeriget Danmark"
+      ],
+      "lat": 56,
+      "lng": 10,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "DJI",
+      "numeric": "262",
+      "name": "Djibouti",
+      "aliases": [
+        "Republic of Djibouti",
+        "Jabuuti",
+        "Gabuuti",
+        "République de Djibouti",
+        "Gabuutih Ummuuno",
+        "Jamhuuriyadda Jabuuti"
+      ],
+      "lat": 11.5,
+      "lng": 43,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "DMA",
+      "numeric": "212",
+      "name": "Dominica",
+      "aliases": [
+        "Commonwealth of Dominica",
+        "Dominique"
+      ],
+      "lat": 15.41666666,
+      "lng": -61.33333333,
+      "in110m": false,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "DOM",
+      "numeric": "214",
+      "name": "Dominican Republic",
+      "aliases": [],
+      "lat": 19,
+      "lng": -70.66666666,
+      "in110m": true,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "COD",
+      "numeric": "180",
+      "name": "DR Congo",
+      "aliases": [
+        "Democratic Republic of the Congo",
+        "Congo-Kinshasa",
+        "Congo, the Democratic Republic of the",
+        "Democratic Republic of Congo",
+        "DRC"
+      ],
+      "lat": 0,
+      "lng": 25,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ECU",
+      "numeric": "218",
+      "name": "Ecuador",
+      "aliases": [
+        "Republic of Ecuador",
+        "República del Ecuador"
+      ],
+      "lat": -2,
+      "lng": -77.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "EGY",
+      "numeric": "818",
+      "name": "Egypt",
+      "aliases": [
+        "Arab Republic of Egypt"
+      ],
+      "lat": 27,
+      "lng": 30,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "SLV",
+      "numeric": "222",
+      "name": "El Salvador",
+      "aliases": [
+        "Republic of El Salvador",
+        "República de El Salvador"
+      ],
+      "lat": 13.83333333,
+      "lng": -88.91666666,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "GNQ",
+      "numeric": "226",
+      "name": "Equatorial Guinea",
+      "aliases": [
+        "Republic of Equatorial Guinea",
+        "República de Guinea Ecuatorial",
+        "République de Guinée équatoriale",
+        "República da Guiné Equatorial"
+      ],
+      "lat": 2,
+      "lng": 10,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ERI",
+      "numeric": "232",
+      "name": "Eritrea",
+      "aliases": [
+        "State of Eritrea",
+        "Dawlat Iritriyá",
+        "Iritriyā"
+      ],
+      "lat": 15,
+      "lng": 39,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "EST",
+      "numeric": "233",
+      "name": "Estonia",
+      "aliases": [
+        "Republic of Estonia",
+        "Eesti",
+        "Eesti Vabariik"
+      ],
+      "lat": 59,
+      "lng": 26,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "SWZ",
+      "numeric": "748",
+      "name": "Eswatini",
+      "aliases": [
+        "Kingdom of Eswatini",
+        "Swaziland",
+        "weSwatini",
+        "Swatini",
+        "Ngwane",
+        "Umbuso weSwatini"
+      ],
+      "lat": -26.5,
+      "lng": 31.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ETH",
+      "numeric": "231",
+      "name": "Ethiopia",
+      "aliases": [
+        "Federal Democratic Republic of Ethiopia"
+      ],
+      "lat": 8,
+      "lng": 38,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "FJI",
+      "numeric": "242",
+      "name": "Fiji",
+      "aliases": [
+        "Republic of Fiji",
+        "Viti",
+        "Matanitu ko Viti"
+      ],
+      "lat": -18,
+      "lng": 175,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "FIN",
+      "numeric": "246",
+      "name": "Finland",
+      "aliases": [
+        "Republic of Finland",
+        "Suomi",
+        "Suomen tasavalta",
+        "Republiken Finland"
+      ],
+      "lat": 64,
+      "lng": 26,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "FRA",
+      "numeric": "250",
+      "name": "France",
+      "aliases": [
+        "French Republic",
+        "République française"
+      ],
+      "lat": 46,
+      "lng": 2,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "GAB",
+      "numeric": "266",
+      "name": "Gabon",
+      "aliases": [
+        "Gabonese Republic",
+        "République Gabonaise"
+      ],
+      "lat": -1,
+      "lng": 11.75,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "GMB",
+      "numeric": "270",
+      "name": "Gambia",
+      "aliases": [
+        "Republic of the Gambia"
+      ],
+      "lat": 13.46666666,
+      "lng": -16.56666666,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "GEO",
+      "numeric": "268",
+      "name": "Georgia",
+      "aliases": [
+        "Sakartvelo"
+      ],
+      "lat": 42,
+      "lng": 43.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "DEU",
+      "numeric": "276",
+      "name": "Germany",
+      "aliases": [
+        "Federal Republic of Germany",
+        "Bundesrepublik Deutschland"
+      ],
+      "lat": 51,
+      "lng": 9,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "GHA",
+      "numeric": "288",
+      "name": "Ghana",
+      "aliases": [
+        "Republic of Ghana"
+      ],
+      "lat": 8,
+      "lng": -2,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "GRC",
+      "numeric": "300",
+      "name": "Greece",
+      "aliases": [
+        "Hellenic Republic",
+        "Elláda"
+      ],
+      "lat": 39,
+      "lng": 22,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "GRD",
+      "numeric": "308",
+      "name": "Grenada",
+      "aliases": [],
+      "lat": 12.11666666,
+      "lng": -61.66666666,
+      "in110m": false,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "GTM",
+      "numeric": "320",
+      "name": "Guatemala",
+      "aliases": [
+        "Republic of Guatemala"
+      ],
+      "lat": 15.5,
+      "lng": -90.25,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "GIN",
+      "numeric": "324",
+      "name": "Guinea",
+      "aliases": [
+        "Republic of Guinea",
+        "République de Guinée"
+      ],
+      "lat": 11,
+      "lng": -10,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "GNB",
+      "numeric": "624",
+      "name": "Guinea-Bissau",
+      "aliases": [
+        "Republic of Guinea-Bissau",
+        "República da Guiné-Bissau"
+      ],
+      "lat": 12,
+      "lng": -15,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "GUY",
+      "numeric": "328",
+      "name": "Guyana",
+      "aliases": [
+        "Co-operative Republic of Guyana"
+      ],
+      "lat": 5,
+      "lng": -59,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "HTI",
+      "numeric": "332",
+      "name": "Haiti",
+      "aliases": [
+        "Republic of Haiti",
+        "République d'Haïti",
+        "Repiblik Ayiti"
+      ],
+      "lat": 19,
+      "lng": -72.41666666,
+      "in110m": true,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "HND",
+      "numeric": "340",
+      "name": "Honduras",
+      "aliases": [
+        "Republic of Honduras",
+        "República de Honduras"
+      ],
+      "lat": 15,
+      "lng": -86.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "HUN",
+      "numeric": "348",
+      "name": "Hungary",
+      "aliases": [],
+      "lat": 47,
+      "lng": 20,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ISL",
+      "numeric": "352",
+      "name": "Iceland",
+      "aliases": [
+        "Island",
+        "Republic of Iceland",
+        "Lýðveldið Ísland"
+      ],
+      "lat": 65,
+      "lng": -18,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "IND",
+      "numeric": "356",
+      "name": "India",
+      "aliases": [
+        "Republic of India",
+        "Bhārat",
+        "Bharat Ganrajya"
+      ],
+      "lat": 20,
+      "lng": 77,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "IDN",
+      "numeric": "360",
+      "name": "Indonesia",
+      "aliases": [
+        "Republic of Indonesia",
+        "Republik Indonesia"
+      ],
+      "lat": -5,
+      "lng": 120,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "IRN",
+      "numeric": "364",
+      "name": "Iran",
+      "aliases": [
+        "Islamic Republic of Iran",
+        "Iran, Islamic Republic of",
+        "Jomhuri-ye Eslāmi-ye Irān"
+      ],
+      "lat": 32,
+      "lng": 53,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "IRQ",
+      "numeric": "368",
+      "name": "Iraq",
+      "aliases": [
+        "Republic of Iraq"
+      ],
+      "lat": 33,
+      "lng": 44,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "IRL",
+      "numeric": "372",
+      "name": "Ireland",
+      "aliases": [
+        "Republic of Ireland",
+        "Éire",
+        "Poblacht na hÉireann"
+      ],
+      "lat": 53,
+      "lng": -8,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ISR",
+      "numeric": "376",
+      "name": "Israel",
+      "aliases": [
+        "State of Israel",
+        "Medīnat Yisrā'el"
+      ],
+      "lat": 31.47,
+      "lng": 35.13,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "ITA",
+      "numeric": "380",
+      "name": "Italy",
+      "aliases": [
+        "Italian Republic",
+        "Repubblica italiana"
+      ],
+      "lat": 42.83333333,
+      "lng": 12.83333333,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "JAM",
+      "numeric": "388",
+      "name": "Jamaica",
+      "aliases": [],
+      "lat": 18.25,
+      "lng": -77.5,
+      "in110m": true,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "JPN",
+      "numeric": "392",
+      "name": "Japan",
+      "aliases": [
+        "Nippon",
+        "Nihon"
+      ],
+      "lat": 36,
+      "lng": 138,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "JOR",
+      "numeric": "400",
+      "name": "Jordan",
+      "aliases": [
+        "Hashemite Kingdom of Jordan",
+        "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
+      ],
+      "lat": 31,
+      "lng": 36,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "KAZ",
+      "numeric": "398",
+      "name": "Kazakhstan",
+      "aliases": [
+        "Republic of Kazakhstan",
+        "Qazaqstan",
+        "Qazaqstan Respublïkası",
+        "Respublika Kazakhstan"
+      ],
+      "lat": 48,
+      "lng": 68,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "KEN",
+      "numeric": "404",
+      "name": "Kenya",
+      "aliases": [
+        "Republic of Kenya",
+        "Jamhuri ya Kenya"
+      ],
+      "lat": 1,
+      "lng": 38,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "KIR",
+      "numeric": "296",
+      "name": "Kiribati",
+      "aliases": [
+        "Independent and Sovereign Republic of Kiribati",
+        "Republic of Kiribati",
+        "Ribaberiki Kiribati"
+      ],
+      "lat": 1.41666666,
+      "lng": 173,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "KWT",
+      "numeric": "414",
+      "name": "Kuwait",
+      "aliases": [
+        "State of Kuwait",
+        "Dawlat al-Kuwait"
+      ],
+      "lat": 29.5,
+      "lng": 45.75,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "KGZ",
+      "numeric": "417",
+      "name": "Kyrgyzstan",
+      "aliases": [
+        "Kyrgyz Republic",
+        "Kyrgyz Respublikasy"
+      ],
+      "lat": 41,
+      "lng": 75,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "LAO",
+      "numeric": "418",
+      "name": "Laos",
+      "aliases": [
+        "Lao People's Democratic Republic",
+        "Lao",
+        "Sathalanalat Paxathipatai Paxaxon Lao"
+      ],
+      "lat": 18,
+      "lng": 105,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "LVA",
+      "numeric": "428",
+      "name": "Latvia",
+      "aliases": [
+        "Republic of Latvia",
+        "Latvijas Republika"
+      ],
+      "lat": 57,
+      "lng": 25,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "LBN",
+      "numeric": "422",
+      "name": "Lebanon",
+      "aliases": [
+        "Lebanese Republic",
+        "Al-Jumhūrīyah Al-Libnānīyah"
+      ],
+      "lat": 33.83333333,
+      "lng": 35.83333333,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "LSO",
+      "numeric": "426",
+      "name": "Lesotho",
+      "aliases": [
+        "Kingdom of Lesotho",
+        "Muso oa Lesotho"
+      ],
+      "lat": -29.5,
+      "lng": 28.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "LBR",
+      "numeric": "430",
+      "name": "Liberia",
+      "aliases": [
+        "Republic of Liberia"
+      ],
+      "lat": 6.5,
+      "lng": -9.5,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "LBY",
+      "numeric": "434",
+      "name": "Libya",
+      "aliases": [
+        "State of Libya",
+        "Dawlat Libya"
+      ],
+      "lat": 25,
+      "lng": 17,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "LIE",
+      "numeric": "438",
+      "name": "Liechtenstein",
+      "aliases": [
+        "Principality of Liechtenstein",
+        "Fürstentum Liechtenstein"
+      ],
+      "lat": 47.26666666,
+      "lng": 9.53333333,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "LTU",
+      "numeric": "440",
+      "name": "Lithuania",
+      "aliases": [
+        "Republic of Lithuania",
+        "Lietuvos Respublika"
+      ],
+      "lat": 56,
+      "lng": 24,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "LUX",
+      "numeric": "442",
+      "name": "Luxembourg",
+      "aliases": [
+        "Grand Duchy of Luxembourg",
+        "Grand-Duché de Luxembourg",
+        "Großherzogtum Luxemburg",
+        "Groussherzogtum Lëtzebuerg"
+      ],
+      "lat": 49.75,
+      "lng": 6.16666666,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "MDG",
+      "numeric": "450",
+      "name": "Madagascar",
+      "aliases": [
+        "Republic of Madagascar",
+        "Repoblikan'i Madagasikara",
+        "République de Madagascar"
+      ],
+      "lat": -20,
+      "lng": 47,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "MWI",
+      "numeric": "454",
+      "name": "Malawi",
+      "aliases": [
+        "Republic of Malawi"
+      ],
+      "lat": -13.5,
+      "lng": 34,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "MYS",
+      "numeric": "458",
+      "name": "Malaysia",
+      "aliases": [],
+      "lat": 2.5,
+      "lng": 112.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "MDV",
+      "numeric": "462",
+      "name": "Maldives",
+      "aliases": [
+        "Republic of the Maldives",
+        "Maldive Islands",
+        "Dhivehi Raajjeyge Jumhooriyya"
+      ],
+      "lat": 3.25,
+      "lng": 73,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "MLI",
+      "numeric": "466",
+      "name": "Mali",
+      "aliases": [
+        "Republic of Mali",
+        "République du Mali"
+      ],
+      "lat": 17,
+      "lng": -4,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "MLT",
+      "numeric": "470",
+      "name": "Malta",
+      "aliases": [
+        "Republic of Malta",
+        "Repubblika ta' Malta"
+      ],
+      "lat": 35.83333333,
+      "lng": 14.58333333,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "MHL",
+      "numeric": "584",
+      "name": "Marshall Islands",
+      "aliases": [
+        "Republic of the Marshall Islands"
+      ],
+      "lat": 9,
+      "lng": 168,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "MRT",
+      "numeric": "478",
+      "name": "Mauritania",
+      "aliases": [
+        "Islamic Republic of Mauritania"
+      ],
+      "lat": 20,
+      "lng": -12,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "MUS",
+      "numeric": "480",
+      "name": "Mauritius",
+      "aliases": [
+        "Republic of Mauritius",
+        "République de Maurice"
+      ],
+      "lat": -20.28333333,
+      "lng": 57.55,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "MEX",
+      "numeric": "484",
+      "name": "Mexico",
+      "aliases": [
+        "United Mexican States",
+        "Mexicanos",
+        "Estados Unidos Mexicanos"
+      ],
+      "lat": 23,
+      "lng": -102,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "FSM",
+      "numeric": "583",
+      "name": "Micronesia",
+      "aliases": [
+        "Federated States of Micronesia",
+        "Micronesia, Federated States of"
+      ],
+      "lat": 6.91666666,
+      "lng": 158.25,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "MDA",
+      "numeric": "498",
+      "name": "Moldova",
+      "aliases": [
+        "Republic of Moldova",
+        "Moldova, Republic of",
+        "Republica Moldova"
+      ],
+      "lat": 47,
+      "lng": 29,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "MCO",
+      "numeric": "492",
+      "name": "Monaco",
+      "aliases": [
+        "Principality of Monaco",
+        "Principauté de Monaco"
+      ],
+      "lat": 43.73333333,
+      "lng": 7.4,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "MNG",
+      "numeric": "496",
+      "name": "Mongolia",
+      "aliases": [],
+      "lat": 46,
+      "lng": 105,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "MNE",
+      "numeric": "499",
+      "name": "Montenegro",
+      "aliases": [
+        "Crna Gora"
+      ],
+      "lat": 42.5,
+      "lng": 19.3,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "MAR",
+      "numeric": "504",
+      "name": "Morocco",
+      "aliases": [
+        "Kingdom of Morocco",
+        "Al-Mamlakah al-Maġribiyah"
+      ],
+      "lat": 32,
+      "lng": -5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "MOZ",
+      "numeric": "508",
+      "name": "Mozambique",
+      "aliases": [
+        "Republic of Mozambique",
+        "República de Moçambique"
+      ],
+      "lat": -18.25,
+      "lng": 35,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "MMR",
+      "numeric": "104",
+      "name": "Myanmar",
+      "aliases": [
+        "Republic of the Union of Myanmar",
+        "Burma",
+        "Pyidaunzu Thanmăda Myăma Nainngandaw"
+      ],
+      "lat": 22,
+      "lng": 98,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "NAM",
+      "numeric": "516",
+      "name": "Namibia",
+      "aliases": [
+        "Republic of Namibia",
+        "Namibië"
+      ],
+      "lat": -22,
+      "lng": 17,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "NRU",
+      "numeric": "520",
+      "name": "Nauru",
+      "aliases": [
+        "Republic of Nauru",
+        "Naoero",
+        "Pleasant Island",
+        "Ripublik Naoero"
+      ],
+      "lat": -0.53333333,
+      "lng": 166.91666666,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "NPL",
+      "numeric": "524",
+      "name": "Nepal",
+      "aliases": [
+        "Federal Democratic Republic of Nepal",
+        "Loktāntrik Ganatantra Nepāl"
+      ],
+      "lat": 28,
+      "lng": 84,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "NLD",
+      "numeric": "528",
+      "name": "Netherlands",
+      "aliases": [
+        "Kingdom of the Netherlands",
+        "Holland",
+        "Nederland",
+        "The Netherlands"
+      ],
+      "lat": 52.5,
+      "lng": 5.75,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "NZL",
+      "numeric": "554",
+      "name": "New Zealand",
+      "aliases": [
+        "Aotearoa"
+      ],
+      "lat": -41,
+      "lng": 174,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "NIC",
+      "numeric": "558",
+      "name": "Nicaragua",
+      "aliases": [
+        "Republic of Nicaragua",
+        "República de Nicaragua"
+      ],
+      "lat": 13,
+      "lng": -85,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "NER",
+      "numeric": "562",
+      "name": "Niger",
+      "aliases": [
+        "Republic of Niger",
+        "Nijar"
+      ],
+      "lat": 16,
+      "lng": 8,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "NGA",
+      "numeric": "566",
+      "name": "Nigeria",
+      "aliases": [
+        "Federal Republic of Nigeria",
+        "Nijeriya",
+        "Naíjíríà"
+      ],
+      "lat": 10,
+      "lng": 8,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "PRK",
+      "numeric": "408",
+      "name": "North Korea",
+      "aliases": [
+        "Democratic People's Republic of Korea",
+        "DPRK",
+        "Chosŏn Minjujuŭi Inmin Konghwaguk",
+        "Korea, Democratic People's Republic of"
+      ],
+      "lat": 40,
+      "lng": 127,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "MKD",
+      "numeric": "807",
+      "name": "North Macedonia",
+      "aliases": [
+        "Republic of North Macedonia",
+        "The former Yugoslav Republic of Macedonia",
+        "Macedonia, The Former Yugoslav Republic of",
+        "Macedonia"
+      ],
+      "lat": 41.83333333,
+      "lng": 22,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "NOR",
+      "numeric": "578",
+      "name": "Norway",
+      "aliases": [
+        "Kingdom of Norway",
+        "Norge",
+        "Noreg",
+        "Kongeriket Norge",
+        "Kongeriket Noreg"
+      ],
+      "lat": 62,
+      "lng": 10,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "OMN",
+      "numeric": "512",
+      "name": "Oman",
+      "aliases": [
+        "Sultanate of Oman"
+      ],
+      "lat": 21,
+      "lng": 57,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "PAK",
+      "numeric": "586",
+      "name": "Pakistan",
+      "aliases": [
+        "Islamic Republic of Pakistan",
+        "Pākistān",
+        "Islāmī Jumhūriya'eh Pākistān"
+      ],
+      "lat": 30,
+      "lng": 70,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "PLW",
+      "numeric": "585",
+      "name": "Palau",
+      "aliases": [
+        "Republic of Palau",
+        "Beluu er a Belau"
+      ],
+      "lat": 7.5,
+      "lng": 134.5,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "PSE",
+      "numeric": "275",
+      "name": "Palestine",
+      "aliases": [
+        "State of Palestine",
+        "Palestine, State of"
+      ],
+      "lat": 31.9,
+      "lng": 35.2,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "PAN",
+      "numeric": "591",
+      "name": "Panama",
+      "aliases": [
+        "Republic of Panama",
+        "República de Panamá"
+      ],
+      "lat": 9,
+      "lng": -80,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "PNG",
+      "numeric": "598",
+      "name": "Papua New Guinea",
+      "aliases": [
+        "Independent State of Papua New Guinea",
+        "Independen Stet bilong Papua Niugini"
+      ],
+      "lat": -6,
+      "lng": 147,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "PRY",
+      "numeric": "600",
+      "name": "Paraguay",
+      "aliases": [
+        "Republic of Paraguay",
+        "República del Paraguay",
+        "Tetã Paraguái"
+      ],
+      "lat": -23,
+      "lng": -58,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "PER",
+      "numeric": "604",
+      "name": "Peru",
+      "aliases": [
+        "Republic of Peru",
+        "República del Perú"
+      ],
+      "lat": -10,
+      "lng": -76,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "PHL",
+      "numeric": "608",
+      "name": "Philippines",
+      "aliases": [
+        "Republic of the Philippines",
+        "Repúblika ng Pilipinas"
+      ],
+      "lat": 13,
+      "lng": 122,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "POL",
+      "numeric": "616",
+      "name": "Poland",
+      "aliases": [
+        "Republic of Poland",
+        "Rzeczpospolita Polska"
+      ],
+      "lat": 52,
+      "lng": 20,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "PRT",
+      "numeric": "620",
+      "name": "Portugal",
+      "aliases": [
+        "Portuguese Republic",
+        "Portuguesa",
+        "República Portuguesa"
+      ],
+      "lat": 39.5,
+      "lng": -8,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "QAT",
+      "numeric": "634",
+      "name": "Qatar",
+      "aliases": [
+        "State of Qatar"
+      ],
+      "lat": 25.5,
+      "lng": 51.25,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "COG",
+      "numeric": "178",
+      "name": "Republic of the Congo",
+      "aliases": [
+        "Congo",
+        "Congo-Brazzaville"
+      ],
+      "lat": -1,
+      "lng": 15,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ROU",
+      "numeric": "642",
+      "name": "Romania",
+      "aliases": [
+        "Rumania",
+        "Roumania",
+        "România"
+      ],
+      "lat": 46,
+      "lng": 25,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "RUS",
+      "numeric": "643",
+      "name": "Russia",
+      "aliases": [
+        "Russian Federation"
+      ],
+      "lat": 60,
+      "lng": 100,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "RWA",
+      "numeric": "646",
+      "name": "Rwanda",
+      "aliases": [
+        "Republic of Rwanda",
+        "Repubulika y'u Rwanda",
+        "République du Rwanda"
+      ],
+      "lat": -2,
+      "lng": 30,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "KNA",
+      "numeric": "659",
+      "name": "Saint Kitts and Nevis",
+      "aliases": [
+        "Federation of Saint Christopher and Nevis"
+      ],
+      "lat": 17.33333333,
+      "lng": -62.75,
+      "in110m": false,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "LCA",
+      "numeric": "662",
+      "name": "Saint Lucia",
+      "aliases": [],
+      "lat": 13.88333333,
+      "lng": -60.96666666,
+      "in110m": false,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "VCT",
+      "numeric": "670",
+      "name": "Saint Vincent and the Grenadines",
+      "aliases": [],
+      "lat": 13.25,
+      "lng": -61.2,
+      "in110m": false,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "WSM",
+      "numeric": "882",
+      "name": "Samoa",
+      "aliases": [
+        "Independent State of Samoa"
+      ],
+      "lat": -13.58333333,
+      "lng": -172.33333333,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "SMR",
+      "numeric": "674",
+      "name": "San Marino",
+      "aliases": [
+        "Most Serene Republic of San Marino",
+        "Republic of San Marino",
+        "Repubblica di San Marino"
+      ],
+      "lat": 43.76666666,
+      "lng": 12.41666666,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "STP",
+      "numeric": "678",
+      "name": "São Tomé and Príncipe",
+      "aliases": [
+        "Democratic Republic of São Tomé and Príncipe",
+        "Sao Tome and Principe",
+        "República Democrática de São Tomé e Príncipe"
+      ],
+      "lat": 1,
+      "lng": 7,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "SAU",
+      "numeric": "682",
+      "name": "Saudi Arabia",
+      "aliases": [
+        "Kingdom of Saudi Arabia",
+        "Saudi"
+      ],
+      "lat": 25,
+      "lng": 45,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "SEN",
+      "numeric": "686",
+      "name": "Senegal",
+      "aliases": [
+        "Republic of Senegal",
+        "République du Sénégal"
+      ],
+      "lat": 14,
+      "lng": -14,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "SRB",
+      "numeric": "688",
+      "name": "Serbia",
+      "aliases": [
+        "Republic of Serbia",
+        "Srbija",
+        "Republika Srbija"
+      ],
+      "lat": 44,
+      "lng": 21,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "SYC",
+      "numeric": "690",
+      "name": "Seychelles",
+      "aliases": [
+        "Republic of Seychelles",
+        "Repiblik Sesel",
+        "République des Seychelles"
+      ],
+      "lat": -4.58333333,
+      "lng": 55.66666666,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "SLE",
+      "numeric": "694",
+      "name": "Sierra Leone",
+      "aliases": [
+        "Republic of Sierra Leone"
+      ],
+      "lat": 8.5,
+      "lng": -11.5,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "SGP",
+      "numeric": "702",
+      "name": "Singapore",
+      "aliases": [
+        "Republic of Singapore",
+        "Singapura",
+        "Republik Singapura"
+      ],
+      "lat": 1.36666666,
+      "lng": 103.8,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "SVK",
+      "numeric": "703",
+      "name": "Slovakia",
+      "aliases": [
+        "Slovak Republic",
+        "Slovenská republika"
+      ],
+      "lat": 48.66666666,
+      "lng": 19.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "SVN",
+      "numeric": "705",
+      "name": "Slovenia",
+      "aliases": [
+        "Republic of Slovenia",
+        "Republika Slovenija"
+      ],
+      "lat": 46.11666666,
+      "lng": 14.81666666,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "SLB",
+      "numeric": "090",
+      "name": "Solomon Islands",
+      "aliases": [],
+      "lat": -8,
+      "lng": 159,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "SOM",
+      "numeric": "706",
+      "name": "Somalia",
+      "aliases": [
+        "Federal Republic of Somalia",
+        "Jamhuuriyadda Federaalka Soomaaliya"
+      ],
+      "lat": 10,
+      "lng": 49,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ZAF",
+      "numeric": "710",
+      "name": "South Africa",
+      "aliases": [
+        "Republic of South Africa",
+        "RSA",
+        "Suid-Afrika"
+      ],
+      "lat": -29,
+      "lng": 24,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "KOR",
+      "numeric": "410",
+      "name": "South Korea",
+      "aliases": [
+        "Republic of Korea",
+        "Korea, Republic of"
+      ],
+      "lat": 37,
+      "lng": 127.5,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "SSD",
+      "numeric": "728",
+      "name": "South Sudan",
+      "aliases": [
+        "Republic of South Sudan"
+      ],
+      "lat": 7,
+      "lng": 30,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ESP",
+      "numeric": "724",
+      "name": "Spain",
+      "aliases": [
+        "Kingdom of Spain",
+        "Reino de España"
+      ],
+      "lat": 40,
+      "lng": -4,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "LKA",
+      "numeric": "144",
+      "name": "Sri Lanka",
+      "aliases": [
+        "Democratic Socialist Republic of Sri Lanka"
+      ],
+      "lat": 7,
+      "lng": 81,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "SDN",
+      "numeric": "729",
+      "name": "Sudan",
+      "aliases": [
+        "Republic of the Sudan",
+        "Jumhūrīyat as-Sūdān"
+      ],
+      "lat": 15,
+      "lng": 30,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "SUR",
+      "numeric": "740",
+      "name": "Suriname",
+      "aliases": [
+        "Republic of Suriname",
+        "Sarnam",
+        "Sranangron",
+        "Republiek Suriname"
+      ],
+      "lat": 4,
+      "lng": -56,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "SWE",
+      "numeric": "752",
+      "name": "Sweden",
+      "aliases": [
+        "Kingdom of Sweden",
+        "Konungariket Sverige"
+      ],
+      "lat": 62,
+      "lng": 15,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "CHE",
+      "numeric": "756",
+      "name": "Switzerland",
+      "aliases": [
+        "Swiss Confederation",
+        "Schweiz",
+        "Suisse",
+        "Svizzera",
+        "Svizra"
+      ],
+      "lat": 47,
+      "lng": 8,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "SYR",
+      "numeric": "760",
+      "name": "Syria",
+      "aliases": [
+        "Syrian Arab Republic"
+      ],
+      "lat": 35,
+      "lng": 38,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "TJK",
+      "numeric": "762",
+      "name": "Tajikistan",
+      "aliases": [
+        "Republic of Tajikistan",
+        "Toçikiston",
+        "Çumhuriyi Toçikiston"
+      ],
+      "lat": 39,
+      "lng": 71,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "TZA",
+      "numeric": "834",
+      "name": "Tanzania",
+      "aliases": [
+        "United Republic of Tanzania",
+        "Tanzania, United Republic of",
+        "Jamhuri ya Muungano wa Tanzania"
+      ],
+      "lat": -6,
+      "lng": 35,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "THA",
+      "numeric": "764",
+      "name": "Thailand",
+      "aliases": [
+        "Kingdom of Thailand",
+        "Prathet",
+        "Thai",
+        "Ratcha Anachak Thai"
+      ],
+      "lat": 15,
+      "lng": 100,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "TLS",
+      "numeric": "626",
+      "name": "Timor-Leste",
+      "aliases": [
+        "Democratic Republic of Timor-Leste",
+        "East Timor",
+        "Timor",
+        "República Democrática de Timor-Leste",
+        "Repúblika Demokrátika Timór-Leste",
+        "Timór Lorosa'e",
+        "Timor Lorosae"
+      ],
+      "lat": -8.83333333,
+      "lng": 125.91666666,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "TGO",
+      "numeric": "768",
+      "name": "Togo",
+      "aliases": [
+        "Togolese Republic",
+        "Togolese",
+        "République Togolaise"
+      ],
+      "lat": 8,
+      "lng": 1.16666666,
+      "in110m": true,
+      "nudge": "west_african"
+    },
+    {
+      "iso3": "TON",
+      "numeric": "776",
+      "name": "Tonga",
+      "aliases": [
+        "Kingdom of Tonga"
+      ],
+      "lat": -20,
+      "lng": -175,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "TTO",
+      "numeric": "780",
+      "name": "Trinidad and Tobago",
+      "aliases": [
+        "Republic of Trinidad and Tobago"
+      ],
+      "lat": 11,
+      "lng": -61,
+      "in110m": true,
+      "nudge": "caribbean"
+    },
+    {
+      "iso3": "TUN",
+      "numeric": "788",
+      "name": "Tunisia",
+      "aliases": [
+        "Tunisian Republic",
+        "Republic of Tunisia",
+        "al-Jumhūriyyah at-Tūnisiyyah"
+      ],
+      "lat": 34,
+      "lng": 9,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "TUR",
+      "numeric": "792",
+      "name": "Türkiye",
+      "aliases": [
+        "Republic of Türkiye",
+        "Turkiye",
+        "Republic of Turkey",
+        "Türkiye Cumhuriyeti",
+        "Turkey"
+      ],
+      "lat": 39,
+      "lng": 35,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "TKM",
+      "numeric": "795",
+      "name": "Turkmenistan",
+      "aliases": [],
+      "lat": 40,
+      "lng": 60,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "TUV",
+      "numeric": "798",
+      "name": "Tuvalu",
+      "aliases": [],
+      "lat": -8,
+      "lng": 178,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "UGA",
+      "numeric": "800",
+      "name": "Uganda",
+      "aliases": [
+        "Republic of Uganda",
+        "Jamhuri ya Uganda"
+      ],
+      "lat": 1,
+      "lng": 32,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "UKR",
+      "numeric": "804",
+      "name": "Ukraine",
+      "aliases": [
+        "Ukrayina"
+      ],
+      "lat": 49,
+      "lng": 32,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ARE",
+      "numeric": "784",
+      "name": "United Arab Emirates",
+      "aliases": [
+        "UAE",
+        "Emirates"
+      ],
+      "lat": 24,
+      "lng": 54,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "GBR",
+      "numeric": "826",
+      "name": "United Kingdom",
+      "aliases": [
+        "United Kingdom of Great Britain and Northern Ireland",
+        "Great Britain"
+      ],
+      "lat": 54,
+      "lng": -2,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "USA",
+      "numeric": "840",
+      "name": "United States",
+      "aliases": [
+        "United States of America",
+        "USA"
+      ],
+      "lat": 38,
+      "lng": -97,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "URY",
+      "numeric": "858",
+      "name": "Uruguay",
+      "aliases": [
+        "Oriental Republic of Uruguay",
+        "República Oriental del Uruguay"
+      ],
+      "lat": -33,
+      "lng": -56,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "UZB",
+      "numeric": "860",
+      "name": "Uzbekistan",
+      "aliases": [
+        "Republic of Uzbekistan"
+      ],
+      "lat": 41,
+      "lng": 64,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "VUT",
+      "numeric": "548",
+      "name": "Vanuatu",
+      "aliases": [
+        "Republic of Vanuatu",
+        "Ripablik blong Vanuatu",
+        "République de Vanuatu"
+      ],
+      "lat": -16,
+      "lng": 167,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "VAT",
+      "numeric": "336",
+      "name": "Vatican City",
+      "aliases": [
+        "Vatican City State",
+        "Holy See (Vatican City State)",
+        "Vatican",
+        "Stato della Città del Vaticano"
+      ],
+      "lat": 41.9,
+      "lng": 12.45,
+      "in110m": false,
+      "nudge": null
+    },
+    {
+      "iso3": "VEN",
+      "numeric": "862",
+      "name": "Venezuela",
+      "aliases": [
+        "Bolivarian Republic of Venezuela",
+        "Venezuela, Bolivarian Republic of",
+        "República Bolivariana de Venezuela"
+      ],
+      "lat": 8,
+      "lng": -66,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "VNM",
+      "numeric": "704",
+      "name": "Vietnam",
+      "aliases": [
+        "Socialist Republic of Vietnam",
+        "Viet Nam"
+      ],
+      "lat": 16.16666666,
+      "lng": 107.83333333,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "YEM",
+      "numeric": "887",
+      "name": "Yemen",
+      "aliases": [
+        "Republic of Yemen",
+        "Yemeni Republic",
+        "al-Jumhūriyyah al-Yamaniyyah"
+      ],
+      "lat": 15,
+      "lng": 48,
+      "in110m": true,
+      "nudge": "middle_eastern"
+    },
+    {
+      "iso3": "ZMB",
+      "numeric": "894",
+      "name": "Zambia",
+      "aliases": [
+        "Republic of Zambia"
+      ],
+      "lat": -15,
+      "lng": 30,
+      "in110m": true,
+      "nudge": null
+    },
+    {
+      "iso3": "ZWE",
+      "numeric": "716",
+      "name": "Zimbabwe",
+      "aliases": [
+        "Republic of Zimbabwe"
+      ],
+      "lat": -20,
+      "lng": 30,
+      "in110m": true,
+      "nudge": null
+    }
+  ],
+  "entities": [
+    {
+      "code": "TWN",
+      "numeric": "158",
+      "name": "Taiwan",
+      "aliases": [
+        "Republic of China",
+        "Formosa"
+      ],
+      "lat": 23.7,
+      "lng": 121,
+      "in110m": true,
+      "topojsonName": null
+    },
+    {
+      "code": "HKG",
+      "numeric": null,
+      "name": "Hong Kong",
+      "aliases": [
+        "HK"
+      ],
+      "lat": 22.267,
+      "lng": 114.188,
+      "in110m": false,
+      "topojsonName": null
+    },
+    {
+      "code": "XKX",
+      "numeric": null,
+      "name": "Kosovo",
+      "aliases": [
+        "Kosova"
+      ],
+      "lat": 42.67,
+      "lng": 21.17,
+      "in110m": true,
+      "topojsonName": "Kosovo"
+    },
+    {
+      "code": "TIB",
+      "numeric": null,
+      "name": "Tibet",
+      "aliases": [
+        "Bod"
+      ],
+      "lat": 29.65,
+      "lng": 91.1,
+      "in110m": false,
+      "topojsonName": null
+    }
+  ],
+  "inertFeatures": [
+    {
+      "id": "732",
+      "name": "W. Sahara"
+    },
+    {
+      "id": "238",
+      "name": "Falkland Is."
+    },
+    {
+      "id": "304",
+      "name": "Greenland"
+    },
+    {
+      "id": "260",
+      "name": "Fr. S. Antarctic Lands"
+    },
+    {
+      "id": "630",
+      "name": "Puerto Rico"
+    },
+    {
+      "id": "540",
+      "name": "New Caledonia"
+    },
+    {
+      "id": "010",
+      "name": "Antarctica"
+    },
+    {
+      "id": null,
+      "name": "N. Cyprus"
+    },
+    {
+      "id": null,
+      "name": "Somaliland"
+    }
+  ]
+}

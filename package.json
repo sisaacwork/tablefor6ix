@@ -1,0 +1,38 @@
+{
+  "name": "tablefor6ix",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run data:build -- --strict && vite build",
+    "preview": "vite preview",
+    "data:pull": "tsx scripts/pull-osm.ts",
+    "data:build": "tsx scripts/build-data.ts",
+    "data:countries": "tsx scripts/gen-countries.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.scripts.json"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "@types/d3-selection": "^3.0.11",
+    "@types/geojson": "^7946.0.16",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^26.2.0",
+    "@types/topojson-client": "^3.1.5",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1",
+    "world-countries": "^5.1.0",
+    "zod": "^4.4.3"
+  },
+  "dependencies": {
+    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/public-sans": "^5.3.0",
+    "d3-geo": "^3.1.1",
+    "d3-selection": "^3.0.0",
+    "leaflet": "^1.9.4",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  }
+}

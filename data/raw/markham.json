@@ -1,0 +1,7929 @@
+{
+ "municipality": "Markham",
+ "slug": "markham",
+ "relationId": 324213,
+ "fetchedAt": "2026-08-16T23:23:50.090Z",
+ "elements": [
+  {
+   "type": "node",
+   "id": 382983844,
+   "lat": 43.8532199,
+   "lon": -79.2553947,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Boston Pizza",
+    "brand:wikidata": "Q894578",
+    "brand:wikipedia": "en:Boston Pizza",
+    "cuisine": "pizza",
+    "name": "Boston Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 382983846,
+   "lat": 43.8533865,
+   "lon": -79.2540397,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 382983847,
+   "lat": 43.8536635,
+   "lon": -79.255509,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Kelsey's",
+    "brand:wikidata": "Q6386459",
+    "brand:wikipedia": "en:Kelseys Original Roadhouse",
+    "cuisine": "american",
+    "name": "Kelsey's",
+    "official_name": "Kelsey's Original Roadhouse"
+   }
+  },
+  {
+   "type": "node",
+   "id": 382987379,
+   "lat": 43.8745772,
+   "lon": -79.2590277,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Dairy Queen",
+    "brand:wikidata": "Q1141226",
+    "cuisine": "ice_cream;burger;chicken",
+    "name": "Dairy Queen",
+    "opening_hours": "Mo-Sa 11:30-22:00; Su 12:00-22:00",
+    "phone": "+1-905-294-4999",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 382988937,
+   "lat": 43.8741365,
+   "lon": -79.2601636,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "phone": "+1-416-967-1111",
+    "takeaway": "yes",
+    "wheelchair": "yes",
+    "wheelchair:description": "StopGap ramp"
+   }
+  },
+  {
+   "type": "node",
+   "id": 382994332,
+   "lat": 43.8753737,
+   "lon": -79.2600166,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "39",
+    "addr:street": "Main Street Markham North",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Al Dente Italian Restaurant",
+    "phone": "+1-905-471-5670"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383048173,
+   "lat": 43.8749256,
+   "lon": -79.2592236,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;thai",
+    "name": "M.Y. Restaurant",
+    "website": "https://www.my-markham.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383048215,
+   "lat": 43.874564,
+   "lon": -79.2580297,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383083742,
+   "lat": 43.8739833,
+   "lon": -79.2607546,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383160414,
+   "lat": 43.8720515,
+   "lon": -79.2631822,
+   "tags": {
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "brand:wikipedia": "en:KFC",
+    "cuisine": "chicken",
+    "name": "KFC",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383160428,
+   "lat": 43.8708728,
+   "lon": -79.2679451,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "name": "Mr. Sub",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383160477,
+   "lat": 43.8682601,
+   "lon": -79.2843246,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "check_date": "2026-08-03",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "source": "approximation",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383160485,
+   "lat": 43.8665429,
+   "lon": -79.2887624,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "East Side Mario's",
+    "brand:wikidata": "Q5329375",
+    "brand:wikipedia": "en:East Side Mario's",
+    "cuisine": "italian",
+    "name": "East Side Mario's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383160487,
+   "lat": 43.8666846,
+   "lon": -79.2880572,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "5070",
+    "addr:postcode": "L3R 4M9",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "cuisine": "chicken",
+    "name": "Swiss Chalet",
+    "phone": "+1 905 305 1809"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383160488,
+   "lat": 43.8659151,
+   "lon": -79.2878196,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "5071",
+    "addr:postcode": "L3R 1N3",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "cuisine": "pizza",
+    "name": "Pizza Hut",
+    "phone": "+1 905 470 7060"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383160717,
+   "lat": 43.862168,
+   "lon": -79.3028756,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "check_date": "2026-08-03",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "source": "approximation",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383209937,
+   "lat": 43.8501162,
+   "lon": -79.3542712,
+   "tags": {
+    "addr:housenumber": "3131",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "brand": "Kelsey's",
+    "brand:wikidata": "Q6386459",
+    "brand:wikipedia": "en:Kelseys Original Roadhouse",
+    "cuisine": "american",
+    "name": "Kelsey's",
+    "official_name": "Kelsey's Original Roadhouse"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383237966,
+   "lat": 43.8505231,
+   "lon": -79.3570958,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "check_date": "2025-09-14",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 383282552,
+   "lat": 43.8421276,
+   "lon": -79.3905124,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "115",
+    "addr:province": "Ontario",
+    "addr:street": "Times Avenue",
+    "addr:unit": "1",
+    "amenity": "cafe",
+    "branch": "115 Times Ave",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Tim Hortons",
+    "opening_hours": "Mo-Su 05:00-22:00",
+    "outdoor_seating": "no",
+    "phone": "+1 905-881-4003",
+    "takeaway": "yes",
+    "website": "https://locations.timhortons.ca/en/on/thornhill/115-times-ave/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 437981052,
+   "lat": 43.8719594,
+   "lon": -79.2686776,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Double Double",
+    "source": "approximation"
+   }
+  },
+  {
+   "type": "node",
+   "id": 501613179,
+   "lat": 43.8272249,
+   "lon": -79.4263398,
+   "tags": {
+    "addr:city": "Thornhill",
+    "addr:housenumber": "8187",
+    "addr:postcode": "L3T 2C6",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "brewery": "yes",
+    "capacity": "160",
+    "cuisine": "burger;sandwich;chicken;seafood;american;ice_cream;fish_and_chips;fish;dessert;salad;pasta;cake;grill;breakfast;brunch",
+    "delivery": "yes",
+    "description": "Thornhill family restaurant specializing in breakfast, lunch, dinner, desserts with a fully licensed lounge.",
+    "diet:gluten_free": "yes",
+    "diet:halal": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "email": "symposium.thornhill@symposiumcafe.com",
+    "highchair": "yes",
+    "image": "https://1659299332-thornhill-restaurant-best-indoor-dining-near-me.jpg",
+    "internet_access": "yes",
+    "name": "Symposium Cafe Restaurant Thornhill",
+    "opening_hours": "Mo-Su 08:00-24:00",
+    "outdoor_seating": "yes",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+1 905-881-2233",
+    "smoking": "no",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "https://symposiumcafe.com/locations/thornhill-restaurants",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 501613181,
+   "lat": 43.8277798,
+   "lon": -79.4266248,
+   "tags": {
+    "addr:housenumber": "8199",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "greek",
+    "name": "Philoxenia"
+   }
+  },
+  {
+   "type": "node",
+   "id": 501613416,
+   "lat": 43.8253983,
+   "lon": -79.4260958,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Wimpy's Diner",
+    "brand:wikidata": "Q16909504",
+    "cuisine": "diner",
+    "name": "Wimpy's Diner"
+   }
+  },
+  {
+   "type": "node",
+   "id": 501616623,
+   "lat": 43.823606,
+   "lon": -79.425741,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "check_date": "2025-06-20",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 568177195,
+   "lat": 43.8539809,
+   "lon": -79.3380812,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3601",
+    "addr:street": "Highway 7",
+    "addr:unit": "119",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/pages/Miss-Lin-HSBC/178609982798696",
+    "contact:instagram": "https://www.instagram.com/misslincafe/",
+    "cuisine": "asian;tea;bubble_tea",
+    "internet_access": "yes",
+    "name": "Miss Lin Cafe",
+    "opening_hours": "Mo-Th 08:30-22:30, Fr 08:30-23:30, Sa 10:30-23:30, Su 10:30-22:30",
+    "phone": "+1-905-604-5513",
+    "smoking": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 686704698,
+   "lat": 43.8149938,
+   "lon": -79.4236961,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "check_date": "2025-06-20",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 686709932,
+   "lat": 43.8206476,
+   "lon": -79.3882029,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "392",
+    "addr:postcode": "L3T 5W6",
+    "addr:province": "Ontario",
+    "addr:street": "John Street",
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:website": "https://www.pizzahut.ca/",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "cuisine": "pizza",
+    "name": "Pizza Hut",
+    "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-24:00; Su 12:00-23:00",
+    "phone": "+1-905-886-4444",
+    "takeaway": "yes",
+    "website": "https://www.pizzahut.ca/huts/ca-1/R31403/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 686717093,
+   "lat": 43.8015325,
+   "lon": -79.4205196,
+   "tags": {
+    "addr:housenumber": "7123",
+    "addr:postcode": "L3T 2A8",
+    "addr:street": "Yonge Street",
+    "amenity": "fast_food",
+    "check_date": "2026-02-17",
+    "check_date:opening_hours": "2026-02-17",
+    "cuisine": "burger",
+    "level": "0",
+    "name": "Golden Star Drive In",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "phone": "+1 905 889-6891",
+    "self_service": "partially",
+    "source": "Survey",
+    "website": "https://goldenstarburgers.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 772366445,
+   "lat": 43.8131503,
+   "lon": -79.3985451,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 777804064,
+   "lat": 43.8118191,
+   "lon": -79.3595121,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 800024396,
+   "lat": 43.8131911,
+   "lon": -79.3985682,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Ferovia Ristorante"
+   }
+  },
+  {
+   "type": "node",
+   "id": 848257070,
+   "lat": 43.842277,
+   "lon": -79.3050807,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 848258164,
+   "lat": 43.8455256,
+   "lon": -79.3059544,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7828",
+    "addr:postcode": "L3R 5P1",
+    "addr:province": "Ontario",
+    "addr:street": "Kennedy Road",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "opening_hours": "24/7",
+    "opening_hours:drive_through": "24/7",
+    "phone": "+19054772490",
+    "takeaway": "yes",
+    "website": "https://locations.timhortons.ca/en/on/markham/7828-kennedy-rd",
+    "website:menu": "https://www.timhortons.ca/menu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 848262159,
+   "lat": 43.8408562,
+   "lon": -79.3050963,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7600",
+    "addr:postcode": "L3R 9S5",
+    "addr:province": "Ontario",
+    "addr:street": "Kennedy Road",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "opening_hours": "24/7",
+    "opening_hours:drive_through": "24/7",
+    "phone": "+19059409970",
+    "source": "approximation",
+    "takeaway": "yes",
+    "website": "https://www.mcdonalds.com/ca/en-ca/restaurant-locator.html?y_source=1_MTQ1MjA2ODAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "website:menu": "https://www.mcdonalds.com/ca/en-ca/full-menu.html?y_source=1_MTQ1MjA2ODAtNzE1LWxvY2F0aW9uLm1lbnVfdXJs"
+   }
+  },
+  {
+   "type": "node",
+   "id": 848372395,
+   "lat": 43.8412027,
+   "lon": -79.3039448,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7665",
+    "addr:postcode": "L3R 0L7",
+    "addr:street": "Kennedy Road",
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "phone": "+14169671111",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 848374035,
+   "lat": 43.8315151,
+   "lon": -79.307185,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "short_name": "Domino's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 968464527,
+   "lat": 43.8647777,
+   "lon": -79.2843856,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1076446811,
+   "lat": 43.8223313,
+   "lon": -79.3516464,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Sam's Congee Delight"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1129707147,
+   "lat": 43.8566423,
+   "lon": -79.3323101,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3760",
+    "addr:postcode": "L3R 0N2",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "check_date": "2025-09-14",
+    "cuisine": "burger",
+    "delivery": "yes",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "opening_hours": "24/7",
+    "phone": "+1-905-513-8978",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://www.mcdonalds.com/ca/en-ca/restaurant-locator.html?submit=true&radiusSelected=5&searchText=L3R%200N2",
+    "wikidata": "Q12061541",
+    "wikipedia": "en:McDonald's Canada"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1314646189,
+   "lat": 43.8542807,
+   "lon": -79.3369639,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3621",
+    "addr:postcode": "L3R 0G6",
+    "addr:province": "ON",
+    "addr:street": "Highway 7",
+    "addr:unit": "110",
+    "amenity": "restaurant",
+    "brand": "St. Louis Bar & Grill",
+    "brand:wikidata": "Q65567668",
+    "capacity": "60",
+    "check_date": "2025-09-14",
+    "cuisine": "chicken",
+    "name": "St. Louis Bar & Grill",
+    "opening_hours": "Mo-Th 11:30-01:00, Fr-Sa 11:30-02:00, Su 11:30-00:00",
+    "phone": "+1-905-604-7788",
+    "smoking": "outside",
+    "website": "https://www.stlouiswings.com/locations/ontario-north/markham/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1469147828,
+   "lat": 43.8264756,
+   "lon": -79.3511125,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Gold Mark Chinese Restaurant",
+    "website": "http://goldmarkchinesecuisine.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1654327867,
+   "lat": 43.8321611,
+   "lon": -79.4055091,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Wild Wing",
+    "brand:wikidata": "Q8000869",
+    "brand:wikipedia": "en:Wild Wing Restaurants",
+    "cuisine": "chicken",
+    "name": "Wild Wing"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1725996149,
+   "lat": 43.8926525,
+   "lon": -79.2910691,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "9570",
+    "addr:postcode": "L3P 8M1",
+    "addr:street": "McCowan Rd",
+    "amenity": "cafe",
+    "cuisine": "regional",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Ten Ren's Tea",
+    "outdoor_seating": "yes",
+    "smoking": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1725996156,
+   "lat": 43.8932022,
+   "lon": -79.2914213,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Babu Catering"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1725996163,
+   "lat": 43.8925045,
+   "lon": -79.2916921,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Kim Dinh Vietnamese Cuisine",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1725996832,
+   "lat": 43.8925338,
+   "lon": -79.2915671,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1726005407,
+   "lat": 43.8891822,
+   "lon": -79.3162647,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "indoor_seating": "yes",
+    "name": "Pizza Nova",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1726006677,
+   "lat": 43.8970582,
+   "lon": -79.3201152,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1727149710,
+   "lat": 43.8703663,
+   "lon": -79.3618912,
+   "tags": {
+    "addr:housenumber": "9255",
+    "addr:postcode": "L6C 1Y9",
+    "addr:street": "Woodbine Avenue",
+    "addr:unit": "20",
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "name": "Mr. Sub",
+    "phone": "+1-905-887-2511",
+    "takeaway": "yes",
+    "website": "https://mrsub.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1727149744,
+   "lat": 43.8703075,
+   "lon": -79.3621018,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1727170935,
+   "lat": 43.8485567,
+   "lon": -79.3501301,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3225",
+    "addr:postcode": "L3R 3P3",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "1",
+    "amenity": "restaurant",
+    "cuisine": "chinese;cantonese",
+    "name": "Golden Palace Banquet Hall",
+    "opening_hours": "Mo-Su,PH 09:00-23:00",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1727171061,
+   "lat": 43.8482552,
+   "lon": -79.3493463,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3229",
+    "addr:postcode": "L3R 3P3",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "11 & 12",
+    "amenity": "restaurant",
+    "cuisine": "asian;burger",
+    "name": "Bingz Crispy Burger"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1727171246,
+   "lat": 43.848243,
+   "lon": -79.3494948,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3229",
+    "addr:postcode": "L3R 3P3",
+    "addr:province": "ON",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "brand": "Yunshang Rice Noodle",
+    "brand:wikidata": "Q109381268",
+    "cuisine": "noodle",
+    "name": "Yunshang Rice Noodle",
+    "name:en": "Yunshang Rice Noodle",
+    "name:zh": "云尚过桥米线",
+    "name:zh-Hans": "云尚过桥米线",
+    "name:zh-Hant": "雲尚過橋米綫"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1755462472,
+   "lat": 43.823588,
+   "lon": -79.424792,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "llbo": "yes",
+    "name": "Panto's Italian Cuisine",
+    "phone": "+1-905-731-0352"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1755463966,
+   "lat": 43.82355,
+   "lon": -79.42499,
+   "tags": {
+    "amenity": "restaurant",
+    "created_by": "iLOE 1.9",
+    "cuisine": "thai",
+    "name": "Royal Orchard Thai Cuisine"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1755466265,
+   "lat": 43.823525,
+   "lon": -79.425182,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Coffee Time",
+    "brand:wikidata": "Q5140932",
+    "brand:wikipedia": "en:Coffee Time",
+    "cuisine": "coffee_shop",
+    "name": "Coffee Time",
+    "opening_hours": "24/7",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1755467724,
+   "lat": 43.823796,
+   "lon": -79.425763,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Eggsmart",
+    "brand:wikidata": "Q113001388",
+    "check_date": "2025-06-20",
+    "cuisine": "breakfast",
+    "name": "Eggsmart"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1755478943,
+   "lat": 43.817082,
+   "lon": -79.424284,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7787",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "check_date": "2025-06-20",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "opening_hours": "Mo-Sa 07:00-20:00; Su 07:30-8:00",
+    "phone": "+1-905-762-9889",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1755480984,
+   "lat": 43.816809,
+   "lon": -79.424253,
+   "tags": {
+    "addr:housenumber": "601",
+    "addr:postcode": "L4J 4E5",
+    "addr:street": "Clark Avenue West",
+    "amenity": "restaurant",
+    "check_date": "2025-06-20",
+    "cuisine": "japanese",
+    "name": "Yorokobi Japanese Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1983866747,
+   "lat": 43.804785,
+   "lon": -79.420483,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-06-20",
+    "cuisine": "chinese",
+    "name": "Legend Chinese Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2124700454,
+   "lat": 43.8437817,
+   "lon": -79.3775728,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "BarBurrito",
+    "brand:wikidata": "Q104844862",
+    "check_date": "2013-01-23",
+    "cuisine": "mexican",
+    "name": "BarBurrito",
+    "source": "survey",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2124700455,
+   "lat": 43.8436444,
+   "lon": -79.3774199,
+   "tags": {
+    "addr:city": "Thornhill",
+    "addr:housenumber": "230",
+    "addr:postcode": "L3T 7Y3",
+    "addr:province": "on",
+    "addr:street": "Commerce Valley Drive East",
+    "addr:unit": "3",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "cuisine": "indian;international",
+    "delivery": "yes",
+    "diet:gluten_free": "yes",
+    "diet:halal": "yes",
+    "diet:healthy": "yes",
+    "diet:meat": "yes",
+    "diet:non-vegetarian": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "name": "Bombay Bhel",
+    "phone": "+1 905-771-6957",
+    "source": "survey",
+    "takeaway": "yes",
+    "website": "https://bombaybhel.foodticket.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2124700456,
+   "lat": 43.8438533,
+   "lon": -79.3776452,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Hero Certified Burgers",
+    "brand:wikidata": "Q5742641",
+    "brand:wikipedia": "en:Hero Certified Burgers",
+    "cuisine": "burger",
+    "name": "Hero Certified Burgers",
+    "source": "survey",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2124700457,
+   "lat": 43.8439732,
+   "lon": -79.3777391,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "steak_house",
+    "name": "Baton Rouge",
+    "source": "survey"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2124700458,
+   "lat": 43.8437082,
+   "lon": -79.3774843,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Quiznos",
+    "brand:wikidata": "Q1936229",
+    "brand:wikipedia": "en:Quiznos",
+    "cuisine": "sandwich",
+    "name": "Quiznos",
+    "source": "survey",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2346818597,
+   "lat": 43.8419853,
+   "lon": -79.3911047,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "111",
+    "addr:province": "Ontario",
+    "addr:street": "Times Avenue",
+    "amenity": "cafe",
+    "cuisine": "tea;chinese;taiwanese",
+    "name": "天仁茶業 TenRen's Tea Time",
+    "opening_hours": "Su-Th,PH 11:00-24:00, Fr,Sa 11:00-01:00",
+    "outdoor_seating": "no",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1 9058818896",
+    "website": "https://tenrenstea.com/lovetea/dineinlocation/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2346818598,
+   "lat": 43.8418737,
+   "lon": -79.39108,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "111",
+    "addr:province": "Ontario",
+    "addr:street": "Times Avenue",
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "brand:wikipedia": "en:Popeyes",
+    "cuisine": "chicken",
+    "drive_through": "no",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "opening_hours": "Mo-Su 10:30-23:00",
+    "phone": "+1 9055978588",
+    "takeaway": "yes",
+    "website": "https://www.popeyeschicken.ca/store-locator/store/restaurant_84575"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2346819179,
+   "lat": 43.8421997,
+   "lon": -79.3903523,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "115",
+    "addr:province": "Ontario",
+    "addr:street": "Times Avenue",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Nogi Sushi",
+    "opening_hours": "We-Mo,PH 11:30-21:30",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2369295234,
+   "lat": 43.8590338,
+   "lon": -79.3036163,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Pho Dac Biet Vietnamese Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2420947003,
+   "lat": 43.8704699,
+   "lon": -79.3614629,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "9255",
+    "addr:postcode": "L6C 1Y9",
+    "addr:province": "Ontario",
+    "addr:street": "Woodbine Avenue",
+    "addr:unit": "14",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Hana Don"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2426229961,
+   "lat": 43.8685152,
+   "lon": -79.2822405,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Congee Queen Resturant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2426232407,
+   "lat": 43.868591,
+   "lon": -79.2819173,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;steak_house",
+    "name": "All Stars Steak House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2426236526,
+   "lat": 43.8765411,
+   "lon": -79.2862039,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "1",
+    "addr:postcode": "L3P 5J5",
+    "addr:province": "Ontario",
+    "addr:street": "Raymerville Drive",
+    "addr:unit": "10",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "indoor_seating": "yes",
+    "name": "Phoenix Restaurant",
+    "name:yue-Hant": "金鳳餐廳",
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "outdoor_seating": "no",
+    "phone": "+1 905 471 6536",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://www.phoenix-restaurant.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2426239893,
+   "lat": 43.8925711,
+   "lon": -79.291378,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2426247149,
+   "lat": 43.8949192,
+   "lon": -79.2919063,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2430561220,
+   "lat": 43.8680106,
+   "lon": -79.2837996,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "description": "Noodle, Cafe + More",
+    "name": "Kitchen M.",
+    "old_name": "Hachi Tarou",
+    "phone": "+1-905-294-8628"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2520058247,
+   "lat": 43.8297127,
+   "lon": -79.3537269,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7660",
+    "addr:postcode": "L3R 2N2",
+    "addr:province": "ON",
+    "addr:street": "Woodbine Avenue",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Mandarin",
+    "opening_hours": "Mo-We 11:30-15:00,17:00-21:00; Th 11:30-15:00,17:00-21:00; Fr 11:30-15:00,17:00-22:00; Sa 11:30-15:30,16:30-22:00; Su 11:30-15:30,16:30-21:00",
+    "phone": "+19054796000",
+    "website": "https://www.mandarinrestaurant.com/",
+    "website:menu": "https://www.mandarinrestaurant.com/menu/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2520058252,
+   "lat": 43.830746,
+   "lon": -79.3536572,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Wendy's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2615859006,
+   "lat": 43.8331438,
+   "lon": -79.3056653,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housename": "Denison Centre",
+    "addr:housenumber": "1661",
+    "addr:postcode": "L3R 6E4",
+    "addr:province": "Ontario",
+    "addr:street": "Denison Street",
+    "addr:unit": "T50",
+    "alt_name": "Vince BBQ 皇子燒臘美食店",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "designation": "Cantonese Dishes and BBQ, 燒臘, 小炒",
+    "int_name": "Vince BBQ 皇子燒臘美食店",
+    "name": "Chef 88 Fine Dining 百樂軒海鮮酒家",
+    "old_name": "Vince BBQ 皇子燒臘美食店"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2624456443,
+   "lat": 43.88568,
+   "lon": -79.3730026,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "cuisine": "chicken",
+    "name": "Swiss Chalet",
+    "operator": "Cara"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2624456491,
+   "lat": 43.8856298,
+   "lon": -79.3732118,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "cuisine": "burger",
+    "name": "Harvey's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2627388394,
+   "lat": 43.8887329,
+   "lon": -79.3161701,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2678087224,
+   "lat": 43.8184455,
+   "lon": -79.3310269,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3636",
+    "addr:postcode": "L3R 1K9",
+    "addr:province": "ON",
+    "addr:street": "Steeles Avenue East",
+    "addr:unit": "156",
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "chinese;sandwich;breakfast;tea;coffee_shop",
+    "internet_access": "wlan",
+    "name": "Metro Square Café Restaurant",
+    "name:zh": "大都会茶餐厅",
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "phone": "+1-905-305-6226"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2678144649,
+   "lat": 43.8226464,
+   "lon": -79.3134484,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "seafood",
+    "name": "Fishmen Wharf Seafood"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2738676296,
+   "lat": 43.8566898,
+   "lon": -79.3335859,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8505",
+    "addr:postcode": "L3R 0B5",
+    "addr:street": "Warden Avenue",
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "cuisine": "juice",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2808649080,
+   "lat": 43.8682423,
+   "lon": -79.312049,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2835994716,
+   "lat": 43.8435807,
+   "lon": -79.3781167,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Congee Queen",
+    "opening_hours": "Fr,Sa 11:00-23:00; Su-Th 11:00-22:00",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "website": "https://www.congeequeen.com",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2835994717,
+   "lat": 43.8437487,
+   "lon": -79.3781669,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "KIKU Japanese Cuisine",
+    "website": "https://www.sushikiku.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2878052041,
+   "lat": 43.8435762,
+   "lon": -79.3773745,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "230",
+    "addr:postcode": "L3T 7Y3",
+    "addr:street": "Commerce Valley Drive East",
+    "addr:unit": "2",
+    "amenity": "cafe",
+    "cuisine": "asian",
+    "internet_access": "yes",
+    "name": "Go For Tea",
+    "opening_hours": "Mo-Su 11:00-03:00",
+    "phone": "+1-905-887-0021",
+    "smoking": "outside",
+    "website": "https://gofortea.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2912777512,
+   "lat": 43.8225522,
+   "lon": -79.32585,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916188944,
+   "lat": 43.8496231,
+   "lon": -79.3549459,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3085",
+    "addr:postcode": "L3R 0J5",
+    "addr:street": "Highway 7",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "opening_hours": "Mo-Su 07:30-19:00",
+    "smoking": "no",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916217442,
+   "lat": 43.8572341,
+   "lon": -79.3237601,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3987",
+    "addr:postcode": "L3R 5M6",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "Panera Bread",
+    "brand:wikidata": "Q7130852",
+    "brand:wikipedia": "en:Panera Bread",
+    "check_date": "2025-09-14",
+    "cuisine": "sandwich;bakery",
+    "internet_access": "wlan",
+    "name": "Panera Bread",
+    "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+    "phone": "+1-905-479-5888",
+    "short_name": "Panera",
+    "takeaway": "yes",
+    "website": "http://www.panerabread.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916492475,
+   "lat": 43.8512131,
+   "lon": -79.3540833,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3150",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "check_date": "2025-09-14",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "opening_hours": "Mo-Su 09:00-23:00",
+    "phone": "+1-905-940-9400",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916502509,
+   "lat": 43.8542443,
+   "lon": -79.3371056,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3621",
+    "addr:postcode": "L3R 0G6",
+    "addr:province": "ON",
+    "addr:street": "Highway 7",
+    "addr:unit": "106",
+    "amenity": "restaurant",
+    "capacity": "80",
+    "cuisine": "sushi",
+    "name": "Gal's Sushi",
+    "opening_hours": "Mo-Sa 11:30-22:30, Su 11:30-22:00",
+    "phone": "+1-905-305-7753",
+    "smoking": "no",
+    "website": "https://www.galsushi.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916514686,
+   "lat": 43.8568247,
+   "lon": -79.3235372,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3987",
+    "addr:postcode": "L3R 5M6",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "Five Guys",
+    "brand:wikidata": "Q1131810",
+    "brand:wikipedia": "en:Five Guys",
+    "check_date": "2025-09-14",
+    "cuisine": "burger",
+    "name": "Five Guys",
+    "official_name": "Five Guys Burgers and Fries",
+    "opening_hours": "11:00-22:00",
+    "phone": "+1-905-944-8555",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://www.fiveguys.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916658653,
+   "lat": 43.8584096,
+   "lon": -79.3327888,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8601",
+    "addr:postcode": "L3R 0B5",
+    "addr:street": "Warden Avenue",
+    "addr:unit": "4",
+    "amenity": "restaurant",
+    "capacity": "200",
+    "cuisine": "asian",
+    "name": "Casa Victoria Fine Dining and Banquet",
+    "phone": "+1-905-948-1618",
+    "smoking": "no",
+    "website": "https://www.casavictoria.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916665383,
+   "lat": 43.8581211,
+   "lon": -79.3321677,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:country": "CA",
+    "addr:housenumber": "8601",
+    "addr:postcode": "L3R 0B5",
+    "addr:province": "ON",
+    "addr:street": "Warden Avenue",
+    "addr:unit": "15",
+    "amenity": "fast_food",
+    "brand": "Teriyaki Experience",
+    "brand:wikidata": "Q7702453",
+    "capacity": "30",
+    "cuisine": "japanese",
+    "name": "Teriyaki Experience",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916665667,
+   "lat": 43.8579953,
+   "lon": -79.3319424,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8601",
+    "addr:postcode": "L3R 0B5",
+    "addr:street": "Warden Avenue",
+    "addr:unit": "1B",
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "capacity": "20",
+    "check_date": "2025-08-30",
+    "contact:facebook": "https://www.facebook.com/PizzaPizzaCanada/",
+    "contact:twitter": "https://twitter.com/PizzaPizzaLtd",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "drive_through": "no",
+    "name": "Pizza Pizza",
+    "opening_hours": "Fr,Sa 11:00-03:00; Mo-Th,Su 11:00-02:00",
+    "outdoor_seating": "no",
+    "phone": "+1-416-967-1111",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://www.pizzapizza.ca/locations/ontario/markham/store-129/",
+    "wikipedia:en": "Pizza_Pizza",
+    "wikipedia:fr": "Pizza_Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2916684378,
+   "lat": 43.8566126,
+   "lon": -79.3324814,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3760",
+    "addr:postcode": "L3R 0N2",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "capacity": "50",
+    "cuisine": "chinese",
+    "name": "Wonton Hut",
+    "opening_hours": "Tu-Su 11:00-20:00; Mo off",
+    "phone": "+1-905-604-9060",
+    "smoking": "no",
+    "website": "https://wontonhut.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2954554692,
+   "lat": 43.8684206,
+   "lon": -79.2884846,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "level": "1",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2955341119,
+   "lat": 43.8605446,
+   "lon": -79.3120335,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chicken",
+    "name": "Mr. Six Fried Chicken"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2972858749,
+   "lat": 43.8702093,
+   "lon": -79.2875292,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3069903346,
+   "lat": 43.8532995,
+   "lon": -79.2539496,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3097449507,
+   "lat": 43.876294,
+   "lon": -79.2606843,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Second Cup",
+    "brand:wikidata": "Q862180",
+    "brand:wikipedia": "en:Second Cup",
+    "cuisine": "coffee_shop",
+    "name": "Second Cup",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3118998303,
+   "lat": 43.9085994,
+   "lon": -79.2684289,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Wendy's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3199499987,
+   "lat": 43.835022,
+   "lon": -79.3548862,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3258799191,
+   "lat": 43.8939422,
+   "lon": -79.2640383,
+   "tags": {
+    "alt_name": "Harveh's",
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "cuisine": "burger",
+    "name": "Harvey's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3258799192,
+   "lat": 43.8939931,
+   "lon": -79.2637589,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3272011528,
+   "lat": 43.867741,
+   "lon": -79.3124397,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Orange Julius",
+    "brand:wikidata": "Q3355059",
+    "brand:wikipedia": "en:Orange Julius",
+    "cuisine": "juice",
+    "name": "Orange Julius",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3272011557,
+   "lat": 43.8680621,
+   "lon": -79.3127617,
+   "tags": {
+    "addr:housenumber": "202",
+    "addr:postcode": "L3R 2G9",
+    "addr:street": "Main Street Unionville",
+    "amenity": "restaurant",
+    "cuisine": "international;pizza;pasta;sandwich;italian;burger",
+    "email": "ronatjakes@hotmail.com",
+    "name": "Jake's on Main",
+    "phone": "+1-905-470-6955",
+    "website": "http://www.jakesonmainunionville.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3312758624,
+   "lat": 43.8531297,
+   "lon": -79.2556468,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7690",
+    "addr:street": "Markham Road",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Tangerine Asian Cuisine",
+    "note": "open holidays",
+    "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 12:00-22:00",
+    "phone": "+1-905-472-2100;+1-905-472-2190",
+    "website": "http://www.tangerineasiancuisine.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3464222984,
+   "lat": 43.8786588,
+   "lon": -79.2427572,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "17",
+    "addr:postcode": "L3P 2Y2",
+    "addr:street": "Wootten Way North",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "delivery": "no",
+    "email": "info@markhamsushi.ca",
+    "name": "Markham Sushi",
+    "opening_hours": "Mo-Sa 11:30-21:00; Su off",
+    "phone": "+1-905-294-4616",
+    "takeaway": "yes",
+    "website": "https://markhamsushi.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3464734483,
+   "lat": 43.8663588,
+   "lon": -79.229227,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3465973328,
+   "lat": 43.8781442,
+   "lon": -79.2404855,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "6545",
+    "addr:postcode": "L3P 3B4",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "cuisine": "pizza",
+    "name": "Pizza Hut Express",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3465977725,
+   "lat": 43.8779206,
+   "lon": -79.2407994,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "6545",
+    "addr:postcode": "L3P 3B4",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "cuisine": "kebab",
+    "name": "Grill 'em Up Kabobs"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3466489063,
+   "lat": 43.868226,
+   "lon": -79.2839826,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Pho 99"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3466530334,
+   "lat": 43.8913572,
+   "lon": -79.2664715,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "5970",
+    "addr:postcode": "L3P 7R1",
+    "addr:province": "Ontario",
+    "addr:street": "16th Avenue",
+    "addr:unit": "110",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Papa Chang's",
+    "phone": "+1-905-554-7211",
+    "website": "https://papachangs.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3466531499,
+   "lat": 43.8952252,
+   "lon": -79.2651636,
+   "tags": {
+    "addr:housenumber": "9408",
+    "addr:street": "Markham Road",
+    "amenity": "restaurant",
+    "brand": "Wild Wing",
+    "brand:wikidata": "Q8000869",
+    "brand:wikipedia": "en:Wild Wing Restaurants",
+    "cuisine": "chicken",
+    "name": "Wild Wing"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3466532025,
+   "lat": 43.8952716,
+   "lon": -79.2657671,
+   "tags": {
+    "addr:housenumber": "9418",
+    "addr:street": "Markham Road",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "delivery": "no",
+    "name": "Hakka Wok",
+    "takeaway": "yes",
+    "website": "http://www.hakkawok.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3466700369,
+   "lat": 43.8940335,
+   "lon": -79.2635287,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Cora",
+    "brand:wikidata": "Q2996960",
+    "brand:wikipedia": "en:Cora (restaurant)",
+    "cuisine": "breakfast",
+    "name": "Cora"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3466963544,
+   "lat": 43.8769124,
+   "lon": -79.2602145,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "ice_cream",
+    "name": "Love Gelato"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3466970874,
+   "lat": 43.8784929,
+   "lon": -79.2427572,
+   "tags": {
+    "addr:housenumber": "3",
+    "addr:street": "Wootten Way North",
+    "amenity": "restaurant",
+    "brand": "Halibut House",
+    "brand:wikidata": "Q133255010",
+    "cuisine": "fish_and_chips",
+    "name": "Halibut House",
+    "website": "https://www.halibuthouse.ca//"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3467059181,
+   "lat": 43.8722044,
+   "lon": -79.267054,
+   "tags": {
+    "addr:housenumber": "5762",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Osaka Sushi",
+    "opening_hours": "Mo-Sa 11:30-22:30; Su 11:30-22:00",
+    "website": "https://markhamosakasushi.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3467065129,
+   "lat": 43.8563229,
+   "lon": -79.3043514,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "chinese",
+    "name": "Cha Me. Cha"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3467845054,
+   "lat": 43.8786441,
+   "lon": -79.2380822,
+   "tags": {
+    "addr:housenumber": "6605",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "fish_and_chips",
+    "name": "Bluenose Fish & Chips"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3467845055,
+   "lat": 43.8785803,
+   "lon": -79.2380795,
+   "tags": {
+    "addr:housenumber": "6605",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "cuisine": "ice_cream",
+    "name": "Village Ice Cream Shoppe"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3467845056,
+   "lat": 43.8784731,
+   "lon": -79.2380264,
+   "tags": {
+    "addr:housenumber": "6605",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "short_name": "Domino's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3467845057,
+   "lat": 43.8784093,
+   "lon": -79.238034,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "6605",
+    "addr:postcode": "L3P7P1",
+    "addr:province": "ON",
+    "addr:street": "Highway 7",
+    "addr:unit": "5",
+    "amenity": "fast_food",
+    "brand": "BarBurrito",
+    "brand:wikidata": "Q104844862",
+    "cuisine": "mexican",
+    "drive_through": "no",
+    "name": "BarBurrito",
+    "phone": "+1-905-471-5770",
+    "takeaway": "yes",
+    "website": "https://www.barburrito.ca/location/markham-eastown/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3468785349,
+   "lat": 43.8604166,
+   "lon": -79.3033394,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Mom's Pan-Fried Bun 老娘水煎包"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3470670217,
+   "lat": 43.8696249,
+   "lon": -79.2767482,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Red Rose Garden",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3470701772,
+   "lat": 43.8839492,
+   "lon": -79.2612179,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housename": "Station Plaza",
+    "addr:housenumber": "227",
+    "addr:postcode": "L3P 1Y6",
+    "addr:street": "Main Street Markham North",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Station Pizza",
+    "website": "https://www.stationpizza.ca"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3477852528,
+   "lat": 43.8720504,
+   "lon": -79.2682978,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Bombay Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3477874263,
+   "lat": 43.8788899,
+   "lon": -79.261352,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "burger",
+    "name": "Liberty Burgers & Wings"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3477885047,
+   "lat": 43.8835688,
+   "lon": -79.2614443,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "delivery": "yes",
+    "name": "Chef Chan",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3477885048,
+   "lat": 43.8837776,
+   "lon": -79.2613638,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Little Bangkok"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3477907179,
+   "lat": 43.866734,
+   "lon": -79.2836408,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "5261",
+    "addr:postcode": "L3P 1B8",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "Hero Certified Burgers",
+    "brand:wikidata": "Q5742641",
+    "brand:wikipedia": "en:Hero Certified Burgers",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "Hero Certified Burgers",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3477907180,
+   "lat": 43.8666973,
+   "lon": -79.28385,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "5261",
+    "addr:postcode": "L3P 1B8",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "brand:wikipedia": "en:Popeyes",
+    "cuisine": "chicken",
+    "drive_through": "no",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3530615938,
+   "lat": 43.8677621,
+   "lon": -79.3119283,
+   "tags": {
+    "addr:city": "Unionville",
+    "addr:housenumber": "189",
+    "addr:postcode": "L3R 2G8",
+    "addr:street": "Main Street Unionville",
+    "amenity": "restaurant",
+    "cuisine": "pub",
+    "name": "The Unionville Arms",
+    "opening_hours": "Mo-Fr 11:30-02:00; Sa,Su 11:00-02:00",
+    "phone": "+1-905-477-2767",
+    "phone:mnemonic": "+1-905-477-ARMS",
+    "smoking": "outside",
+    "website": "https://unionvillearms.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3561209142,
+   "lat": 43.8204645,
+   "lon": -79.3253554,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7010",
+    "addr:street": "Warden Avenue",
+    "amenity": "restaurant",
+    "cuisine": "ramen",
+    "indoor_seating": "yes",
+    "name": "Ajisen Ramen",
+    "outdoor_seating": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3561214828,
+   "lat": 43.8224939,
+   "lon": -79.3258305,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3620992884,
+   "lat": 43.7988298,
+   "lon": -79.4198805,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3718624976,
+   "lat": 43.845004,
+   "lon": -79.356346,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3718624977,
+   "lat": 43.844205,
+   "lon": -79.3560026,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Syogun Sushi Bar",
+    "website": "http://www.syogunsushibar.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3718659602,
+   "lat": 43.8444811,
+   "lon": -79.3548034,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8261",
+    "addr:postcode": "L3R8Z5",
+    "addr:province": "Ontario",
+    "addr:street": "Woodbine Avenue",
+    "addr:unit": "8",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Skyview Fusion Cuisine",
+    "opening_hours": "Mo-Su 09:00-22:00",
+    "phone": "+19059449418",
+    "website": "http://www.skyviewfusioncuisine.ca/",
+    "website:menu": "http://www.skyviewfusioncuisine.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3718659603,
+   "lat": 43.8224676,
+   "lon": -79.3503123,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7333",
+    "addr:postcode": "L3R 1A7",
+    "addr:province": "Ontario",
+    "addr:street": "Woodbine Avenue",
+    "addr:unit": "4",
+    "amenity": "restaurant",
+    "cuisine": "korean",
+    "level": "0",
+    "name": "Anju Korean Kitchen",
+    "opening_hours": "Tu-Su 12:00-15:00,17:00-21:30",
+    "payment:cash": "yes",
+    "phone": "+1-905-205-1547",
+    "toilets": "yes",
+    "website": "https://anjutoronto.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3718659623,
+   "lat": 43.8225305,
+   "lon": -79.3505011,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-08-30",
+    "cuisine": "sushi",
+    "name": "Makirrito",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3718665226,
+   "lat": 43.856555,
+   "lon": -79.3593095,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8801",
+    "addr:postcode": "L3R 5W9",
+    "addr:province": "Ontario",
+    "addr:street": "Woodbine Avenue",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "internet_access": "yes",
+    "name": "Tim Hortons",
+    "opening_hours": "Mo-Su 05:00-23:00",
+    "phone": "+19054794180",
+    "seating": "yes",
+    "takeaway": "yes",
+    "website": "https://locations.timhortons.ca/en/on/markham/8801-woodbine-ave",
+    "website:menu": "https://www.timhortons.ca/menu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3718665228,
+   "lat": 43.8229226,
+   "lon": -79.350448,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-08-30",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "Boardwalk"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3718665229,
+   "lat": 43.8267512,
+   "lon": -79.3512604,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Carmelina Restaurant",
+    "website": "http://www.carmelinarestaurant.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3718665239,
+   "lat": 43.8225891,
+   "lon": -79.3505094,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3718665244,
+   "lat": 43.8566593,
+   "lon": -79.3592585,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8801",
+    "addr:postcode": "L3R 5W9",
+    "addr:province": "Ontario",
+    "addr:street": "Woodbine Avenue",
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Wendy's",
+    "opening_hours": "Mo-Su 06:30-00:00",
+    "phone": "+19054794880",
+    "seating": "yes",
+    "takeaway": "yes",
+    "website": "https://locations.wendys.com/canada/on/markham/8801-woodbine-ave?utm_source=Yext&utm_medium=Google_My_Business&utm_campaign=Local_Search&utm_content=EN_CA",
+    "website:orders": "https://order.wendys.com/ca/en/national/menu?site=menu&lang=en_CA?utm_source=Yext&utm_medium=Google_My_Business&utm_campaign=Local_Search&utm_content=EN_CA"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3718745054,
+   "lat": 43.8245393,
+   "lon": -79.3529793,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3733398943,
+   "lat": 43.8200394,
+   "lon": -79.331591,
+   "tags": {
+    "amenity": "restaurant",
+    "capacity": "200",
+    "cuisine": "chinese",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4264749759,
+   "lat": 43.867765,
+   "lon": -79.2887729,
+   "tags": {
+    "alt_name": "Joey Markville",
+    "amenity": "restaurant",
+    "brand": "Joey",
+    "brand:wikidata": "Q24191943",
+    "check_date": "2026-08-03",
+    "cuisine": "regional",
+    "level": "0",
+    "name": "Joey"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4269625790,
+   "lat": 43.8669888,
+   "lon": -79.3121587,
+   "tags": {
+    "addr:housenumber": "166",
+    "addr:postcode": "L3R 2G9",
+    "addr:street": "Main Street Unionville",
+    "amenity": "restaurant",
+    "cuisine": "fine_dining;international;italian;mediterranean;pasta;pizza;sandwich",
+    "email": "contact@blacksmithsbistro.com",
+    "name": "Blacksmith's Bistro",
+    "opening_hours": "Mo-Su 12:00-15:00,17:00-21:00",
+    "phone": "+1-905-305-0503",
+    "website": "https://www.blacksmithsbistro.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4284460490,
+   "lat": 43.8654942,
+   "lon": -79.3100848,
+   "tags": {
+    "addr:housenumber": "139",
+    "addr:postcode": "L3R 2G6",
+    "addr:street": "Main Street Unionville",
+    "amenity": "restaurant",
+    "cuisine": "asian;american;burger;pub",
+    "name": "Next Door Restaurant",
+    "opening_hours": "Mo-Su 11:00-02:00",
+    "outdoor_seating": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4284496889,
+   "lat": 43.8654674,
+   "lon": -79.310206,
+   "tags": {
+    "addr:housenumber": "139",
+    "addr:postcode": "L3R 2G6",
+    "addr:street": "Main Street Unionville",
+    "amenity": "cafe",
+    "cuisine": "cake;coffee_shop;donut;ice_cream;tea",
+    "name": "Unionville Gelato Co.",
+    "phone": "+1-905-604-3994"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4284587389,
+   "lat": 43.8663168,
+   "lon": -79.3111446,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "149",
+    "addr:postcode": "L3R 2G8",
+    "addr:street": "Main Street Unionville",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "capacity": "100",
+    "contact:facebook": "Ambiyan-157965104221436",
+    "contact:yellowpages": "http://www.yellowpages.ca/bus/Ontario/Unionville/Comp-Ambiyan/7369766.html",
+    "contact:yelp": "http://www.yelp.ca/biz/ambiyan-unionville",
+    "cuisine": "indian;international",
+    "email": "ambiyan@ambiyan.com",
+    "fax": "+1-905-480-0110",
+    "internet_access": "wlan",
+    "name": "Ambiyan Restaurant & Bar",
+    "opening_hours": "Mo 16:00-22:00; Tu-Th 11:30-22:00; Fr-Sa 11:30-23:00; Su 11:30-22:00",
+    "outdoor_seating": "yes",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:interac": "yes",
+    "payment:mastercard": "yes",
+    "payment:notes": "yes",
+    "payment:visa": "yes",
+    "phone": "+1-905-480-0094",
+    "website": "https://www.ambiyan.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4284626089,
+   "lat": 43.8666214,
+   "lon": -79.3114728,
+   "tags": {
+    "addr:housenumber": "155",
+    "addr:postcode": "L3R 2G8",
+    "addr:street": "Main Street Unionville",
+    "amenity": "cafe",
+    "cuisine": "ice_cream",
+    "name": "Flavours of Unionville",
+    "opening_hours": "Mo-Th 12:00-21:00; Fr-Su 12:00-22:00",
+    "phone": "+1-647-987-4227"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4284763892,
+   "lat": 43.8487848,
+   "lon": -79.3240214,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "169",
+    "addr:postcode": "L6G 0E7",
+    "addr:province": "ON",
+    "addr:street": "Enterprise Boulevard",
+    "amenity": "restaurant",
+    "brand": "Milestones",
+    "brand:wikidata": "Q6851623",
+    "cuisine": "bar_and_grill",
+    "name": "Milestones",
+    "opening_hours": "Mo-Th 11:00-00:00; Fr 11:00-01:00; Sa 10:00-01:00; Su 10:00-23:00",
+    "phone": "+1-905-415-3483",
+    "website": "https://www.milestonesrestaurants.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4284768191,
+   "lat": 43.8675164,
+   "lon": -79.3119218,
+   "tags": {
+    "addr:housenumber": "187",
+    "addr:postcode": "L3R 2G8",
+    "addr:street": "Main Street Unionville",
+    "amenity": "restaurant",
+    "cuisine": "international;chinese;barbecue",
+    "email": "reservations@planetamexicomarkham.com",
+    "name": "Chat Bar 九号小院",
+    "opening_hours": "Mo-Th 16:00-23:00; Fr 15:00-23:00, Sa-Su 12:00-23:00",
+    "phone": "+1-905-604-4117",
+    "website": "http://www.planetamexicomarkham.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4284774389,
+   "lat": 43.8675421,
+   "lon": -79.3123703,
+   "tags": {
+    "addr:housenumber": "186",
+    "addr:postcode": "L3R 2G9",
+    "addr:street": "Main Street Unionville",
+    "amenity": "restaurant",
+    "cuisine": "international;italian",
+    "name": "Il Postino Ristorante",
+    "opening_hours": "Mo-Fr 12:00-15:00,17:00-22:00; Sa 17:00-22:00",
+    "phone": "+1-905-940-1555",
+    "website": "http://www.ilpostinoristorante.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4284809391,
+   "lat": 43.8488891,
+   "lon": -79.3236501,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "169",
+    "addr:postcode": "L6G 0E7",
+    "addr:province": "ON",
+    "addr:street": "Enterprise Boulevard",
+    "addr:unit": "106",
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:en": "Chatime",
+    "brand:wikidata": "Q16829306",
+    "brand:wikipedia": "en:Chatime",
+    "brand:zh": "日出茶太",
+    "cuisine": "bubble_tea",
+    "name": "Chatime",
+    "name:en": "Chatime",
+    "name:zh": "日出茶太",
+    "opening_hours": "Mo-Th 12:00-00:00; Fr 12:00-01:00; Sa-Su 11:30-01:00",
+    "phone": "+1-905-948-0007",
+    "takeaway": "yes",
+    "website": "https://www.chatime.com/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4284809392,
+   "lat": 43.8490412,
+   "lon": -79.3228249,
+   "tags": {
+    "addr:housenumber": "179",
+    "addr:postcode": "L6G 0A2",
+    "addr:street": "Enterprise Boulevard",
+    "amenity": "cafe",
+    "cuisine": "tea;coffee_shop;asian",
+    "email": "info@gofortea.ca",
+    "name": "Go For Tea",
+    "opening_hours": "Mo-Sa 11:00-03:00; Su 11:00-00:00",
+    "phone": "+1-905-947-0221",
+    "website": "https://gofortea.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4284848989,
+   "lat": 43.8493804,
+   "lon": -79.3234112,
+   "tags": {
+    "addr:housenumber": "179",
+    "addr:postcode": "L6G 0A2",
+    "addr:street": "Enterprise Boulevard",
+    "amenity": "cafe",
+    "brand": "Aroma Espresso Bar",
+    "brand:wikidata": "Q2909872",
+    "brand:wikipedia": "en:Aroma Espresso Bar",
+    "cuisine": "coffee_shop",
+    "name": "Aroma Espresso Bar",
+    "opening_hours": "Mo-Th 08:00-22:00; Fr 08:00-22:30; Sa 09:00-22:30; Su 09:00-22:00",
+    "phone": "+1-905-479-8818",
+    "takeaway": "yes",
+    "website": "https://www.aromaespressobar.ca/",
+    "website:menu": "https://www.aromaespressobar.ca/aroma-menu/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4340097822,
+   "lat": 43.9086866,
+   "lon": -79.2684402,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4439218690,
+   "lat": 43.8194621,
+   "lon": -79.330856,
+   "tags": {
+    "addr:postcode": "L3R 1K9",
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "chinese",
+    "name": "Chinese Dumpling House",
+    "name:en": "Chinese Dumpling House",
+    "name:zh": "东北饺子馆",
+    "phone": "+1-905-947-9880"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4439263789,
+   "lat": 43.8192137,
+   "lon": -79.330939,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "chinese",
+    "name": "Xin Jiang Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4455917799,
+   "lat": 43.8667469,
+   "lon": -79.3119189,
+   "tags": {
+    "addr:city": "Unionville",
+    "addr:housenumber": "158",
+    "addr:postcode": "L3R 2G9",
+    "addr:street": "Main Street Unionville",
+    "amenity": "cafe",
+    "cuisine": "japanese;cheesecake;bakery",
+    "name": "H-Cafe",
+    "opening_hours": "08:00-23:00"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4549754251,
+   "lat": 43.8305796,
+   "lon": -79.3535734,
+   "tags": {
+    "addr:housenumber": "7690",
+    "addr:postcode": "M5H 2V5",
+    "addr:street": "Woodbine Avenue",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "level": "0",
+    "name": "Tim Hortons",
+    "note": "no seating at this Tims",
+    "opening_hours": "Mo-Fr 05:00-22:00; Sa,Su 06:00-22:00",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4565106790,
+   "lat": 43.8565805,
+   "lon": -79.332738,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3760",
+    "addr:postcode": "L3R 0N2",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "brand": "Cora",
+    "brand:wikidata": "Q2996960",
+    "brand:wikipedia": "en:Cora (restaurant)",
+    "check_date:opening_hours": "2025-04-16",
+    "cuisine": "breakfast",
+    "name": "Cora",
+    "opening_hours": "Mo-Sa 06:00-15:00; Su 07:00-15:00",
+    "phone": "+1-905-489-2446"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4643221866,
+   "lat": 43.9011379,
+   "lon": -79.2655371,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "My Little Pizzeria"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4643330085,
+   "lat": 43.8671974,
+   "lon": -79.230801,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "72",
+    "addr:postcode": "L6B 0P2",
+    "addr:street": "Copper Creek Drive",
+    "amenity": "restaurant",
+    "cuisine": "breakfast",
+    "name": "Eggs 4 life",
+    "phone": "+1-905-201-9660",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4650573931,
+   "lat": 43.8662792,
+   "lon": -79.2292562,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Wild Wing",
+    "brand:wikidata": "Q8000869",
+    "brand:wikipedia": "en:Wild Wing Restaurants",
+    "cuisine": "chicken",
+    "name": "Wild Wing"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4650573932,
+   "lat": 43.8661998,
+   "lon": -79.2292942,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4922135765,
+   "lat": 43.8575918,
+   "lon": -79.3585683,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai;asian",
+    "name": "Pho Pad Thai"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4922135775,
+   "lat": 43.8578277,
+   "lon": -79.3595956,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Quiznos",
+    "brand:wikidata": "Q1936229",
+    "brand:wikipedia": "en:Quiznos",
+    "cuisine": "sandwich",
+    "name": "Quiznos",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4922135778,
+   "lat": 43.8580057,
+   "lon": -79.3596627,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Mi-Ne Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4922135783,
+   "lat": 43.8484218,
+   "lon": -79.3500819,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;shanghainese",
+    "name": "Shanghai Shiknmen Fine Cuisine"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4922135785,
+   "lat": 43.8481587,
+   "lon": -79.3499397,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3229",
+    "addr:postcode": "L3R 3P3",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "E3",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Gyumanor Japanese BBQ"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4922145672,
+   "lat": 43.8481858,
+   "lon": -79.3497466,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3229",
+    "addr:postcode": "L3R 3P3",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7 East",
+    "addr:unit": "7B",
+    "amenity": "restaurant",
+    "cuisine": "korean;asian",
+    "name": "The Owl of Minerva",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "phone": "+1 905 477-7475",
+    "website": "https://owlfamily.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4922145674,
+   "lat": 43.8482806,
+   "lon": -79.3492718,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Wei's Kitchen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4922145675,
+   "lat": 43.8483192,
+   "lon": -79.349127,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Mei Nung Beef Noodle House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4922296510,
+   "lat": 43.8511878,
+   "lon": -79.3543063,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "The Pho Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4922296513,
+   "lat": 43.8513367,
+   "lon": -79.3535768,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "shawarma",
+    "name": "Shawarma Stop"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4922303908,
+   "lat": 43.8311571,
+   "lon": -79.3537813,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "name": "Mr. Sub",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4997535222,
+   "lat": 43.8549872,
+   "lon": -79.2563207,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "barbecue",
+    "name": "Bamiyan"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5015351709,
+   "lat": 43.8496058,
+   "lon": -79.3224689,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "seafood",
+    "name": "Good Catch Boil House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5145496070,
+   "lat": 43.8177662,
+   "lon": -79.3492127,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7155",
+    "addr:postcode": "L3R 1A3",
+    "addr:street": "Woodbine Avenue",
+    "amenity": "restaurant",
+    "cuisine": "hong_kong_cafe",
+    "name": "Phoenix Restaurant",
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "outdoor_seating": "no",
+    "phone": "+1-905-940-1113",
+    "takeaway": "yes",
+    "website": "phoenixrestaurant.cc"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5145536135,
+   "lat": 43.8157243,
+   "lon": -79.3498386,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7100",
+    "addr:postcode": "L3R 5J2",
+    "addr:street": "Woodbine Avenue",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Gyubee Japanese Grill",
+    "opening_hours": "Mo-Su 12:00-23:00",
+    "outdoor_seating": "no",
+    "phone": "+1-905-604-1904",
+    "website": "https://www.gyubeejapanesegrill.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5155220630,
+   "lat": 43.8491491,
+   "lon": -79.2534868,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Wow! Sushi Japanese Cuisine"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5155822058,
+   "lat": 43.8547226,
+   "lon": -79.2559451,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "cuisine": "chicken",
+    "name": "Swiss Chalet"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5155822059,
+   "lat": 43.8546104,
+   "lon": -79.2559183,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Harvey's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5160063732,
+   "lat": 43.8374753,
+   "lon": -79.2495172,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Little Caesars",
+    "brand:wikidata": "Q1393809",
+    "brand:wikipedia": "en:Little Caesars",
+    "cuisine": "pizza",
+    "name": "Little Caesars",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5173153942,
+   "lat": 43.8210203,
+   "lon": -79.3255481,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7040",
+    "addr:province": "Ontario",
+    "addr:street": "Warden Avenue",
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Green Grotto Tea Room",
+    "note": "located inside/shares space with Du Hsiao Yueh restaurant",
+    "opening_hours": "Mo-Su 11:30-22:00",
+    "outdoor_seating": "no",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+19053002578",
+    "smoking": "no",
+    "website": "https://greengrotto.ca/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5262869928,
+   "lat": 43.853388,
+   "lon": -79.2569482,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "brand:wikipedia": "en:Booster Juice",
+    "cuisine": "juice",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5262869937,
+   "lat": 43.8550659,
+   "lon": -79.2570515,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chicken",
+    "name": "Chunky Chicken"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5262869947,
+   "lat": 43.8551733,
+   "lon": -79.2569067,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Mecca Halal Pizza & Wings",
+    "phone": "+1-905-294-2121"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5262869948,
+   "lat": 43.85521,
+   "lon": -79.2568651,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Golden China"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5264995534,
+   "lat": 43.8488391,
+   "lon": -79.3477722,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "dessert",
+    "name": "Tracy Dessert"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5264995535,
+   "lat": 43.84845,
+   "lon": -79.3483353,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Ding Tai Fung"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5264995536,
+   "lat": 43.8485753,
+   "lon": -79.34795,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3235",
+    "addr:postcode": "L3R 3P3",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "22",
+    "amenity": "restaurant",
+    "cuisine": "ramen",
+    "name": "Brown Donkatsu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5264995539,
+   "lat": 43.8487168,
+   "lon": -79.3478428,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3235",
+    "addr:postcode": "L3R 3P9",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "27",
+    "amenity": "cafe",
+    "brand": "Yi Fang Tea",
+    "brand:en": "Yi Fang Tea",
+    "brand:wikidata": "Q66196395",
+    "brand:wikipedia": "zh:一芳水果茶",
+    "brand:zh": "一芳水果茶",
+    "cuisine": "bubble_tea",
+    "name": "Yi Fang Tea",
+    "name:en": "Yi Fang Tea",
+    "name:zh": "一芳水果茶",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5264996171,
+   "lat": 43.8484072,
+   "lon": -79.3488267,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3235",
+    "addr:postcode": "L3R 3P3",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "16",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "One Shot BBQ"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5266293822,
+   "lat": 43.8493203,
+   "lon": -79.3258843,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "162",
+    "addr:postcode": "L6G 0A2",
+    "addr:province": "ON",
+    "addr:street": "Enterprise Boulevard",
+    "amenity": "restaurant",
+    "cuisine": "french",
+    "email": "info@terrerougetoronto.com",
+    "name": "Terre Rouge",
+    "opening_hours": "Mo-Fr 11:00-15:00,17:00-22:30; Sa-Su 17:00-22:30",
+    "phone": "+1-905-597-5668",
+    "website": "https://www.terrerougetoronto.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5267154727,
+   "lat": 43.8406733,
+   "lon": -79.2529745,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Elson Pizza & Wings",
+    "phone": "+1-905-554-0225"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5267154729,
+   "lat": 43.8407323,
+   "lon": -79.2527063,
+   "tags": {
+    "amenity": "restaurant",
+    "catering": "yes",
+    "cuisine": "indian",
+    "name": "India Sweets & Restaurant",
+    "phone": "+1-905-472-0473",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5278839838,
+   "lat": 43.8791577,
+   "lon": -79.2613386,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "144",
+    "addr:postcode": "L3P 5T3",
+    "addr:street": "Main Street Markham North",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Main Sushi",
+    "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+    "outdoor_seating": "no",
+    "phone": "+1-905-201-6218",
+    "website": "https://www.mainsushi.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5300811812,
+   "lat": 43.8718083,
+   "lon": -79.2153391,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "name": "McDonald's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5369779355,
+   "lat": 43.8932535,
+   "lon": -79.2912018,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "jamaican",
+    "name": "George's Tastee"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5379770727,
+   "lat": 43.8655002,
+   "lon": -79.3109501,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "The Alley",
+    "brand:en": "The Alley",
+    "brand:wikidata": "Q126456355",
+    "brand:zh": "鹿角巷 The Alley",
+    "cuisine": "chinese;cafe",
+    "internet_access": "yes",
+    "name": "The Alley",
+    "name:en": "The Alley",
+    "name:zh": "鹿角巷 The Alley",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5403923623,
+   "lat": 43.8062135,
+   "lon": -79.4212096,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "The Indian Kitchen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5464995526,
+   "lat": 43.8677741,
+   "lon": -79.3123056,
+   "tags": {
+    "addr:city": "Unionville",
+    "addr:housenumber": "188",
+    "addr:postcode": "L3R 2G9",
+    "addr:street": "Main Street",
+    "amenity": "fast_food",
+    "brand": "Dairy Queen",
+    "brand:wikidata": "Q1141226",
+    "brand:wikipedia": "en:Dairy Queen",
+    "cuisine": "ice_cream",
+    "name": "Dairy Queen",
+    "phone": "+1-905-477-2226",
+    "wheelchair": "yes",
+    "wheelchair:description": "StopGap ramp"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5509115186,
+   "lat": 43.8967684,
+   "lon": -79.319154,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "9990",
+    "addr:postcode": "L6C 0M4",
+    "addr:province": "Ontario",
+    "addr:street": "Kennedy Road",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "brewery": "yes",
+    "capacity": "140",
+    "cuisine": "burger;sandwich;chicken;american;seafood;ice_cream;fish_and_chips;fish;juice;dessert;pasta;salad;cake;grill;breakfast;brunch",
+    "delivery": "yes",
+    "description": "Markham family restaurant specializing in breakfast, lunch, dinner, desserts with a fully licensed lounge.",
+    "diet:gluten_free": "yes",
+    "diet:halal": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "email": "symposium.markham@symposiumcafe.com",
+    "highchair": "yes",
+    "image": "https://1659307026-markham-restaurants-dining-room-near-me-symposium-cafe.jpg",
+    "internet_access": "yes",
+    "name": "Symposium Cafe Restaurant Markham",
+    "opening_hours": "Mo-Su 08:00-23:00",
+    "outdoor_seating": "yes",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+1-905-927-9779",
+    "smoking": "no",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "https://symposiumcafe.com/locations/markham-restaurants",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5650946633,
+   "lat": 43.8704462,
+   "lon": -79.3615453,
+   "tags": {
+    "addr:housenumber": "9255",
+    "addr:postcode": "L6C 1Y9",
+    "addr:street": "Woodbine Avenue",
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:en": "Chatime",
+    "brand:wikidata": "Q16829306",
+    "brand:wikipedia": "en:Chatime",
+    "brand:zh": "日出茶太",
+    "cuisine": "bubble_tea",
+    "name": "Chatime",
+    "name:en": "Chatime",
+    "name:zh": "日出茶太",
+    "phone": "+1-905-534-3288",
+    "takeaway": "yes",
+    "website": "https://chatime.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5910018691,
+   "lat": 43.8248172,
+   "lon": -79.3395648,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Indias Taste",
+    "website": "https://indiastaste.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6050067710,
+   "lat": 43.8507955,
+   "lon": -79.3562444,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "brand:wikipedia": "en:Popeyes",
+    "cuisine": "chicken",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6050067711,
+   "lat": 43.8519172,
+   "lon": -79.3590497,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8600",
+    "addr:postcode": "L3R 4X8",
+    "addr:province": "Ontario",
+    "addr:street": "Woodbine Avenue",
+    "addr:unit": "C-3",
+    "amenity": "fast_food",
+    "brand": "Mary Brown's",
+    "brand:wikidata": "Q6779125",
+    "cuisine": "chicken",
+    "name": "Mary Brown's",
+    "opening_hours": "Mo-Su 11:00-00:00; Su 11:00-22:00",
+    "phone": "+19052013630",
+    "takeaway": "yes",
+    "website": "https://marybrowns.com/locations",
+    "website:menu": "https://marybrowns.com/menu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6050067712,
+   "lat": 43.8522911,
+   "lon": -79.3591475,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Chipotle",
+    "brand:wikidata": "Q465751",
+    "brand:wikipedia": "en:Chipotle Mexican Grill",
+    "cuisine": "mexican",
+    "name": "Chipotle",
+    "official_name": "Chipotle Mexican Grill",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6050067713,
+   "lat": 43.8521227,
+   "lon": -79.3591104,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Jersey Mike's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6050067714,
+   "lat": 43.8524281,
+   "lon": -79.3591747,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Bento Sushi",
+    "brand:wikidata": "Q134445293",
+    "cuisine": "japanese;sushi",
+    "name": "Bento Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6050067715,
+   "lat": 43.852907,
+   "lon": -79.3592304,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Sunset Grill",
+    "brand:wikidata": "Q62112489",
+    "brand:wikipedia": "en:Sunset Grill (Canadian restaurant chain)",
+    "cuisine": "american",
+    "name": "Sunset Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6580755564,
+   "lat": 43.8128155,
+   "lon": -79.3586873,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Wimpy's Diner",
+    "brand:wikidata": "Q16909504",
+    "cuisine": "diner",
+    "name": "Wimpy's Diner"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6580755574,
+   "lat": 43.8128311,
+   "lon": -79.3585148,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "kebab",
+    "name": "Lazeez"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6581103250,
+   "lat": 43.8129597,
+   "lon": -79.3579866,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Oshio Japanese Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6581103256,
+   "lat": 43.8133735,
+   "lon": -79.3579158,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "King's Wok House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584638521,
+   "lat": 43.8678077,
+   "lon": -79.2898899,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Kernels Popcorn",
+    "brand:wikidata": "Q64876684",
+    "cuisine": "popcorn",
+    "level": "0",
+    "name": "Kernels Popcorn",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584638524,
+   "lat": 43.8678249,
+   "lon": -79.2897882,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Cinnabon",
+    "brand:website": "https://www.cinnabon.com/",
+    "brand:wikidata": "Q1092539",
+    "brand:wikipedia": "en:Cinnabon",
+    "cuisine": "dessert",
+    "level": "0",
+    "name": "Cinnabon",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584638529,
+   "lat": 43.8679326,
+   "lon": -79.2898832,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "bubble_tea",
+    "level": "0",
+    "name": "Bubble Tease"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584647581,
+   "lat": 43.8694999,
+   "lon": -79.2869675,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Real Fruit Bubble Tea",
+    "brand:wikidata": "Q66072331",
+    "cuisine": "bubble_tea",
+    "level": "0",
+    "name": "Real Fruit Bubble Tea",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584647582,
+   "lat": 43.8695225,
+   "lon": -79.2870401,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Auntie Anne's",
+    "brand:wikidata": "Q4822010",
+    "brand:wikipedia": "en:Auntie Anne's",
+    "cuisine": "pretzel",
+    "level": "0",
+    "name": "Auntie Anne's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584688077,
+   "lat": 43.8700471,
+   "lon": -79.2869985,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "brand:wikipedia": "en:A&W (Canada)",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "level": "0",
+    "name": "A&W",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584688078,
+   "lat": 43.8701094,
+   "lon": -79.2869995,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Jimmy the Greek",
+    "brand:wikidata": "Q17077817",
+    "brand:wikipedia": "en:Jimmy the Greek (restaurant)",
+    "cuisine": "greek",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Jimmy the Greek",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584688079,
+   "lat": 43.8701594,
+   "lon": -79.286991,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Bourbon St. Grill",
+    "brand:wikidata": "Q123409942",
+    "cuisine": "cajun",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Bourbon St. Grill",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584688080,
+   "lat": 43.8702127,
+   "lon": -79.2869954,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Harvey's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584688081,
+   "lat": 43.8702167,
+   "lon": -79.2869067,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "cuisine": "chicken",
+    "level": "0",
+    "name": "Swiss Chalet",
+    "note": "partial fast food selection, attached to Harvey's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584688082,
+   "lat": 43.8703529,
+   "lon": -79.2870223,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Manchu Wok",
+    "brand:wikidata": "Q6747622",
+    "brand:wikipedia": "en:Manchu Wok",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Manchu Wok",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584688083,
+   "lat": 43.8704581,
+   "lon": -79.2870666,
+   "tags": {
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "brand:wikipedia": "en:KFC",
+    "cuisine": "chicken",
+    "drive_through": "no",
+    "level": "0",
+    "name": "KFC",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584688084,
+   "lat": 43.8704589,
+   "lon": -79.2871332,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Taco Bell",
+    "brand:wikidata": "Q752941",
+    "brand:wikipedia": "en:Taco Bell",
+    "cuisine": "tex-mex",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Taco Bell",
+    "takeaway": "yes",
+    "website": "https://locations.tacobell.ca/en/on/markham/5000-hwy-7-e",
+    "website:en": "https://locations.tacobell.ca/en/on/markham/5000-hwy-7-e",
+    "website:fr": "https://locations.tacobell.ca/fr/on/markham/5000-hwy-7-e"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584689885,
+   "lat": 43.870477,
+   "lon": -79.2872993,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sushi",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Sushi-Q"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584689886,
+   "lat": 43.8704771,
+   "lon": -79.2873857,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "New York Fries",
+    "brand:wikidata": "Q7013558",
+    "brand:wikipedia": "en:New York Fries",
+    "cuisine": "fries",
+    "drive_through": "no",
+    "level": "0",
+    "name": "New York Fries",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584689887,
+   "lat": 43.8704108,
+   "lon": -79.2874281,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Mr. Sub",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584689888,
+   "lat": 43.870354,
+   "lon": -79.287431,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Extreme Pita",
+    "brand:wikidata": "Q5422367",
+    "brand:wikipedia": "en:Extreme Pita",
+    "cuisine": "pita",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Extreme Pita",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584689889,
+   "lat": 43.8701644,
+   "lon": -79.2874601,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "5000",
+    "addr:postcode": "L3R 4M9",
+    "addr:province": "ON",
+    "addr:street": "Highway 7 East",
+    "amenity": "fast_food",
+    "branch": "CF Markville Shopping Centre",
+    "brand": "Thaï Express",
+    "brand:wikidata": "Q7711610",
+    "brand:wikipedia": "en:Thaï Express",
+    "cuisine": "thai",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Thaï Express",
+    "phone": "+1-905-305-8806",
+    "ref:vatin": "813471752 RT0001",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584689890,
+   "lat": 43.8701088,
+   "lon": -79.2874578,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Villa Madina",
+    "brand:wikidata": "Q64876884",
+    "cuisine": "mediterranean",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Villa Madina",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584689891,
+   "lat": 43.8700423,
+   "lon": -79.2874589,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "indian",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Amaya Express"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6584764661,
+   "lat": 43.869616,
+   "lon": -79.2870599,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Second Cup",
+    "brand:wikidata": "Q862180",
+    "brand:wikipedia": "en:Second Cup",
+    "cuisine": "coffee_shop",
+    "level": "1",
+    "name": "Second Cup",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6646457358,
+   "lat": 43.866344,
+   "lon": -79.2300213,
+   "tags": {
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "brand:wikipedia": "en:KFC",
+    "cuisine": "chicken",
+    "name": "KFC",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6646457370,
+   "lat": 43.867116,
+   "lon": -79.2295329,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "86",
+    "addr:postcode": "L6B 0P2",
+    "addr:street": "Copper Creek Drive",
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "delivery": "no",
+    "name": "Subway",
+    "opening_hours": "Su 09:00-21:00; Mo 07:00-22:00; Tu 07:00-22:00; We 07:00-22:00; Th 07:00-22:00; Fr 07:00-23:00; Sa 08:00-22:00",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6682453985,
+   "lat": 43.8672164,
+   "lon": -79.2905897,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "internet_access": "wlan",
+    "name": "McDonald's",
+    "takeaway": "yes",
+    "website": "http://www.mcdonalds.ca"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6682453986,
+   "lat": 43.8319365,
+   "lon": -79.307508,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "seafood;chinese",
+    "name": "Noble Seafood Chinese Cuisine",
+    "phone": "+1-905-947-8288"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6682453987,
+   "lat": 43.8558005,
+   "lon": -79.3039396,
+   "tags": {
+    "addr:housenumber": "10",
+    "addr:postcode": "L3R 4P9",
+    "addr:street": "South Unionville Avenue",
+    "amenity": "restaurant",
+    "cuisine": "korean",
+    "internet_access": "wlan",
+    "name": "Kore Chicken",
+    "opening_hours": "Mo-Su 09:00-12:00",
+    "phone": "+1-647-428-9997",
+    "website": "http://1966big.wixsite.com/korechicken"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6737654449,
+   "lat": 43.8425862,
+   "lon": -79.388034,
+   "tags": {
+    "addr:city": "Richmond Hill",
+    "addr:housenumber": "505",
+    "addr:postcode": "L3T 7T1",
+    "addr:street": "Highway 7",
+    "addr:unit": "54-58",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "cuisine": "japanese",
+    "delivery": "yes",
+    "diet:meat": "yes",
+    "diet:vegetarian": "yes",
+    "name": "Kinton Ramen",
+    "opening_hours": "Mo-Su 11:30-22:30",
+    "outdoor_seating": "no",
+    "phone": "+1-905-597-8775",
+    "reservation": "no",
+    "smoking": "no",
+    "website": "https://www.kintonramen.com/canada/locations/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6765756689,
+   "lat": 43.8466294,
+   "lon": -79.3578085,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8374",
+    "addr:postcode": "M4L 3P1",
+    "addr:street": "Woodbine Avenue",
+    "addr:unit": "Unit 7",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "facebook": "https://www.facebook.com/hontattoostudio/",
+    "name": "Cho San Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6816015684,
+   "lat": 43.8894544,
+   "lon": -79.3151649,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "50",
+    "addr:postcode": "L6C 0A2",
+    "addr:street": "Bur Oak Avenue",
+    "addr:unit": "9",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "indoor_seating": "yes",
+    "name": "Itto Ramen",
+    "opening_hours": "Mo-Tu,Th-Su 11:00-21:00",
+    "outdoor_seating": "no",
+    "phone": "+1-905-887-0066"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6816067085,
+   "lat": 43.8894133,
+   "lon": -79.3151464,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "50",
+    "addr:postcode": "L6C 0A2",
+    "addr:street": "Bur Oak Avenue",
+    "addr:unit": "8",
+    "amenity": "cafe",
+    "brand": "CoCo",
+    "brand:wikidata": "Q65084369",
+    "brand:wikipedia": "en:CoCo Fresh Tea & Juice",
+    "cuisine": "bubble_tea",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "CoCo Fresh Tea & Juice",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "outdoor_seating": "no",
+    "short_name": "CoCo",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6816067086,
+   "lat": 43.8893611,
+   "lon": -79.3151156,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "50",
+    "addr:postcode": "L6C 0A2",
+    "addr:street": "Bur Oak Avenue",
+    "addr:unit": "7",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "indoor_seating": "yes",
+    "name": "Pho Metro",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "outdoor_seating": "no",
+    "phone": "+1-905-888-6999"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6816067087,
+   "lat": 43.8893245,
+   "lon": -79.3150941,
+   "tags": {
+    "addr:housenumber": "50",
+    "addr:street": "Bur Oak Avenue",
+    "addr:unit": "6",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "delivery": "yes",
+    "indoor_seating": "yes",
+    "name": "Superpig Chinese BBQ Restaurant",
+    "opening_hours": "Mo-Su 08:30-21:00",
+    "outdoor_seating": "no",
+    "phone": "+1-905-887-1388"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6816482584,
+   "lat": 43.8888871,
+   "lon": -79.3155748,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "20",
+    "addr:postcode": "L6C 0A2",
+    "addr:street": "Bur Oak Avenue",
+    "addr:unit": "12",
+    "amenity": "cafe",
+    "brand": "The Alley",
+    "brand:en": "The Alley",
+    "brand:wikidata": "Q126456355",
+    "brand:zh": "鹿角巷 The Alley",
+    "cuisine": "tea;milk_tea",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "The Alley",
+    "name:en": "The Alley",
+    "name:zh": "鹿角巷 The Alley",
+    "opening_hours": "Mo-Fr 11:00-22:00; Sa-Su 11:00-24:00",
+    "outdoor_seating": "no",
+    "phone": "+1-905-534-8820",
+    "takeaway": "yes",
+    "website": "https://www.the-alley.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6816487786,
+   "lat": 43.889265,
+   "lon": -79.3163057,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "10",
+    "addr:postcode": "L6C 0A2",
+    "addr:street": "Bur Oak Avenue",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "delivery": "yes",
+    "indoor_seating": "no",
+    "name": "Pine Tree Garden Restaurant",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "outdoor_seating": "no",
+    "phone": "+1-905-887-9922",
+    "takeaway": "only"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6817887549,
+   "lat": 43.8244326,
+   "lon": -79.3268368,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "20",
+    "addr:postcode": "L3R 8B5",
+    "addr:street": "Gibson Drive",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Dayali Beijing Roast Duck",
+    "opening_hours": "Mo-Fr 11:30-14:30,16:30-20:00",
+    "phone": "+1-905-604-8680"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6845091823,
+   "lat": 43.8605129,
+   "lon": -79.345453,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "2",
+    "addr:postcode": "L3R 8A9",
+    "addr:province": "Ontario",
+    "addr:street": "Corby Road",
+    "amenity": "cafe",
+    "brand": "Country Style",
+    "brand:wikidata": "Q5177435",
+    "brand:wikipedia": "en:Country Style",
+    "cuisine": "coffee_shop",
+    "name": "Country Style",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089481081,
+   "lat": 43.90438,
+   "lon": -79.2691287,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "indoor_seating": "yes",
+    "name": "La Viet",
+    "outdoor_seating": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089484888,
+   "lat": 43.8840212,
+   "lon": -79.2312333,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089484889,
+   "lat": 43.8785243,
+   "lon": -79.2380441,
+   "tags": {
+    "addr:housenumber": "6605",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089499384,
+   "lat": 43.895353,
+   "lon": -79.2657989,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizzaville",
+    "brand:wikidata": "Q113001369",
+    "cuisine": "pizza",
+    "name": "Pizzaville",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089502325,
+   "lat": 43.9028507,
+   "lon": -79.2673268,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Sunset Grill",
+    "brand:wikidata": "Q62112489",
+    "brand:wikipedia": "en:Sunset Grill (Canadian restaurant chain)",
+    "cuisine": "american",
+    "name": "Sunset Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089502326,
+   "lat": 43.9027797,
+   "lon": -79.2673175,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Hero Certified Burgers",
+    "brand:wikidata": "Q5742641",
+    "brand:wikipedia": "en:Hero Certified Burgers",
+    "cuisine": "burger",
+    "name": "Hero Certified Burgers",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089502334,
+   "lat": 43.9030355,
+   "lon": -79.2673704,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Li Dynasty"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089502336,
+   "lat": 43.903371,
+   "lon": -79.2674442,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Coffee Culture",
+    "brand:wikidata": "Q130545230",
+    "cuisine": "coffee_shop",
+    "name": "Coffee Culture",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089503185,
+   "lat": 43.9048689,
+   "lon": -79.2678225,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "indoor_seating": "yes",
+    "name": "Pizza Nova",
+    "opening_hours": "Su-Th 11:00-24:00, Fr,Sa 11:00-01:00",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089503186,
+   "lat": 43.904924,
+   "lon": -79.2678306,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "indoor_seating": "yes",
+    "name": "Subway",
+    "opening_hours": "Mo-Su 09:00-23:00",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089503187,
+   "lat": 43.9049926,
+   "lon": -79.267844,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "indoor_seating": "yes",
+    "name": "Sushi Sushi",
+    "opening_hours": "Mo-Su 11:00-21:00",
+    "outdoor_seating": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089503189,
+   "lat": 43.9051163,
+   "lon": -79.2678627,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "brand:wikipedia": "en:Popeyes",
+    "cuisine": "chicken",
+    "indoor_seating": "yes",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "opening_hours": "Mo-Sa 11:00-23:00",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089503191,
+   "lat": 43.9057772,
+   "lon": -79.2679204,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:en": "Chatime",
+    "brand:wikidata": "Q16829306",
+    "brand:wikipedia": "en:Chatime",
+    "brand:zh": "日出茶太",
+    "cuisine": "bubble_tea",
+    "indoor_seating": "yes",
+    "name": "Chatime",
+    "name:en": "Chatime",
+    "name:zh": "日出茶太",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089527304,
+   "lat": 43.8606763,
+   "lon": -79.3117008,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizzaville",
+    "brand:wikidata": "Q113001369",
+    "cuisine": "pizza",
+    "name": "Pizzaville",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089527305,
+   "lat": 43.8607805,
+   "lon": -79.3112375,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Mr. Chin"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089527307,
+   "lat": 43.8613199,
+   "lon": -79.3115404,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Hibiki"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089538486,
+   "lat": 43.8951889,
+   "lon": -79.2653842,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "greek",
+    "name": "Greek Stop"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089538488,
+   "lat": 43.8940307,
+   "lon": -79.2640617,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "brand:wikipedia": "en:Booster Juice",
+    "cuisine": "juice",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089538490,
+   "lat": 43.894082,
+   "lon": -79.2632842,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;korean",
+    "diet:chicken": "yes",
+    "diet:fish": "yes",
+    "diet:meat": "yes",
+    "diet:seafood": "yes",
+    "name": "Matsuya"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089538492,
+   "lat": 43.8938246,
+   "lon": -79.2630122,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "The King's Kitchen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089538494,
+   "lat": 43.8936959,
+   "lon": -79.2629783,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089538498,
+   "lat": 43.8922206,
+   "lon": -79.2647337,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Eggsmart",
+    "brand:wikidata": "Q113001388",
+    "cuisine": "breakfast",
+    "name": "Eggsmart"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089538499,
+   "lat": 43.8915004,
+   "lon": -79.2647991,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089538501,
+   "lat": 43.8920478,
+   "lon": -79.2653183,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Ai Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089549863,
+   "lat": 43.8028582,
+   "lon": -79.4199256,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089549864,
+   "lat": 43.8037332,
+   "lon": -79.4199256,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Sushi Bong"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089558865,
+   "lat": 43.8852837,
+   "lon": -79.371922,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Montana's",
+    "brand:wikidata": "Q17022490",
+    "brand:wikipedia": "en:Montana's BBQ & Bar",
+    "cuisine": "barbecue",
+    "name": "Montana's",
+    "official_name": "Montana's BBQ & Bar",
+    "opening_hours": "We,Th,Su 11:30-23:00, Fr,Sa 11:30-24:00; Mo,Tu 11:30-22:00",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089558868,
+   "lat": 43.8850942,
+   "lon": -79.372842,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089558871,
+   "lat": 43.8863739,
+   "lon": -79.3732121,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089560692,
+   "lat": 43.8520195,
+   "lon": -79.359082,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Freshii",
+    "brand:wikidata": "Q5503051",
+    "brand:wikipedia": "en:Freshii",
+    "cuisine": "salad",
+    "name": "Freshii"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089560694,
+   "lat": 43.8526307,
+   "lon": -79.3591894,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8630",
+    "addr:postcode": "L3R 4X8",
+    "addr:street": "Woodbine Avenue",
+    "addr:unit": "5",
+    "alt_name": "Osmow's Shawarma",
+    "amenity": "fast_food",
+    "brand": "Osmow's",
+    "brand:wikidata": "Q115048716",
+    "cuisine": "mediterranean;shawarma",
+    "name": "Osmow's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089570454,
+   "lat": 43.8277441,
+   "lon": -79.4266208,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Parsi Premium"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089570519,
+   "lat": 43.820237,
+   "lon": -79.3983319,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089570520,
+   "lat": 43.8201964,
+   "lon": -79.3984848,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2024-03-01",
+    "cuisine": "bubble_tea;dessert;bakery",
+    "name": "Kin-Kin Bakery & Bubble Tea"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089570521,
+   "lat": 43.82047,
+   "lon": -79.3983027,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Hunan Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7108160503,
+   "lat": 43.8567497,
+   "lon": -79.3335274,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "brand:wikipedia": "en:Booster Juice",
+    "cuisine": "juice",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7165415911,
+   "lat": 43.8500289,
+   "lon": -79.3247678,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "170",
+    "addr:postcode": "L6G 0A2",
+    "addr:province": "ON",
+    "addr:street": "Enterprise Boulevard",
+    "addr:unit": "J105",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Pears Restaurant",
+    "opening_hours": "Mo,Tu 17:00-21:00; We,Th 10:00-15:00,17:00-21:00; Fr,Sa 10:00-15:00,17:00-23:00; Su 10:00-15:00,17:00-22:00",
+    "phone": "+14373679264",
+    "reservation": "yes",
+    "website": "https://pearsrestaurant.com/",
+    "website:menu": "https://pearsrestaurant.com/menu/",
+    "website:reservation": "https://www.sevenrooms.com/explore/pears/reservations/create/search/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7403371800,
+   "lat": 43.9033094,
+   "lon": -79.2674287,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "9750",
+    "addr:postcode": "L6E 0H8",
+    "addr:street": "Markham Road",
+    "alt_name": "Osmow's Shawarma",
+    "amenity": "fast_food",
+    "brand": "Osmow's",
+    "brand:wikidata": "Q115048716",
+    "cuisine": "mediterranean;shawarma",
+    "name": "Osmow's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7403414023,
+   "lat": 43.8668622,
+   "lon": -79.2837643,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:country": "CA",
+    "addr:housenumber": "5261",
+    "addr:postcode": "L3P 1B8",
+    "addr:province": "ON",
+    "addr:street": "Highway 7",
+    "addr:unit": "B102",
+    "alt_name": "Osmow's Shawarma",
+    "amenity": "fast_food",
+    "brand": "Osmow's",
+    "brand:wikidata": "Q115048716",
+    "cuisine": "mediterranean;shawarma",
+    "name": "Osmow's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7415826937,
+   "lat": 43.8505419,
+   "lon": -79.3569818,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:country": "CA",
+    "addr:housenumber": "3000",
+    "addr:postcode": "L3R 4X9",
+    "addr:province": "ON",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "Teriyaki Experience",
+    "brand:wikidata": "Q7702453",
+    "cuisine": "japanese",
+    "name": "Teriyaki Experience",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8024045508,
+   "lat": 43.8717795,
+   "lon": -79.3436226,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "50",
+    "addr:postcode": "L3R 7R6",
+    "addr:province": "ON",
+    "addr:street": "Lockridge Avenue",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Win's Seafood Restaurant",
+    "phone": "+1-905-305-6634"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8024389480,
+   "lat": 43.849912,
+   "lon": -79.32318,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "180",
+    "addr:postcode": "L6G 0G4",
+    "addr:province": "ON",
+    "addr:street": "Enterprise Boulevard",
+    "amenity": "restaurant",
+    "cuisine": "dessert",
+    "name": "Demetres Downtown Markham",
+    "website": "https://demetres.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8093055507,
+   "lat": 43.8863505,
+   "lon": -79.3734294,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "735",
+    "addr:postcode": "L6C0G6",
+    "addr:province": "ON",
+    "addr:street": "Markland Street",
+    "addr:unit": "BI-7",
+    "amenity": "restaurant",
+    "cuisine": "ramen",
+    "name": "Koi Sakana Ramen",
+    "opening_hours": "Tu-Su 11:00-21:00",
+    "phone": "+1-905-882-8802",
+    "website": "https://www.koisakanaramen.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8093468032,
+   "lat": 43.88631,
+   "lon": -79.3736653,
+   "tags": {
+    "addr:housenumber": "735",
+    "addr:street": "Markland Street",
+    "addr:unit": "7",
+    "amenity": "fast_food",
+    "cuisine": "ramen",
+    "name": "Koi Sakana Ramen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8260956496,
+   "lat": 43.8190379,
+   "lon": -79.3308299,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "CoCo",
+    "brand:wikidata": "Q65084369",
+    "check_date": "2025-06-08",
+    "cuisine": "bubble_tea",
+    "internet_access": "wlan",
+    "name": "CoCo Fresh Tea & Juice",
+    "outdoor_seating": "no",
+    "phone": "+1-905-604-6963",
+    "short_name": "CoCo",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8279780208,
+   "lat": 43.8487371,
+   "lon": -79.2533171,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7393",
+    "addr:postcode": "L3S 0B5",
+    "addr:province": "Ontario",
+    "addr:street": "Markham Road",
+    "addr:unit": "86/87",
+    "amenity": "restaurant",
+    "cuisine": "chinese;hakka;asian",
+    "name": "Hakka Legend",
+    "opening_hours": "Mo-Su 11:00-22:00",
+    "phone": "+1-905-294-5777",
+    "website": "https://www.hakkalegend.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8372518759,
+   "lat": 43.8682597,
+   "lon": -79.2833226,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "5384",
+    "addr:postcode": "L3P 1B9",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "1",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Pho Quinn Authentic Vietnamese Cuisine",
+    "opening_hours": "Mo-Su 10:30-20:30",
+    "phone": "+1 905 201 8819",
+    "website": "https://phoquinn.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9068914683,
+   "lat": 43.8540592,
+   "lon": -79.3368995,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3621",
+    "addr:postcode": "L3R 0G6",
+    "addr:province": "ON",
+    "addr:street": "Highway 7",
+    "addr:unit": "111",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Chloe’s Garden Restaurant 荔園餐廳",
+    "opening_hours": "Tu-Mo 11:00-20:00",
+    "phone": "+1-905-604-4770",
+    "website": "http://www.chloesgardenrestaurant.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9393378386,
+   "lat": 43.8210635,
+   "lon": -79.3266982,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7060",
+    "addr:postcode": "L3B 5V1",
+    "addr:province": "ON",
+    "addr:street": "Warden Avenue",
+    "amenity": "restaurant",
+    "brand": "Yunshang Rice Noodle",
+    "brand:wikidata": "Q109381268",
+    "cuisine": "noodle",
+    "name": "Yunshang Rice Noodle",
+    "name:en": "Yunshang Rice Noodle",
+    "name:zh": "云尚过桥米线",
+    "name:zh-Hans": "云尚过桥米线",
+    "name:zh-Hant": "雲尚過橋米綫"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9652934655,
+   "lat": 43.8147216,
+   "lon": -79.3482568,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10162517902,
+   "lat": 43.7993357,
+   "lon": -79.4201157,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "General Tso's Kitchen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10162517911,
+   "lat": 43.7995987,
+   "lon": -79.4201928,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Xin Chao Vietnamese Cuisine"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10608723656,
+   "lat": 43.889581,
+   "lon": -79.2638772,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Papa John's",
+    "brand:wikidata": "Q2759586",
+    "cuisine": "pizza",
+    "name": "Papa John's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10743233481,
+   "lat": 43.8605229,
+   "lon": -79.3043612,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "nam2 Vietnamese",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10743241435,
+   "lat": 43.8611134,
+   "lon": -79.3036806,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Manna Kitchen 瑪娜廚房"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10743243223,
+   "lat": 43.8604649,
+   "lon": -79.3035264,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Mr. Congee 龍粥記"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10743248519,
+   "lat": 43.8599932,
+   "lon": -79.3034904,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Top Choice Restaurant 阿一小廚"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10743276312,
+   "lat": 43.8622094,
+   "lon": -79.3039867,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "4641",
+    "addr:postcode": "L3R 1M6",
+    "addr:province": "ON",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "check_date": "2025-09-14",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "A&W",
+    "store_ref": "4845",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10862982031,
+   "lat": 43.8836464,
+   "lon": -79.2613301,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "226",
+    "addr:postcode": "L3P1Y6",
+    "addr:province": "ON",
+    "addr:street": "Main Street Markham North",
+    "amenity": "restaurant",
+    "check_date": "2023-05-02",
+    "cuisine": "pastry",
+    "name": "CupCake Junkie",
+    "opening_hours": "Mo-Fr 11:00-18:00",
+    "phone": "+14164880099",
+    "website": "https://www.cupcakejunkie.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11090339620,
+   "lat": 43.8206586,
+   "lon": -79.3264903,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;barbecue",
+    "indoor_seating": "yes",
+    "outdoor_seating": "no",
+    "smoking": "no",
+    "website": "https://oxclub.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11110457775,
+   "lat": 43.8200521,
+   "lon": -79.3255303,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;hong_kong",
+    "indoor_seating": "yes",
+    "name": "Fortune Stone Restaurant",
+    "outdoor_seating": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11110457776,
+   "lat": 43.8203645,
+   "lon": -79.3256103,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "indoor_seating": "yes",
+    "name": "Sakura Sushi",
+    "outdoor_seating": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11120023519,
+   "lat": 43.8245618,
+   "lon": -79.3262006,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:wikidata": "Q16829306",
+    "cuisine": "bubble_tea",
+    "name": "Chatime",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11120023521,
+   "lat": 43.823955,
+   "lon": -79.3268886,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "The Alley"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11120023523,
+   "lat": 43.8239828,
+   "lon": -79.3267823,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chicken",
+    "name": "Super Chicken"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11141071152,
+   "lat": 43.8420126,
+   "lon": -79.3860767,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "505",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Donburi ドンプリ",
+    "name:ja": "ドンプリ"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11141071153,
+   "lat": 43.8419966,
+   "lon": -79.3861737,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "505",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "addr:unit": "91;92",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "蜀香苑川菜馆 Szechuan Legend Restaurant",
+    "name:en": "Szechuan Legend Restaurant",
+    "name:zh": "蜀香苑川菜馆"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11141071154,
+   "lat": 43.8419788,
+   "lon": -79.3862754,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "505",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "真東北餃子館 Chinese Dumpling House",
+    "name:en": "Chinese Dumpling House",
+    "name:zh": "真東北餃子館"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11141071155,
+   "lat": 43.841961,
+   "lon": -79.386374,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "505",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "西北樓 Shaanxi Restaurant",
+    "name:en": "Shaanxi Restaurant",
+    "name:zh": "西北樓"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11141071156,
+   "lat": 43.8419399,
+   "lon": -79.3864757,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "505",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "TP Tea 茶湯㑹"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11141071159,
+   "lat": 43.8420077,
+   "lon": -79.3870072,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "505",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Asian Legend 味香村"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11141071160,
+   "lat": 43.8421166,
+   "lon": -79.3871628,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "505",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "restaurant",
+    "cuisine": "korean",
+    "name": "Korean Grill House 髙養村"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11141071161,
+   "lat": 43.842641,
+   "lon": -79.3871705,
+   "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:wikidata": "Q16829306",
+    "cuisine": "bubble_tea",
+    "indoor_seating": "yes",
+    "name": "Chatime",
+    "opening_hours": "Mo-Th 12:00-23:00; Fr,Sa 12:00-24:00",
+    "outdoor_seating": "no",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11170416446,
+   "lat": 43.8210412,
+   "lon": -79.3254146,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7040",
+    "addr:postcode": "L3R 5Y3",
+    "addr:province": "Ontario",
+    "addr:street": "Warden Avenue",
+    "amenity": "restaurant",
+    "cuisine": "chinese;taiwanese",
+    "diet:vegetarian": "no",
+    "indoor_seating": "yes",
+    "name": "Du Hsiao Yueh",
+    "name:zh-Hans": "度小月",
+    "opening_hours": "Mo-Su 11:30-21:00",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+19053002578",
+    "smoking": "no",
+    "website": "https://noodle1895.ca/",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11170416447,
+   "lat": 43.8212722,
+   "lon": -79.3255528,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7050",
+    "addr:province": "Ontario",
+    "addr:street": "Warden Avenue",
+    "amenity": "restaurant",
+    "cuisine": "japanese;sushi",
+    "name": "Momo Koko"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11170416450,
+   "lat": 43.8224692,
+   "lon": -79.3257902,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;chinese_buns",
+    "name": "BAO EXPRESS"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11170416452,
+   "lat": 43.8246839,
+   "lon": -79.3261012,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;noodle",
+    "name": "Dagu Rice Noodle Markham"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11170416453,
+   "lat": 43.8245314,
+   "lon": -79.326398,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai;hotpot",
+    "name": "JIYU Thai Seafood Hot Pot"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11191278697,
+   "lat": 43.8422403,
+   "lon": -79.3053881,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7708",
+    "addr:postcode": "L3R 9S5",
+    "addr:province": "Ontario",
+    "addr:street": "Kennedy Road",
+    "amenity": "fast_food",
+    "brand": "Dairy Queen",
+    "brand:wikidata": "Q1141226",
+    "cuisine": "ice_cream;burger;chicken",
+    "name": "Dairy Queen",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "phone": "+19054793570",
+    "takeaway": "yes",
+    "website": "https://www.dairyqueen.com/en-ca/locations/on/markham/7708-kennedy-rd/10450/?utm_source=organic&utm_campaign=yext%2F&y_source=1_ODk5NDIxMy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "website:menu": "http://www.dairyqueen.com/ca-en/Menu/Food/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11196244156,
+   "lat": 43.8811443,
+   "lon": -79.3130502,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "YOGO Juice"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11225801685,
+   "lat": 43.8197381,
+   "lon": -79.3977895,
+   "tags": {
+    "addr:city": "Thornhill",
+    "addr:housenumber": "298",
+    "addr:postcode": "L3T 6M8",
+    "addr:province": "Ontario",
+    "addr:street": "John Street",
+    "amenity": "cafe",
+    "check_date": "2024-01-10",
+    "cuisine": "coffee_shop",
+    "name": "Java Joes",
+    "outdoor_seating": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11225801688,
+   "lat": 43.8218835,
+   "lon": -79.4000114,
+   "tags": {
+    "addr:city": "Thornhill",
+    "addr:housenumber": "8",
+    "addr:province": "Ontario",
+    "addr:street": "greenlane",
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "check_date": "2024-01-26",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11232427701,
+   "lat": 43.8316125,
+   "lon": -79.3070512,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "chinese",
+    "name": "Hai Tang Bakery & Cafe"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11232427703,
+   "lat": 43.8332986,
+   "lon": -79.3060074,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "chinese",
+    "name": "Chrisly Cafe"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11232427706,
+   "lat": 43.8337017,
+   "lon": -79.3068573,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Di An"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11275659462,
+   "lat": 43.8201085,
+   "lon": -79.3252284,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11275659463,
+   "lat": 43.8201472,
+   "lon": -79.3252277,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "indoor_seating": "yes",
+    "outdoor_seating": "no",
+    "smoking": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11275659467,
+   "lat": 43.8203155,
+   "lon": -79.3252626,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "indoor_seating": "yes",
+    "name": "Yin Ji Chang Fen (Rice Noodle Roll)",
+    "outdoor_seating": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11275677570,
+   "lat": 43.8207598,
+   "lon": -79.3265243,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7030",
+    "addr:province": "Ontario",
+    "addr:street": "Warden Avenue",
+    "addr:unit": "d2",
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "indoor_seating": "yes",
+    "name": "Sweet Palette Dessert and Tea",
+    "outdoor_seating": "no",
+    "website": "https://sweetpalette.ca"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11310849775,
+   "lat": 43.8624744,
+   "lon": -79.3064391,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-08-03",
+    "cuisine": "burger",
+    "name": "Grillies"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11310898332,
+   "lat": 43.8659023,
+   "lon": -79.2879027,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Church's Chicken",
+    "brand:wikidata": "Q1089932",
+    "cuisine": "chicken",
+    "name": "Church's Chicken",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11310899146,
+   "lat": 43.865066,
+   "lon": -79.291384,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chicken",
+    "name": "Krispy’s Rotisserie & Fried Chicken"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11310904112,
+   "lat": 43.8648029,
+   "lon": -79.2926381,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-08-03",
+    "cuisine": "chinese",
+    "name": "Yin Ji Chang Fen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11310904115,
+   "lat": 43.8649841,
+   "lon": -79.2919315,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-08-03",
+    "cuisine": "hong_kong",
+    "name": "Eggtart Queen",
+    "phone": "+1-905-513-8778"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11310904120,
+   "lat": 43.8649539,
+   "lon": -79.2919974,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-08-03",
+    "cuisine": "chinese",
+    "name": "Fu Kee Bao Dim",
+    "website": "https://fukeebaodim.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11310904722,
+   "lat": 43.8653062,
+   "lon": -79.2897346,
+   "tags": {
+    "addr:city": "Unionville",
+    "addr:housenumber": "5051",
+    "addr:postcode": "L3R 1N3",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7 E.",
+    "addr:unit": "6 & 7",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "level": "0",
+    "name": "Linh Anh Vietnamese Cuisine – Unionville",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "payment:cash": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+1-905-940-3400",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "https://linhanhvietnamesecuisine.com/unionville/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11503608732,
+   "lat": 43.8135155,
+   "lon": -79.3984629,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Bento Sushi",
+    "brand:wikidata": "Q134445293",
+    "check_date": "2024-02-18",
+    "cuisine": "sushi",
+    "name": "Bento sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11520438052,
+   "lat": 43.8194789,
+   "lon": -79.330684,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "chinese",
+    "name": "Whole Sheep Feast Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11554712952,
+   "lat": 43.8244649,
+   "lon": -79.3266455,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "MeetR1ice Noodle"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11554712953,
+   "lat": 43.8244891,
+   "lon": -79.3265541,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Fish Soup for You"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11608572386,
+   "lat": 43.8573047,
+   "lon": -79.3589705,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Woodstone Eatery",
+    "website": "https://www.enjoy2eat.ca/woodstone/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11608597077,
+   "lat": 43.8528237,
+   "lon": -79.3592145,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "caribbean",
+    "name": "Island Foods"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11608597080,
+   "lat": 43.8523221,
+   "lon": -79.3591582,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Pizza Studio"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11609834480,
+   "lat": 43.8200215,
+   "lon": -79.3889117,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "385",
+    "addr:postcode": "L3T 5W5",
+    "addr:province": "Ontario",
+    "addr:street": "John Street",
+    "addr:unit": "5",
+    "amenity": "cafe",
+    "brand": "Coffee Time",
+    "brand:website": "https://coffeetime.com",
+    "brand:wikidata": "Q5140932",
+    "check_date": "2024-02-10",
+    "contact:facebook": "https://www.facebook.com/CoffeeTime385John/",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Coffee Time",
+    "opening_hours": "Mo-Fr 06:30-21:00; Sa 07:30-20:00; Su 08:30-20:00",
+    "outdoor_seating": "no",
+    "phone": "+1-905-763-8840",
+    "source:opening_hours": "entrance",
+    "takeaway": "yes",
+    "website": "https://locations.coffeetime.com/ll/CA/Ontario/Thornhill/385-John-Street",
+    "website:menu": "https://coffeetime.com/menu/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11774144079,
+   "lat": 43.8568619,
+   "lon": -79.3244227,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date:opening_hours": "2025-04-16",
+    "cuisine": "juice",
+    "name": "True Boss",
+    "opening_hours:signed": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11774144084,
+   "lat": 43.8565263,
+   "lon": -79.323719,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-09-14",
+    "cuisine": "chinese",
+    "name": "Xiang Zi",
+    "opening_hours": "11:00-15:30,17:00-22:30"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11774145509,
+   "lat": 43.8569997,
+   "lon": -79.3236118,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-09-14",
+    "cuisine": "ramen",
+    "name": "Sansotei Ramen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12031728071,
+   "lat": 43.8853962,
+   "lon": -79.3721749,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "2890",
+    "addr:postcode": "L6C 0G6",
+    "addr:province": "Ontario",
+    "addr:street": "Major MacKenzie Drive East",
+    "addr:unit": "2",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Hing's Kitchen",
+    "opening_hours": "We-Mo 11:00-20:30",
+    "phone": "+1-905-887-8388",
+    "website": "https://hingskitchen.online/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12346249592,
+   "lat": 43.893581,
+   "lon": -79.2629455,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Project Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12389569962,
+   "lat": 43.8531543,
+   "lon": -79.2559426,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7690",
+    "addr:postcode": "L3S 4S1",
+    "addr:province": "Ontario",
+    "addr:street": "Markham Road",
+    "addr:unit": "6",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "description": "Kara Mia: Your Premier Halal Italian Restaurant in Markham Kara Mia elevates Markham's diverse culinary scene as the city's premier halal Italian restaurant.",
+    "diet:halal": "yes",
+    "email": "info@karamia.ca",
+    "instagram": "https://www.instagram.com/karamiarestaurants/",
+    "name": "Kara Mia",
+    "opening_hours": "Mo-Th 12:00-21:30, Fr 16:00-22:30, Sa 14:00-22:30, Su 14:00-21:30",
+    "phone": "+1-905-201-5672",
+    "website": "https://www.karamia.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228544,
+   "lat": 43.8495536,
+   "lon": -79.3472325,
+   "tags": {
+    "addr:unit": "253",
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "PrestoTea"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228545,
+   "lat": 43.8495934,
+   "lon": -79.3472474,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese;cantonese",
+    "name": "Hou Kee Chinese Bistro 好記隆江豬脚飯"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228546,
+   "lat": 43.8496251,
+   "lon": -79.3472555,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese;cantonese",
+    "name": "KaLok Express 家樂美食坊"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228547,
+   "lat": 43.8496592,
+   "lon": -79.347266,
+   "tags": {
+    "addr:unit": "257",
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Lin's Claypot Rice 老林煲仔飯"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228548,
+   "lat": 43.8496938,
+   "lon": -79.3472818,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese;barbecue;cantonese",
+    "name": "HKS BBQ 忠記港式燒臘粉麵"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228549,
+   "lat": 43.8497257,
+   "lon": -79.3472917,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "korean",
+    "name": "HoHo Korean Food"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228550,
+   "lat": 43.8497559,
+   "lon": -79.3473022,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese;barbecue;cantonese",
+    "name": "Extra BBQ House 味香園燒臘"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228551,
+   "lat": 43.8498402,
+   "lon": -79.347322,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Tianjin Fine Food 天津小吃"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228552,
+   "lat": 43.8498663,
+   "lon": -79.3473316,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese;shanghainese",
+    "name": "Shengjian King 生煎皇"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228553,
+   "lat": 43.8497842,
+   "lon": -79.3473112,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Yan Can Cook 顏記"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228554,
+   "lat": 43.8498152,
+   "lon": -79.3473181,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Xiang de Zhai 祥德齋"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228555,
+   "lat": 43.8495607,
+   "lon": -79.3469647,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "thai",
+    "name": "Wiangkuk Thai Food"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228556,
+   "lat": 43.8495871,
+   "lon": -79.3469709,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "name": "Hong Bo"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228557,
+   "lat": 43.8495903,
+   "lon": -79.3469396,
+   "tags": {
+    "addr:unit": "250",
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "Leaf de Tea 茶亭"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228558,
+   "lat": 43.8496226,
+   "lon": -79.3469289,
+   "tags": {
+    "addr:unit": "239",
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "Frutti Mix 果然好味"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228559,
+   "lat": 43.8496529,
+   "lon": -79.3469316,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "Tasty House 品味屋"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228560,
+   "lat": 43.849678,
+   "lon": -79.3469316,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "korean",
+    "name": "Korean Food Express"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228562,
+   "lat": 43.8498766,
+   "lon": -79.3469995,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chicken",
+    "name": "Call a Chicken"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228563,
+   "lat": 43.8499017,
+   "lon": -79.3470335,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Fa Fa's Kitchen 發發鹵味"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228564,
+   "lat": 43.8499185,
+   "lon": -79.3470612,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "vietnamese",
+    "name": "Pho Ling's 越南牛肉粉"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228565,
+   "lat": 43.8499378,
+   "lon": -79.3470952,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sushi",
+    "name": "Yanagi Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228566,
+   "lat": 43.8499336,
+   "lon": -79.3471295,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "malaysian;thai",
+    "name": "Malay Thai Famous Cuisine 星馬泰美食站"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12456228567,
+   "lat": 43.8499243,
+   "lon": -79.3471657,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Magic Fusion Cuisine 魔幻廚房"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089901,
+   "lat": 43.8590146,
+   "lon": -79.3037914,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Bowl Kee Restaurant 煲仔記"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089904,
+   "lat": 43.859066,
+   "lon": -79.3041452,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "NKS Banquet Hall 帝寶名宴"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089906,
+   "lat": 43.8592506,
+   "lon": -79.3042175,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "ramen",
+    "name": "Ajisen Ramen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089908,
+   "lat": 43.8602709,
+   "lon": -79.3049471,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "CoCo",
+    "brand:wikidata": "Q65084369",
+    "cuisine": "bubble_tea",
+    "name": "CoCo Fresh Tea & Juice",
+    "short_name": "CoCo",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089910,
+   "lat": 43.8604329,
+   "lon": -79.3050115,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Gold Spring Restaurant 金泉餐廳"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089916,
+   "lat": 43.8606186,
+   "lon": -79.3040135,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Keung's Restaurant 强記雞粥"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089917,
+   "lat": 43.8607993,
+   "lon": -79.3040884,
+   "tags": {
+    "amenity": "restaurant",
+    "branch": "云尚米线",
+    "brand": "Yunshang Rice Noodle",
+    "brand:wikidata": "Q109381268",
+    "cuisine": "noodle",
+    "name": "Yunshang Rice Noodle",
+    "name:en": "Yunshang Rice Noodle",
+    "name:zh": "云尚过桥米线",
+    "name:zh-Hans": "云尚过桥米线",
+    "name:zh-Hant": "雲尚過橋米綫"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089918,
+   "lat": 43.8607852,
+   "lon": -79.3042062,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Yang's Braised Chicken Rice 杨铭宇黄焖鸡米饭"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089919,
+   "lat": 43.8607548,
+   "lon": -79.3043265,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "369 Shanghai Dim Sum"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089924,
+   "lat": 43.8612116,
+   "lon": -79.3051448,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "New City Restaurant 新城市餐廳"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089926,
+   "lat": 43.8612432,
+   "lon": -79.3049301,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Good Taste Casserole Rice 知味煲仔饭"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089928,
+   "lat": 43.8612963,
+   "lon": -79.3047185,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Blue Ocean Cafe 藍海餐廳"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089929,
+   "lat": 43.8613047,
+   "lon": -79.3046531,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;dessert",
+    "name": "Sweet Culture 架勢堂"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089931,
+   "lat": 43.8613731,
+   "lon": -79.3043199,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Eat With Fun Roast 明惠燒臘茶餐廳"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089932,
+   "lat": 43.8613735,
+   "lon": -79.3041096,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Ming's Restaurant 大明港式茶餐廳"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089933,
+   "lat": 43.860287,
+   "lon": -79.3033101,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "广州西关食堂"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089935,
+   "lat": 43.8602772,
+   "lon": -79.303619,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indonesian",
+    "name": "Little Jakarta"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089936,
+   "lat": 43.8603524,
+   "lon": -79.303325,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Big Beef Bowl 牛大碗"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089937,
+   "lat": 43.8593689,
+   "lon": -79.3049309,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Oriental Porridge 東方之粥"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089938,
+   "lat": 43.8593414,
+   "lon": -79.3049221,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Hua Xing BBQ"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089939,
+   "lat": 43.8594142,
+   "lon": -79.3049354,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "juice",
+    "name": "Sunlight Snack & Juice"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089942,
+   "lat": 43.8594472,
+   "lon": -79.3049452,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8360",
+    "addr:province": "Ontario",
+    "addr:street": "Kennedy Road",
+    "addr:unit": "57",
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "fixme": "Location is incorrect",
+    "name": "Hong Kong Chicken",
+    "name:yue-Hant": "鹽焗雞"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089943,
+   "lat": 43.8592124,
+   "lon": -79.3048691,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "Canton Wok 廣東小炒"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089944,
+   "lat": 43.8592759,
+   "lon": -79.3048965,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chinese",
+    "name": "KLN CAFE 九龍冰室"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12469089945,
+   "lat": 43.8599284,
+   "lon": -79.3049205,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "fixme": "Location is incorrect",
+    "name": "Les Chateaux Restaurant 雅閣餐廳"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12495974118,
+   "lat": 43.8676111,
+   "lon": -79.2898702,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "5000",
+    "addr:postcode": "L3R 4M9",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "Chipotle",
+    "brand:wikidata": "Q465751",
+    "check_date": "2026-08-03",
+    "cuisine": "mexican",
+    "drive_through": "no",
+    "name": "Chipotle",
+    "official_name": "Chipotle Mexican Grill",
+    "phone": "+1-365-363-7400",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12546384153,
+   "lat": 43.8167171,
+   "lon": -79.3487306,
+   "tags": {
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "indoor_seating": "yes",
+    "name": "QJD Peking Duck",
+    "outdoor_seating": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12565522111,
+   "lat": 43.8195532,
+   "lon": -79.3508452,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Taro Fish"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12565522121,
+   "lat": 43.8200118,
+   "lon": -79.3509727,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "taiwanese",
+    "name": "ZenQ"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12565522122,
+   "lat": 43.8204374,
+   "lon": -79.3512658,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Lucky Seafood House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12565522126,
+   "lat": 43.8212748,
+   "lon": -79.3496449,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Ritzy Palace Chinese Cuisine"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12565522139,
+   "lat": 43.8228631,
+   "lon": -79.3504326,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-08-30",
+    "cuisine": "kebab",
+    "drive_through": "no",
+    "name": "Lava Gril"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12578940511,
+   "lat": 43.8256471,
+   "lon": -79.3524813,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "吃货部落新派火锅 。鱼市场 Gourmet Tribe"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12578940514,
+   "lat": 43.8266665,
+   "lon": -79.3512299,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "seafood",
+    "name": "Diana's Oyster Bar & Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12578940520,
+   "lat": 43.829116,
+   "lon": -79.3532487,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Zen Japanese Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12585058038,
+   "lat": 43.8437056,
+   "lon": -79.3558928,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Koke Teppanyaki",
+    "opening_hours": "Mo-Su,PH 11:00-22:30",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12585058080,
+   "lat": 43.846527,
+   "lon": -79.3577464,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Jin's Mi Fen"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12585058085,
+   "lat": 43.8479496,
+   "lon": -79.356874,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Providential 9"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12629287600,
+   "lat": 43.8487323,
+   "lon": -79.2804282,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "check_date": "2026-08-03",
+    "cuisine": "burger",
+    "name": "A&W",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12718474952,
+   "lat": 43.8458475,
+   "lon": -79.3542432,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Costco",
+    "brand:wikidata": "Q715583",
+    "cuisine": "hot_dog;pizza;sandwich",
+    "name": "Costco Food Court",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12718474955,
+   "lat": 43.8509892,
+   "lon": -79.2510336,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Costco",
+    "brand:wikidata": "Q715583",
+    "cuisine": "hot_dog;pizza;sandwich",
+    "name": "Costco Food Court",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12898085740,
+   "lat": 43.8194,
+   "lon": -79.3309842,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "sushi",
+    "name": "Wagyu Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12898085745,
+   "lat": 43.81874,
+   "lon": -79.330965,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "chinese",
+    "name": "Tai Ping Hsiang B.B.Q."
+   }
+  },
+  {
+   "type": "node",
+   "id": 12898085746,
+   "lat": 43.8187164,
+   "lon": -79.3310225,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "chinese",
+    "name": "Cheng Man Xiang Noodle House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12898085747,
+   "lat": 43.8186822,
+   "lon": -79.3311838,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "chinese",
+    "name": "Happy Fishman"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12898092431,
+   "lat": 43.8192014,
+   "lon": -79.3305657,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "chinese",
+    "name": "Hongming BBQ"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12898092433,
+   "lat": 43.8196279,
+   "lon": -79.3312684,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "398",
+    "addr:postcode": "3LR 2Z5",
+    "addr:province": "Ontario",
+    "addr:street": "Ferrier Street",
+    "amenity": "restaurant",
+    "check_date": "2025-06-08",
+    "cuisine": "chinese",
+    "name": "世纪豪宴Century Banquet Restaurant",
+    "opening_hours": "Mo-Su 09:00-22:00",
+    "phone": "+16474839999",
+    "website": "https://www.centurybanquetrestaurant.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13142801985,
+   "lat": 43.8499698,
+   "lon": -79.3230337,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "180",
+    "addr:postcode": "L6G 0E6",
+    "addr:province": "ON",
+    "addr:street": "Enterprise Boulevard",
+    "amenity": "fast_food",
+    "cuisine": "mexican",
+    "name": "Grande Burrito",
+    "opening_hours": "Mo-We 11:00-23:00; Th 11:00-23:00; Fr-Sa 11:00-00:00; Su 12:00-22:00",
+    "phone": "+14167922666",
+    "website": "https://www.grandeburrito.ca/",
+    "website:menu": "https://www.grandeburrito.ca/order-online.html"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13142821772,
+   "lat": 43.8574396,
+   "lon": -79.3239829,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "machi machi",
+    "brand:en": "machi machi",
+    "brand:wikidata": "Q114828290",
+    "brand:zh": "麥吉",
+    "check_date": "2025-09-14",
+    "cuisine": "bubble_tea",
+    "name": "Machi machi",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13142825492,
+   "lat": 43.8492014,
+   "lon": -79.3243786,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "169",
+    "addr:postcode": "L3R 0E7",
+    "addr:province": "Ontario",
+    "addr:street": "Enterprise Boulevard",
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "cuisine": "chicken",
+    "drive_through": "no",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "opening_hours": "Mo-Tu 10:30-01:00; We-Su 10:30-02:00",
+    "phone": "+19053056751",
+    "takeaway": "yes",
+    "website": "https://www.popeyeschicken.ca/store/restaurant_882384",
+    "website:menu": "https://www.popeyeschicken.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13142825493,
+   "lat": 43.8496195,
+   "lon": -79.3245306,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Ruth's Chris Steak House",
+    "brand:wikidata": "Q7382829",
+    "cuisine": "american;steak_house",
+    "name": "Ruth's Chris Steak House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13142849796,
+   "lat": 43.850797,
+   "lon": -79.3255694,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8110",
+    "addr:postcode": "L6G 0E3",
+    "addr:province": "Ontario",
+    "addr:street": "Birchmount Road",
+    "addr:unit": "1;2",
+    "amenity": "restaurant",
+    "brand": "bb.q Chicken",
+    "brand:wikidata": "Q87716489",
+    "cuisine": "korean;chicken",
+    "name": "bb.q Chicken",
+    "opening_hours": "Mo-Su 11:00-00:00; Su 11:00-23:00",
+    "phone": "+19053058110",
+    "website": "https://bbqchickenca.com/ontario/markham/bbq-chicken-downtown-markham/",
+    "website:menu": "https://bbqchickenca.com/ontario/markham/bbq-chicken-downtown-markham/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13142849799,
+   "lat": 43.8506384,
+   "lon": -79.3255611,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "name": "Comebuy"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13142865247,
+   "lat": 43.8622065,
+   "lon": -79.3029032,
+   "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-09-14",
+    "cuisine": "bubble_tea",
+    "name": "The Green Isle"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13142919472,
+   "lat": 43.8623958,
+   "lon": -79.302743,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Eggsmart",
+    "brand:wikidata": "Q113001388",
+    "check_date": "2026-08-03",
+    "cuisine": "breakfast",
+    "name": "Eggsmart"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13166850581,
+   "lat": 43.8560573,
+   "lon": -79.3036116,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "28",
+    "addr:postcode": "L3R 4P9",
+    "addr:province": "Ontario",
+    "addr:street": "South Unionville Avenue",
+    "addr:unit": "1037-1038",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "brand": "Meet Fresh",
+    "brand:wikidata": "Q11172707",
+    "brand:zh": "鮮芋仙",
+    "cuisine": "taiwanese",
+    "email": "info@meetfreshcanada.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:password": "yes",
+    "internet_access:ssid": "Meet Fresh",
+    "name": "Meet Fresh",
+    "name:zh": "鮮芋仙",
+    "payment:cash": "yes",
+    "phone": "+1-905-604-2466",
+    "toilets": "yes",
+    "website": "https://meetfreshcanada.com/",
+    "website:menu": "https://meetfreshcanada.com/pages/menu"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13166876685,
+   "lat": 43.8561273,
+   "lon": -79.3035489,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "28",
+    "addr:postcode": "L3R 4P9",
+    "addr:province": "Ontario",
+    "addr:street": "South Unionville Avenue",
+    "addr:unit": "1035",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "capacity": "24",
+    "cuisine": "chinese;cantonese",
+    "diet:non-halal": "yes",
+    "diet:non-vegetarian": "yes",
+    "name": "Garden Hong Kong Cafe",
+    "name:yue-Hant": "嘉頓茶餐廳",
+    "opening_hours": "Tu-Su 11:00-20:00",
+    "payment:cash": "yes",
+    "payment:debit_cards": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13226677514,
+   "lat": 43.853626,
+   "lon": -79.3367156,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;rice_noodle",
+    "name": "Noodle Nation",
+    "name:zh-Hans": "喜食米线"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13282348368,
+   "lat": 43.8593087,
+   "lon": -79.3049109,
+   "tags": {
+    "addr:city": "Unionville",
+    "addr:housenumber": "8360",
+    "addr:postcode": "L3R 9W4",
+    "addr:province": "Ontario",
+    "addr:street": "Kennedy Road",
+    "amenity": "fast_food",
+    "check_date": "2025-11-04",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Tang Dynasty Best Food",
+    "name:yue-Hant": "唐朝粥粉麵飯",
+    "payment:cash": "yes",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13363900508,
+   "lat": 43.9021477,
+   "lon": -79.3783847,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13574468701,
+   "lat": 43.8029501,
+   "lon": -79.4209599,
+   "tags": {
+    "addr:housenumber": "7163",
+    "addr:postcode": "L3T 0C8",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "check_date": "2026-02-17",
+    "check_date:opening_hours": "2026-02-17",
+    "cuisine": "chicken",
+    "level": "0",
+    "name": "Popeyes Louisiana Kitchen",
+    "opening_hours": "Mo-Su 11:00-06:00",
+    "phone": "+1-905-731-5668",
+    "self_service": "partially",
+    "website": "https://popeyeschicken.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13574805901,
+   "lat": 43.8037043,
+   "lon": -79.4201135,
+   "tags": {
+    "addr:housenumber": "7181",
+    "addr:postcode": "L3T 0C7",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "check_date": "2026-02-17",
+    "check_date:opening_hours": "2026-02-17",
+    "cuisine": "japanese",
+    "level": "0",
+    "name": "Kyushu Yakitori Izakaya",
+    "opening_hours": "We-Mo 11:00-15:00, 18:00-01:00",
+    "phone": "+1-905-205-1700",
+    "website": "http://yakitorikyushu.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13904667568,
+   "lat": 43.8492962,
+   "lon": -79.3238416,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "coffee_shop;breakfast;tea",
+    "name": "15th Ave Cafe & Bistro",
+    "opening_hours": "Mo-Su 09:00-16:00"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13991311601,
+   "lat": 43.8704321,
+   "lon": -79.3611699,
+   "tags": {
+    "addr:housenumber": "9255",
+    "addr:postcode": "L6C1Y9",
+    "addr:street": "Woodbine Avenue",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Magical Taste of China",
+    "name:zh": "西域食府",
+    "phone": "+1-647-226-8966",
+    "website": "http://magicaltasteofchina.com"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13996080682,
+   "lat": 43.8725229,
+   "lon": -79.3151852,
+   "tags": {
+    "addr:city": "Unionville",
+    "addr:housenumber": "280",
+    "addr:postcode": "L3R 2H2",
+    "addr:province": "Ontario",
+    "addr:street": "Main Street Unionville",
+    "amenity": "restaurant",
+    "cuisine": "italian;bistro",
+    "name": "La Fonte",
+    "opening_hours": "We-Th 11:00-16:00, Fr 11:00 20:30, Sa 10:00 - 20:30, Su 10:00 - 18:00",
+    "website": "https://lafonteunionville.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14015615955,
+   "lat": 43.8515078,
+   "lon": -79.3589791,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8570",
+    "addr:postcode": "L3R 4X8",
+    "addr:province": "Ontario",
+    "addr:street": "Woodbine Avenue",
+    "addr:unit": "D-2",
+    "amenity": "fast_food",
+    "cuisine": "juice",
+    "drive_through": "no",
+    "name": "Revitasize",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa,Su 09:00-18:00",
+    "phone": "+19054159006",
+    "website": "https://www.revitasize.ca/",
+    "website:orders": "https://revitasize.order-online.ai/#/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14015649541,
+   "lat": 43.8385502,
+   "lon": -79.3273274,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3780",
+    "addr:postcode": "L3R 4B7",
+    "addr:province": "ON",
+    "addr:street": "14th Avenue",
+    "addr:unit": "112",
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "name": "John Anderson Hamburgers",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-15:00; Su off",
+    "phone": "+19054704111",
+    "website": "http://jahamburgers.ca/",
+    "website:menu": "https://jahamburgers.ca/qr_menu/all-day-menu/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14015663168,
+   "lat": 43.8403367,
+   "lon": -79.3200352,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7725",
+    "addr:postcode": "L6G 1A8",
+    "addr:province": "Ontario",
+    "addr:street": "Birchmount Road",
+    "addr:unit": "18",
+    "amenity": "restaurant",
+    "cuisine": "brunch",
+    "name": "Sisters & Co",
+    "opening_hours": "Mo-Fr 08:30-15:00; Sa,Su 08:00-15:30",
+    "phone": "+16475981946",
+    "website": "https://sistersco.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14015707377,
+   "lat": 43.832034,
+   "lon": -79.349969,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "3115",
+    "addr:postcode": "L3R 0H1",
+    "addr:province": "Ontario",
+    "addr:street": "14th Avenue",
+    "addr:unit": "1",
+    "amenity": "restaurant",
+    "cuisine": "diner;breakfast;brunch",
+    "name": "Woodbine Diner",
+    "opening_hours": "Mo-Fr 06:30-15:00; Sa,Su 07:30-15:00",
+    "phone": "+19057543616",
+    "website": "https://www.woodbinediner.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14015752967,
+   "lat": 43.8429102,
+   "lon": -79.3059968,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7750",
+    "addr:postcode": "L3R 0A7",
+    "addr:province": "Ontario",
+    "addr:street": "Kennedy Road",
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Chiang Rai Thai Kitchen and Bar",
+    "opening_hours": "Mo-Th,Su 10:30-22:30; Fr,Sa 10:30-23:00",
+    "phone": "+19056048424",
+    "website": "http://chiangrai.ca/",
+    "website:menu": "http://chiangrai.ca/",
+    "website:reservation": "https://gosnappy.io/reservation/?storeId=4193"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14015752968,
+   "lat": 43.8426224,
+   "lon": -79.3059106,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7750",
+    "addr:postcode": "L3R 0A7",
+    "addr:province": "Ontario",
+    "addr:street": "Kennedy Road",
+    "addr:unit": "4",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Fancy Chinese Cuisine",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "phone": "+19054752822",
+    "website": "https://fancychinesecuisine.univer.se/",
+    "website:menu": "https://fancychinesecuisine.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14015795956,
+   "lat": 43.8561917,
+   "lon": -79.3034871,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "28",
+    "addr:postcode": "L3R 1J5",
+    "addr:province": "Ontario",
+    "addr:street": "South Unionville Avenue",
+    "addr:unit": "1032",
+    "amenity": "restaurant",
+    "cuisine": "dessert",
+    "name": "Sweet together",
+    "opening_hours": "Mo off; Tu-Su 15:00-23:30",
+    "phone": "+19054152828",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 14019943489,
+   "lat": 43.850234,
+   "lon": -79.3258424,
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8110",
+    "addr:postcode": "L6G 0E3",
+    "addr:province": "Ontario",
+    "addr:street": "Birchmount Road",
+    "addr:unit": "10",
+    "amenity": "fast_food",
+    "cuisine": "sushi",
+    "drive_through": "no",
+    "name": "Poke Guys",
+    "opening_hours": "Mo-We 11:00-21:00; Th-Sa 11:00-22:00; Su 11:00-22:00",
+    "phone": "+19054777653",
+    "website": "http://pokeguys.ca/",
+    "website:menu": "https://www.pokeguys.ca/assets/menu.pdf"
+   }
+  },
+  {
+   "type": "way",
+   "id": 55947176,
+   "center": {
+    "lat": 43.894321,
+    "lon": -79.263978
+   },
+   "tags": {
+    "addr:city": "Markham",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 59147503,
+   "center": {
+    "lat": 43.8515,
+    "lon": -79.2551405
+   },
+   "tags": {
+    "addr:city": "Markham",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 59535270,
+   "center": {
+    "lat": 43.8691218,
+    "lon": -79.3623368
+   },
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "9251",
+    "addr:postcode": "L6C 1Y9",
+    "addr:province": "Ontario",
+    "addr:street": "Woodbine Avenue",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "internet_access": "wlan",
+    "name": "Tim Hortons",
+    "opening_hours": "24/7",
+    "opening_hours:drive_through": "06:00-20:00",
+    "phone": "+1 905-887-8444",
+    "source": "yahoo;https://locations.timhortons.ca/en/on/markham/9251-woodbine-ave/",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 61955720,
+   "center": {
+    "lat": 43.8111775,
+    "lon": -79.4224925
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "building": "retail",
+    "building:colour": "red",
+    "building:levels": "1",
+    "building:material": "brick",
+    "check_date": "2025-06-20",
+    "cuisine": "steak",
+    "name": "The Octagon Steakhouse"
+   }
+  },
+  {
+   "type": "way",
+   "id": 61956104,
+   "center": {
+    "lat": 43.8052725,
+    "lon": -79.4212215
+   },
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7291",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "brand": "Red Lobster",
+    "brand:wikidata": "Q846301",
+    "brand:wikipedia": "en:Red Lobster",
+    "building": "retail",
+    "building:colour": "red",
+    "building:levels": "1",
+    "building:material": "siding",
+    "check_date": "2025-06-20",
+    "cuisine": "seafood",
+    "name": "Red Lobster"
+   }
+  },
+  {
+   "type": "way",
+   "id": 83232127,
+   "center": {
+    "lat": 43.8487467,
+    "lon": -79.3607961
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "italian",
+    "name": "Novità Italian Cuisine"
+   }
+  },
+  {
+   "type": "way",
+   "id": 83232347,
+   "center": {
+    "lat": 43.8664055,
+    "lon": -79.2849901
+   },
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "5225",
+    "addr:postcode": "L3R 1N3",
+    "addr:province": "Ontario",
+    "addr:street": "Highway 7",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "check_date": "2026-08-03",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "gst_number": "120907092",
+    "name": "McDonald's",
+    "opening_hours:drive_through": "24/7",
+    "phone": "+1-905-477-2891",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 148545563,
+   "center": {
+    "lat": 43.8200191,
+    "lon": -79.3989811
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "greek",
+    "name": "Santorini"
+   }
+  },
+  {
+   "type": "way",
+   "id": 160173958,
+   "center": {
+    "lat": 43.8508735,
+    "lon": -79.3551839
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:wikidata": "Q177054",
+    "brand:wikipedia": "en:Burger King",
+    "building": "retail",
+    "building:levels": "2",
+    "check_date": "2025-09-14",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Burger King",
+    "opening_hours": "24/7",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 161105817,
+   "center": {
+    "lat": 43.8450213,
+    "lon": -79.3584522
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "chinese",
+    "name": "Dragon Legend",
+    "source": "Bing",
+    "type": "buffet"
+   }
+  },
+  {
+   "type": "way",
+   "id": 163041203,
+   "center": {
+    "lat": 43.8942117,
+    "lon": -79.2929101
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "chinese",
+    "name": "Richmond Court Restaurant",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 179185259,
+   "center": {
+    "lat": 43.8680465,
+    "lon": -79.2305125
+   },
+   "tags": {
+    "addr:city": "Markham",
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "chinese",
+    "name": "Mandarin",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 201775168,
+   "center": {
+    "lat": 43.822996,
+    "lon": -79.349179
+   },
+   "tags": {
+    "addr:city": "Markham",
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "chicken",
+    "name": "Swiss Chalet"
+   }
+  },
+  {
+   "type": "way",
+   "id": 220122774,
+   "center": {
+    "lat": 43.8451995,
+    "lon": -79.253643
+   },
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "7330",
+    "addr:street": "Markham Road",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 320607393,
+   "center": {
+    "lat": 43.8675466,
+    "lon": -79.3123791
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "italian",
+    "name": "Il Postino Ristorante"
+   }
+  },
+  {
+   "type": "way",
+   "id": 339404321,
+   "center": {
+    "lat": 43.878164,
+    "lon": -79.2398435
+   },
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "6565",
+    "addr:street": "Highway 7",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 427225321,
+   "center": {
+    "lat": 43.82064,
+    "lon": -79.325502
+   },
+   "tags": {
+    "addr:city": "Markham",
+    "addr:province": "Ontario",
+    "addr:street": "Warden Avenue",
+    "amenity": "restaurant",
+    "brand": "Boston Pizza",
+    "brand:wikidata": "Q894578",
+    "brand:wikipedia": "en:Boston Pizza",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "pizza",
+    "indoor_seating": "yes",
+    "name": "Boston Pizza",
+    "outdoor_seating": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 683463813,
+   "center": {
+    "lat": 43.8663223,
+    "lon": -79.3111412
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "indian;international"
+   }
+  },
+  {
+   "type": "way",
+   "id": 915577350,
+   "center": {
+    "lat": 43.8681045,
+    "lon": -79.3125798
+   },
+   "tags": {
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "building": "retail",
+    "cuisine": "burger;regional;pizza;american;sandwich;breakfast;grill",
+    "highchair": "yes",
+    "name": "Jake's On Main",
+    "outdoor_seating": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 915577365,
+   "center": {
+    "lat": 43.8682533,
+    "lon": -79.3120362
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1131039386,
+   "center": {
+    "lat": 43.8267733,
+    "lon": -79.3062096
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:wikidata": "Q16829306",
+    "cuisine": "bubble_tea",
+    "indoor": "room",
+    "level": "0",
+    "name": "Chatime",
+    "room": "retail",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1131039443,
+   "center": {
+    "lat": 43.8259604,
+    "lon": -79.3059595
+   },
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "level": "0",
+    "name": "Boba Boy",
+    "room": "retail"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1131039492,
+   "center": {
+    "lat": 43.8258878,
+    "lon": -79.306512
+   },
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "level": "0",
+    "name": "Presotea",
+    "room": "retail"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1145560425,
+   "center": {
+    "lat": 43.8323191,
+    "lon": -79.4049452
+   },
+   "tags": {
+    "addr:city": "Markham",
+    "addr:housenumber": "8220",
+    "addr:postcode": "L3T 2S2",
+    "addr:province": "ON",
+    "addr:street": "Bayview Avenue",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "layer": "1",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "smoking": "no",
+    "takeaway": "yes"
+   }
+  }
+ ]
+}

@@ -1,0 +1,2116 @@
+{
+ "municipality": "Pickering",
+ "slug": "pickering",
+ "relationId": 2408836,
+ "fetchedAt": "2026-08-16T23:24:32.017Z",
+ "elements": [
+  {
+   "type": "node",
+   "id": 380178301,
+   "lat": 43.833652,
+   "lon": -79.0905005,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "The Works",
+    "brand:wikidata": "Q123410138",
+    "cuisine": "burger",
+    "name": "The Works"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380178304,
+   "lat": 43.8343826,
+   "lon": -79.0904538,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Pho Saigon"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380178353,
+   "lat": 43.8356192,
+   "lon": -79.0913924,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "caribbean",
+    "name": "Patois Jamaican Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380179089,
+   "lat": 43.8282428,
+   "lon": -79.0977247,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "DQ Grill & Chill",
+    "brand:wikidata": "Q1141226",
+    "brand:wikipedia": "en:Dairy Queen",
+    "check_date": "2025-12-11",
+    "cuisine": "ice_cream;burger;chicken",
+    "name": "DQ Grill & Chill",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 765377534,
+   "lat": 43.8372657,
+   "lon": -79.0902735,
+   "tags": {
+    "addr:city": "Pickering",
+    "addr:housenumber": "1298",
+    "addr:street": "Liverpool Road",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Sushi Asian Cuisine",
+    "old_name": "BMO Bank of Montreal"
+   }
+  },
+  {
+   "type": "node",
+   "id": 765377548,
+   "lat": 43.8364505,
+   "lon": -79.0903392,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "opening_hours": "24/7",
+    "playplace": "yes",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 765377605,
+   "lat": 43.8366398,
+   "lon": -79.0899855,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 765448409,
+   "lat": 43.8363683,
+   "lon": -79.0914053,
+   "tags": {
+    "addr:city": "Pickering",
+    "addr:housenumber": "1848",
+    "addr:street": "Liverpool Road",
+    "amenity": "fast_food",
+    "cuisine": "steak;seafood",
+    "name": "Hibachi Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 765498149,
+   "lat": 43.838531,
+   "lon": -79.0884495,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 765498155,
+   "lat": 43.8379338,
+   "lon": -79.0891568,
+   "tags": {
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "brand:wikipedia": "en:KFC",
+    "cuisine": "chicken",
+    "name": "KFC",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1378038921,
+   "lat": 43.8471374,
+   "lon": -79.0760338,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chicken",
+    "name": "Yardies Caribbean Cuisine",
+    "phone": "+12896604144"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1378040631,
+   "lat": 43.8473218,
+   "lon": -79.075765,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "mexican",
+    "name": "Celito Lindo Authentic Mexican Food",
+    "phone": "+1-905-231-2185"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1378043116,
+   "lat": 43.8477336,
+   "lon": -79.0752746,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "llbo": "yes",
+    "name": "Hakka Fusion",
+    "phone": "+1-905-428-4556"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1378043582,
+   "lat": 43.84796,
+   "lon": -79.075346,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "cuisine": "chicken",
+    "name": "Swiss Chalet"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1491980646,
+   "lat": 43.8343343,
+   "lon": -79.0907311,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "name": "Mr. Sub",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1491980657,
+   "lat": 43.8343222,
+   "lon": -79.0908004,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "seafood",
+    "name": "Jasper Fish & Chips"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1491981758,
+   "lat": 43.833875,
+   "lon": -79.09104,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "cuisine": "pizza",
+    "name": "Pizza Hut"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2365870890,
+   "lat": 43.8278249,
+   "lon": -79.0909428,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "short_name": "Domino's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2694866224,
+   "lat": 43.821076,
+   "lon": -79.1138339,
+   "tags": {
+    "addr:housenumber": "742",
+    "addr:street": "Kingston Road",
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Wendy's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2698196404,
+   "lat": 43.84224,
+   "lon": -79.1052252,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2698206660,
+   "lat": 43.8220167,
+   "lon": -79.1118717,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Chuck's Roadhouse",
+    "brand:wikidata": "Q132856003",
+    "cuisine": "burger;steak_house",
+    "name": "Chuck's Roadhouse"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2698207454,
+   "lat": 43.8217574,
+   "lon": -79.1126281,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mary Brown's",
+    "brand:wikidata": "Q6779125",
+    "brand:wikipedia": "en:Mary Brown's",
+    "cuisine": "chicken",
+    "name": "Mary Brown's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2698210013,
+   "lat": 43.8204529,
+   "lon": -79.1142959,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizzaville",
+    "brand:wikidata": "Q113001369",
+    "check_date": "2025-12-11",
+    "cuisine": "pizza",
+    "name": "Pizzaville",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2704299518,
+   "lat": 43.830745,
+   "lon": -79.1228121,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2704300769,
+   "lat": 43.8303057,
+   "lon": -79.1226029,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2740131196,
+   "lat": 43.8203386,
+   "lon": -79.1143532,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "check_date": "2025-12-11",
+    "cuisine": "chicken",
+    "name": "Swiss Chalet",
+    "operator": "Cara"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2740145451,
+   "lat": 43.8170014,
+   "lon": -79.1189842,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Little Caesars",
+    "brand:wikidata": "Q1393809",
+    "brand:wikipedia": "en:Little Caesars",
+    "check_date": "2025-12-11",
+    "cuisine": "pizza",
+    "name": "Little Caesars",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2740145961,
+   "lat": 43.8169566,
+   "lon": -79.1190457,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Wild Wing",
+    "brand:wikidata": "Q8000869",
+    "brand:wikipedia": "en:Wild Wing Restaurants",
+    "check_date": "2025-12-11",
+    "cuisine": "chicken",
+    "name": "Wild Wing"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2740151380,
+   "lat": 43.8109445,
+   "lon": -79.1294212,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-12-11",
+    "cuisine": "pizza",
+    "name": "Free Topping Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2745434016,
+   "lat": 43.8188119,
+   "lon": -79.1133653,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "italian",
+    "name": "Belaggio's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2745434550,
+   "lat": 43.8190198,
+   "lon": -79.1142395,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "chicken",
+    "name": "Chick'N'Joy"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2745436144,
+   "lat": 43.8189972,
+   "lon": -79.1141264,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "name": "Retro Burger"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2745438278,
+   "lat": 43.8189718,
+   "lon": -79.1139982,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2745450122,
+   "lat": 43.8222503,
+   "lon": -79.112293,
+   "tags": {
+    "addr:housenumber": "780",
+    "addr:postcode": "L1V 0C5",
+    "addr:street": "Kingston Road",
+    "amenity": "fast_food",
+    "cuisine": "american",
+    "name": "Pig Out BBQ",
+    "opening_hours": "Su-We 11:00-21:00; Fr-Sa 11:00-21:00; Th 11:00-22:00"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2818562759,
+   "lat": 43.8340869,
+   "lon": -79.0892706,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3424126254,
+   "lat": 43.8305198,
+   "lon": -79.095972,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Dragon Rolls Japanese Thai"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3424126258,
+   "lat": 43.8306468,
+   "lon": -79.096173,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pita Pit",
+    "brand:wikidata": "Q7757289",
+    "brand:wikipedia": "en:Pita Pit",
+    "cuisine": "pita",
+    "name": "Pita Pit",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3424126259,
+   "lat": 43.8302662,
+   "lon": -79.095592,
+   "tags": {
+    "amenity": "fast_food",
+    "branch": "Co ",
+    "brand": "South Street Burger",
+    "brand:wikidata": "Q123410175",
+    "cuisine": "burger",
+    "name": "South Street Burger",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3424126262,
+   "lat": 43.8306627,
+   "lon": -79.0964408,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Sunset Grill",
+    "brand:wikidata": "Q62112489",
+    "brand:wikipedia": "en:Sunset Grill (Canadian restaurant chain)",
+    "cuisine": "american",
+    "name": "Sunset Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3859852558,
+   "lat": 43.8378168,
+   "lon": -79.1324704,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chicken",
+    "name": "Wow Wing"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4149819187,
+   "lat": 43.8338994,
+   "lon": -79.0650268,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4636544031,
+   "lat": 43.8200724,
+   "lon": -79.114613,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Fat Bastard Burrito",
+    "brand:wikidata": "Q123865546",
+    "check_date": "2025-12-11",
+    "cuisine": "mexican",
+    "name": "Fat Bastard Burrito",
+    "official_name": "Fat Bastard Burrito Co.",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4636551374,
+   "lat": 43.8175062,
+   "lon": -79.1183482,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Second Cup",
+    "brand:wikidata": "Q862180",
+    "brand:wikipedia": "en:Second Cup",
+    "cuisine": "coffee_shop",
+    "name": "Second Cup",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4636656484,
+   "lat": 43.8187429,
+   "lon": -79.1165925,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "check_date": "2025-12-11",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4641051860,
+   "lat": 43.8089703,
+   "lon": -79.1317176,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4890901791,
+   "lat": 43.8228869,
+   "lon": -79.1111025,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "brand:wikipedia": "en:Popeyes",
+    "cuisine": "chicken",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4890901792,
+   "lat": 43.8228392,
+   "lon": -79.1113005,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Papa John's",
+    "brand:wikidata": "Q2759586",
+    "brand:wikipedia": "en:Papa John's Pizza",
+    "cuisine": "pizza",
+    "name": "Papa John's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6542898767,
+   "lat": 43.8421801,
+   "lon": -79.0664944,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Cora",
+    "brand:wikidata": "Q2996960",
+    "brand:wikipedia": "en:Cora (restaurant)",
+    "cuisine": "breakfast",
+    "name": "Cora"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466044,
+   "lat": 43.8359575,
+   "lon": -79.0879389,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "East Side Mario's",
+    "brand:wikidata": "Q5329375",
+    "brand:wikipedia": "en:East Side Mario's",
+    "check_date": "2025-12-11",
+    "cuisine": "italian",
+    "level": "1",
+    "name": "East Side Mario's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466048,
+   "lat": 43.8362795,
+   "lon": -79.0869813,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Edo Japan",
+    "brand:wikidata": "Q17492665",
+    "check_date": "2025-12-11",
+    "cuisine": "japanese",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Edo Japan",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466050,
+   "lat": 43.836358,
+   "lon": -79.0868895,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "A&W",
+    "brand:wikidata": "Q2818848",
+    "brand:wikipedia": "en:A&W (Canada)",
+    "check_date": "2025-12-11",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "level": "0",
+    "name": "A&W",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466051,
+   "lat": 43.8364077,
+   "lon": -79.0868229,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Manchu Wok",
+    "brand:wikidata": "Q6747622",
+    "brand:wikipedia": "en:Manchu Wok",
+    "check_date": "2025-12-11",
+    "cuisine": "chinese",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Manchu Wok",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466052,
+   "lat": 43.8364532,
+   "lon": -79.0867645,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-12-11",
+    "cuisine": "italian",
+    "level": "0",
+    "name": "imPerfect"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466053,
+   "lat": 43.836508,
+   "lon": -79.0867062,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Bourbon St. Grill",
+    "brand:wikidata": "Q123409942",
+    "check_date": "2025-12-11",
+    "cuisine": "cajun",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Bourbon St. Grill",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466054,
+   "lat": 43.8365551,
+   "lon": -79.0866478,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Jimmy the Greek",
+    "brand:wikidata": "Q17077817",
+    "brand:wikipedia": "en:Jimmy the Greek (restaurant)",
+    "check_date": "2025-12-11",
+    "cuisine": "greek",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Jimmy the Greek",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466055,
+   "lat": 43.8365821,
+   "lon": -79.0865696,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "check_date": "2025-12-11",
+    "cuisine": "chicken",
+    "level": "0",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466057,
+   "lat": 43.8365661,
+   "lon": -79.0861843,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Taco Bell",
+    "brand:wikidata": "Q752941",
+    "brand:wikipedia": "en:Taco Bell",
+    "check_date": "2025-12-11",
+    "cuisine": "tex-mex",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Taco Bell",
+    "takeaway": "yes",
+    "website": "https://locations.tacobell.ca/en/on/pickering/1355-kingston-road",
+    "website:en": "https://locations.tacobell.ca/en/on/pickering/1355-kingston-road",
+    "website:fr": "https://locations.tacobell.ca/fr/on/pickering/1355-kingston-road"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466058,
+   "lat": 43.8364835,
+   "lon": -79.0861633,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "New York Fries",
+    "brand:wikidata": "Q7013558",
+    "brand:wikipedia": "en:New York Fries",
+    "check_date": "2025-12-11",
+    "cuisine": "fries",
+    "drive_through": "no",
+    "level": "0",
+    "name": "New York Fries",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466059,
+   "lat": 43.8363951,
+   "lon": -79.0861341,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "check_date": "2025-12-11",
+    "cuisine": "sandwich",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466064,
+   "lat": 43.8362671,
+   "lon": -79.0860745,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "check_date": "2025-12-11",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "level": "0",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466075,
+   "lat": 43.8359827,
+   "lon": -79.0863403,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Kernels Popcorn",
+    "brand:wikidata": "Q64876684",
+    "check_date": "2025-12-11",
+    "cuisine": "popcorn",
+    "level": "0",
+    "name": "Kernels Popcorn",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466076,
+   "lat": 43.8359991,
+   "lon": -79.0862545,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-12-11",
+    "cuisine": "caribbean",
+    "level": "0",
+    "name": "Caribbean Hotspot"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466077,
+   "lat": 43.8360175,
+   "lon": -79.0861727,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Thaï Express",
+    "brand:wikidata": "Q7711610",
+    "brand:wikipedia": "en:Thaï Express",
+    "check_date": "2025-12-11",
+    "cuisine": "thai",
+    "level": "0",
+    "name": "Thaï Express",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597466078,
+   "lat": 43.8360359,
+   "lon": -79.0860775,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-12-11",
+    "cuisine": "korean",
+    "level": "0",
+    "name": "Bang Bang Korean Crunch",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597524899,
+   "lat": 43.8356987,
+   "lon": -79.0862059,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Real Fruit Bubble Tea",
+    "brand:wikidata": "Q66072331",
+    "check_date": "2025-12-11",
+    "cuisine": "bubble_tea",
+    "level": "0",
+    "name": "Real Fruit Bubble Tea",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6597553838,
+   "lat": 43.8367687,
+   "lon": -79.0864728,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "check_date": "2025-12-11",
+    "cuisine": "juice",
+    "drive_through": "no",
+    "level": "1",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6621682892,
+   "lat": 43.8210906,
+   "lon": -79.1137053,
+   "tags": {
+    "addr:housenumber": "742",
+    "addr:street": "Kingston Road",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076612998,
+   "lat": 43.8488307,
+   "lon": -79.0715218,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pita",
+    "name": "Crown Pita"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076612999,
+   "lat": 43.84869,
+   "lon": -79.0708488,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "brand:wikipedia": "en:Popeyes",
+    "cuisine": "chicken",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076613000,
+   "lat": 43.8487423,
+   "lon": -79.0707941,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "caribbean",
+    "name": "I Love Roti"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076613001,
+   "lat": 43.8486415,
+   "lon": -79.0709073,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Little Caesars",
+    "brand:wikidata": "Q1393809",
+    "brand:wikipedia": "en:Little Caesars",
+    "cuisine": "pizza",
+    "name": "Little Caesars",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076613003,
+   "lat": 43.8476761,
+   "lon": -79.0730319,
+   "tags": {
+    "addr:city": "Pickering",
+    "addr:housenumber": "1709",
+    "addr:postcode": "L1V 1C5",
+    "addr:province": "Ontario",
+    "addr:street": "Kingston Road",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "opening_hours": "Mo-Su 05:00-23:00",
+    "takeaway": "yes",
+    "website": "https://locations.timhortons.ca/en/on/pickering/1709-kingston-rd"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076613005,
+   "lat": 43.8453813,
+   "lon": -79.0700754,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076613007,
+   "lat": 43.8442575,
+   "lon": -79.0715632,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Royal Paan"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076615783,
+   "lat": 43.8304899,
+   "lon": -79.1226819,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "name": "Big Bite Gourmet Burgers"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076626339,
+   "lat": 43.8332764,
+   "lon": -79.0685078,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "name": "Mr. Sub",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076626340,
+   "lat": 43.833787,
+   "lon": -79.0687767,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "name": "Kips Flamin Burgers"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076626342,
+   "lat": 43.8323182,
+   "lon": -79.0668133,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076626348,
+   "lat": 43.8322502,
+   "lon": -79.0667877,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Express Submarine & Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076633775,
+   "lat": 43.8380436,
+   "lon": -79.0890249,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Spicy Dragon"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076636953,
+   "lat": 43.8228062,
+   "lon": -79.1114625,
+   "tags": {
+    "addr:city": "Pickering",
+    "addr:housenumber": "820",
+    "addr:postcode": "L1V 1A9",
+    "addr:street": "Kingston Road",
+    "alt_name": "Osmow's Shawarma",
+    "amenity": "fast_food",
+    "brand": "Osmow's",
+    "brand:wikidata": "Q115048716",
+    "cuisine": "mediterranean;shawarma",
+    "name": "Osmow's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076636955,
+   "lat": 43.8222122,
+   "lon": -79.1124708,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "caribbean",
+    "name": "Sunrise"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076636956,
+   "lat": 43.8205649,
+   "lon": -79.1144729,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-12-11",
+    "cuisine": "kebab",
+    "name": "Afghan Kebab & Shawarma"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076636959,
+   "lat": 43.8174415,
+   "lon": -79.1182718,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "brand:wikipedia": "en:Booster Juice",
+    "cuisine": "juice",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076636962,
+   "lat": 43.8168874,
+   "lon": -79.1191497,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-12-11",
+    "cuisine": "thai",
+    "name": "Thai One On"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076636963,
+   "lat": 43.8169261,
+   "lon": -79.1190893,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:wikidata": "Q16829306",
+    "check_date": "2025-12-11",
+    "cuisine": "bubble_tea",
+    "name": "Chatime",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076636965,
+   "lat": 43.8168013,
+   "lon": -79.1192851,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "caribbean",
+    "name": "Island Breeze"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076645745,
+   "lat": 43.8192416,
+   "lon": -79.1127304,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076645750,
+   "lat": 43.8190378,
+   "lon": -79.1143602,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "bagel",
+    "name": "The Great Canadian Bagel"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076645752,
+   "lat": 43.8189737,
+   "lon": -79.1145715,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Super Panda"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076645770,
+   "lat": 43.8139332,
+   "lon": -79.1233193,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-12-11",
+    "cuisine": "japanese",
+    "name": "Kobo Gourmet"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076645771,
+   "lat": 43.8129649,
+   "lon": -79.12448,
+   "tags": {
+    "addr:city": "Pickering",
+    "addr:housenumber": "478",
+    "addr:postcode": "L1V 1A4",
+    "addr:province": "Ontario",
+    "addr:street": "Kingston Road",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "check_date": "2025-12-11",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "opening_hours": "Mo-Su 05:00-23:00",
+    "takeaway": "yes",
+    "website": "https://locations.timhortons.ca/en/on/pickering/478-kingston-rd"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076646834,
+   "lat": 43.8290334,
+   "lon": -79.0977166,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Perkins",
+    "brand:wikidata": "Q7169056",
+    "brand:wikipedia": "en:Perkins Restaurant and Bakery",
+    "cuisine": "american",
+    "name": "Perkins",
+    "official_name": "Perkins Restaurant and Bakery"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076646835,
+   "lat": 43.8290358,
+   "lon": -79.0965489,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Halibut House",
+    "brand:wikidata": "Q133255010",
+    "cuisine": "fish_and_chips",
+    "name": "Halibut House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076646836,
+   "lat": 43.828965,
+   "lon": -79.0964975,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "caribbean",
+    "name": "Beryl's Pepper Pot"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076646837,
+   "lat": 43.8288943,
+   "lon": -79.0964485,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Via-a-Vis"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076646838,
+   "lat": 43.8287848,
+   "lon": -79.0963784,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Mr. Greek",
+    "brand:wikidata": "Q6928719",
+    "brand:wikipedia": "en:Mr. Greek",
+    "cuisine": "greek",
+    "name": "Mr. Greek"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076652690,
+   "lat": 43.8215561,
+   "lon": -79.0833892,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076652691,
+   "lat": 43.8214884,
+   "lon": -79.0831961,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Square Boy"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076652692,
+   "lat": 43.8213839,
+   "lon": -79.0835072,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Zeera by the Bay"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076670685,
+   "lat": 43.8305787,
+   "lon": -79.1227185,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Sakada Sushi Teriyaki"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7076670688,
+   "lat": 43.8312767,
+   "lon": -79.1226615,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Dragon Gem"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7127075309,
+   "lat": 43.8379764,
+   "lon": -79.0890741,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "BarBurrito",
+    "brand:wikidata": "Q104844862",
+    "cuisine": "mexican",
+    "name": "BarBurrito",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7188706278,
+   "lat": 43.8190666,
+   "lon": -79.1129124,
+   "tags": {
+    "addr:city": "Pickering",
+    "addr:housenumber": "705",
+    "addr:province": "Ont",
+    "addr:street": "Kingston Rd",
+    "amenity": "restaurant",
+    "brand": "Wimpy's Diner",
+    "brand:wikidata": "Q16909504",
+    "cuisine": "diner",
+    "name": "Wimpy's Diner"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7376965980,
+   "lat": 43.8420615,
+   "lon": -79.105171,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8975100101,
+   "lat": 43.8418145,
+   "lon": -79.0838787,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Pizza",
+    "brand:wikidata": "Q1194143",
+    "brand:wikipedia": "en:Pizza Pizza",
+    "cuisine": "pizza",
+    "name": "Pizza Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8975100102,
+   "lat": 43.8414191,
+   "lon": -79.0840185,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "greek",
+    "delivery": "yes",
+    "llbo": "yes",
+    "name": "Milos Greek Restaurant",
+    "phone": "+1 9058313763",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8975190560,
+   "lat": 43.8420763,
+   "lon": -79.0832974,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "llbo": "yes",
+    "name": "Thai Orchid",
+    "phone": "+1 9058375044"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8975190561,
+   "lat": 43.8422519,
+   "lon": -79.0831706,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "burger",
+    "name": "6ixside Burger"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8975192044,
+   "lat": 43.8415336,
+   "lon": -79.084011,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese;caribbean",
+    "llbo": "yes",
+    "name": "Asia Hut Chinese & Caribbean Food"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9079867832,
+   "lat": 43.9722554,
+   "lon": -79.1300401,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "drive_through": "no",
+    "name": "Old Brock Cafe and Pizzeria",
+    "phone": "+1-905-649-2233"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9573530937,
+   "lat": 43.8696091,
+   "lon": -79.0839614,
+   "tags": {
+    "addr:city": "Pickering",
+    "addr:housenumber": "1800",
+    "addr:postcode": "L1V 4G2",
+    "addr:province": "Ontario",
+    "addr:street": "Brock Road",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "opening_hours": "24/7",
+    "takeaway": "yes",
+    "website": "https://locations.timhortons.ca/en/on/pickering/1800-brock-rd-north/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9573530939,
+   "lat": 43.8701524,
+   "lon": -79.0842744,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9573530940,
+   "lat": 43.8702275,
+   "lon": -79.0843076,
+   "tags": {
+    "alt_name": "Osmow's Shawarma",
+    "amenity": "fast_food",
+    "brand": "Osmow's",
+    "brand:wikidata": "Q115048716",
+    "cuisine": "kebab",
+    "name": "Osmow's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9573530941,
+   "lat": 43.8702824,
+   "lon": -79.0843323,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Kung Fu Tea",
+    "brand:wikidata": "Q66023886",
+    "cuisine": "bubble_tea",
+    "name": "Kung Fu Tea",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9573530942,
+   "lat": 43.8704015,
+   "lon": -79.0843731,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Wild Wing",
+    "brand:wikidata": "Q8000869",
+    "brand:wikipedia": "en:Wild Wing Restaurants",
+    "cuisine": "chicken",
+    "name": "Wild Wing"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9573530943,
+   "lat": 43.8704889,
+   "lon": -79.0844192,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mary Brown's",
+    "brand:wikidata": "Q6779125",
+    "brand:wikipedia": "en:Mary Brown's",
+    "cuisine": "chicken",
+    "name": "Mary Brown's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9573530947,
+   "lat": 43.8709004,
+   "lon": -79.0850361,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Flavours of Jaffna"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9846593725,
+   "lat": 43.8290936,
+   "lon": -79.0880763,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9846696216,
+   "lat": 43.843739,
+   "lon": -79.0819248,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Sakura Sushi",
+    "cuisine": "sushi",
+    "name": "Sakura Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10916242516,
+   "lat": 43.8365858,
+   "lon": -79.0861886,
+   "tags": {
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "check_date": "2025-12-11",
+    "cuisine": "chicken",
+    "drive_through": "no",
+    "name": "KFC",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11091645557,
+   "lat": 43.8199892,
+   "lon": -79.114748,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Real Fruit Bubble Tea",
+    "brand:wikidata": "Q66072331",
+    "check_date": "2025-12-11",
+    "cuisine": "bubble_tea",
+    "name": "Real Fruit Bubble Tea",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12305093301,
+   "lat": 43.8213701,
+   "lon": -79.0844633,
+   "tags": {
+    "addr:housenumber": "774",
+    "addr:postcode": "L1W1R9",
+    "addr:street": "Liverpool Road",
+    "amenity": "restaurant",
+    "cuisine": "mexican",
+    "name": "Chuuk",
+    "opening_hours": "Tu-Th 12:00-20:00; Fr-Sa 12:00-23:00; Su 12:00-21:00",
+    "phone": "+1 365-300-5700",
+    "website": "https://www.chuuk.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12993444260,
+   "lat": 43.8450218,
+   "lon": -79.0702022,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Tahini's",
+    "brand:wikidata": "Q135991974",
+    "cuisine": "mediterranean",
+    "name": "Tahini's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13370534694,
+   "lat": 43.8363025,
+   "lon": -79.0875775,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-12-11",
+    "cuisine": "chicken",
+    "name": "Dave’s Hot Chicken"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13370603081,
+   "lat": 43.8361342,
+   "lon": -79.086642,
+   "tags": {
+    "addr:floor": "2",
+    "amenity": "fast_food",
+    "brand": "Freshly Squeezed",
+    "brand:wikidata": "Q124035170",
+    "check_date": "2025-12-11",
+    "cuisine": "juice",
+    "level": "1",
+    "name": "Freshly Squeezed",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 33384940,
+   "center": {
+    "lat": 43.8325948,
+    "lon": -79.0897712
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "building:levels": "1",
+    "cuisine": "sushi",
+    "name": "Makimono Japanese Restaurant",
+    "note": "construction here, TD Canada Trust will move here soon",
+    "source": "yahoo"
+   }
+  },
+  {
+   "type": "way",
+   "id": 34123004,
+   "center": {
+    "lat": 43.8379592,
+    "lon": -79.0866376
+   },
+   "tags": {
+    "addr:city": "Pickering",
+    "addr:housenumber": "1355",
+    "addr:postcode": "L1V 1B8",
+    "addr:street": "Kingston Road",
+    "amenity": "restaurant",
+    "brand": "Jack Astor's",
+    "brand:wikidata": "Q6111066",
+    "brand:wikipedia": "en:Jack Astor's Bar and Grill",
+    "building": "yes",
+    "building:levels": "1",
+    "cuisine": "american",
+    "name": "Jack Astor's"
+   }
+  },
+  {
+   "type": "way",
+   "id": 35116832,
+   "center": {
+    "lat": 43.8354754,
+    "lon": -79.0897198
+   },
+   "tags": {
+    "addr:city": "Pickering",
+    "addr:housenumber": "1815",
+    "addr:postcode": "L1V 1W2",
+    "addr:street": "Liverpool Road",
+    "amenity": "restaurant",
+    "brand": "Moxie's",
+    "brand:wikidata": "Q6927497",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2025-12-11",
+    "cuisine": "bar_and_grill",
+    "name": "Moxie's"
+   }
+  },
+  {
+   "type": "way",
+   "id": 59038995,
+   "center": {
+    "lat": 43.8355953,
+    "lon": -79.0918707
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "check_date": "2025-12-11",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 123675782,
+   "center": {
+    "lat": 43.8428971,
+    "lon": -79.0727211
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "layer": "1",
+    "name": "Tim Hortons",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 124127413,
+   "center": {
+    "lat": 43.8441947,
+    "lon": -79.0705501
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 124127415,
+   "center": {
+    "lat": 43.8457741,
+    "lon": -79.0710841
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Boston Pizza",
+    "brand:wikidata": "Q894578",
+    "building": "yes",
+    "cuisine": "pizza",
+    "name": "Boston Pizza",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 136018870,
+   "center": {
+    "lat": 43.8282839,
+    "lon": -79.0877253
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "building:levels": "1",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 137624167,
+   "center": {
+    "lat": 43.8182168,
+    "lon": -79.1172261
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:wikidata": "Q177054",
+    "brand:wikipedia": "en:Burger King",
+    "building": "yes",
+    "check_date": "2025-12-11",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Burger King",
+    "source": "Bing",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 137624645,
+   "center": {
+    "lat": 43.8195254,
+    "lon": -79.1137949
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Lone Star Texas Grill",
+    "brand:wikidata": "Q133255608",
+    "building": "yes",
+    "cuisine": "tex-mex",
+    "name": "Lone Star Texas Grill",
+    "source": "B"
+   }
+  },
+  {
+   "type": "way",
+   "id": 362493425,
+   "center": {
+    "lat": 43.8497763,
+    "lon": -79.0703966
+   },
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "building": "retail",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 460657425,
+   "center": {
+    "lat": 43.8216992,
+    "lon": -79.0837145
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "building": "yes",
+    "cuisine": "sandwich",
+    "name": "The Big M"
+   }
+  },
+  {
+   "type": "way",
+   "id": 702542689,
+   "center": {
+    "lat": 43.8345855,
+    "lon": -79.0895129
+   },
+   "tags": {
+    "addr:city": "Pickering",
+    "addr:housenumber": "1809",
+    "addr:street": "Liverpool Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "check_date": "2025-12-11",
+    "cuisine": "american",
+    "name": "Pickle Barrel"
+   }
+  },
+  {
+   "type": "way",
+   "id": 757743207,
+   "center": {
+    "lat": 43.8319623,
+    "lon": -79.0711947
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "St. Louis Bar & Grill",
+    "brand:wikidata": "Q65567668",
+    "building": "yes",
+    "cuisine": "chicken",
+    "name": "St. Louis Bar & Grill"
+   }
+  },
+  {
+   "type": "way",
+   "id": 757743208,
+   "center": {
+    "lat": 43.8318613,
+    "lon": -79.071735
+   },
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "building": "yes",
+    "cuisine": "burger",
+    "name": "Harvey's",
+    "takeaway": "yes"
+   }
+  }
+ ]
+}

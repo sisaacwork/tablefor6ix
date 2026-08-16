@@ -1,0 +1,1597 @@
+{
+ "municipality": "Aurora",
+ "slug": "aurora",
+ "relationId": 2401094,
+ "fetchedAt": "2026-08-16T23:25:04.287Z",
+ "elements": [
+  {
+   "type": "node",
+   "id": 250649617,
+   "lat": 43.9828404,
+   "lon": -79.4640231,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Harvey's",
+    "brand:wikidata": "Q1466184",
+    "brand:wikipedia": "en:Harvey's",
+    "cuisine": "burger",
+    "name": "Harvey's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 250649618,
+   "lat": 43.984353,
+   "lon": -79.463049,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "check_date": "2026-01-31",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "opening_hours": "24/7",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380284439,
+   "lat": 44.0061646,
+   "lon": -79.4685718,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380284444,
+   "lat": 43.998439,
+   "lon": -79.467113,
+   "tags": {
+    "addr:city": "Aurora",
+    "amenity": "restaurant",
+    "cuisine": "barbecue",
+    "name": "Adamson Barbeque"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380284449,
+   "lat": 43.9907328,
+   "lon": -79.4658836,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 380284452,
+   "lat": 43.9886621,
+   "lon": -79.4653264,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1590278044,
+   "lat": 43.9863896,
+   "lon": -79.463534,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Sushi Huang"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1590278059,
+   "lat": 43.9863431,
+   "lon": -79.4637886,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Halibut House",
+    "brand:wikidata": "Q133255010",
+    "cuisine": "fish_and_chips",
+    "name": "Halibut House"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1590278062,
+   "lat": 43.9863682,
+   "lon": -79.4636518,
+   "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Great Canadian Bagel / Zavida Coffee"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1590278074,
+   "lat": 43.98676,
+   "lon": -79.4629437,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Dairy Queen",
+    "brand:wikidata": "Q1141226",
+    "brand:wikipedia": "en:Dairy Queen",
+    "cuisine": "ice_cream;burger;chicken",
+    "name": "Dairy Queen",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1600545534,
+   "lat": 43.9889727,
+   "lon": -79.4653824,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Regino's Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816780079,
+   "lat": 44.0094608,
+   "lon": -79.4706499,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1816780617,
+   "lat": 44.0092164,
+   "lon": -79.4705732,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Shoeless Joe's",
+    "brand:wikidata": "Q106195639",
+    "cuisine": "american",
+    "name": "Shoeless Joe's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2858032257,
+   "lat": 44.0026609,
+   "lon": -79.4512195,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Saffron Indian Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2866326377,
+   "lat": 43.9896949,
+   "lon": -79.4656777,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "14834",
+    "addr:postcode": "L4G 1N2",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "brand": "Wimpy's Diner",
+    "brand:wikidata": "Q16909504",
+    "cuisine": "diner",
+    "name": "Wimpy's Diner",
+    "phone": "+1-905-841-0038"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2866716606,
+   "lat": 43.9861716,
+   "lon": -79.4647174,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mr. Sub",
+    "brand:wikidata": "Q6929225",
+    "brand:wikipedia": "en:Mr. Sub",
+    "cuisine": "sandwich",
+    "name": "Mr. Sub",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2911931984,
+   "lat": 43.9826246,
+   "lon": -79.4639171,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "cuisine": "chicken",
+    "name": "Swiss Chalet"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3083617471,
+   "lat": 44.0183666,
+   "lon": -79.4474047,
+   "tags": {
+    "addr:building": "B",
+    "addr:city": "Aurora",
+    "addr:housenumber": "129",
+    "addr:postcode": "L4G 0E3",
+    "addr:street": "Pedersen Drive",
+    "addr:unit": "1",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "check_date": "2025-09-10",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "opening_hours": "Mo-Th 05:30-21:30; Fr 05:30-22:00; Sa 06:00-22:00; Su 07:30-21:30",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3268564708,
+   "lat": 44.0105759,
+   "lon": -79.4485099,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Wimpy's Diner",
+    "brand:wikidata": "Q16909504",
+    "cuisine": "diner",
+    "name": "Wimpy's Diner"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3268564710,
+   "lat": 44.0110601,
+   "lon": -79.4486574,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-06-17",
+    "cuisine": "sandwich",
+    "name": "Philthy Philly's"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3269861137,
+   "lat": 44.0106283,
+   "lon": -79.4466511,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Quesada",
+    "brand:wikidata": "Q66070360",
+    "check_date": "2025-07-28",
+    "cuisine": "mexican",
+    "internet_access": "wlan",
+    "name": "Quesada",
+    "official_name": "Quesada Burritos & Tacos",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3427697071,
+   "lat": 44.0126446,
+   "lon": -79.4130541,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3427697072,
+   "lat": 44.0125937,
+   "lon": -79.4132001,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "35",
+    "addr:street": "First Commerce Drive",
+    "amenity": "fast_food",
+    "brand": "South Street Burger",
+    "brand:wikidata": "Q123410175",
+    "cuisine": "burger",
+    "name": "South Street Burger",
+    "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa-Su 11:00-21:00",
+    "phone": "+1-905-727-2949",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3427697074,
+   "lat": 44.0134302,
+   "lon": -79.4138413,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "83",
+    "addr:street": "First Commerce Drive",
+    "amenity": "restaurant",
+    "brand": "Mr. Greek",
+    "brand:wikidata": "Q6928719",
+    "brand:wikipedia": "en:Mr. Greek",
+    "cuisine": "greek",
+    "name": "Mr. Greek"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3427825144,
+   "lat": 44.0135445,
+   "lon": -79.4138204,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3429469514,
+   "lat": 44.0131538,
+   "lon": -79.4155229,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Extreme Pita",
+    "brand:wikidata": "Q5422367",
+    "brand:wikipedia": "en:Extreme Pita",
+    "cuisine": "pita",
+    "name": "Extreme Pita",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3429469515,
+   "lat": 44.01304,
+   "lon": -79.4154679,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "84",
+    "addr:postcode": "L4G 0G2",
+    "addr:province": "ON",
+    "addr:street": "First Commerce Drive",
+    "addr:unit": "5",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Lee Chen Asian Bistro",
+    "opening_hours": "Mo-Su 11:30-22:00",
+    "phone": "+1 905 726 1313"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3429565209,
+   "lat": 44.0134982,
+   "lon": -79.4139277,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "83",
+    "addr:postcode": "L4G 0G2",
+    "addr:street": "First Commerce Drive",
+    "amenity": "fast_food",
+    "brand": "Teriyaki Experience",
+    "brand:wikidata": "Q7702453",
+    "cuisine": "japanese",
+    "name": "Teriyaki Experience",
+    "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-20:00",
+    "phone": "+1-905-727-6116",
+    "takeaway": "yes",
+    "website": "https://www.teriyakiexperience.com/en/home.html"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4829357318,
+   "lat": 43.9985651,
+   "lon": -79.4757707,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "126",
+    "addr:postcode": "L4G 2N9",
+    "addr:street": "Wellington Street West",
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "no",
+    "name": "Tim Hortons",
+    "opening_hours": "05:00-21:00",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4830838601,
+   "lat": 43.9985985,
+   "lon": -79.4755852,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "126",
+    "addr:postcode": "L4G 2N9",
+    "addr:street": "Wellington Street West",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "O-Genki Japanese Restaurent",
+    "opening_hours": "Tu 11:00-21:30; We 11:00-21:30; Th 11:00-21:30; Fr 11:00-22:00; Sa 11:00-22:00; Su 11:00-21:30",
+    "outdoor_seating": "no",
+    "phone": "+1-905-713-1368",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://genkijapanese.info/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4830853601,
+   "lat": 43.9986507,
+   "lon": -79.4752298,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "126",
+    "addr:postcode": "L4G 2N9",
+    "addr:street": "Wellington Street West",
+    "amenity": "fast_food",
+    "brand": "Little Caesars",
+    "brand:wikidata": "Q1393809",
+    "brand:wikipedia": "en:Little Caesars",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "drive_through": "no",
+    "name": "Little Caesars",
+    "outdoor_seating": "no",
+    "phone": "+1-905-841-7717",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "https://littlecaesars.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4830853603,
+   "lat": 43.9986748,
+   "lon": -79.4750977,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "126",
+    "addr:postcode": "L4G 2N9",
+    "addr:street": "Wellington Street West",
+    "amenity": "restaurant",
+    "cuisine": "fish_and_chips",
+    "name": "Stanley's Fish And Chips",
+    "opening_hours": "Tu 11:00-20:00, We 11:00-20:00, Th 11:00-20:00, Fr 11:00-20:30, Sa 11:00-20:00, Su closed, Mo 11:00-20:00",
+    "outdoor_seating": "no",
+    "phone": "+1-905-727-9996",
+    "smoking": "no",
+    "takeaway": "yes",
+    "website": "http://stanleysfishaurora.ca"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5509145767,
+   "lat": 44.0154259,
+   "lon": -79.4483786,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "444",
+    "addr:postcode": "L4G 7Z9",
+    "addr:province": "Ontario",
+    "addr:street": "Hollandview Trail",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "brewery": "yes",
+    "capacity": "140",
+    "check_date": "2025-09-05",
+    "cuisine": "burger;sandwich;chicken;american;seafood;ice_cream;fish_and_chips;fish;cake;dessert;salad;pasta;breakfast;brunch;grill",
+    "delivery": "yes",
+    "description": "Aurora family restaurant specializing in breakfast, lunch, dinner, desserts with a fully licensed lounge.",
+    "diet:gluten_free": "yes",
+    "diet:halal": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "email": "Symposium.aurora@symposiumcafe.com",
+    "highchair": "yes",
+    "image": "https://1455297937-aurora-restaurant-interior-symposium-cafe-beautiful.jpg",
+    "internet_access": "yes",
+    "name": "Symposium Cafe Restaurant Aurora",
+    "opening_hours": "Su-Th 08:00 to 23:00, Fr-Sa 8:00 to 24:00",
+    "outdoor_seating": "yes",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+1-905-503-8899",
+    "smoking": "no",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "https://symposiumcafe.com/locations/aurora-restaurants",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6947007357,
+   "lat": 44.019473,
+   "lon": -79.4488008,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-05-27",
+    "cuisine": "italian",
+    "name": "Casa Carbone"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6947007358,
+   "lat": 44.0195446,
+   "lon": -79.4488191,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "brand:wikipedia": "en:Pizza Hut",
+    "check_date": "2026-05-27",
+    "cuisine": "pizza",
+    "name": "Pizza Hut"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6947007359,
+   "lat": 44.0196199,
+   "lon": -79.4488384,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "check_date": "2025-09-10",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6947007361,
+   "lat": 44.0197529,
+   "lon": -79.4488588,
+   "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-11-14",
+    "cuisine": "greek",
+    "name": "Grco Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6947007364,
+   "lat": 44.0199068,
+   "lon": -79.4481454,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Freshii",
+    "brand:wikidata": "Q5503051",
+    "brand:wikipedia": "en:Freshii",
+    "check_date": "2025-09-10",
+    "cuisine": "salad",
+    "name": "Freshii"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089620999,
+   "lat": 44.0102771,
+   "lon": -79.4465398,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "check_date": "2025-08-26",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089621001,
+   "lat": 44.0104847,
+   "lon": -79.4466089,
+   "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-08-26",
+    "cuisine": "japanese",
+    "name": "Komachi Japanese Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089621005,
+   "lat": 44.0065784,
+   "lon": -79.4451468,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Hero Certified Burgers",
+    "brand:wikidata": "Q5742641",
+    "brand:wikipedia": "en:Hero Certified Burgers",
+    "check_date": "2025-07-28",
+    "cuisine": "burger",
+    "name": "Hero Certified Burgers",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089621006,
+   "lat": 44.0060479,
+   "lon": -79.444479,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "676",
+    "addr:postcode": "L4G 0K3",
+    "addr:province": "ON",
+    "addr:street": "Wellington Street East",
+    "amenity": "restaurant",
+    "brand": "Sunset Grill",
+    "brand:wikidata": "Q62112489",
+    "brand:wikipedia": "en:Sunset Grill (Canadian restaurant chain)",
+    "check_date": "2025-08-02",
+    "cuisine": "american",
+    "name": "Sunset Grill"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089621008,
+   "lat": 44.0060324,
+   "lon": -79.4447756,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "676",
+    "addr:postcode": "L4G 0K3",
+    "addr:province": "ON",
+    "addr:street": "Wellington Street East",
+    "amenity": "fast_food",
+    "brand": "Pita Land",
+    "brand:wikidata": "Q133249489",
+    "cuisine": "pita",
+    "name": "Pita Land",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089621009,
+   "lat": 44.0060016,
+   "lon": -79.444946,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "676",
+    "addr:postcode": "L4G 0K3",
+    "addr:province": "ON",
+    "addr:street": "Wellington Street East",
+    "amenity": "fast_food",
+    "brand": "Booster Juice",
+    "brand:wikidata": "Q4943796",
+    "brand:wikipedia": "en:Booster Juice",
+    "check_date": "2025-08-26",
+    "cuisine": "juice",
+    "drive_through": "no",
+    "name": "Booster Juice",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089621013,
+   "lat": 44.005909,
+   "lon": -79.44541,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "650",
+    "addr:postcode": "L4G 0K3",
+    "addr:province": "ON",
+    "addr:street": "Wellington Street East",
+    "amenity": "restaurant",
+    "brand": "Wild Wing",
+    "brand:wikidata": "Q8000869",
+    "brand:wikipedia": "en:Wild Wing Restaurants",
+    "check_date": "2025-07-28",
+    "cuisine": "chicken",
+    "name": "Wild Wing"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089621014,
+   "lat": 44.00588,
+   "lon": -79.4455414,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Mucho Burrito",
+    "brand:wikidata": "Q65148332",
+    "check_date": "2025-07-28",
+    "cuisine": "mexican",
+    "name": "Mucho Burrito",
+    "takeaway": "yes",
+    "website": "https://locations.muchoburrito.com/en-ca/on/aurora/MB0014"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7089621015,
+   "lat": 44.0058636,
+   "lon": -79.4456165,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "650",
+    "addr:postcode": "L4G 0K3",
+    "addr:province": "ON",
+    "addr:street": "Wellington Street East",
+    "amenity": "restaurant",
+    "check_date": "2025-07-28",
+    "cuisine": "vietnamese",
+    "name": "Pho An"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7117865796,
+   "lat": 44.0241241,
+   "lon": -79.4475899,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "16035",
+    "addr:postcode": "L4G 3L4",
+    "addr:province": "ON",
+    "addr:street": "Bayview Avenue",
+    "addr:unit": "D1",
+    "amenity": "restaurant",
+    "check_date": "2025-09-10",
+    "cuisine": "asian",
+    "name": "3000 Miles Korean BBQ",
+    "opening_hours": "Su-Th 11:00-23:00, Fr-Sa 11:00-24:00",
+    "phone": "+1 905 841 3737"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7117865797,
+   "lat": 44.0243722,
+   "lon": -79.4476823,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "16035",
+    "addr:postcode": "L4G 3L4",
+    "addr:province": "ON",
+    "addr:street": "Bayview Avenue",
+    "addr:unit": "D5",
+    "amenity": "restaurant",
+    "branch": "House",
+    "brand": "Yunshang Rice Noodle",
+    "brand:wikidata": "Q109381268",
+    "check_date": "2025-09-10",
+    "cuisine": "noodle",
+    "name": "Yunshang Rice Noodle",
+    "name:zh": "云尚过桥米线",
+    "name:zh-Hans": "云尚过桥米线",
+    "name:zh-Hant": "雲尚過橋米綫",
+    "opening_hours": "Su-Th 11:30-22:00, Fr-Sa 11:00-22:00",
+    "phone": "+1-905-841-1112"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7117865814,
+   "lat": 44.0234874,
+   "lon": -79.4469618,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "15975",
+    "addr:postcode": "L4G 0S3",
+    "addr:province": "ON",
+    "addr:street": "Bayview Avenue",
+    "addr:unit": "5",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Levetto",
+    "opening_hours": "Mo-Su 11:30-21:00",
+    "phone": "+1 647 478 1011"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7117865816,
+   "lat": 44.0234374,
+   "lon": -79.4472147,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "15975",
+    "addr:postcode": "L4G 0S3",
+    "addr:province": "ON",
+    "addr:street": "Bayview Avenue",
+    "addr:unit": "B1",
+    "amenity": "restaurant",
+    "check_date": "2025-09-10",
+    "cuisine": "breakfast",
+    "name": "Sunny Morning Breakfast & Lunch",
+    "opening_hours": "Mo-Su 07:00-15:00",
+    "phone": "+1 905 726 2726"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7117865826,
+   "lat": 44.0232124,
+   "lon": -79.4473957,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "15955",
+    "addr:postcode": "L4G 0S3",
+    "addr:province": "ON",
+    "addr:street": "Bayview Avenue",
+    "amenity": "restaurant",
+    "check_date": "2025-09-10",
+    "cuisine": "sushi",
+    "name": "Yamato Sushi",
+    "opening_hours": "Mo-Su 11:00-20:00",
+    "phone": "+1 289 552 4224"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7117865827,
+   "lat": 44.0231394,
+   "lon": -79.4473583,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "15955",
+    "addr:postcode": "L4G 0S3",
+    "addr:province": "ON",
+    "addr:street": "Bayview Avenue",
+    "amenity": "fast_food",
+    "brand": "Pita Pit",
+    "brand:wikidata": "Q7757289",
+    "brand:wikipedia": "en:Pita Pit",
+    "check_date": "2025-09-10",
+    "cuisine": "pita",
+    "drive_through": "no",
+    "name": "Pita Pit",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7402760072,
+   "lat": 43.9986861,
+   "lon": -79.4750515,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "126",
+    "addr:postcode": "L4G 2N9",
+    "addr:province": "ON",
+    "addr:street": "Wellington Street West",
+    "addr:unit": "108",
+    "amenity": "restaurant",
+    "brand": "Osmow's",
+    "brand:wikidata": "Q115048716",
+    "cuisine": "mediterranean;shawarma",
+    "name": "Osmow's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530575223,
+   "lat": 43.9880616,
+   "lon": -79.4658777,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Free Topping Pizza"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530575224,
+   "lat": 43.9880309,
+   "lon": -79.4659977,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Empire Chef"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530575228,
+   "lat": 43.9882638,
+   "lon": -79.4642564,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Minami Sushi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530575229,
+   "lat": 43.988769,
+   "lon": -79.4653422,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "BarBurrito",
+    "brand:wikidata": "Q104844862",
+    "cuisine": "mexican",
+    "name": "BarBurrito",
+    "takeaway": "yes",
+    "website": "https://www.barburrito.ca/location/aurora-south/",
+    "website:en": "https://www.barburrito.ca/location/aurora-south/",
+    "website:fr": "https://www.barburrito.ca/fr/location/aurora-south/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530575233,
+   "lat": 43.9899001,
+   "lon": -79.464588,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizza Nova",
+    "brand:wikidata": "Q7199971",
+    "brand:wikipedia": "en:Pizza Nova",
+    "cuisine": "pizza",
+    "name": "Pizza Nova",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530575234,
+   "lat": 43.9938406,
+   "lon": -79.4657137,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Mei Ling Chinese Food"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530576677,
+   "lat": 43.9992655,
+   "lon": -79.4672519,
+   "tags": {
+    "addr:city": "Aurora",
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "name": "Vintage Spice"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530576682,
+   "lat": 43.999218,
+   "lon": -79.4676956,
+   "tags": {
+    "addr:city": "Aurora",
+    "amenity": "restaurant",
+    "cuisine": "seafood",
+    "name": "Aw Shucks!"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530576683,
+   "lat": 43.9993554,
+   "lon": -79.4677261,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "persian",
+    "name": "Kababa"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530625367,
+   "lat": 44.0068406,
+   "lon": -79.4687648,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "General Thai Restaurant"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530625371,
+   "lat": 44.0074084,
+   "lon": -79.469994,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Joia Ristorante"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530625374,
+   "lat": 44.0092658,
+   "lon": -79.4717593,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Sushi Kui"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530634786,
+   "lat": 44.0000834,
+   "lon": -79.4669331,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "fish_and_chips",
+    "name": "Captain George's Fish & Chips"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530634788,
+   "lat": 44.0035946,
+   "lon": -79.4695865,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "breakfast",
+    "name": "Coops Aurora"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530634790,
+   "lat": 44.003781,
+   "lon": -79.470224,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Pizzaville",
+    "brand:wikidata": "Q113001369",
+    "cuisine": "pizza",
+    "name": "Pizzaville",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530634791,
+   "lat": 44.0049315,
+   "lon": -79.4692316,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Orchid Thai"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530634793,
+   "lat": 44.0054572,
+   "lon": -79.4683957,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "name": "Thai Spring Rolls"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530634797,
+   "lat": 44.0066042,
+   "lon": -79.4687109,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Topper's Pizza",
+    "brand:wikidata": "Q7825105",
+    "brand:wikipedia": "en:Topper's Pizza (Canadian restaurant)",
+    "cuisine": "pizza",
+    "name": "Topper's Pizza",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530634799,
+   "lat": 44.0067624,
+   "lon": -79.4687408,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "kebab",
+    "name": "Shawarma Land"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7530634801,
+   "lat": 44.0059741,
+   "lon": -79.4685296,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "fish_and_chips",
+    "name": "Granny's Fish & Chips"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7752556127,
+   "lat": 44.0036685,
+   "lon": -79.4516632,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "304",
+    "addr:postcode": "L4G 1J5",
+    "addr:province": "Ontario",
+    "addr:street": "Wellington Street East",
+    "amenity": "fast_food",
+    "brand": "Wendy's",
+    "brand:wikidata": "Q550258",
+    "brand:wikipedia": "en:Wendy's",
+    "check_date": "2025-11-03",
+    "cuisine": "burger",
+    "name": "Wendy's",
+    "opening_hours": "Mo-Su 10:30-23:00",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7752556128,
+   "lat": 44.003651,
+   "lon": -79.451834,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "brand:wikipedia": "en:Tim Hortons",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7787863329,
+   "lat": 44.0019039,
+   "lon": -79.4561653,
+   "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
+    "check_date": "2025-07-30",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7787863330,
+   "lat": 44.0019814,
+   "lon": -79.4561937,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "1",
+    "addr:province": "Ontario",
+    "addr:street": "Industrial Parkway South",
+    "amenity": "restaurant",
+    "check_date": "2025-07-30",
+    "cuisine": "portuguese",
+    "name": "The Chicken Place",
+    "phone": "+1-905-900-0019"
+   }
+  },
+  {
+   "type": "node",
+   "id": 8765252717,
+   "lat": 43.9929508,
+   "lon": -79.4663843,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "14980",
+    "addr:postcode": "L4G 1M6",
+    "addr:province": "Ontario",
+    "addr:street": "Yonge Street",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9133687382,
+   "lat": 44.0248003,
+   "lon": -79.4477686,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Millstone Rice Rolls"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9133687383,
+   "lat": 44.0247483,
+   "lon": -79.4477616,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "16025",
+    "addr:street": "Bayview Avenue",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Pho Le Anh"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9133687384,
+   "lat": 44.024702,
+   "lon": -79.4477536,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "korean",
+    "name": "bbq Chicken"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9133687386,
+   "lat": 44.0245896,
+   "lon": -79.4477401,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Chatime",
+    "brand:wikidata": "Q16829306",
+    "brand:wikipedia": "en:Chatime",
+    "cuisine": "bubble_tea",
+    "name": "Chatime",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11224048837,
+   "lat": 44.0184136,
+   "lon": -79.4477742,
+   "tags": {
+    "addr:housenumber": "129",
+    "addr:street": "Pedersen Drive",
+    "amenity": "restaurant",
+    "cuisine": "korean",
+    "name": "The Famous Owl Minerva",
+    "opening_hours": "Tu-Su 11:30-20:00",
+    "phone": "+1 905-503-7275",
+    "website": "https://owlfamily.ca/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11386036794,
+   "lat": 44.0110057,
+   "lon": -79.4193075,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12174134617,
+   "lat": 44.0241662,
+   "lon": -79.446575,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Pür & Simple",
+    "brand:wikidata": "Q118558630",
+    "cuisine": "breakfast",
+    "name": "Pür & Simple"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12174134618,
+   "lat": 44.0241825,
+   "lon": -79.4464908,
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "16055",
+    "addr:province": "ON",
+    "addr:street": "Bayview Avenue",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Perfect Meat Bowl"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12763022601,
+   "lat": 44.0016046,
+   "lon": -79.457617,
+   "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Kookjae Sikdang"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12763070601,
+   "lat": 43.9992785,
+   "lon": -79.4673103,
+   "tags": {
+    "addr:housenumber": "15229",
+    "addr:street": "Yonge Street",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Feza Izakaya"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12763110801,
+   "lat": 43.9965132,
+   "lon": -79.466379,
+   "tags": {
+    "amenity": "fast_food",
+    "cuisine": "italian",
+    "name": "Frankie Panini"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12855312045,
+   "lat": 43.9921889,
+   "lon": -79.4655038,
+   "tags": {
+    "amenity": "cafe",
+    "brand": "Tim Hortons",
+    "brand:wikidata": "Q175106",
+    "cuisine": "coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13164151810,
+   "lat": 43.9862089,
+   "lon": -79.4651882,
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "State & Main",
+    "brand:wikidata": "Q118744509",
+    "cuisine": "american",
+    "name": "State & Main",
+    "toilets": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 110165119,
+   "center": {
+    "lat": 44.0074409,
+    "lon": -79.4448421
+   },
+   "tags": {
+    "addr:housenumber": "15370",
+    "addr:street": "Bayview Avenue",
+    "amenity": "restaurant",
+    "brand": "East Side Mario's",
+    "brand:wikidata": "Q5329375",
+    "brand:wikipedia": "en:East Side Mario's",
+    "building": "retail",
+    "cuisine": "italian",
+    "name": "East Side Mario's",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 169853092,
+   "center": {
+    "lat": 44.0121084,
+    "lon": -79.4156187
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Swiss Chalet",
+    "brand:wikidata": "Q2372909",
+    "brand:wikipedia": "en:Swiss Chalet",
+    "building": "retail",
+    "cuisine": "chicken",
+    "name": "Swiss Chalet",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 169853099,
+   "center": {
+    "lat": 44.0122822,
+    "lon": -79.4151413
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "brand": "Boston Pizza",
+    "brand:wikidata": "Q894578",
+    "brand:wikipedia": "en:Boston Pizza",
+    "building": "yes",
+    "cuisine": "pizza",
+    "name": "Boston Pizza",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 169853101,
+   "center": {
+    "lat": 44.0136721,
+    "lon": -79.4158036
+   },
+   "tags": {
+    "amenity": "restaurant",
+    "branch": "Steakhouse and Grill",
+    "brand": "The Keg",
+    "brand:wikidata": "Q7744066",
+    "brand:wikipedia": "en:The Keg",
+    "building": "retail",
+    "cuisine": "steak_house",
+    "name": "The Keg",
+    "source": "Bing",
+    "website": "https://thekeg.com/en/locations/aurora",
+    "website:en": "https://thekeg.com/en/locations/aurora",
+    "website:fr": "https://thekeg.com/fr/restaurants/aurora"
+   }
+  },
+  {
+   "type": "way",
+   "id": 171000897,
+   "center": {
+    "lat": 44.0036843,
+    "lon": -79.4517418
+   },
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "304",
+    "addr:postcode": "L4G 1J5",
+    "addr:province": "Ontario",
+    "addr:street": "Wellington Street East",
+    "amenity": "fast_food",
+    "building": "retail",
+    "cuisine": "burger;sandwich;coffee_shop",
+    "drive_through": "yes",
+    "name": "Tim Hortons and Wendy's",
+    "smoking": "no",
+    "source": "Bing"
+   }
+  },
+  {
+   "type": "way",
+   "id": 486448467,
+   "center": {
+    "lat": 44.0193928,
+    "lon": -79.4478514
+   },
+   "tags": {
+    "addr:housenumber": "229",
+    "addr:street": "Earl Stewart Drive",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "retail",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "takeaway": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 761821378,
+   "center": {
+    "lat": 44.0240829,
+    "lon": -79.4470053
+   },
+   "tags": {
+    "addr:city": "Aurora",
+    "addr:housenumber": "16045",
+    "addr:postcode": "L4G 3L4",
+    "addr:province": "ON",
+    "addr:street": "Bayview Avenue",
+    "amenity": "restaurant",
+    "brand": "Kelsey's",
+    "brand:wikidata": "Q6386459",
+    "brand:wikipedia": "en:Kelseys Original Roadhouse",
+    "building": "retail",
+    "cuisine": "american",
+    "name": "Kelsey's",
+    "official_name": "Kelsey's Original Roadhouse",
+    "opening_hours": "Su-Th 11:00-23:00, Fr-Sa 11:00-24:00",
+    "phone": "+1 365 500 2011"
+   }
+  }
+ ]
+}

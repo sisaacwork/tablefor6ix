@@ -1,0 +1,924 @@
+{
+  "aliases": {
+    "sichuan": "szechuan",
+    "szechwan": "szechuan",
+    "viet": "vietnamese",
+    "vietnamemese": "vietnamese",
+    "carribean": "caribbean",
+    "carribbean": "caribbean",
+    "sri_lankan": "srilankan",
+    "sri_lanka": "srilankan",
+    "bengali": "bangladeshi",
+    "persian": "iranian",
+    "iran": "iranian",
+    "shwarma": "shawarma",
+    "shawerma": "shawarma",
+    "doughnut": "donut",
+    "bbq": "barbecue",
+    "middle_east": "middle_eastern",
+    "hongkong": "hong_kong",
+    "hong_kong_style": "hong_kong",
+    "nepali": "nepalese",
+    "philippine": "filipino",
+    "filippino": "filipino",
+    "portugese": "portuguese",
+    "argentinean": "argentinian",
+    "columbian": "colombian",
+    "el_salvadorian": "salvadoran",
+    "salvadorian": "salvadoran",
+    "salvadorean": "salvadoran",
+    "tibetian": "tibetan",
+    "somalian": "somali",
+    "afghanistani": "afghan",
+    "phillipines": "filipino",
+    "iraq": "iraqi",
+    "kabab": "kebab",
+    "lao": "laotian",
+    "hot_pot": "hotpot",
+    "bánh_mì": "banh_mi",
+    "sichuanese": "szechuan",
+    "shanghainese": "shanghai",
+    "hong_kong_cafe": "hong_kong",
+    "gyro": "gyros",
+    "pupusas": "papusas",
+    "hotdog": "hot_dog",
+    "egyption_bakery": "egyptian"
+  },
+  "map": {
+    "afghan": {
+      "countries": [
+        "AFG"
+      ]
+    },
+    "african": {
+      "regions": [
+        "african"
+      ]
+    },
+    "albanian": {
+      "countries": [
+        "ALB"
+      ]
+    },
+    "american": {
+      "countries": [
+        "USA"
+      ]
+    },
+    "arab": {
+      "regions": [
+        "middle_eastern"
+      ]
+    },
+    "argentinian": {
+      "countries": [
+        "ARG"
+      ]
+    },
+    "armenian": {
+      "countries": [
+        "ARM"
+      ]
+    },
+    "austrian": {
+      "countries": [
+        "AUT"
+      ]
+    },
+    "bangladeshi": {
+      "countries": [
+        "BGD"
+      ]
+    },
+    "belgian": {
+      "countries": [
+        "BEL"
+      ]
+    },
+    "brazilian": {
+      "countries": [
+        "BRA"
+      ]
+    },
+    "british": {
+      "countries": [
+        "GBR"
+      ]
+    },
+    "bulgarian": {
+      "countries": [
+        "BGR"
+      ]
+    },
+    "burmese": {
+      "countries": [
+        "MMR"
+      ]
+    },
+    "cambodian": {
+      "countries": [
+        "KHM"
+      ]
+    },
+    "canadian": {
+      "countries": [
+        "CAN"
+      ]
+    },
+    "cantonese": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "caribbean": {
+      "regions": [
+        "caribbean"
+      ]
+    },
+    "chilean": {
+      "countries": [
+        "CHL"
+      ]
+    },
+    "chinese": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "colombian": {
+      "countries": [
+        "COL"
+      ]
+    },
+    "congolese": {
+      "countries": [
+        "COD"
+      ]
+    },
+    "croatian": {
+      "countries": [
+        "HRV"
+      ]
+    },
+    "cuban": {
+      "countries": [
+        "CUB"
+      ]
+    },
+    "czech": {
+      "countries": [
+        "CZE"
+      ]
+    },
+    "danish": {
+      "countries": [
+        "DNK"
+      ]
+    },
+    "dim_sum": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "dutch": {
+      "countries": [
+        "NLD"
+      ]
+    },
+    "ecuadorian": {
+      "countries": [
+        "ECU"
+      ]
+    },
+    "egyptian": {
+      "countries": [
+        "EGY"
+      ]
+    },
+    "eritrean": {
+      "countries": [
+        "ERI"
+      ]
+    },
+    "ethiopian": {
+      "countries": [
+        "ETH"
+      ]
+    },
+    "filipino": {
+      "countries": [
+        "PHL"
+      ]
+    },
+    "fish_and_chips": {
+      "countries": [
+        "GBR"
+      ]
+    },
+    "french": {
+      "countries": [
+        "FRA"
+      ]
+    },
+    "georgian": {
+      "countries": [
+        "GEO"
+      ]
+    },
+    "german": {
+      "countries": [
+        "DEU"
+      ]
+    },
+    "ghanaian": {
+      "countries": [
+        "GHA"
+      ]
+    },
+    "greek": {
+      "countries": [
+        "GRC"
+      ]
+    },
+    "guyanese": {
+      "countries": [
+        "GUY"
+      ]
+    },
+    "haitian": {
+      "countries": [
+        "HTI"
+      ]
+    },
+    "hakka": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "hawaiian": {
+      "countries": [
+        "USA"
+      ]
+    },
+    "himalayan": {
+      "countries": [
+        "NPL"
+      ],
+      "entities": [
+        "TIB"
+      ]
+    },
+    "hong_kong": {
+      "entities": [
+        "HKG"
+      ]
+    },
+    "hungarian": {
+      "countries": [
+        "HUN"
+      ]
+    },
+    "indian": {
+      "countries": [
+        "IND"
+      ]
+    },
+    "indonesian": {
+      "countries": [
+        "IDN"
+      ]
+    },
+    "iranian": {
+      "countries": [
+        "IRN"
+      ]
+    },
+    "iraqi": {
+      "countries": [
+        "IRQ"
+      ]
+    },
+    "irish": {
+      "countries": [
+        "IRL"
+      ]
+    },
+    "israeli": {
+      "countries": [
+        "ISR"
+      ]
+    },
+    "italian": {
+      "countries": [
+        "ITA"
+      ]
+    },
+    "jamaican": {
+      "countries": [
+        "JAM"
+      ]
+    },
+    "japanese": {
+      "countries": [
+        "JPN"
+      ]
+    },
+    "jewish": {
+      "countries": [
+        "ISR"
+      ]
+    },
+    "kebab": {
+      "regions": [
+        "middle_eastern"
+      ]
+    },
+    "korean": {
+      "countries": [
+        "KOR"
+      ]
+    },
+    "kurdish": {
+      "regions": [
+        "middle_eastern"
+      ]
+    },
+    "laotian": {
+      "countries": [
+        "LAO"
+      ]
+    },
+    "lebanese": {
+      "countries": [
+        "LBN"
+      ]
+    },
+    "malaysian": {
+      "countries": [
+        "MYS"
+      ]
+    },
+    "mediterranean": {
+      "regions": [
+        "mediterranean"
+      ]
+    },
+    "mexican": {
+      "countries": [
+        "MEX"
+      ]
+    },
+    "middle_eastern": {
+      "regions": [
+        "middle_eastern"
+      ]
+    },
+    "mongolian": {
+      "countries": [
+        "MNG"
+      ]
+    },
+    "moroccan": {
+      "countries": [
+        "MAR"
+      ]
+    },
+    "nepalese": {
+      "countries": [
+        "NPL"
+      ]
+    },
+    "nigerian": {
+      "countries": [
+        "NGA"
+      ]
+    },
+    "pakistani": {
+      "countries": [
+        "PAK"
+      ]
+    },
+    "peruvian": {
+      "countries": [
+        "PER"
+      ]
+    },
+    "pho": {
+      "countries": [
+        "VNM"
+      ]
+    },
+    "polish": {
+      "countries": [
+        "POL"
+      ]
+    },
+    "portuguese": {
+      "countries": [
+        "PRT"
+      ]
+    },
+    "ramen": {
+      "countries": [
+        "JPN"
+      ]
+    },
+    "romanian": {
+      "countries": [
+        "ROU"
+      ]
+    },
+    "russian": {
+      "countries": [
+        "RUS"
+      ]
+    },
+    "salvadoran": {
+      "countries": [
+        "SLV"
+      ]
+    },
+    "shanghai": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "shawarma": {
+      "regions": [
+        "middle_eastern"
+      ]
+    },
+    "sicilian": {
+      "countries": [
+        "ITA"
+      ]
+    },
+    "singaporean": {
+      "countries": [
+        "SGP"
+      ]
+    },
+    "somali": {
+      "countries": [
+        "SOM"
+      ]
+    },
+    "spanish": {
+      "countries": [
+        "ESP"
+      ]
+    },
+    "srilankan": {
+      "countries": [
+        "LKA"
+      ]
+    },
+    "sushi": {
+      "countries": [
+        "JPN"
+      ]
+    },
+    "swiss": {
+      "countries": [
+        "CHE"
+      ]
+    },
+    "syrian": {
+      "countries": [
+        "SYR"
+      ]
+    },
+    "szechuan": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "taiwanese": {
+      "entities": [
+        "TWN"
+      ]
+    },
+    "thai": {
+      "countries": [
+        "THA"
+      ]
+    },
+    "tibetan": {
+      "entities": [
+        "TIB"
+      ]
+    },
+    "trinidadian": {
+      "countries": [
+        "TTO"
+      ]
+    },
+    "tunisian": {
+      "countries": [
+        "TUN"
+      ]
+    },
+    "turkish": {
+      "countries": [
+        "TUR"
+      ]
+    },
+    "ukrainian": {
+      "countries": [
+        "UKR"
+      ]
+    },
+    "uyghur": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "uzbek": {
+      "countries": [
+        "UZB"
+      ]
+    },
+    "venezuelan": {
+      "countries": [
+        "VEN"
+      ]
+    },
+    "vietnamese": {
+      "countries": [
+        "VNM"
+      ]
+    },
+    "west_african": {
+      "regions": [
+        "west_african"
+      ]
+    },
+    "yemeni": {
+      "countries": [
+        "YEM"
+      ]
+    },
+    "cajun": {
+      "countries": [
+        "USA"
+      ]
+    },
+    "creole": {
+      "countries": [
+        "USA"
+      ]
+    },
+    "hotpot": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "tacos": {
+      "countries": [
+        "MEX"
+      ]
+    },
+    "burrito": {
+      "countries": [
+        "MEX"
+      ]
+    },
+    "tamale": {
+      "countries": [
+        "MEX"
+      ]
+    },
+    "papusas": {
+      "countries": [
+        "SLV"
+      ]
+    },
+    "falafel": {
+      "regions": [
+        "middle_eastern"
+      ]
+    },
+    "hummus": {
+      "regions": [
+        "middle_eastern"
+      ]
+    },
+    "south_indian": {
+      "countries": [
+        "IND"
+      ]
+    },
+    "dosa": {
+      "countries": [
+        "IND"
+      ]
+    },
+    "biryani": {
+      "countries": [
+        "IND",
+        "PAK"
+      ]
+    },
+    "samosa": {
+      "countries": [
+        "IND"
+      ]
+    },
+    "paan": {
+      "countries": [
+        "IND"
+      ]
+    },
+    "tamil": {
+      "countries": [
+        "IND",
+        "LKA"
+      ]
+    },
+    "canadian_chinese": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "chinese_buns": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "hunan": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "shandong": {
+      "countries": [
+        "CHN"
+      ]
+    },
+    "kimchi": {
+      "countries": [
+        "KOR"
+      ]
+    },
+    "kimbap": {
+      "countries": [
+        "KOR"
+      ]
+    },
+    "banh_mi": {
+      "countries": [
+        "VNM"
+      ]
+    },
+    "gyros": {
+      "countries": [
+        "GRC"
+      ]
+    },
+    "souvlaki": {
+      "countries": [
+        "GRC"
+      ]
+    },
+    "teppanyaki": {
+      "countries": [
+        "JPN"
+      ]
+    },
+    "bubble_waffle": {
+      "entities": [
+        "HKG"
+      ]
+    },
+    "smoked_meat": {
+      "countries": [
+        "CAN"
+      ]
+    },
+    "montreal_smoked_meat": {
+      "countries": [
+        "CAN"
+      ]
+    },
+    "new_canadian": {
+      "countries": [
+        "CAN"
+      ]
+    },
+    "indigenous": {
+      "countries": [
+        "CAN"
+      ]
+    },
+    "swedish": {
+      "countries": [
+        "SWE"
+      ]
+    },
+    "italian_pizza": {
+      "countries": [
+        "ITA"
+      ]
+    },
+    "southern_italian": {
+      "countries": [
+        "ITA"
+      ]
+    },
+    "jerk": {
+      "countries": [
+        "JAM"
+      ]
+    },
+    "balinese": {
+      "countries": [
+        "IDN"
+      ]
+    },
+    "scottish": {
+      "countries": [
+        "GBR"
+      ]
+    },
+    "nicaraguan": {
+      "countries": [
+        "NIC"
+      ]
+    },
+    "moldovan": {
+      "countries": [
+        "MDA"
+      ]
+    },
+    "azerbaijani": {
+      "countries": [
+        "AZE"
+      ]
+    },
+    "thai_and_malaysian": {
+      "countries": [
+        "THA",
+        "MYS"
+      ]
+    },
+    "east_african": {
+      "regions": [
+        "east_african"
+      ]
+    }
+  },
+  "drop": [
+    "alcohol",
+    "appetizers",
+    "asian",
+    "b",
+    "bagel",
+    "bakery",
+    "bar",
+    "bar_and_grill",
+    "barbecue",
+    "bistro",
+    "brasserie",
+    "bread",
+    "breakfast",
+    "brunch",
+    "bubble_tea",
+    "buffet",
+    "burger",
+    "cafe",
+    "cake",
+    "candy",
+    "cheesecake",
+    "chicken",
+    "chicken_wings",
+    "chocolate",
+    "closed",
+    "cocktails",
+    "coffee",
+    "coffee_shop",
+    "contemporary",
+    "cookie",
+    "cookies",
+    "crepe",
+    "cupcake",
+    "curry",
+    "deli",
+    "dessert",
+    "diner",
+    "dinner",
+    "donut",
+    "dumplings",
+    "eastern_european",
+    "egg",
+    "empanada",
+    "espresso",
+    "european",
+    "fine_dining",
+    "fish",
+    "fried_chicken",
+    "fried_food",
+    "fries",
+    "friture",
+    "frozen_yogurt",
+    "funnel_cake",
+    "fusion",
+    "gelato",
+    "gluten_free",
+    "grill",
+    "halal",
+    "health_food",
+    "hot_dog",
+    "ice_cream",
+    "international",
+    "izakaya_drinks_only",
+    "juice",
+    "kosher",
+    "latin",
+    "latin_american",
+    "lemonade",
+    "local",
+    "lounge",
+    "lunch",
+    "macarons",
+    "main_course",
+    "meat",
+    "milk_tea",
+    "noodle",
+    "organic",
+    "oysters",
+    "pancake",
+    "pasta",
+    "pastry",
+    "pita",
+    "pizza",
+    "poke",
+    "popcorn",
+    "por",
+    "pork",
+    "potato",
+    "poutine",
+    "pretzel",
+    "pub",
+    "regional",
+    "rice",
+    "rice_noodle",
+    "roti",
+    "salad",
+    "sandwich",
+    "sausage",
+    "savory_pancakes",
+    "seafood",
+    "seasonal",
+    "shake",
+    "shaved_ice",
+    "shisha_lounge",
+    "smoked_salmon",
+    "smoothie",
+    "snack",
+    "snacks",
+    "soup",
+    "south_caucasus",
+    "south_east_asian",
+    "southeast_asian",
+    "sports_bar",
+    "steak",
+    "steak_house",
+    "sub",
+    "tapas",
+    "tea",
+    "teahouse",
+    "tex_mex",
+    "toast",
+    "tofu",
+    "vegan",
+    "vegemite",
+    "vegetarian",
+    "waffle",
+    "western",
+    "wild",
+    "wine",
+    "wings",
+    "wok",
+    "wrap"
+  ],
+  "regions": {
+    "caribbean": {
+      "label": "Caribbean"
+    },
+    "west_african": {
+      "label": "West African"
+    },
+    "african": {
+      "label": "Pan-African"
+    },
+    "middle_eastern": {
+      "label": "Middle Eastern"
+    },
+    "mediterranean": {
+      "label": "Mediterranean"
+    },
+    "east_african": {
+      "label": "East African"
+    }
+  }
+}
