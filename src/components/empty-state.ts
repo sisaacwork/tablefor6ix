@@ -60,7 +60,7 @@ export function mountEmptyState(container: HTMLElement, store: Store): void {
     if (state.scope === 'toronto' && coverageCount(selection, 'gta') > 0) {
       const p = document.createElement('p');
       const n = coverageCount(selection, 'gta');
-      p.textContent = `But there ${n === 1 ? 'is' : 'are'} ${n} in the wider GTA — switch the scope above to see ${n === 1 ? 'it' : 'them'}.`;
+      p.textContent = `But there ${n === 1 ? 'is' : 'are'} ${n} in the wider GTA. Switch the scope above to see ${n === 1 ? 'it' : 'them'}.`;
       container.appendChild(p);
     }
 
@@ -70,7 +70,7 @@ export function mountEmptyState(container: HTMLElement, store: Store): void {
     tellUs.className = 'link-button';
     tellUs.textContent = 'Know one? Tell us';
     tellUs.addEventListener('click', () => openSubmitDialog(name));
-    invite.append(tellUs, ' — every suggestion goes on the map.');
+    invite.append(tellUs, '');
     container.appendChild(invite);
 
     // Region nudge: the nearest thing we do have

@@ -1,13 +1,12 @@
 name: Add a restaurant
-description: Suggest a restaurant for the map — especially for a country we're missing.
+description: Suggest a new restaurant for the map!
 title: 'Add: [country]'
 labels: ['restaurant-submission']
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks! Every suggestion is reviewed by hand and added to the public dataset.
-        The one thing that matters most: **which country's food is it?**
+        Thanks! Every suggestion is reviewed by hand and added to the public dataset if it's missing.
   - type: input
     id: restaurant-name
     attributes:
@@ -18,7 +17,7 @@ body:
     id: country
     attributes:
       label: Country of cuisine
-      description: The country (or countries) this food is from — e.g. "Ecuador" or "Trinidad and Tobago / Guyana".
+      description: The country (or countries) this food is from (e.g., "Ecuador" or "Trinidad and Tobago").
     validations:
       required: true
   - type: input
@@ -37,4 +36,4 @@ body:
     id: notes
     attributes:
       label: Anything else?
-      description: What should we order? Is it somewhere unusual? Anything worth a note on the map.
+      description: What should we order? Is it somewhere unusual?
