@@ -55,9 +55,6 @@ export function mountCounter(container: HTMLElement, store: Store): void {
     label.innerHTML = '';
     label.append('seats filled · ');
     const missing = document.createElement('span');
-    missing.className = 'missing-count';
-    missing.textContent = String(totals.missing);
-    label.append(missing, ' missing');
 
     // Personal passport count against available coverage in scope
     const cov = scopeCoverage(state.scope);
