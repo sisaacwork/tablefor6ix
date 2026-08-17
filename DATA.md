@@ -11,6 +11,9 @@ produces the shipped files.
 
 Other data:
 
+- **DineSafe** (liveness cross-check): City of Toronto food-premise inspection data,
+  [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/). Condensed to
+  unique establishments in `data/raw/dinesafe.json`.
 - **Country shapes:** [Natural Earth](https://www.naturalearthdata.com/) (public domain), via
   the [`world-atlas`](https://github.com/topojson/world-atlas) package (110m resolution).
 - **Country reference (names, codes, demonyms):** derived from the
@@ -22,7 +25,8 @@ Other data:
 
 ```
 npm run data:pull        # Overpass → data/raw/<municipality>.json  (cached; network)
-npm run data:build       # raw + cuisine-map + overrides → public/data/  (local only)
+npm run data:dinesafe    # DineSafe → data/raw/dinesafe.json  (network)
+npm run data:build       # raw + cuisine-map + chains + overrides → public/data/  (local only)
 npm run data:countries   # regenerate data/countries.json (rarely needed)
 ```
 
@@ -38,6 +42,14 @@ npm run data:countries   # regenerate data/countries.json (rarely needed)
    fanned out across member countries), an **entity** (Taiwan, Hong Kong, Kosovo, Tibet —
    selectable but outside the 195 count), or the drop list (pizza, burger, coffee…).
    The build fails (`--strict`) if any cuisine value is unhandled.
+   Two further filters:
+   - **Chains** ([data/chains.json](data/chains.json)): franchise systems are excluded — a
+     burrito franchise's "mexican" tag is a product, not a diaspora kitchen. Chains beloved by
+     the diaspora they serve (Kinton Ramen, Congee Queen, Jollibee…) deliberately stay.
+   - **DineSafe liveness** (City of Toronto only): an OSM restaurant with no licensed
+     establishment of a matching name within 150m is treated as closed and dropped. Matching
+     tolerates renames via shared distinctive name tokens; false positives can be exempted in
+     `overrides.json → keepIds`.
 3. **Overrides** ([data/overrides.json](data/overrides.json)): manual removals, patches, and
    additions applied last, so a re-pull never wipes editorial work. This is where
    [restaurant submissions](https://github.com/sisaacwork/tablefor6ix/issues/new?template=add-restaurant.yml)

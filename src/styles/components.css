@@ -311,6 +311,109 @@
 .about-view {
   padding: 24px 20px 48px;
   max-width: 1100px;
+  margin-inline: auto;
+}
+
+/* ---- submission dialog ---- */
+.submit-dialog {
+  border: 1.5px solid var(--ink);
+  background: var(--paper-raised);
+  color: var(--ink);
+  padding: 0;
+  max-width: 480px;
+  width: calc(100vw - 40px);
+}
+
+.submit-dialog::backdrop {
+  background: rgb(27 36 31 / 0.45);
+}
+
+.submit-dialog form {
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.submit-dialog h3 {
+  font-family: var(--font-display);
+  font-size: 21px;
+  margin: 0;
+}
+
+.submit-dialog .dialog-sub {
+  margin: -6px 0 2px;
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+
+.submit-dialog label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.submit-dialog label .optional {
+  font-weight: 400;
+  color: var(--ink-faint);
+}
+
+.submit-dialog input,
+.submit-dialog textarea {
+  font: inherit;
+  font-weight: 400;
+  padding: 7px 10px;
+  border: 1.5px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.submit-dialog textarea {
+  resize: vertical;
+  min-height: 64px;
+}
+
+.submit-dialog .hp {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+.submit-dialog .dialog-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+.submit-dialog .dialog-actions button {
+  font-family: var(--font-data);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1.5px solid var(--ink);
+  padding: 8px 14px;
+}
+
+.submit-dialog .dialog-actions .primary {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.submit-dialog .dialog-actions .primary:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.submit-dialog .dialog-status {
+  font-size: 13.5px;
+  margin: 0;
+}
+
+.submit-dialog .dialog-status.error {
+  color: var(--stamp);
 }
 
 .missing-view h2,
@@ -334,7 +437,8 @@
   list-style: none;
 }
 
-.missing-wall a {
+.missing-wall a,
+.missing-wall button {
   font-family: var(--font-display);
   font-size: 21px;
   font-weight: 600;
@@ -342,8 +446,16 @@
   border-bottom: 2px solid transparent;
 }
 
-.missing-wall a:hover {
+.missing-wall a:hover,
+.missing-wall button:hover {
   border-bottom-color: var(--stamp);
+}
+
+.link-button {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
 }
 
 .about-view {

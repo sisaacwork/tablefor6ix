@@ -6,7 +6,7 @@
  *   npm run data:build              build + report
  *   npm run data:build -- --strict  additionally fail if any token is unmapped (CI)
  */
-import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { z } from 'zod';
 import {
@@ -16,7 +16,7 @@ import {
   type Restaurant,
 } from './lib/schema.ts';
 import { loadCountries, verifyTopojsonJoin } from './lib/countries.ts';
-import { tokenize, mapCuisines } from './lib/cuisine.ts';
+import { tokenize, mapCuisines, normalizeName } from './lib/cuisine.ts';
 
 const strict = process.argv.includes('--strict');
 const dir = (p: string) => fileURLToPath(new URL(p, import.meta.url));
@@ -47,7 +47,15 @@ const overrides = OverridesSchema.parse(
   JSON.parse(readFileSync(dir('../data/overrides.json'), 'utf8')),
 );
 
-const rawFiles = readdirSync(dir('../data/raw')).filter((f) => f.endsWith('.json'));
+const chainNames = new Set<string>(
+  (
+    JSON.parse(readFileSync(dir('../data/chains.json'), 'utf8')) as { names: string[] }
+  ).names.map(normalizeName),
+);
+
+const rawFiles = readdirSync(dir('../data/raw'))
+  .filter((f) => f.endsWith('.json'))
+  .filter((f) => f !== 'dinesafe.json');
 if (rawFiles.length === 0) throw new Error('No raw dumps in data/raw — run npm run data:pull first');
 
 // ---- merge + clean --------------------------------------------------------
@@ -81,6 +89,10 @@ for (const file of rawFiles) {
     const name = tags['name']?.trim();
     if (!name) {
       drop('no name');
+      continue;
+    }
+    if (chainNames.has(normalizeName(name))) {
+      drop('chain');
       continue;
     }
     const lat = el.lat ?? el.center?.lat;
@@ -127,7 +139,7 @@ for (const file of rawFiles) {
 const byNameCell = new Map<string, Restaurant>();
 const nearDupes: string[] = [];
 for (const r of seen.values()) {
-  const key = `${r.name.toLowerCase().replace(/[^a-z0-9]/g, '')}|${r.lat.toFixed(3)}|${r.lng.toFixed(3)}`;
+  const key = `${normalizeName(r.name)}|${r.lat.toFixed(3)}|${r.lng.toFixed(3)}`;
   const existing = byNameCell.get(key);
   if (!existing) {
     byNameCell.set(key, r);
@@ -140,6 +152,100 @@ for (const r of seen.values()) {
   nearDupes.push(discard.id);
 }
 let restaurants = [...byNameCell.values()];
+
+// ---- DineSafe liveness cross-check (City of Toronto only) -----------------
+// A Toronto restaurant with no licensed food premise of a matching name
+// nearby is almost certainly closed. Escape hatch: overrides.keepIds.
+interface DinesafeEntry {
+  name: string;
+  lat: number;
+  lng: number;
+}
+let dinesafeDropped: Restaurant[] = [];
+const dinesafePath = dir('../data/raw/dinesafe.json');
+if (existsSync(dinesafePath)) {
+  const dinesafe = JSON.parse(readFileSync(dinesafePath, 'utf8')) as {
+    establishments: DinesafeEntry[];
+  };
+  // Generic words that don't identify a specific restaurant — a shared
+  // distinctive token ("kabul", "kibo") means same place renamed slightly,
+  // a shared generic one ("sushi", "grill") does not.
+  const GENERIC = new Set([
+    'restaurant', 'cafe', 'caffe', 'coffee', 'kitchen', 'house', 'grill', 'grille', 'express',
+    'sushi', 'ramen', 'pizza', 'pizzeria', 'shawarma', 'kebab', 'kabob', 'kabab', 'noodle',
+    'noodles', 'thai', 'chinese', 'indian', 'japanese', 'korean', 'vietnamese', 'halal',
+    'food', 'foods', 'eatery', 'diner', 'bistro', 'cuisine', 'authentic', 'original',
+    'famous', 'golden', 'royal', 'star', 'king', 'queen', 'chef', 'taste', 'spice', 'curry',
+    'roti', 'tandoori', 'wok', 'garden', 'palace', 'villa', 'casa', 'little', 'great',
+  ]);
+  const distinctiveTokens = (name: string): Set<string> =>
+    new Set(
+      name
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[̀-ͯ]/g, '')
+        .split(/[^a-z0-9]+/)
+        .filter((t) => t.length >= 4 && !GENERIC.has(t)),
+    );
+
+  const CELL = 0.002; // ~200m grid
+  const grid = new Map<string, { norm: string; tokens: Set<string>; lat: number; lng: number }[]>();
+  for (const e of dinesafe.establishments) {
+    const key = `${Math.round(e.lat / CELL)}|${Math.round(e.lng / CELL)}`;
+    const bucket = grid.get(key) ?? [];
+    bucket.push({ norm: normalizeName(e.name), tokens: distinctiveTokens(e.name), lat: e.lat, lng: e.lng });
+    grid.set(key, bucket);
+  }
+
+  const bigrams = (s: string): Set<string> => {
+    const out = new Set<string>();
+    for (let i = 0; i < s.length - 1; i++) out.add(s.slice(i, i + 2));
+    return out;
+  };
+  const dice = (a: string, b: string): number => {
+    if (a.length < 2 || b.length < 2) return a === b ? 1 : 0;
+    const A = bigrams(a);
+    const B = bigrams(b);
+    let hits = 0;
+    for (const g of A) if (B.has(g)) hits++;
+    return (2 * hits) / (A.size + B.size);
+  };
+  const metres = (lat1: number, lng1: number, lat2: number, lng2: number): number => {
+    const dLat = (lat2 - lat1) * 111_320;
+    const dLng = (lng2 - lng1) * 111_320 * Math.cos((lat1 * Math.PI) / 180);
+    return Math.hypot(dLat, dLng);
+  };
+
+  const nameMatches = (a: string, b: string, aTokens: Set<string>, bTokens: Set<string>): boolean =>
+    a === b ||
+    (a.length >= 5 && b.includes(a)) ||
+    (b.length >= 5 && a.includes(b)) ||
+    dice(a, b) >= 0.72 ||
+    [...aTokens].some((t) => bTokens.has(t));
+
+  const keepIds = new Set(overrides.keepIds);
+  const alive = (r: Restaurant): boolean => {
+    if (r.municipality !== 'Toronto' || r.source !== 'osm' || keepIds.has(r.id)) return true;
+    const norm = normalizeName(r.name);
+    const tokens = distinctiveTokens(r.name);
+    const ci = Math.round(r.lat / CELL);
+    const cj = Math.round(r.lng / CELL);
+    for (let di = -1; di <= 1; di++) {
+      for (let dj = -1; dj <= 1; dj++) {
+        for (const e of grid.get(`${ci + di}|${cj + dj}`) ?? []) {
+          if (metres(r.lat, r.lng, e.lat, e.lng) <= 150 && nameMatches(norm, e.norm, tokens, e.tokens))
+            return true;
+        }
+      }
+    }
+    return false;
+  };
+
+  dinesafeDropped = restaurants.filter((r) => !alive(r));
+  restaurants = restaurants.filter((r) => !dinesafeDropped.includes(r));
+} else {
+  console.warn('⚠ data/raw/dinesafe.json missing — liveness check skipped (npm run data:dinesafe)');
+}
 
 // ---- overrides overlay ----------------------------------------------------
 const staleOverrides: string[] = [];
@@ -228,6 +334,10 @@ const topCountries = Object.entries(gta.countries)
 
 console.log(`\n=== tablefor6ix data build ===`);
 console.log(`Restaurants: ${restaurants.length} (boundary dupes merged: ${boundaryDupes}, near-dupes merged: ${nearDupes.length})`);
+if (dinesafeDropped.length) {
+  console.log(`DineSafe liveness: dropped ${dinesafeDropped.length} Toronto entries with no licensed match`);
+  console.log(`  sample: ${dinesafeDropped.slice(0, 8).map((r) => r.name).join(' · ')}`);
+}
 console.log(`Municipalities: ${[...byMuni.entries()].map(([m, n]) => `${m} ${n}`).join(', ')}`);
 console.log(`Dropped: ${Object.entries(dropCounts).map(([r, n]) => `${r}: ${n}`).join(', ') || 'none'}`);
 console.log(`\nCoverage — GTA: ${coverage.totals.gta.covered}/195 · Toronto only: ${coverage.totals.toronto.covered}/195`);

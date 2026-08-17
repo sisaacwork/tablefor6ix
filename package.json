@@ -10,9 +10,11 @@
     "data:pull": "tsx scripts/pull-osm.ts",
     "data:build": "tsx scripts/build-data.ts",
     "data:countries": "tsx scripts/gen-countries.ts",
-    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.scripts.json"
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.scripts.json && tsc --noEmit -p tsconfig.worker.json",
+    "data:dinesafe": "tsx scripts/pull-dinesafe.ts"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260816.1",
     "@types/d3-geo": "^3.1.1",
     "@types/d3-selection": "^3.0.11",
     "@types/geojson": "^7946.0.16",

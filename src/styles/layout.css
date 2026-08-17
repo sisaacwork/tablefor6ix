@@ -1,8 +1,17 @@
+/* Full-bleed rules, centred content: at wide widths the side padding grows so
+   content tops out at ~1400px centred, while the border lines run edge to edge. */
+.site-header,
+.controls,
+.main,
+.site-footer {
+  padding-inline: max(20px, calc((100vw - 1400px) / 2));
+}
+
 .site-header {
   display: flex;
   align-items: baseline;
   gap: 24px;
-  padding: 18px 20px 10px;
+  padding-block: 18px 10px;
   border-bottom: 1.5px solid var(--ink);
   flex-wrap: wrap;
 }
@@ -48,19 +57,20 @@
   display: flex;
   gap: 12px;
   align-items: center;
-  padding: 12px 20px;
+  padding-block: 12px;
   flex-wrap: wrap;
 }
 
 .main {
   display: grid;
-  grid-template-columns: 55fr 45fr;
-  gap: 0;
+  grid-template-columns: 52fr 48fr;
+  gap: 28px;
   min-height: 62vh;
+  padding-bottom: 24px;
 }
 
 .world-panel {
-  padding: 8px 12px 16px;
+  padding: 8px 0 16px;
   min-width: 0;
 }
 
@@ -75,19 +85,23 @@
   flex-direction: column;
   min-width: 0;
   border-left: 1.5px solid var(--ink);
+  padding-left: 28px;
 }
 
+/* The Toronto map sits framed like an atlas plate, centred in its panel */
 .toronto-map {
-  height: 46vh;
+  height: 44vh;
   min-height: 300px;
-  border-bottom: 1px solid var(--line);
+  border: 1.5px solid var(--ink);
   background: var(--paper-raised);
 }
 
 .list-panel {
   flex: 1;
   overflow-y: auto;
-  max-height: 40vh;
+  max-height: 38vh;
+  margin-top: 10px;
+  border-top: 1px solid var(--line);
 }
 
 .mobile-back {
@@ -105,6 +119,7 @@
 @media (max-width: 1023px) {
   .main {
     grid-template-columns: 1fr;
+    gap: 0;
   }
 
   .world-map {
@@ -115,6 +130,8 @@
   .city-panel {
     border-left: none;
     border-top: 1.5px solid var(--ink);
+    padding-left: 0;
+    padding-top: 4px;
   }
 
   .list-panel {
@@ -137,12 +154,17 @@
     padding: 10px 14px;
   }
 
+  .main {
+    padding-inline: 0;
+  }
+
   .world-map {
     height: 58vh;
   }
 
   .toronto-map {
     height: 44vh;
+    border-inline: none;
   }
 
   .mobile-back {

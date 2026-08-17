@@ -1,5 +1,14 @@
 import type { CuisineMap } from './schema.ts';
 
+/** "Thaï Express!" → "thaiexpress" — shared by chain matching, dedupe, and DineSafe matching. */
+export function normalizeName(name: string): string {
+  return name
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]/g, '');
+}
+
 /** `"Sichuan; Hong-Kong,dim sum"` → `["sichuan", "hong_kong", "dim_sum"]` */
 export function tokenize(raw: string): string[] {
   return raw

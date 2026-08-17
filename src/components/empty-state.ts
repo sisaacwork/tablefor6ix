@@ -7,7 +7,7 @@ import {
   REGION_LABELS,
   scopeCoverage,
 } from '../data/loader.ts';
-import { submissionUrl } from '../submit.ts';
+import { openSubmitDialog } from './submit-dialog.ts';
 
 export function mountEmptyState(container: HTMLElement, store: Store): void {
   function render(): void {
@@ -36,12 +36,12 @@ export function mountEmptyState(container: HTMLElement, store: Store): void {
     }
 
     const invite = document.createElement('p');
-    const link = document.createElement('a');
-    link.href = submissionUrl(name);
-    link.target = '_blank';
-    link.rel = 'noopener';
-    link.textContent = 'Know one? Tell us';
-    invite.append(link, ' — every suggestion goes on the map.');
+    const tellUs = document.createElement('button');
+    tellUs.type = 'button';
+    tellUs.className = 'link-button';
+    tellUs.textContent = 'Know one? Tell us';
+    tellUs.addEventListener('click', () => openSubmitDialog(name));
+    invite.append(tellUs, ' — every suggestion goes on the map.');
     container.appendChild(invite);
 
     // Region nudge: the nearest thing we do have

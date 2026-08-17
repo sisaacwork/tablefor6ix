@@ -5,7 +5,7 @@ the world. Click a country, see where to eat it here.
 
 - **World map** (D3, Equal Earth): countries coloured by how many Toronto restaurants serve
   their food. The counter — *N of 195 seats filled* — is the whole site in one line, and
-  **The Missing** lists every country still at zero.
+  **Missing Countries** lists every country still at zero.
 - **Toronto map** (Leaflet + CARTO): pick a country and see its restaurants across the GTA,
   with a Toronto-only filter.
 - **Passport**: stamp the countries you've eaten. Lives in your browser's localStorage —
@@ -27,6 +27,7 @@ npm run data:build   # rebuild public/data/ from raw dumps
 
 ## Add a restaurant
 
-[Open a submission](https://github.com/sisaacwork/tablefor6ix/issues/new?template=add-restaurant.yml)
-— especially for a country in The Missing. Reviewed by hand into
+Use the "Tell us" form on the site (or
+[open a GitHub issue](https://github.com/sisaacwork/tablefor6ix/issues/new?template=add-restaurant.yml))
+— especially for a country in Missing Countries. Reviewed by hand into
 [data/overrides.json](data/overrides.json).

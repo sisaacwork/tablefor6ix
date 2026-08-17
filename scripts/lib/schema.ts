@@ -37,6 +37,8 @@ export const OverridesSchema = z.object({
   remove: z.array(z.object({ id: z.string(), reason: z.string() })),
   patch: z.record(z.string(), RestaurantSchema.partial().omit({ id: true })),
   add: z.array(RestaurantSchema),
+  // Exempt from the DineSafe liveness drop (confirmed open despite no match).
+  keepIds: z.array(z.string()).default([]),
 });
 export type Overrides = z.infer<typeof OverridesSchema>;
 

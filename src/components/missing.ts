@@ -1,8 +1,8 @@
 import type { Store } from '../state/store.ts';
 import { COUNTRIES, COVERAGE, scopeCoverage } from '../data/loader.ts';
-import { submissionUrl } from '../submit.ts';
+import { openSubmitDialog } from './submit-dialog.ts';
 
-/** The Missing: every zero-coverage country, as a wall of names. */
+/** Missing Countries: every zero-coverage country, as a wall of names. */
 export function mountMissing(container: HTMLElement, store: Store): void {
   function render(): void {
     const state = store.get();
@@ -14,25 +14,24 @@ export function mountMissing(container: HTMLElement, store: Store): void {
 
     container.replaceChildren();
     const h2 = document.createElement('h2');
-    h2.textContent = 'The Missing';
+    h2.textContent = 'Missing Countries';
     const sub = document.createElement('p');
     sub.className = 'missing-sub';
     sub.textContent = `${missing.length} of ${COVERAGE.seats} countries with no ${
       state.scope === 'toronto' ? 'Toronto' : 'GTA'
-    } restaurant on the map — that we know of. Know one? Every name is a link.`;
+    } restaurant on the map — that we know of. Know one? Every name opens the form.`;
     container.append(h2, sub);
 
     const wall = document.createElement('ul');
     wall.className = 'missing-wall';
     for (const seat of missing) {
       const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.href = submissionUrl(seat.name);
-      a.target = '_blank';
-      a.rel = 'noopener';
-      a.textContent = seat.name;
-      a.title = `Suggest a ${seat.name} restaurant`;
-      li.appendChild(a);
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.textContent = seat.name;
+      btn.title = `Suggest a ${seat.name} restaurant`;
+      btn.addEventListener('click', () => openSubmitDialog(seat.name));
+      li.appendChild(btn);
       wall.appendChild(li);
     }
     container.appendChild(wall);
