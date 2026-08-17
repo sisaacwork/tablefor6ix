@@ -1,6 +1,7 @@
 import type { Store } from '../state/store.ts';
 import { displayName, coverageCount } from '../data/loader.ts';
 import { toggleStamp } from '../state/passport.ts';
+import { areaChips } from './areas.ts';
 
 export function mountCityHeader(container: HTMLElement, store: Store): void {
   function render(): void {
@@ -29,7 +30,7 @@ export function mountCityHeader(container: HTMLElement, store: Store): void {
     h2.tabIndex = -1;
     container.appendChild(h2);
 
-    const count = coverageCount(state.selection, state.scope);
+    const count = coverageCount(state.selection, state.scope, state.restaurants);
     if (count > 0) {
       const span = document.createElement('span');
       span.className = 'city-count';
@@ -37,7 +38,15 @@ export function mountCityHeader(container: HTMLElement, store: Store): void {
       container.appendChild(span);
     }
 
-    if (state.selection.kind !== 'region') {
+    if (state.selection.kind === 'area' && state.restaurants) {
+      container.appendChild(
+        areaChips(state.restaurants, state.selection.code, (kind, code) =>
+          store.set({ selection: { kind, code }, selectedRestaurant: null }),
+        ),
+      );
+    }
+
+    if (state.selection.kind === 'country' || state.selection.kind === 'entity') {
       const code = state.selection.code;
       const stamped = state.passport.has(code);
       const stamp = document.createElement('button');
@@ -58,7 +67,8 @@ export function mountCityHeader(container: HTMLElement, store: Store): void {
     if (
       state.selection !== prev.selection ||
       state.scope !== prev.scope ||
-      state.passport !== prev.passport
+      state.passport !== prev.passport ||
+      state.restaurants !== prev.restaurants
     ) {
       render();
       // Mobile screen swap: move focus to the heading

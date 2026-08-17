@@ -462,6 +462,92 @@
   line-height: 1.6;
 }
 
+/* ---- areas (reverse view) ---- */
+.areas-view {
+  padding: 24px 20px 48px;
+  max-width: 1100px;
+  margin-inline: auto;
+}
+
+.areas-view h2 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  margin: 0 0 4px;
+}
+
+.area-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  columns: 2;
+  column-gap: 40px;
+}
+
+@media (max-width: 767px) {
+  .area-list {
+    columns: 1;
+  }
+}
+
+.area-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 7px 2px;
+  border-bottom: 1px solid var(--line);
+  break-inside: avoid;
+  text-align: left;
+}
+
+.area-row:hover .area-name {
+  color: var(--accent);
+}
+
+.area-name {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.area-tag {
+  font-family: var(--font-data);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+  margin-left: 8px;
+}
+
+.area-stats {
+  font-family: var(--font-data);
+  font-size: 12px;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+
+.area-chips {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 2px;
+}
+
+.chip {
+  font-family: var(--font-data);
+  font-size: 12px;
+  border: 1px solid var(--line);
+  padding: 3px 9px;
+  background: var(--paper-raised);
+}
+
+.chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .about-view h3 {
   font-family: var(--font-display);
   margin: 24px 0 6px;

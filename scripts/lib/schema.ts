@@ -12,6 +12,10 @@ export const RestaurantSchema = z.object({
   municipality: z.string(),
   neighbourhood: z.string().nullable(),
   website: z.string().nullable(),
+  station: z
+    .object({ name: z.string(), kind: z.enum(['subway', 'streetcar']), m: z.number() })
+    .nullable()
+    .default(null),
   verified: z.boolean(),
   note: z.string().nullable(),
   source: z.enum(['osm', 'manual']),

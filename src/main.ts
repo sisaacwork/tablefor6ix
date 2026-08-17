@@ -22,8 +22,9 @@ import { mountCombobox } from './components/combobox.ts';
 import { mountCounter, mountScopeToggle } from './components/counter.ts';
 import { mountSurprise } from './components/surprise.ts';
 import { mountMissing } from './components/missing.ts';
+import { mountAreas } from './components/areas.ts';
 import { mountAbout } from './components/about.ts';
-import type { AppState } from './types.ts';
+import type { AppState, View } from './types.ts';
 
 const el = (id: string): HTMLElement => {
   const node = document.getElementById(id);
@@ -55,25 +56,29 @@ mountCityHeader(el('city-header'), store);
 mountListPanel(el('list-panel'), store);
 mountEmptyState(el('empty-state'), store);
 mountMissing(el('missing-view'), store);
+mountAreas(el('areas-view'), store);
 mountAbout(el('about-view'), store);
 
-// ---- view switching (map | missing | about) ----
+// ---- view switching (map | missing | areas | about) ----
 const main = el('main');
-const navMissing = el('nav-missing');
-const navAbout = el('nav-about');
-navMissing.addEventListener('click', () => {
-  store.set({ view: store.get().view === 'missing' ? 'map' : 'missing' });
-});
-navAbout.addEventListener('click', () => {
-  store.set({ view: store.get().view === 'about' ? 'map' : 'about' });
-});
+const navButtons: [HTMLElement, View][] = [
+  [el('nav-missing'), 'missing'],
+  [el('nav-areas'), 'areas'],
+  [el('nav-about'), 'about'],
+];
+for (const [btn, view] of navButtons) {
+  btn.addEventListener('click', () => {
+    store.set({ view: store.get().view === view ? 'map' : view });
+  });
+}
 
 function renderShell(): void {
   const state = store.get();
   main.hidden = state.view !== 'map';
   document.querySelector<HTMLElement>('.controls')!.hidden = state.view !== 'map';
-  navMissing.setAttribute('aria-pressed', String(state.view === 'missing'));
-  navAbout.setAttribute('aria-pressed', String(state.view === 'about'));
+  for (const [btn, view] of navButtons) {
+    btn.setAttribute('aria-pressed', String(state.view === view));
+  }
   document.body.dataset['mobileScreen'] = state.mobileScreen;
 }
 renderShell();
@@ -83,7 +88,7 @@ const liveRegion = el('live-region');
 store.subscribe((state, prev) => {
   if (state.view !== prev.view || state.mobileScreen !== prev.mobileScreen) renderShell();
   if (state.selection !== prev.selection && state.selection) {
-    const count = coverageCount(state.selection, state.scope);
+    const count = coverageCount(state.selection, state.scope, state.restaurants);
     liveRegion.textContent =
       count > 0
         ? `${displayName(state.selection)}. ${count} restaurant${count === 1 ? '' : 's'} shown.`
@@ -102,13 +107,15 @@ function loadRestaurants(): void {
     .then((restaurants) => store.set({ restaurants }))
     .catch((err) => console.error('Failed to load restaurants', err));
 }
-if (initial.selection) loadRestaurants();
+if (initial.selection || initial.view === 'areas') loadRestaurants();
 else if ('requestIdleCallback' in window) requestIdleCallback(() => loadRestaurants());
 else setTimeout(loadRestaurants, 800);
 
-// Restaurant data is also needed the moment any selection happens
+// Restaurant data is also needed the moment a selection or the areas view opens
 store.subscribe((state, prev) => {
-  if (state.selection && state.selection !== prev.selection && !state.restaurants) {
+  if (state.restaurants) return;
+  const selected = state.selection && state.selection !== prev.selection;
+  if (selected || (state.view === 'areas' && prev.view !== 'areas')) {
     loadRestaurants();
   }
 });

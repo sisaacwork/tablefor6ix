@@ -31,7 +31,13 @@ export const lookup = {
 export function displayName(selection: Selection): string {
   if (selection.kind === 'country') return lookup.seats.get(selection.code)?.name ?? selection.code;
   if (selection.kind === 'entity') return lookup.entities.get(selection.code)?.name ?? selection.code;
+  if (selection.kind === 'area') return selection.code;
   return lookup.regions.get(selection.code) ?? selection.code;
+}
+
+/** Grouping key for the reverse view: neighbourhood inside Toronto, municipality outside. */
+export function areaOf(r: Restaurant): string {
+  return r.municipality === 'Toronto' ? (r.neighbourhood ?? 'Toronto — unmapped') : r.municipality;
 }
 
 /** "Ecuadorian" for ECU, "Middle Eastern" for the region, etc. */
@@ -47,7 +53,14 @@ export function scopeCoverage(scope: Scope): ScopeCoverage {
   return COVERAGE.scopes[scope];
 }
 
-export function coverageCount(selection: Selection, scope: Scope): number {
+export function coverageCount(
+  selection: Selection,
+  scope: Scope,
+  restaurants?: Restaurant[] | null,
+): number {
+  if (selection.kind === 'area') {
+    return restaurants ? restaurants.filter((r) => areaOf(r) === selection.code).length : 0;
+  }
   const cov = scopeCoverage(scope);
   if (selection.kind === 'country') return cov.countries[selection.code] ?? 0;
   if (selection.kind === 'entity') return cov.entities[selection.code] ?? 0;
@@ -57,6 +70,7 @@ export function coverageCount(selection: Selection, scope: Scope): number {
 export function matchesSelection(r: Restaurant, selection: Selection): boolean {
   if (selection.kind === 'country') return r.countries.includes(selection.code);
   if (selection.kind === 'entity') return r.entities.includes(selection.code);
+  if (selection.kind === 'area') return areaOf(r) === selection.code;
   return r.regions.includes(selection.code);
 }
 
@@ -66,7 +80,8 @@ export function restaurantsFor(
   scope: Scope,
 ): Restaurant[] {
   return restaurants
-    .filter((r) => (scope === 'gta' ? true : r.municipality === 'Toronto'))
+    // An area IS its own scope — the toggle doesn't apply to it.
+    .filter((r) => (selection.kind === 'area' || scope === 'gta' ? true : r.municipality === 'Toronto'))
     .filter((r) => matchesSelection(r, selection))
     .sort((a, b) => a.name.localeCompare(b.name, 'en'));
 }

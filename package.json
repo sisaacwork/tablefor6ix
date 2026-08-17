@@ -11,7 +11,9 @@
     "data:build": "tsx scripts/build-data.ts",
     "data:countries": "tsx scripts/gen-countries.ts",
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.scripts.json && tsc --noEmit -p tsconfig.worker.json",
-    "data:dinesafe": "tsx scripts/pull-dinesafe.ts"
+    "data:dinesafe": "tsx scripts/pull-dinesafe.ts",
+    "data:gtfs": "tsx scripts/pull-gtfs.ts",
+    "data:areas": "tsx scripts/pull-areas.ts"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260816.1",
@@ -22,6 +24,7 @@
     "@types/node": "^26.2.0",
     "@types/topojson-client": "^3.1.5",
     "@types/topojson-specification": "^1.0.5",
+    "fflate": "^0.8.3",
     "tsx": "^4.23.12",
     "typescript": "^7.0.2",
     "vite": "^8.2.1",
@@ -36,6 +39,7 @@
     "d3-selection": "^3.0.0",
     "leaflet": "^1.9.4",
     "topojson-client": "^3.1.0",
-    "world-atlas": "^2.0.2"
+    "world-atlas": "^2.0.2",
+    "wrangler": "^4.123.0"
   }
 }

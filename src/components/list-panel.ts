@@ -48,7 +48,10 @@ export function mountListPanel(container: HTMLElement, store: Store): void {
 
       const meta = document.createElement('div');
       meta.className = 'r-meta';
-      meta.textContent = [r.address, r.neighbourhood, r.municipality]
+      const station = r.station
+        ? `${r.station.kind === 'subway' ? '🚇' : '🚋'} ${r.station.name}`
+        : null;
+      meta.textContent = [r.address, r.neighbourhood, r.municipality, station]
         .filter(Boolean)
         .join(' · ');
       btn.appendChild(meta);

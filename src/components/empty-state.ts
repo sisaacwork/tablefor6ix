@@ -13,7 +13,9 @@ export function mountEmptyState(container: HTMLElement, store: Store): void {
   function render(): void {
     const state = store.get();
     const selection = state.selection;
-    const show = !!selection && coverageCount(selection, state.scope) === 0;
+    // Areas come from the data itself, so they're never empty.
+    const show =
+      !!selection && selection.kind !== 'area' && coverageCount(selection, state.scope) === 0;
     container.hidden = !show;
     if (!show || !selection) {
       container.replaceChildren();

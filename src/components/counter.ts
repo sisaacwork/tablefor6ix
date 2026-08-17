@@ -1,5 +1,6 @@
 import type { Store } from '../state/store.ts';
 import { COVERAGE, SEAT_TOTAL, lookup, scopeCoverage } from '../data/loader.ts';
+import { downloadShareCard } from './share-card.ts';
 
 const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -63,8 +64,19 @@ export function mountCounter(container: HTMLElement, store: Store): void {
     const stampedSeats = [...state.passport].filter(
       (code) => lookup.seats.has(code) && (cov.countries[code] ?? 0) > 0,
     ).length;
-    passportLine.textContent =
-      stampedSeats > 0 ? `You've eaten ${stampedSeats} of the ${totals.covered} available` : '';
+    passportLine.replaceChildren();
+    if (stampedSeats > 0) {
+      passportLine.append(`You've eaten ${stampedSeats} of the ${totals.covered} available · `);
+      const share = document.createElement('button');
+      share.type = 'button';
+      share.className = 'link-button';
+      share.textContent = 'share card ↓';
+      share.title = 'Download your stamped map as an image';
+      share.addEventListener('click', () => {
+        void downloadShareCard(store.get().passport, store.get().scope);
+      });
+      passportLine.appendChild(share);
+    }
   }
 
   render();

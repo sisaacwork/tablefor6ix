@@ -10,6 +10,7 @@ export interface Restaurant {
   municipality: string;
   neighbourhood: string | null;
   website: string | null;
+  station: { name: string; kind: 'subway' | 'streetcar'; m: number } | null;
   verified: boolean;
   note: string | null;
   source: 'osm' | 'manual';
@@ -64,8 +65,8 @@ export interface CoverageTotal {
 }
 
 export type Scope = 'gta' | 'toronto';
-export type View = 'map' | 'missing' | 'about';
-export type SelectionKind = 'country' | 'entity' | 'region';
+export type View = 'map' | 'missing' | 'areas' | 'about';
+export type SelectionKind = 'country' | 'entity' | 'region' | 'area';
 
 export interface Selection {
   kind: SelectionKind;

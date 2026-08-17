@@ -53,9 +53,10 @@ const chainNames = new Set<string>(
   ).names.map(normalizeName),
 );
 
+const AUXILIARY_RAW = new Set(['dinesafe.json', 'ttc-stops.json', 'neighbourhoods.json']);
 const rawFiles = readdirSync(dir('../data/raw'))
   .filter((f) => f.endsWith('.json'))
-  .filter((f) => f !== 'dinesafe.json');
+  .filter((f) => !AUXILIARY_RAW.has(f));
 if (rawFiles.length === 0) throw new Error('No raw dumps in data/raw — run npm run data:pull first');
 
 // ---- merge + clean --------------------------------------------------------
@@ -128,6 +129,7 @@ for (const file of rawFiles) {
       municipality,
       neighbourhood: tags['addr:suburb'] ?? null,
       website: tags['website'] ?? tags['contact:website'] ?? null,
+      station: null,
       verified: false,
       note: null,
       source: 'osm',
@@ -267,6 +269,87 @@ for (const added of overrides.add) {
   restaurants.push(added);
 }
 restaurants.sort((a, b) => a.id.localeCompare(b.id));
+
+// ---- enrich: nearest TTC stop + Toronto neighbourhood ---------------------
+{
+  const metres = (lat1: number, lng1: number, lat2: number, lng2: number): number => {
+    const dLat = (lat2 - lat1) * 111_320;
+    const dLng = (lng2 - lng1) * 111_320 * Math.cos((lat1 * Math.PI) / 180);
+    return Math.hypot(dLat, dLng);
+  };
+
+  const stopsPath = dir('../data/raw/ttc-stops.json');
+  if (existsSync(stopsPath)) {
+    interface Stop {
+      name: string;
+      lat: number;
+      lng: number;
+    }
+    const ttc = JSON.parse(readFileSync(stopsPath, 'utf8')) as { subway: Stop[]; streetcar: Stop[] };
+    const nearest = (r: Restaurant, stops: Stop[]): { stop: Stop; m: number } | null => {
+      let best: { stop: Stop; m: number } | null = null;
+      for (const stop of stops) {
+        const m = metres(r.lat, r.lng, stop.lat, stop.lng);
+        if (!best || m < best.m) best = { stop, m };
+      }
+      return best;
+    };
+    let subwayCount = 0;
+    let tramCount = 0;
+    for (const r of restaurants) {
+      // Subway wins within a reasonable walk; streetcar covers the dense core.
+      const sub = nearest(r, ttc.subway);
+      const tram = nearest(r, ttc.streetcar);
+      if (sub && sub.m <= 1200) {
+        r.station = { name: sub.stop.name, kind: 'subway', m: Math.round(sub.m) };
+        subwayCount++;
+      } else if (tram && tram.m <= 600) {
+        r.station = { name: tram.stop.name, kind: 'streetcar', m: Math.round(tram.m) };
+        tramCount++;
+      }
+    }
+    console.log(`TTC: ${subwayCount} near a subway station, ${tramCount} near a streetcar stop`);
+  } else {
+    console.warn('⚠ data/raw/ttc-stops.json missing — stations skipped (npm run data:gtfs)');
+  }
+
+  const hoodsPath = dir('../data/raw/neighbourhoods.json');
+  if (existsSync(hoodsPath)) {
+    const { geoContains } = await import('d3-geo');
+    const hoods = JSON.parse(readFileSync(hoodsPath, 'utf8')) as {
+      features: { name: string; geometry: { type: string; coordinates: unknown } }[];
+    };
+    // Cheap bbox prefilter, then exact spherical point-in-polygon.
+    const withBbox = hoods.features.map((f) => {
+      let minLat = 90, maxLat = -90, minLng = 180, maxLng = -180;
+      const walk = (coords: unknown): void => {
+        if (typeof (coords as number[])[0] === 'number') {
+          const [lng, lat] = coords as [number, number];
+          minLat = Math.min(minLat, lat); maxLat = Math.max(maxLat, lat);
+          minLng = Math.min(minLng, lng); maxLng = Math.max(maxLng, lng);
+        } else for (const c of coords as unknown[]) walk(c);
+      };
+      walk(f.geometry.coordinates);
+      return { ...f, minLat, maxLat, minLng, maxLng };
+    });
+    let assigned = 0;
+    for (const r of restaurants) {
+      if (r.municipality !== 'Toronto') continue;
+      const hit = withBbox.find(
+        (f) =>
+          r.lat >= f.minLat && r.lat <= f.maxLat && r.lng >= f.minLng && r.lng <= f.maxLng &&
+          geoContains(f.geometry as never, [r.lng, r.lat]),
+      );
+      if (hit) {
+        r.neighbourhood = hit.name;
+        assigned++;
+      }
+    }
+    console.log(`Neighbourhoods: assigned ${assigned} Toronto restaurants`);
+  } else {
+    console.warn('⚠ data/raw/neighbourhoods.json missing — areas skipped (npm run data:areas)');
+  }
+}
 
 // ---- validate -------------------------------------------------------------
 const municipalityNames = new Set<string>();

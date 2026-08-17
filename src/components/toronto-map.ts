@@ -16,6 +16,10 @@ function popupHtml(r: Restaurant): string {
     .filter(Boolean)
     .join(' · ');
   if (meta) parts.push(`<div class="popup-meta">${esc(meta)}</div>`);
+  if (r.station) {
+    const icon = r.station.kind === 'subway' ? '🚇' : '🚋';
+    parts.push(`<div class="popup-meta">${icon} ${esc(r.station.name)} · ${r.station.m} m</div>`);
+  }
   if (r.website) {
     let host = r.website;
     try {

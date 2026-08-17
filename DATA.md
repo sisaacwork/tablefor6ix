@@ -14,6 +14,12 @@ Other data:
 - **DineSafe** (liveness cross-check): City of Toronto food-premise inspection data,
   [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/). Condensed to
   unique establishments in `data/raw/dinesafe.json`.
+- **TTC GTFS** (nearest stop): [TTC Routes and Schedules](https://open.toronto.ca/dataset/ttc-routes-and-schedules/)
+  (OGL – Toronto), condensed to subway stations + streetcar stops in `data/raw/ttc-stops.json`.
+  Each restaurant gets its nearest subway station (≤1.2km) or streetcar stop (≤600m) at build time.
+- **Neighbourhoods** (reverse view): the City's [158 official neighbourhoods](https://open.toronto.ca/dataset/neighbourhoods/)
+  (OGL – Toronto) in `data/raw/neighbourhoods.json`; Toronto restaurants are assigned by
+  point-in-polygon at build time.
 - **Country shapes:** [Natural Earth](https://www.naturalearthdata.com/) (public domain), via
   the [`world-atlas`](https://github.com/topojson/world-atlas) package (110m resolution).
 - **Country reference (names, codes, demonyms):** derived from the
@@ -26,6 +32,8 @@ Other data:
 ```
 npm run data:pull        # Overpass → data/raw/<municipality>.json  (cached; network)
 npm run data:dinesafe    # DineSafe → data/raw/dinesafe.json  (network)
+npm run data:gtfs        # TTC GTFS → data/raw/ttc-stops.json  (network)
+npm run data:areas       # Neighbourhood polygons → data/raw/neighbourhoods.json  (network)
 npm run data:build       # raw + cuisine-map + chains + overrides → public/data/  (local only)
 npm run data:countries   # regenerate data/countries.json (rarely needed)
 ```
