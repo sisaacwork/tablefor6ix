@@ -94,6 +94,7 @@ const seats = seatsRaw
     if (!numeric) throw new Error(`No ccn3 for ${c.cca3}`);
     return {
       iso3: c.cca3,
+      iso2: c.cca2,
       numeric,
       name: NAME_OVERRIDES[c.cca3] ?? c.name.common,
       demonym: c.demonyms?.eng?.m || (NAME_OVERRIDES[c.cca3] ?? c.name.common),
@@ -112,6 +113,7 @@ if (!hkg) throw new Error('HKG missing from world-countries');
 const entities = [
   {
     code: 'TWN',
+    iso2: 'TW',
     numeric: '158',
     name: 'Taiwan',
     demonym: 'Taiwanese',
@@ -123,6 +125,7 @@ const entities = [
   },
   {
     code: 'HKG',
+    iso2: 'HK',
     numeric: null as string | null,
     name: 'Hong Kong',
     demonym: 'Hong Kong',
@@ -134,6 +137,7 @@ const entities = [
   },
   {
     code: 'XKX',
+    iso2: 'XK',
     numeric: null as string | null,
     name: 'Kosovo',
     demonym: 'Kosovar',
@@ -146,6 +150,7 @@ const entities = [
   },
   {
     code: 'TIB',
+    iso2: null as string | null,
     numeric: null as string | null,
     name: 'Tibet',
     demonym: 'Tibetan',

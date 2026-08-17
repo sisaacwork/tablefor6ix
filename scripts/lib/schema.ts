@@ -50,6 +50,7 @@ export const CountriesSchema = z.object({
   seats: z.array(
     z.object({
       iso3: z.string().length(3),
+      iso2: z.string().length(2),
       numeric: z.string(),
       name: z.string(),
       demonym: z.string(),
@@ -63,6 +64,7 @@ export const CountriesSchema = z.object({
   entities: z.array(
     z.object({
       code: z.string(),
+      iso2: z.string().length(2).nullable(),
       numeric: z.string().nullable(),
       name: z.string(),
       demonym: z.string(),

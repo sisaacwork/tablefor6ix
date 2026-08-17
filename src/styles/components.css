@@ -548,6 +548,50 @@
   color: var(--accent);
 }
 
+.chip[aria-pressed='true'] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--paper);
+}
+
+/* ---- area filter tag ---- */
+.area-filter-tag {
+  flex-basis: 100%;
+  align-self: flex-start;
+  width: fit-content;
+  font-family: var(--font-data);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1.5px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  padding: 4px 10px;
+}
+
+.area-filter-tag span {
+  margin-left: 6px;
+  opacity: 0.75;
+}
+
+.area-filter-tag:hover span {
+  opacity: 1;
+}
+
+/* ---- flags & cuisine lines ---- */
+.r-flags {
+  font-size: 15px;
+}
+
+.r-cuisine {
+  font-size: 12.5px;
+  color: var(--ink-faint);
+}
+
+.popup-cuisine {
+  font-style: italic;
+}
+
 .about-view h3 {
   font-family: var(--font-display);
   margin: 24px 0 6px;

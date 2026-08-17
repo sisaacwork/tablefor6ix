@@ -2,7 +2,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import type { Store } from '../state/store.ts';
 import type { Restaurant } from '../types.ts';
-import { restaurantsFor } from '../data/loader.ts';
+import { restaurantsFor, restaurantFlags, cuisineLabel } from '../data/loader.ts';
 
 const TORONTO_CENTER: L.LatLngExpression = [43.72, -79.4];
 
@@ -11,7 +11,11 @@ const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').match
 function popupHtml(r: Restaurant): string {
   const esc = (s: string) =>
     s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
-  const parts = [`<div class="popup-name">${esc(r.name)}</div>`];
+  const flags = restaurantFlags(r);
+  const parts = [
+    `<div class="popup-name">${flags ? `${flags} ` : ''}${esc(r.name)}</div>`,
+    `<div class="popup-meta popup-cuisine">${esc(cuisineLabel(r))}</div>`,
+  ];
   const meta = [r.address, r.neighbourhood, r.municipality !== 'Toronto' ? r.municipality : null]
     .filter(Boolean)
     .join(' · ');
@@ -52,6 +56,9 @@ export function mountTorontoMap(container: HTMLElement, store: Store): void {
   const markersById = new Map<string, L.CircleMarker>();
   let staggerTimers: number[] = [];
   let renderedKey = '';
+  // Opening a popup while the camera is animating gets it auto-closed (which
+  // would also clear the selection) — hold popup opens until the map settles.
+  let settleUntil = 0;
 
   function clearMarkers(): void {
     staggerTimers.forEach((t) => clearTimeout(t));
@@ -84,17 +91,19 @@ export function mountTorontoMap(container: HTMLElement, store: Store): void {
     return marker;
   }
 
-  // Renders are coalesced into a rAF so they run after every store listener
-  // (including the one that flips the mobile screen) and after layout — Leaflet
-  // maths go NaN on a display:none container.
+  // Renders are coalesced into a macrotask so they run after every store
+  // listener in the same tick (including the one that flips the mobile screen)
+  // — Leaflet maths go NaN on a display:none container. setTimeout rather than
+  // requestAnimationFrame: rAF never fires in a hidden/background tab, which
+  // would leave the map unrendered until the tab is focused.
   let scheduled = false;
   function render(): void {
     if (scheduled) return;
     scheduled = true;
-    requestAnimationFrame(() => {
+    setTimeout(() => {
       scheduled = false;
       doRender();
-    });
+    }, 0);
   }
 
   function doRender(): void {
@@ -102,7 +111,7 @@ export function mountTorontoMap(container: HTMLElement, store: Store): void {
     if (container.offsetWidth === 0 || container.offsetHeight === 0) return; // hidden; re-rendered on screen swap
     map.invalidateSize();
 
-    if (!state.selection || !state.restaurants) {
+    if ((!state.selection && !state.area) || !state.restaurants) {
       if (renderedKey !== '') {
         clearMarkers();
         renderedKey = '';
@@ -111,8 +120,12 @@ export function mountTorontoMap(container: HTMLElement, store: Store): void {
       return;
     }
 
-    const key = `${state.selection.kind}:${state.selection.code}:${state.scope}`;
-    const list = restaurantsFor(state.restaurants, state.selection, state.scope);
+    const key = [
+      state.selection ? `${state.selection.kind}:${state.selection.code}` : '',
+      state.area ?? '',
+      state.scope,
+    ].join('|');
+    const list = restaurantsFor(state.restaurants, state.selection, state.scope, state.area);
 
     if (key !== renderedKey) {
       renderedKey = key;
@@ -121,7 +134,10 @@ export function mountTorontoMap(container: HTMLElement, store: Store): void {
         const bounds = L.latLngBounds(list.map((r) => [r.lat, r.lng] as [number, number]));
         const boundsOpts = { padding: [36, 36] as [number, number], maxZoom: 15 };
         if (reducedMotion()) map.fitBounds(bounds, boundsOpts);
-        else map.flyToBounds(bounds, { ...boundsOpts, duration: 0.6 });
+        else {
+          map.flyToBounds(bounds, { ...boundsOpts, duration: 0.6 });
+          settleUntil = Date.now() + 750;
+        }
 
         // One orchestrated moment: markers stagger in over ~300ms.
         const stagger = reducedMotion() ? 0 : Math.min(300 / list.length, 24);
@@ -138,19 +154,21 @@ export function mountTorontoMap(container: HTMLElement, store: Store): void {
       }
     }
 
-    // restaurant selection → open popup
+    // restaurant selection → open popup, once markers exist and the camera settled
     const selectedId = state.selectedRestaurant;
     if (selectedId) {
       const marker = markersById.get(selectedId);
-      if (marker && markerLayer.hasLayer(marker) && !marker.isPopupOpen()) {
-        marker.openPopup();
-      } else if (marker && !markerLayer.hasLayer(marker)) {
-        // still staggering in — open once present
-        staggerTimers.push(
-          window.setTimeout(() => {
-            if (store.get().selectedRestaurant === selectedId) marker.openPopup();
-          }, 480),
-        );
+      if (marker && !marker.isPopupOpen()) {
+        const staggering = !markerLayer.hasLayer(marker);
+        const wait = Math.max(settleUntil - Date.now(), staggering ? 480 : 0);
+        if (wait === 0) marker.openPopup();
+        else {
+          staggerTimers.push(
+            window.setTimeout(() => {
+              if (store.get().selectedRestaurant === selectedId) marker.openPopup();
+            }, wait),
+          );
+        }
       }
     }
   }
@@ -159,6 +177,7 @@ export function mountTorontoMap(container: HTMLElement, store: Store): void {
   store.subscribe((state, prev) => {
     if (
       state.selection !== prev.selection ||
+      state.area !== prev.area ||
       state.scope !== prev.scope ||
       state.restaurants !== prev.restaurants ||
       state.selectedRestaurant !== prev.selectedRestaurant ||

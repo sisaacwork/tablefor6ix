@@ -4,7 +4,7 @@ import type { Topology, GeometryCollection } from 'topojson-specification';
 import atlasJson from 'world-atlas/countries-110m.json';
 import type { Store } from '../state/store.ts';
 import type { Selection } from '../types.ts';
-import { COUNTRIES, scopeCoverage } from '../data/loader.ts';
+import { COUNTRIES, scopeCoverage, areaCoverage } from '../data/loader.ts';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
@@ -66,12 +66,14 @@ export function mountWorldMap(container: HTMLElement, store: Store): void {
   };
 
   function select(selection: Selection): void {
-    const current = store.get().selection;
+    const { selection: current, area } = store.get();
     const same = current && current.kind === selection.kind && current.code === selection.code;
     store.set({
       selection: same ? null : selection,
       selectedRestaurant: null,
-      mobileScreen: same ? 'world' : 'city',
+      // An active area filter keeps the city screen alive even when the
+      // country selection toggles off.
+      mobileScreen: same && !area ? 'world' : 'city',
     });
   }
 
@@ -210,7 +212,11 @@ export function mountWorldMap(container: HTMLElement, store: Store): void {
   // ---- state rendering ----
   function render(): void {
     const state = store.get();
-    const cov = scopeCoverage(state.scope);
+    // With an area filter active, the world map shows that area's coverage.
+    const cov =
+      state.area && state.restaurants
+        ? areaCoverage(state.restaurants, state.area)
+        : scopeCoverage(state.scope);
     for (const t of targets) {
       const { kind, code } = t.selection;
       const count =
@@ -246,6 +252,8 @@ export function mountWorldMap(container: HTMLElement, store: Store): void {
     if (
       state.scope !== prev.scope ||
       state.selection !== prev.selection ||
+      state.area !== prev.area ||
+      state.restaurants !== prev.restaurants ||
       state.passport !== prev.passport ||
       state.mobileScreen !== prev.mobileScreen
     ) {

@@ -1,6 +1,6 @@
 import type { Store } from '../state/store.ts';
-import type { Restaurant } from '../types.ts';
-import { areaOf, lookup, REGION_LABELS } from '../data/loader.ts';
+import type { Restaurant, Selection } from '../types.ts';
+import { areaOf, lookup, REGION_LABELS, flagEmoji } from '../data/loader.ts';
 
 interface AreaSummary {
   name: string;
@@ -70,7 +70,8 @@ export function mountAreas(container: HTMLElement, store: Store): void {
       btn.className = 'area-row';
       btn.addEventListener('click', () =>
         store.set({
-          selection: { kind: 'area', code: area.name },
+          area: area.name,
+          selection: null,
           selectedRestaurant: null,
           mobileScreen: 'city',
           view: 'map',
@@ -113,55 +114,62 @@ export function mountAreas(container: HTMLElement, store: Store): void {
   });
 }
 
-/** Country chips for an area selection, rendered under the city header. */
+/**
+ * Country chips for an active area filter. Clicking a chip filters WITHIN the
+ * area; clicking the active chip clears the country filter (area stays).
+ */
 export function areaChips(
   restaurants: Restaurant[],
   areaName: string,
-  onPick: (kind: 'country' | 'entity' | 'region', code: string) => void,
+  active: Selection | null,
+  onToggle: (selection: Selection) => void,
 ): HTMLElement {
   const subset = restaurants.filter((r) => areaOf(r) === areaName);
-  const counts = new Map<string, { kind: 'country' | 'entity' | 'region'; label: string; n: number }>();
+  const counts = new Map<string, { kind: Selection['kind']; label: string; flag: string; n: number }>();
   for (const r of subset) {
     for (const c of r.countries) {
-      const key = `c:${c}`;
-      const entry = counts.get(key) ?? {
+      const entry = counts.get(`c:${c}`) ?? {
         kind: 'country' as const,
         label: lookup.seats.get(c)?.name ?? c,
+        flag: flagEmoji('country', c),
         n: 0,
       };
       entry.n++;
-      counts.set(key, entry);
+      counts.set(`c:${c}`, entry);
     }
     for (const e of r.entities) {
-      const key = `x:${e}`;
-      const entry = counts.get(key) ?? {
+      const entry = counts.get(`x:${e}`) ?? {
         kind: 'entity' as const,
         label: lookup.entities.get(e)?.name ?? e,
+        flag: flagEmoji('entity', e),
         n: 0,
       };
       entry.n++;
-      counts.set(key, entry);
+      counts.set(`x:${e}`, entry);
     }
     for (const g of r.regions) {
-      const key = `r:${g}`;
-      const entry = counts.get(key) ?? {
+      const entry = counts.get(`r:${g}`) ?? {
         kind: 'region' as const,
         label: REGION_LABELS[g] ?? g,
+        flag: '',
         n: 0,
       };
       entry.n++;
-      counts.set(key, entry);
+      counts.set(`r:${g}`, entry);
     }
   }
   const wrap = document.createElement('div');
   wrap.className = 'area-chips';
   const sorted = [...counts.entries()].sort((a, b) => b[1].n - a[1].n);
-  for (const [key, { kind, label, n }] of sorted) {
+  for (const [key, { kind, label, flag, n }] of sorted) {
+    const code = key.slice(2);
+    const isActive = !!active && active.kind === kind && active.code === code;
     const chip = document.createElement('button');
     chip.type = 'button';
     chip.className = 'chip';
-    chip.textContent = `${label} ${n}`;
-    chip.addEventListener('click', () => onPick(kind, key.slice(2)));
+    chip.setAttribute('aria-pressed', String(isActive));
+    chip.textContent = `${flag ? `${flag} ` : ''}${label} ${n}`;
+    chip.addEventListener('click', () => onToggle({ kind, code }));
     wrap.appendChild(chip);
   }
   return wrap;

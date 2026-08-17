@@ -18,6 +18,7 @@ export interface Restaurant {
 
 export interface Seat {
   iso3: string;
+  iso2: string;
   numeric: string;
   name: string;
   demonym: string;
@@ -30,6 +31,7 @@ export interface Seat {
 
 export interface Entity {
   code: string;
+  iso2: string | null;
   numeric: string | null;
   name: string;
   demonym: string;
@@ -66,7 +68,7 @@ export interface CoverageTotal {
 
 export type Scope = 'gta' | 'toronto';
 export type View = 'map' | 'missing' | 'areas' | 'about';
-export type SelectionKind = 'country' | 'entity' | 'region' | 'area';
+export type SelectionKind = 'country' | 'entity' | 'region';
 
 export interface Selection {
   kind: SelectionKind;
@@ -77,6 +79,8 @@ export interface AppState {
   scope: Scope;
   view: View;
   selection: Selection | null;
+  /** Neighbourhood/municipality filter — coexists with selection ("Vietnam within Kensington"). */
+  area: string | null;
   selectedRestaurant: string | null;
   restaurants: Restaurant[] | null;
   mobileScreen: 'world' | 'city';

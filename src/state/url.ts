@@ -25,9 +25,6 @@ export function parseUrl(search: string): Partial<AppState> {
       selection = { kind: 'region', code: c.slice(2) };
     } else if (c.startsWith('x:') && lookup.entities.has(c.slice(2))) {
       selection = { kind: 'entity', code: c.slice(2) };
-    } else if (c.startsWith('n:') && c.length > 2) {
-      // Area names are validated lazily once restaurants load.
-      selection = { kind: 'area', code: c.slice(2) };
     } else if (lookup.seats.has(c.toUpperCase())) {
       selection = { kind: 'country', code: c.toUpperCase() };
     }
@@ -35,6 +32,13 @@ export function parseUrl(search: string): Partial<AppState> {
       out.selection = selection;
       out.mobileScreen = 'city';
     }
+  }
+
+  // Area names are validated lazily once restaurants load.
+  const a = params.get('a');
+  if (a && a.length <= 60) {
+    out.area = a;
+    out.mobileScreen = 'city';
   }
 
   const r = params.get('r');
@@ -47,9 +51,10 @@ function serialize(state: AppState): string {
   const params = new URLSearchParams();
   if (state.selection) {
     const { kind, code } = state.selection;
-    const prefix = { region: 'r:', entity: 'x:', area: 'n:', country: '' }[kind];
+    const prefix = { region: 'r:', entity: 'x:', country: '' }[kind];
     params.set('c', `${prefix}${code}`);
   }
+  if (state.area) params.set('a', state.area);
   if (state.selectedRestaurant) params.set('r', state.selectedRestaurant);
   if (state.scope === 'toronto') params.set('scope', 'toronto');
   if (state.view !== 'map') params.set('view', state.view);
@@ -73,6 +78,7 @@ export function bindUrl(store: Store): void {
     applying = true;
     store.set({
       selection: null,
+      area: null,
       selectedRestaurant: null,
       mobileScreen: 'world',
       ...parseUrl(location.search),

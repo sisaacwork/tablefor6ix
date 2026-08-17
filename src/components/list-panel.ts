@@ -1,12 +1,12 @@
 import type { Store } from '../state/store.ts';
-import { restaurantsFor } from '../data/loader.ts';
+import { restaurantsFor, restaurantFlags, cuisineLabel } from '../data/loader.ts';
 
 export function mountListPanel(container: HTMLElement, store: Store): void {
   function render(): void {
     const state = store.get();
     container.replaceChildren();
 
-    if (!state.selection) {
+    if (!state.selection && !state.area) {
       const hint = document.createElement('p');
       hint.className = 'city-hint';
       hint.textContent =
@@ -22,8 +22,11 @@ export function mountListPanel(container: HTMLElement, store: Store): void {
       return;
     }
 
-    const list = restaurantsFor(state.restaurants, state.selection, state.scope);
+    const list = restaurantsFor(state.restaurants, state.selection, state.scope, state.area);
     if (list.length === 0) return; // empty state component handles this
+
+    // Cuisine line matters most when browsing a mixed set (area with no country picked)
+    const mixed = !state.selection || state.selection.kind === 'region';
 
     const ul = document.createElement('ul');
     for (const r of list) {
@@ -34,10 +37,24 @@ export function mountListPanel(container: HTMLElement, store: Store): void {
       btn.setAttribute('aria-pressed', String(state.selectedRestaurant === r.id));
       btn.addEventListener('click', () => store.set({ selectedRestaurant: r.id }));
 
+      const flags = restaurantFlags(r);
+      if (flags) {
+        const flagSpan = document.createElement('span');
+        flagSpan.className = 'r-flags';
+        flagSpan.textContent = `${flags} `;
+        flagSpan.setAttribute('aria-hidden', 'true');
+        btn.appendChild(flagSpan);
+      }
       const name = document.createElement('span');
       name.className = 'r-name';
       name.textContent = r.name;
       btn.appendChild(name);
+      if (mixed) {
+        const cuisine = document.createElement('span');
+        cuisine.className = 'r-cuisine';
+        cuisine.textContent = ` ${cuisineLabel(r)}`;
+        btn.appendChild(cuisine);
+      }
       if (r.verified) {
         const check = document.createElement('span');
         check.className = 'r-verified';
@@ -73,6 +90,7 @@ export function mountListPanel(container: HTMLElement, store: Store): void {
   store.subscribe((state, prev) => {
     if (
       state.selection !== prev.selection ||
+      state.area !== prev.area ||
       state.scope !== prev.scope ||
       state.restaurants !== prev.restaurants ||
       state.selectedRestaurant !== prev.selectedRestaurant

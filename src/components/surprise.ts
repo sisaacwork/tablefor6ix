@@ -27,6 +27,7 @@ export function mountSurprise(button: HTMLButtonElement, store: Store): void {
     }
     store.set({
       selection: { kind: 'country', code: pick },
+      area: null, // surprise is a city-wide jump
       selectedRestaurant: null,
       mobileScreen: 'city',
       view: 'map',

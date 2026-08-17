@@ -12,7 +12,7 @@ import './styles/components.css';
 import { createStore } from './state/store.ts';
 import { bindUrl, parseUrl } from './state/url.ts';
 import { getStamps } from './state/passport.ts';
-import { fetchRestaurants, displayName, coverageCount } from './data/loader.ts';
+import { fetchRestaurants, displayName, coverageCount, restaurantsFor } from './data/loader.ts';
 import { mountWorldMap } from './components/world-map.ts';
 import { mountTorontoMap } from './components/toronto-map.ts';
 import { mountCityHeader } from './components/city-header.ts';
@@ -36,6 +36,7 @@ const initial: AppState = {
   scope: 'gta',
   view: 'map',
   selection: null,
+  area: null,
   selectedRestaurant: null,
   restaurants: null,
   mobileScreen: 'world',
@@ -87,12 +88,17 @@ renderShell();
 const liveRegion = el('live-region');
 store.subscribe((state, prev) => {
   if (state.view !== prev.view || state.mobileScreen !== prev.mobileScreen) renderShell();
-  if (state.selection !== prev.selection && state.selection) {
-    const count = coverageCount(state.selection, state.scope, state.restaurants);
+  if ((state.selection !== prev.selection || state.area !== prev.area) && (state.selection || state.area)) {
+    const what = [state.selection ? displayName(state.selection) : null, state.area]
+      .filter(Boolean)
+      .join(' in ');
+    const count = state.restaurants
+      ? restaurantsFor(state.restaurants, state.selection, state.scope, state.area).length
+      : state.selection
+        ? coverageCount(state.selection, state.scope)
+        : 0;
     liveRegion.textContent =
-      count > 0
-        ? `${displayName(state.selection)}. ${count} restaurant${count === 1 ? '' : 's'} shown.`
-        : `${displayName(state.selection)}. No restaurants yet.`;
+      count > 0 ? `${what}. ${count} restaurant${count === 1 ? '' : 's'} shown.` : `${what}. No restaurants yet.`;
     // Tablet (stacked) layout: bring the Toronto map into view on selection
     if (matchMedia('(min-width: 768px) and (max-width: 1023px)').matches) {
       const smooth = !matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -107,14 +113,16 @@ function loadRestaurants(): void {
     .then((restaurants) => store.set({ restaurants }))
     .catch((err) => console.error('Failed to load restaurants', err));
 }
-if (initial.selection || initial.view === 'areas') loadRestaurants();
+if (initial.selection || initial.area || initial.view === 'areas') loadRestaurants();
 else if ('requestIdleCallback' in window) requestIdleCallback(() => loadRestaurants());
 else setTimeout(loadRestaurants, 800);
 
 // Restaurant data is also needed the moment a selection or the areas view opens
 store.subscribe((state, prev) => {
   if (state.restaurants) return;
-  const selected = state.selection && state.selection !== prev.selection;
+  const selected =
+    (state.selection && state.selection !== prev.selection) ||
+    (state.area && state.area !== prev.area);
   if (selected || (state.view === 'areas' && prev.view !== 'areas')) {
     loadRestaurants();
   }
