@@ -15,29 +15,23 @@ export function mountAbout(container: HTMLElement, store: Store): void {
       <h2>About</h2>
       <p>Table for 6ix maps where to eat the world in Toronto: every restaurant we know of,
       organized by the country its food comes from. ${COVERAGE.totals.gta.covered} of
-      ${COVERAGE.seats} countries are represented so far. The gaps are the point —
+      ${COVERAGE.seats} countries are represented so far. The gaps are ready to be filled... 
       see <strong>Missing Countries</strong>.</p>
 
-      <h3>What counts as a country</h3>
+      <h3>What counts as a country?</h3>
       <p>The denominator is 195: the 193 member states of the United Nations plus the two
-      observer states, Palestine and the Vatican. That is a convention, not a claim about
-      what a country is. Taiwan, Hong Kong, Kosovo, and Tibet all have real restaurants in
+      observer states, Palestine and the Vatican. Taiwan, Hong Kong, Kosovo, and Tibet all have real restaurants in
       Toronto and real communities behind them; they appear on the map as searchable places
-      of their own, marked "beyond the 195," and they never inflate the count. Reasonable
-      people draw these lines differently — this is just where we drew ours, and we'd rather
-      say so plainly than pretend the question doesn't exist.</p>
+      of their own, marked "beyond the 195," and they don't inflate the count.</p>
 
-      <h3>What counts as Toronto</h3>
-      <p>The default scope is the GTA — Toronto plus Mississauga, Brampton, Markham,
-      Richmond Hill, Vaughan, Pickering, Ajax, Oakville, Aurora, and Newmarket — because
-      a huge share of the region's food is north of Steeles or west of Kipling. The
+      <h3>What counts as Toronto?</h3>
+      <p>The default scope is the GTA: Toronto plus Mississauga, Brampton, Markham,
+      Richmond Hill, Vaughan, Pickering, Ajax, Oakville, Aurora, and Newmarket. A huge share of the region's food is north of Steeles or west of Kipling. The
       "Toronto only" toggle narrows to the amalgamated city.</p>
 
       <h3>Regional cuisines</h3>
       <p>Some restaurants are Caribbean, West African, or Middle Eastern rather than any one
-      country's — so that's how we list them. We don't spread a "Caribbean" restaurant across
-      thirteen island nations to pump up the number; the count's credibility is the site's
-      credibility.</p>
+      country's, so that's how they're listed here.</p>
 
       <h3>The data</h3>
       <p>Seeded from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>

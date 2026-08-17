@@ -19,7 +19,7 @@ export function mountMissing(container: HTMLElement, store: Store): void {
     sub.className = 'missing-sub';
     sub.textContent = `${missing.length} of ${COVERAGE.seats} countries with no ${
       state.scope === 'toronto' ? 'Toronto' : 'GTA'
-    } restaurant on the map — that we know of. Know one? Every name opens the form.`;
+    } restaurant on the map (yet). Know one? Click a country below and let us know.`;
     container.append(h2, sub);
 
     const wall = document.createElement('ul');

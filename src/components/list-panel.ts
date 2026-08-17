@@ -10,7 +10,7 @@ export function mountListPanel(container: HTMLElement, store: Store): void {
       const hint = document.createElement('p');
       hint.className = 'city-hint';
       hint.textContent =
-        'Pick a country on the world map — or search for one — to see where to eat it in Toronto.';
+        'Pick or search for a country on the world map to see where to eat its cuisine in Toronto.';
       container.appendChild(hint);
       return;
     }
