@@ -42,6 +42,19 @@ export function flagEmoji(kind: 'country' | 'entity', code: string): string {
   return iso2.toUpperCase().replace(/./g, (c) => String.fromCodePoint(127397 + c.charCodeAt(0)));
 }
 
+/** The single flag used for a restaurant's map pin (first country, then entity). */
+export function primaryFlag(r: Restaurant): string | null {
+  for (const c of r.countries) {
+    const flag = flagEmoji('country', c);
+    if (flag) return flag;
+  }
+  for (const e of r.entities) {
+    const flag = flagEmoji('entity', e);
+    if (flag) return flag;
+  }
+  return null;
+}
+
 /** Flags for a restaurant's countries + entities, e.g. "🇹🇹 🇬🇾". */
 export function restaurantFlags(r: Restaurant): string {
   return [

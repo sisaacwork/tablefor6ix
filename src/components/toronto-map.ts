@@ -1,8 +1,10 @@
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import 'leaflet.markercluster';
+import 'leaflet.markercluster/dist/MarkerCluster.css';
 import type { Store } from '../state/store.ts';
 import type { Restaurant } from '../types.ts';
-import { restaurantsFor, restaurantFlags, cuisineLabel } from '../data/loader.ts';
+import { restaurantsFor, restaurantFlags, cuisineLabel, primaryFlag } from '../data/loader.ts';
 
 const TORONTO_CENTER: L.LatLngExpression = [43.72, -79.4];
 
@@ -38,9 +40,32 @@ function popupHtml(r: Restaurant): string {
   return parts.join('');
 }
 
+/** Flag emoji as the pin when resolved; a small accent dot for flagless (regions, Tibet). */
+function pinIcon(r: Restaurant): L.DivIcon {
+  const flag = primaryFlag(r);
+  return L.divIcon({
+    className: '',
+    html: flag
+      ? `<span class="flag-pin" role="img">${flag}</span>`
+      : '<span class="flag-pin flag-pin-dot"></span>',
+    iconSize: [24, 24],
+    iconAnchor: [12, 12],
+    popupAnchor: [0, -10],
+  });
+}
+
+function clusterIcon(cluster: L.MarkerCluster): L.DivIcon {
+  const n = cluster.getChildCount();
+  const tier = n >= 100 ? 'lg' : n >= 25 ? 'md' : 'sm';
+  return L.divIcon({
+    className: '',
+    html: `<span class="cluster-pin cluster-${tier}">${n}</span>`,
+    iconSize: tier === 'lg' ? [44, 44] : tier === 'md' ? [38, 38] : [32, 32],
+  });
+}
+
 export function mountTorontoMap(container: HTMLElement, store: Store): void {
   const map = L.map(container, {
-    preferCanvas: true,
     center: TORONTO_CENTER,
     zoom: 10,
     zoomControl: true,
@@ -52,38 +77,35 @@ export function mountTorontoMap(container: HTMLElement, store: Store): void {
     maxZoom: 19,
   }).addTo(map);
 
-  const markerLayer = L.layerGroup().addTo(map);
-  const markersById = new Map<string, L.CircleMarker>();
-  let staggerTimers: number[] = [];
+  if (import.meta.env.DEV) (window as unknown as { __map?: L.Map }).__map = map;
+
+  const clusterGroup = L.markerClusterGroup({
+    // Chunky clusters when zoomed out; past zoom 15 almost everything resolves
+    // to flag pins, with only same-building stacks left to spiderfy.
+    maxClusterRadius: (zoom: number) => (zoom >= 16 ? 18 : 55),
+    showCoverageOnHover: false,
+    spiderfyOnMaxZoom: true,
+    chunkedLoading: true,
+    animate: !reducedMotion(),
+    iconCreateFunction: clusterIcon,
+  }).addTo(map);
+
+  const markersById = new Map<string, L.Marker>();
   let renderedKey = '';
+  let popupTimer: number | null = null;
   // Opening a popup while the camera is animating gets it auto-closed (which
   // would also clear the selection) — hold popup opens until the map settles.
   let settleUntil = 0;
 
-  function clearMarkers(): void {
-    staggerTimers.forEach((t) => clearTimeout(t));
-    staggerTimers = [];
-    markerLayer.clearLayers();
-    markersById.clear();
-  }
-
-  // The canvas renderer can't resolve CSS variables — read the computed values.
-  const rootStyle = getComputedStyle(document.documentElement);
-  const accent = rootStyle.getPropertyValue('--accent').trim() || '#2447c5';
-  const paperRaised = rootStyle.getPropertyValue('--paper-raised').trim() || '#f6f8f5';
-
-  function makeMarker(r: Restaurant): L.CircleMarker {
-    const marker = L.circleMarker([r.lat, r.lng], {
-      radius: 6,
-      color: accent,
-      weight: 1.75,
-      fillColor: paperRaised,
-      fillOpacity: 0.9,
+  function makeMarker(r: Restaurant): L.Marker {
+    const marker = L.marker([r.lat, r.lng], {
+      icon: pinIcon(r),
+      title: r.name,
+      keyboard: false, // 6,000 tab stops would be hostile; the list is the keyboard path
     });
     marker.bindPopup(() => popupHtml(r));
     marker.on('click', () => {
-      const current = store.get().selectedRestaurant;
-      if (current !== r.id) store.set({ selectedRestaurant: r.id });
+      if (store.get().selectedRestaurant !== r.id) store.set({ selectedRestaurant: r.id });
     });
     marker.on('popupclose', () => {
       if (store.get().selectedRestaurant === r.id) store.set({ selectedRestaurant: null });
@@ -91,11 +113,9 @@ export function mountTorontoMap(container: HTMLElement, store: Store): void {
     return marker;
   }
 
-  // Renders are coalesced into a macrotask so they run after every store
-  // listener in the same tick (including the one that flips the mobile screen)
-  // — Leaflet maths go NaN on a display:none container. setTimeout rather than
-  // requestAnimationFrame: rAF never fires in a hidden/background tab, which
-  // would leave the map unrendered until the tab is focused.
+  // Coalesced via setTimeout, not rAF: rAF never fires in a hidden/background
+  // tab, which would leave the map unrendered until the tab is focused. Leaflet
+  // maths also go NaN on a display:none container, hence the size guard.
   let scheduled = false;
   function render(): void {
     if (scheduled) return;
@@ -110,27 +130,33 @@ export function mountTorontoMap(container: HTMLElement, store: Store): void {
     const state = store.get();
     if (container.offsetWidth === 0 || container.offsetHeight === 0) return; // hidden; re-rendered on screen swap
     map.invalidateSize();
+    if (!state.restaurants) return;
 
-    if ((!state.selection && !state.area) || !state.restaurants) {
-      if (renderedKey !== '') {
-        clearMarkers();
-        renderedKey = '';
-        map.setView(TORONTO_CENTER, 10, { animate: false });
-      }
-      return;
-    }
+    const filtered = !!state.selection || !!state.area;
+    // Default view: every pin in scope, clustered.
+    const list = filtered
+      ? restaurantsFor(state.restaurants, state.selection, state.scope, state.area)
+      : state.restaurants.filter((r) => state.scope === 'gta' || r.municipality === 'Toronto');
 
     const key = [
-      state.selection ? `${state.selection.kind}:${state.selection.code}` : '',
+      state.selection ? `${state.selection.kind}:${state.selection.code}` : '*',
       state.area ?? '',
       state.scope,
     ].join('|');
-    const list = restaurantsFor(state.restaurants, state.selection, state.scope, state.area);
 
     if (key !== renderedKey) {
       renderedKey = key;
-      clearMarkers();
-      if (list.length > 0) {
+      if (popupTimer) clearTimeout(popupTimer);
+      clusterGroup.clearLayers();
+      markersById.clear();
+      const markers = list.map((r) => {
+        const marker = makeMarker(r);
+        markersById.set(r.id, marker);
+        return marker;
+      });
+      clusterGroup.addLayers(markers);
+
+      if (filtered && list.length > 0) {
         const bounds = L.latLngBounds(list.map((r) => [r.lat, r.lng] as [number, number]));
         const boundsOpts = { padding: [36, 36] as [number, number], maxZoom: 15 };
         if (reducedMotion()) map.fitBounds(bounds, boundsOpts);
@@ -138,37 +164,27 @@ export function mountTorontoMap(container: HTMLElement, store: Store): void {
           map.flyToBounds(bounds, { ...boundsOpts, duration: 0.6 });
           settleUntil = Date.now() + 750;
         }
-
-        // One orchestrated moment: markers stagger in over ~300ms.
-        const stagger = reducedMotion() ? 0 : Math.min(300 / list.length, 24);
-        list.forEach((r, i) => {
-          const marker = makeMarker(r);
-          markersById.set(r.id, marker);
-          if (stagger === 0) marker.addTo(markerLayer);
-          else {
-            staggerTimers.push(
-              window.setTimeout(() => marker.addTo(markerLayer), 150 + i * stagger),
-            );
-          }
-        });
+      } else if (!filtered) {
+        map.setView(TORONTO_CENTER, 10, { animate: false });
       }
     }
 
-    // restaurant selection → open popup, once markers exist and the camera settled
+    // restaurant selection → reveal the marker (unclustering if needed) and open its popup
     const selectedId = state.selectedRestaurant;
     if (selectedId) {
       const marker = markersById.get(selectedId);
       if (marker && !marker.isPopupOpen()) {
-        const staggering = !markerLayer.hasLayer(marker);
-        const wait = Math.max(settleUntil - Date.now(), staggering ? 480 : 0);
-        if (wait === 0) marker.openPopup();
-        else {
-          staggerTimers.push(
+        const wait = Math.max(settleUntil - Date.now(), 0);
+        if (popupTimer) clearTimeout(popupTimer);
+        popupTimer = window.setTimeout(() => {
+          if (store.get().selectedRestaurant !== selectedId) return;
+          clusterGroup.zoomToShowLayer(marker, () => {
+            settleUntil = Date.now() + 400;
             window.setTimeout(() => {
               if (store.get().selectedRestaurant === selectedId) marker.openPopup();
-            }, wait),
-          );
-        }
+            }, 400);
+          });
+        }, wait);
       }
     }
   }
