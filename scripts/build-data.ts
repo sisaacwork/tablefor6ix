@@ -16,7 +16,9 @@ import {
   type Restaurant,
 } from './lib/schema.ts';
 import { loadCountries, verifyTopojsonJoin } from './lib/countries.ts';
-import { tokenize, mapCuisines, normalizeName } from './lib/cuisine.ts';
+import { tokenize, mapCuisines, normalizeName, makeChainMatcher } from './lib/cuisine.ts';
+import { PointGrid, toNamedPoint } from './lib/match.ts';
+import { withBbox, containsPoint } from './lib/geo.ts';
 
 const strict = process.argv.includes('--strict');
 const dir = (p: string) => fileURLToPath(new URL(p, import.meta.url));
@@ -47,13 +49,32 @@ const overrides = OverridesSchema.parse(
   JSON.parse(readFileSync(dir('../data/overrides.json'), 'utf8')),
 );
 
-const chainNames = new Set<string>(
-  (
-    JSON.parse(readFileSync(dir('../data/chains.json'), 'utf8')) as { names: string[] }
-  ).names.map(normalizeName),
+const isChain = makeChainMatcher(
+  (JSON.parse(readFileSync(dir('../data/chains.json'), 'utf8')) as { names: string[] }).names,
 );
 
-const AUXILIARY_RAW = new Set(['dinesafe.json', 'ttc-stops.json', 'neighbourhoods.json']);
+// "Amal (Toronto)" / "Hey Noodles (Scarborough)" → the suffix is a locality
+// marker, not part of the name. Municipalities plus former boroughs.
+const LOCALITY_SUFFIXES = new Set([
+  'toronto', 'scarborough', 'north york', 'etobicoke', 'east york', 'york', 'downsview',
+  'mississauga', 'brampton', 'markham', 'richmond hill', 'vaughan', 'thornhill', 'woodbridge',
+  'pickering', 'ajax', 'oakville', 'aurora', 'newmarket', 'downtown', 'uptown', 'midtown',
+]);
+function stripLocalitySuffix(name: string): string {
+  return name
+    .replace(/\s*\(([^)]+)\)\s*$/, (full, inner: string) =>
+      LOCALITY_SUFFIXES.has(inner.trim().toLowerCase()) ? '' : full,
+    )
+    .trim();
+}
+
+const AUXILIARY_RAW = new Set([
+  'dinesafe.json',
+  'ttc-stops.json',
+  'neighbourhoods.json',
+  'overture.json',
+  'boundaries.json',
+]);
 const rawFiles = readdirSync(dir('../data/raw'))
   .filter((f) => f.endsWith('.json'))
   .filter((f) => !AUXILIARY_RAW.has(f));
@@ -87,12 +108,12 @@ for (const file of rawFiles) {
       continue;
     }
     const tags = el.tags ?? {};
-    const name = tags['name']?.trim();
+    const name = stripLocalitySuffix(tags['name']?.trim() ?? '');
     if (!name) {
       drop('no name');
       continue;
     }
-    if (chainNames.has(normalizeName(name))) {
+    if (isChain(name)) {
       drop('chain');
       continue;
     }
@@ -155,92 +176,97 @@ for (const r of seen.values()) {
 }
 let restaurants = [...byNameCell.values()];
 
+// ---- Overture supplemental source -----------------------------------------
+// Fresher than OSM (largely Meta business listings). Places that map to a
+// cuisine, aren't chains, fall inside a GTA municipality, and don't match an
+// existing OSM entry get added with source: 'overture'.
+let overtureAdded = 0;
+let overtureDupes = 0;
+const overtureUnmapped = new Map<string, number>();
+const overturePath = dir('../data/raw/overture.json');
+const boundariesPath = dir('../data/raw/boundaries.json');
+if (existsSync(overturePath) && existsSync(boundariesPath)) {
+  interface OverturePlace {
+    id: string;
+    name: string;
+    category: string;
+    confidence: number;
+    lat: number;
+    lng: number;
+    address: string | null;
+    website: string | null;
+  }
+  const overture = JSON.parse(readFileSync(overturePath, 'utf8')) as { places: OverturePlace[] };
+  const boundaries = JSON.parse(readFileSync(boundariesPath, 'utf8')) as {
+    features: { name: string; geometry: { type: string; coordinates: unknown } }[];
+  };
+  const boundaryBbox = boundaries.features.map((f) => withBbox(f as never)) as ((typeof boundaries.features)[number] & import('./lib/geo.ts').BboxFeature)[];
+  const municipalityAt = (lat: number, lng: number): string | null =>
+    boundaryBbox.find((f) => containsPoint(f, lng, lat))?.name ?? null;
+
+  const existingGrid = new PointGrid();
+  for (const r of restaurants) existingGrid.add(toNamedPoint(r.name, r.lat, r.lng));
+
+  for (const place of overture.places) {
+    // "persian_iranian_restaurant" → "persian_iranian" → aliases → cuisine map
+    const token = place.category.replace(/_restaurant$/, '');
+    const mapping = mapCuisines(tokenize(token), cuisineMap);
+    if (!mapping.countries.size && !mapping.regions.size && !mapping.entities.size) {
+      if (mapping.unmapped.length) {
+        overtureUnmapped.set(token, (overtureUnmapped.get(token) ?? 0) + 1);
+      }
+      continue;
+    }
+    if (isChain(place.name)) continue;
+    const cleanName = stripLocalitySuffix(place.name);
+    if (!cleanName) continue;
+    const point = toNamedPoint(cleanName, place.lat, place.lng);
+    if (existingGrid.hasMatch(point, 150, 'strict')) {
+      overtureDupes++;
+      continue;
+    }
+    const municipality = municipalityAt(place.lat, place.lng);
+    if (!municipality) continue; // inside the bbox but outside our 11 municipalities
+    restaurants.push({
+      id: `ovt-${place.id}`,
+      name: cleanName,
+      countries: [...mapping.countries].sort(),
+      regions: [...mapping.regions].sort(),
+      entities: [...mapping.entities].sort(),
+      lat: place.lat,
+      lng: place.lng,
+      address: place.address,
+      municipality,
+      neighbourhood: null,
+      website: place.website,
+      station: null,
+      verified: false,
+      note: null,
+      source: 'overture',
+    });
+    existingGrid.add(point); // dedupe Overture against itself too
+    overtureAdded++;
+  }
+} else {
+  console.warn('⚠ overture.json/boundaries.json missing — Overture merge skipped (npm run data:overture / data:boundaries)');
+}
+
 // ---- DineSafe liveness cross-check (City of Toronto only) -----------------
 // A Toronto restaurant with no licensed food premise of a matching name
 // nearby is almost certainly closed. Escape hatch: overrides.keepIds.
-interface DinesafeEntry {
-  name: string;
-  lat: number;
-  lng: number;
-}
 let dinesafeDropped: Restaurant[] = [];
 const dinesafePath = dir('../data/raw/dinesafe.json');
 if (existsSync(dinesafePath)) {
   const dinesafe = JSON.parse(readFileSync(dinesafePath, 'utf8')) as {
-    establishments: DinesafeEntry[];
+    establishments: { name: string; lat: number; lng: number }[];
   };
-  // Generic words that don't identify a specific restaurant — a shared
-  // distinctive token ("kabul", "kibo") means same place renamed slightly,
-  // a shared generic one ("sushi", "grill") does not.
-  const GENERIC = new Set([
-    'restaurant', 'cafe', 'caffe', 'coffee', 'kitchen', 'house', 'grill', 'grille', 'express',
-    'sushi', 'ramen', 'pizza', 'pizzeria', 'shawarma', 'kebab', 'kabob', 'kabab', 'noodle',
-    'noodles', 'thai', 'chinese', 'indian', 'japanese', 'korean', 'vietnamese', 'halal',
-    'food', 'foods', 'eatery', 'diner', 'bistro', 'cuisine', 'authentic', 'original',
-    'famous', 'golden', 'royal', 'star', 'king', 'queen', 'chef', 'taste', 'spice', 'curry',
-    'roti', 'tandoori', 'wok', 'garden', 'palace', 'villa', 'casa', 'little', 'great',
-  ]);
-  const distinctiveTokens = (name: string): Set<string> =>
-    new Set(
-      name
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[̀-ͯ]/g, '')
-        .split(/[^a-z0-9]+/)
-        .filter((t) => t.length >= 4 && !GENERIC.has(t)),
-    );
-
-  const CELL = 0.002; // ~200m grid
-  const grid = new Map<string, { norm: string; tokens: Set<string>; lat: number; lng: number }[]>();
-  for (const e of dinesafe.establishments) {
-    const key = `${Math.round(e.lat / CELL)}|${Math.round(e.lng / CELL)}`;
-    const bucket = grid.get(key) ?? [];
-    bucket.push({ norm: normalizeName(e.name), tokens: distinctiveTokens(e.name), lat: e.lat, lng: e.lng });
-    grid.set(key, bucket);
-  }
-
-  const bigrams = (s: string): Set<string> => {
-    const out = new Set<string>();
-    for (let i = 0; i < s.length - 1; i++) out.add(s.slice(i, i + 2));
-    return out;
-  };
-  const dice = (a: string, b: string): number => {
-    if (a.length < 2 || b.length < 2) return a === b ? 1 : 0;
-    const A = bigrams(a);
-    const B = bigrams(b);
-    let hits = 0;
-    for (const g of A) if (B.has(g)) hits++;
-    return (2 * hits) / (A.size + B.size);
-  };
-  const metres = (lat1: number, lng1: number, lat2: number, lng2: number): number => {
-    const dLat = (lat2 - lat1) * 111_320;
-    const dLng = (lng2 - lng1) * 111_320 * Math.cos((lat1 * Math.PI) / 180);
-    return Math.hypot(dLat, dLng);
-  };
-
-  const nameMatches = (a: string, b: string, aTokens: Set<string>, bTokens: Set<string>): boolean =>
-    a === b ||
-    (a.length >= 5 && b.includes(a)) ||
-    (b.length >= 5 && a.includes(b)) ||
-    dice(a, b) >= 0.72 ||
-    [...aTokens].some((t) => bTokens.has(t));
+  const grid = new PointGrid();
+  for (const e of dinesafe.establishments) grid.add(toNamedPoint(e.name, e.lat, e.lng));
 
   const keepIds = new Set(overrides.keepIds);
   const alive = (r: Restaurant): boolean => {
-    if (r.municipality !== 'Toronto' || r.source !== 'osm' || keepIds.has(r.id)) return true;
-    const norm = normalizeName(r.name);
-    const tokens = distinctiveTokens(r.name);
-    const ci = Math.round(r.lat / CELL);
-    const cj = Math.round(r.lng / CELL);
-    for (let di = -1; di <= 1; di++) {
-      for (let dj = -1; dj <= 1; dj++) {
-        for (const e of grid.get(`${ci + di}|${cj + dj}`) ?? []) {
-          if (metres(r.lat, r.lng, e.lat, e.lng) <= 150 && nameMatches(norm, e.norm, tokens, e.tokens))
-            return true;
-        }
-      }
-    }
-    return false;
+    if (r.municipality !== 'Toronto' || r.source === 'manual' || keepIds.has(r.id)) return true;
+    return grid.hasMatch(toNamedPoint(r.name, r.lat, r.lng), 150, 'lenient');
   };
 
   dinesafeDropped = restaurants.filter((r) => !alive(r));
@@ -315,31 +341,14 @@ restaurants.sort((a, b) => a.id.localeCompare(b.id));
 
   const hoodsPath = dir('../data/raw/neighbourhoods.json');
   if (existsSync(hoodsPath)) {
-    const { geoContains } = await import('d3-geo');
     const hoods = JSON.parse(readFileSync(hoodsPath, 'utf8')) as {
       features: { name: string; geometry: { type: string; coordinates: unknown } }[];
     };
-    // Cheap bbox prefilter, then exact spherical point-in-polygon.
-    const withBbox = hoods.features.map((f) => {
-      let minLat = 90, maxLat = -90, minLng = 180, maxLng = -180;
-      const walk = (coords: unknown): void => {
-        if (typeof (coords as number[])[0] === 'number') {
-          const [lng, lat] = coords as [number, number];
-          minLat = Math.min(minLat, lat); maxLat = Math.max(maxLat, lat);
-          minLng = Math.min(minLng, lng); maxLng = Math.max(maxLng, lng);
-        } else for (const c of coords as unknown[]) walk(c);
-      };
-      walk(f.geometry.coordinates);
-      return { ...f, minLat, maxLat, minLng, maxLng };
-    });
+    const hoodBbox = hoods.features.map((f) => withBbox(f as never)) as ((typeof hoods.features)[number] & import('./lib/geo.ts').BboxFeature)[];
     let assigned = 0;
     for (const r of restaurants) {
       if (r.municipality !== 'Toronto') continue;
-      const hit = withBbox.find(
-        (f) =>
-          r.lat >= f.minLat && r.lat <= f.maxLat && r.lng >= f.minLng && r.lng <= f.maxLng &&
-          geoContains(f.geometry as never, [r.lng, r.lat]),
-      );
+      const hit = hoodBbox.find((f) => containsPoint(f, r.lng, r.lat));
       if (hit) {
         r.neighbourhood = hit.name;
         assigned++;
@@ -417,6 +426,13 @@ const topCountries = Object.entries(gta.countries)
 
 console.log(`\n=== tablefor6ix data build ===`);
 console.log(`Restaurants: ${restaurants.length} (boundary dupes merged: ${boundaryDupes}, near-dupes merged: ${nearDupes.length})`);
+if (overtureAdded || overtureDupes) {
+  console.log(`Overture: added ${overtureAdded} new, skipped ${overtureDupes} already in OSM`);
+  if (overtureUnmapped.size) {
+    const top = [...overtureUnmapped.entries()].sort((a, b) => b[1] - a[1]).slice(0, 20);
+    console.log(`  unmapped categories: ${top.map(([t, n]) => `${t}(${n})`).join(' ')}`);
+  }
+}
 if (dinesafeDropped.length) {
   console.log(`DineSafe liveness: dropped ${dinesafeDropped.length} Toronto entries with no licensed match`);
   console.log(`  sample: ${dinesafeDropped.slice(0, 8).map((r) => r.name).join(' · ')}`);

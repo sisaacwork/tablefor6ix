@@ -9,6 +9,31 @@ export function normalizeName(name: string): string {
     .replace(/[^a-z0-9]/g, '');
 }
 
+/** "Nando's Queen West" → ["nandos", "queen", "west"] (apostrophes fold into the word). */
+export function nameWords(name: string): string[] {
+  return name
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ']/g, '')
+    .split(/[^a-z0-9]+/)
+    .filter(Boolean);
+}
+
+/**
+ * Chain matcher: a name is a chain location if a chain's word sequence is a
+ * prefix of the name's word sequence. Whole words only — "Nando's Danforth"
+ * matches chain "Nando's", but "Mandarino Ristorante" does not match "Mandarin".
+ */
+export function makeChainMatcher(chainNames: string[]): (name: string) => boolean {
+  const chains = chainNames.map(nameWords).filter((w) => w.length > 0);
+  return (name) => {
+    const words = nameWords(name);
+    return chains.some(
+      (chain) => chain.length <= words.length && chain.every((w, i) => words[i] === w),
+    );
+  };
+}
+
 /** `"Sichuan; Hong-Kong,dim sum"` → `["sichuan", "hong_kong", "dim_sum"]` */
 export function tokenize(raw: string): string[] {
   return raw

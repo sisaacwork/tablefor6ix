@@ -38,7 +38,7 @@ export function parseUrl(search: string): Partial<AppState> {
   }
 
   const r = params.get('r');
-  if (r && /^(osm|manual)-[a-z]*-?\d+$/.test(r)) out.selectedRestaurant = r;
+  if (r && /^(osm-[a-z]+-\d+|manual-\w+|ovt-[0-9a-f]+)$/i.test(r)) out.selectedRestaurant = r;
 
   return out;
 }

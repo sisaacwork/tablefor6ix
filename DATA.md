@@ -11,6 +11,14 @@ produces the shipped files.
 
 Other data:
 
+- **Overture Maps** (supplemental source): the [Overture](https://overturemaps.org/) places
+  theme ([CDLA-Permissive 2.0](https://cdla.dev/permissive-2-0/)), sourced largely from Meta
+  business listings and considerably fresher than OSM. Pulled for the GTA with DuckDB
+  (`data/raw/overture.json`, release pinned in [scripts/pull-overture.ts](scripts/pull-overture.ts),
+  confidence ≥ 0.75). Places are mapped by Overture category (`ethiopian_restaurant` → the same
+  cuisine table), run through the chain filter, deduped against OSM by name + proximity, assigned
+  a municipality by point-in-polygon, and — in Toronto — subjected to the same DineSafe liveness
+  check. Merged entries carry `source: "overture"`.
 - **DineSafe** (liveness cross-check): City of Toronto food-premise inspection data,
   [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/). Condensed to
   unique establishments in `data/raw/dinesafe.json`.
@@ -31,6 +39,8 @@ Other data:
 
 ```
 npm run data:pull        # Overpass → data/raw/<municipality>.json  (cached; network)
+npm run data:overture    # Overture places → data/raw/overture.json  (network; DuckDB)
+npm run data:boundaries  # Municipality polygons → data/raw/boundaries.json  (network)
 npm run data:dinesafe    # DineSafe → data/raw/dinesafe.json  (network)
 npm run data:gtfs        # TTC GTFS → data/raw/ttc-stops.json  (network)
 npm run data:areas       # Neighbourhood polygons → data/raw/neighbourhoods.json  (network)

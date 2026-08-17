@@ -41,7 +41,8 @@ export function mountAbout(container: HTMLElement, store: Store): void {
 
       <h3>The data</h3>
       <p>Seeded from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>
-      (© OpenStreetMap contributors, <a href="https://opendatacommons.org/licenses/odbl/">ODbL</a>),
+      (© OpenStreetMap contributors, <a href="https://opendatacommons.org/licenses/odbl/">ODbL</a>)
+      and <a href="https://overturemaps.org/">Overture Maps</a> (CDLA-Permissive 2.0),
       cross-checked against the City of Toronto's
       <a href="https://open.toronto.ca/dataset/dinesafe/">DineSafe</a> registry of licensed food
       premises so closed restaurants don't linger, cleaned by hand, and maintained in a public

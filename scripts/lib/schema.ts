@@ -18,7 +18,7 @@ export const RestaurantSchema = z.object({
     .default(null),
   verified: z.boolean(),
   note: z.string().nullable(),
-  source: z.enum(['osm', 'manual']),
+  source: z.enum(['osm', 'manual', 'overture']),
 });
 export type Restaurant = z.infer<typeof RestaurantSchema>;
 

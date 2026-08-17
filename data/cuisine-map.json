@@ -42,7 +42,15 @@
     "gyro": "gyros",
     "pupusas": "papusas",
     "hotdog": "hot_dog",
-    "egyption_bakery": "egyptian"
+    "egyption_bakery": "egyptian",
+    "persian_iranian": "iranian",
+    "himalayan_nepalese": "himalayan",
+    "argentine": "argentinian",
+    "cajun_and_creole": "cajun",
+    "arabian": "arab",
+    "dumpling": "dumplings",
+    "noodles": "noodle",
+    "texmex": "tex_mex"
   },
   "map": {
     "afghan": {
@@ -765,12 +773,59 @@
       "regions": [
         "east_african"
       ]
+    },
+    "taco": {
+      "countries": [
+        "MEX"
+      ]
+    },
+    "indo_chinese": {
+      "countries": [
+        "CHN",
+        "IND"
+      ]
+    },
+    "south_african": {
+      "countries": [
+        "ZAF"
+      ]
+    },
+    "southern": {
+      "countries": [
+        "USA"
+      ]
+    },
+    "guatemalan": {
+      "countries": [
+        "GTM"
+      ]
+    },
+    "costa_rican": {
+      "countries": [
+        "CRI"
+      ]
+    },
+    "dominican": {
+      "countries": [
+        "DOM"
+      ]
+    },
+    "australian": {
+      "countries": [
+        "AUS"
+      ]
+    },
+    "poutinerie": {
+      "countries": [
+        "CAN"
+      ]
     }
   },
   "drop": [
     "alcohol",
     "appetizers",
     "asian",
+    "asian_fusion",
     "b",
     "bagel",
     "bakery",
@@ -781,6 +836,7 @@
     "brasserie",
     "bread",
     "breakfast",
+    "breakfast_and_brunch",
     "brunch",
     "bubble_tea",
     "buffet",
@@ -796,6 +852,7 @@
     "cocktails",
     "coffee",
     "coffee_shop",
+    "comfort_food",
     "contemporary",
     "cookie",
     "cookies",
@@ -813,8 +870,11 @@
     "empanada",
     "espresso",
     "european",
+    "fast_food",
     "fine_dining",
     "fish",
+    "flatbread",
+    "fondue",
     "fried_chicken",
     "fried_food",
     "fries",
@@ -836,6 +896,7 @@
     "latin",
     "latin_american",
     "lemonade",
+    "live_and_raw_food",
     "local",
     "lounge",
     "lunch",
@@ -843,9 +904,11 @@
     "main_course",
     "meat",
     "milk_tea",
+    "molecular_gastronomy",
     "noodle",
     "organic",
     "oysters",
+    "pan_asian",
     "pancake",
     "pasta",
     "pastry",
@@ -860,6 +923,8 @@
     "pretzel",
     "pub",
     "regional",
+    "restaurant",
+    "restaurant_equipment_and_supply",
     "rice",
     "rice_noodle",
     "roti",
@@ -867,6 +932,7 @@
     "sandwich",
     "sausage",
     "savory_pancakes",
+    "scandinavian",
     "seafood",
     "seasonal",
     "shake",
@@ -888,6 +954,7 @@
     "tea",
     "teahouse",
     "tex_mex",
+    "theme",
     "toast",
     "tofu",
     "vegan",

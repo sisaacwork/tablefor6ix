@@ -13,7 +13,7 @@ export interface Restaurant {
   station: { name: string; kind: 'subway' | 'streetcar'; m: number } | null;
   verified: boolean;
   note: string | null;
-  source: 'osm' | 'manual';
+  source: 'osm' | 'manual' | 'overture';
 }
 
 export interface Seat {

@@ -13,10 +13,13 @@
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.scripts.json && tsc --noEmit -p tsconfig.worker.json",
     "data:dinesafe": "tsx scripts/pull-dinesafe.ts",
     "data:gtfs": "tsx scripts/pull-gtfs.ts",
-    "data:areas": "tsx scripts/pull-areas.ts"
+    "data:areas": "tsx scripts/pull-areas.ts",
+    "data:overture": "tsx scripts/pull-overture.ts",
+    "data:boundaries": "tsx scripts/pull-boundaries.ts"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260816.1",
+    "@duckdb/node-api": "^1.5.5-r.4",
     "@types/d3-geo": "^3.1.1",
     "@types/d3-selection": "^3.0.11",
     "@types/geojson": "^7946.0.16",
